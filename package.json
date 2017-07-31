@@ -7,7 +7,7 @@
     "projectType": "blink-spk",
     "useLevelOutput": "y",
     "useVersion": "y",
-    "minWidth768": "1000px",
+    "minWidth768": "768px",
     "projectName": "bugsteam_spk_sb_productcontent",
     "projectDescription": "Bugs Team SPK",
     "productionFolder": "production",
@@ -32,16 +32,13 @@
     }
   },
   "scripts": {
-    "preinstall": "git init && git submodule add ssh://git@stash.macmillan.education:7999/rcf/rcf-release.git rcf && git add -A && git commit -a -m \"Initial Commit\" ",
     "build": "node ./node_modules/rcf-project-build/bin/build-cwd.js",
     "util": "node ./node_modules/rcf-project-build/bin/util-cwd.js",
     "postinstall": "rimraf ./node_modules/rcf-project-build && npm install git+ssh://git@stash.macmillan.education:7999/rcf/rcf-project-build.git"
   },
-  "repository": {
-
-  },
+  "repository": {},
   "dependencies": {
-      "rimraf": "^2.4.0"
+    "rimraf": "^2.4.0"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
