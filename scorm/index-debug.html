@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Activity SCORM RCF player</title>
+    <!-- generator-rcf version : {GENERATOR_RCF_VERSION} -->
+
+    <!-- load the css files -->
+    <!-- group order: (1st) RCF, (2nd) Player (3rd) Project, (4th) Level, (5th) Activity (activity CSS is in-line in HTML) -->
+    <!-- reference order: (1st) Core, (2nd) Desktop, (3rd) Large Desktop -->
+    <!-- Tokens:
+            RELEASE_RCF - e.g. "cdn/rcf"
+            RELEASE_SHARED_CSS - e.g. cdn/series/skillful_dsb_sb_ls/shared/style/skillful_dsb_sb_ls.css
+            RELEASE_SHARED_768_CSS - e.g. cdn/series/skillful_dsb_sb_ls/shared/style/skillful_dsb_sb_ls_768.css
+            RELEASE_SHARED_1024_CSS - e.g. cdn/series/skillful_dsb_sb_ls/shared/style/skillful_dsb_sb_ls_1024.css
+            RELEASE_CSS - e.g. cdn/series/skillful_dsb_sb_ls/Level_1/assets/style/level.css
+            RELEASE_768_CSS - e.g. cdn/series/skillful_dsb_sb_ls/Level_1/assets/style/level_768.css
+            RELEASE_1024_CSS - e.g. cdn/series/skillful_dsb_sb_ls/Level_1/assets/style/level_1024.css
+     -->
+
+    <link type="text/css" href="{RELEASE_RCF}/style/rcf_core.css" rel="stylesheet">
+    <link type="text/css" href="{RELEASE_RCF}/style/rcf_768.css" media="only screen and (min-width:{RELEASE_RCF_MIN_WIDTH_768})" rel="stylesheet">
+    <link type="text/css" href="{RELEASE_RCF}/style/rcf_1024.css" media="only screen and (min-width:{RELEASE_RCF_MIN_WIDTH_1024})" rel="stylesheet">
+
+    <link type="text/css" href="css/app.min.css" rel="stylesheet">
+
+    <link type="text/css" href="{RELEASE_SHARED_CSS}" rel="stylesheet">
+    <link type="text/css" href="{RELEASE_SHARED_768_CSS}" media="only screen and (min-width:{RELEASE_RCF_MIN_WIDTH_768})" rel="stylesheet">
+    <link type="text/css" href="{RELEASE_SHARED_1024_CSS}" media="only screen and (min-width:{RELEASE_RCF_MIN_WIDTH_1024})" rel="stylesheet">
+
+    <link type="text/css" href="{RELEASE_CSS}" rel="stylesheet">
+    <link type="text/css" href="{RELEASE_768_CSS}" media="only screen and (min-width:{RELEASE_RCF_MIN_WIDTH_768})" rel="stylesheet">
+    <link type="text/css" href="{RELEASE_1024_CSS}" media="only screen and (min-width:{RELEASE_RCF_MIN_WIDTH_1024})" rel="stylesheet">
+
+    <!-- load jquery -->
+    <script src="js/libs/jquery.min.js"></script>
+
+    <!-- load the rcf libraries -->
+    <script src="{RELEASE_RCF}/js/rcf.min.js"></script>
+
+    <script language="javascript">
+        window.releaseRootHtml = "{RELEASE_HTML}"; // eg "cdn/html";
+        window.releaseRootJson = "{RELEASE_JSON}"; // eg "cdn/json";
+        window.swfFallbackURL = "{RELEASE_SWF_FALLBACK}"; // eg "cdn/rcf/swf";
+        window.minWidth768 = "{RELEASE_RCF_MIN_WIDTH_768}"; // eg "1000px";
+    </script>
+
+    <!-- load angular and local dependencies -->
+    <script src="js/libs/angular.min.js"></script>
+    <script src="js/libs/sweetalert/sweetalert.min.js"></script>
+    <script src="js/libs/SCORM_API_wrapper.js"></script>
+    <script src="js/player/app.js"></script>
+    <script src="js/player/controller/mainController.js"></script>
+    <script src="js/player/services/activityModeConstant.js"></script>
+    <script src="js/player/services/activityContentService.js"></script>
+    <script src="js/player/services/blinkRoleConstant.js"></script>
+    <script src="js/player/services/blinkService.js"></script>
+    <script src="js/player/services/dialogService.js"></script>
+    <script src="js/player/services/gradableTypeConstant.js"></script>
+    <script src="js/player/services/locationService.js"></script>
+    <script src="js/player/services/markingService.js"></script>
+    <script src="js/player/services/playerButtonService.js"></script>
+    <script src="js/player/services/rcfService.js"></script>
+    <script src="js/player/services/scormService.js"></script>
+    <script src="js/player/services/attemptService.js"></script>
+    <script src="js/player/directives/renderedActivityDirective.js"></script>
+</head>
+<body ng-app="playerApp">
+<div class="blinkSeparator"></div>
+<div ng-controller="mainController">
+    <!-- activity generated html -->
+    <div class="activityWrapper" ng-class="getActivityLoadedClass()" ng-bind-html="activityHtml" rendered-activity-directive></div>
+    <footer class="playerFooter" ng-show="showPlayerButtonBar() && anyButtonShown()">
+        <div class="buttonGroup">
+			<span class="draftTimestamp" ng-show="showDraftTimestamp">{{ANSWERS_OR_DRAFT}} saved on: {{ draftTimestamp | date : "dd/MM/yyyy h:mma"}}</span>
+            <input id="nextAnswerButton" class="scormPlayerButton" type="button" value="Show next answer" ng-show="showNextAnswerButton()" ng-click="next()"/>
+            <input id="showAnswersButton" class="scormPlayerButton showAllAnswersButton" type="button" value="Show all answers" ng-show="showAllAnswersButton()" ng-click="showAllAnswers()"/>
+            <input id="showCorrectAnswersButton" class="scormPlayerButton showCorrectAnswersButton" type="button" value="Show correct answers" ng-show="showCorrectAnswersButton()" ng-click="showCorrectAnswers()"/>
+            <input id="showSaveDraftButton" class="scormPlayerButton showSaveDraftButton" type="button" ng-value="getSaveDraftCaption()" ng-show="showSaveDraftButton()" ng-click="saveDraft()"/>
+            <input id="showSubmittedAnswerButton" class="scormPlayerButton showSubmittedAnswerButton" type="button" value="Show submitted answers" ng-click="showSubmittedAnswer()" ng-show="showSubmittedAnswerButton()"/>
+            <input id="resetAnswersButton" class="scormPlayerButton" ng-class="{'showResetAnswersButton': isStudent()}" type="button" ng-value="getResetCaption()" ng-show="showResetButton()" ng-click="reset()"/>
+            <input id="tryAgainButton" class="scormPlayerButton" type="button" value="Try again" ng-show="showTryAgainButton()" ng-click="tryAgain()">
+            <input id="submitButton" class="scormPlayerButton" type="button" value="Submit" ng-show="showSubmitButton()" ng-click="submit()"/>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,3 @@
+[submodule "rcf"]
+	path = rcf
+	url = ssh://git@stash.macmillan.education:7999/rcf/rcf-release.git

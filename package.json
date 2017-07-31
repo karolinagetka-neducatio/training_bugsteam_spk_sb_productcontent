@@ -1,0 +1,85 @@
+{
+  "name": "bugsteam_spk_sb_productcontent",
+  "description": "Bugs Team SPK",
+  "version": "1.0.0",
+  "private": true,
+  "projectSettings": {
+    "projectType": "blink-spk",
+    "useLevelOutput": "y",
+    "useVersion": "y",
+    "minWidth768": "1000px",
+    "projectName": "bugsteam_spk_sb_productcontent",
+    "projectDescription": "Bugs Team SPK",
+    "productionFolder": "production",
+    "rcfLocalFolder": "rcf",
+    "rcfVersion": "0.0.0",
+    "releaseFolder": "cdn",
+    "viewerFolder": "viewer",
+    "xmlFolder": "xml",
+    "xsd": {
+      "activity": "xsd/rcf_activity.xsd",
+      "learningObject": "xsd/rcf.xsd",
+      "referenceContent": "xsd/rcf_referencecontent.xsd",
+      "productHierarchy": "xsd/JuraProductHierarchy/productHierarchy.xsd"
+    },
+    "xsl": {
+      "generateHTML": "xsl/create_rcf_activity.xsl",
+      "generateIDs": "xsl/utilities/create_interactive_ids.xsl",
+      "generateJSON": "xsl/utilities/create_json_answers.xsl",
+      "generateReferenceContent": "xsl/create_rcf_referenceitem.xsl",
+      "getActivityType": "xsl/utilities/is_activity_open.xsl",
+      "generateMetaData": "xsl/utilities/json_rcf_metadata.xsl"
+    }
+  },
+  "scripts": {
+    "preinstall": "git init && git submodule add ssh://git@stash.macmillan.education:7999/rcf/rcf-release.git rcf && git add -A && git commit -a -m \"Initial Commit\" ",
+    "build": "node ./node_modules/rcf-project-build/bin/build-cwd.js",
+    "util": "node ./node_modules/rcf-project-build/bin/util-cwd.js",
+    "postinstall": "rimraf ./node_modules/rcf-project-build && npm install git+ssh://git@stash.macmillan.education:7999/rcf/rcf-project-build.git"
+  },
+  "repository": {
+
+  },
+  "dependencies": {
+      "rimraf": "^2.4.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-concurrent": "~0.1.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-concat": "~0.1.3",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-cssmin": "~0.6.0",
+    "grunt-contrib-htmlmin": "~0.1.3",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-requirejs": "~0.4.0",
+    "grunt-contrib-uglify": "~0.10.1",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt-exec": "0.4.2",
+    "grunt-mkdir": "~0.1.1",
+    "grunt-ng-annotate": "^1.0.1",
+    "grunt-open": "~0.2.0",
+    "grunt-rev": "~0.1.0",
+    "grunt-sass": "^1.1.0",
+    "grunt-shell": "~0.3.1",
+    "grunt-usemin": "~0.1.10",
+    "grunt-xsltproc": "~0.2.0",
+    "jquery": "1.11.3",
+    "angular": "1.3.15",
+    "libxmljs": "0.18.4",
+    "matchdep": "~0.1.1",
+    "shelljs": "~0.2.6",
+    "grunt-bumpup": "~0.4.2",
+    "grunt-text-replace": "~0.3.9",
+    "grunt-git": "~0.2.2",
+    "grunt-contrib-compress": "~0.5.3",
+    "upath": "~0.1.6",
+    "handlebars": "^4.0.4",
+    "glob": "^5.0.15",
+    "rcf-project-build": "git+ssh://git@stash.macmillan.education:7999/rcf/rcf-project-build.git#master",
+    "node-gyp": "3.3.1"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}

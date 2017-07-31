@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Macmillan Scorm Extension xsd
+
+	This file is used to validate the generated Scorm Manifest with extra 'mm:gradableType' attributes on <item> elements at a 'activity' level in the manifest hierarchy.
+
+	This file should be used to validate against the imsmanifest.xml file - it includes the full scorm schema *and* the 'xsd:anyAttribute' defined 'mm:gradableType' attribute
+
+	Sometimes simplest is easiest and best :)
+
+-->
+<xsd:schema elementFormDefault="qualified" targetNamespace="http://www.macmillan.com/macmillan-scorm-extension" xmlns:mm="http://www.macmillan.com/macmillan-scorm-extension"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+
+	<xsd:import namespace="http://www.adlnet.org/xsd/adlcp_rootv1p2" schemaLocation="adlcp_rootv1p2.xsd"/>
+
+	<xsd:attribute name="gradableType" type="xsd:string"/>
+
+</xsd:schema>
