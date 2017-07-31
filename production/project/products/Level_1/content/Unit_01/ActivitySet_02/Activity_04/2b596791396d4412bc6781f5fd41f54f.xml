@@ -1,0 +1,50 @@
+<activity class="mm_unit1 mm_activity5" id="2b596791396d4412bc6781f5fd41f54f" pseudoID="BT_L1_U1_GAME_5">
+    <metadata>
+        <title>Lesson 2 – activity 1</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <audio size="large" srt="y" autoScroll="y">
+            <track src="BT1_CD1.13.mp3"/>
+        </audio>
+        <p>Listen and match – who sings each verse?</p>
+    </rubric>
+    <main>
+        <block class="mm_addNumbering">
+            <matching id="matching_1">
+                <pair>
+                    <matchItem id="matchItem_1" rank="1">
+                        <image src="28_dlugopis.jpg" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_1">
+                        <image src="Lucy_mat.png" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_2" rank="2">
+                        <image src="25_linijka.jpg" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_2">
+                        <image src="Colin_mat.png" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_3" rank="3">
+                        <image src="27_gumka_do_scierania.jpg" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_3">
+                        <image src="Gary_mat.png" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_4" rank="4">
+                        <image src="26_zeszyt_kolor.png" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_4">
+                        <image src="Bella_mat.png" title=""/>
+                    </matchTarget>
+                </pair>
+            </matching>
+        </block>
+    </main>
+</activity>

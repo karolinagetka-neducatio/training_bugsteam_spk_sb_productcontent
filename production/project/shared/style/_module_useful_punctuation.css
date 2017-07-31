@@ -1,0 +1,46 @@
+/* Punctuation */
+
+/* Setting the positioning on the list items */
+.mm_orderingPunctuation .ordering.horizontal ul.ordering li {
+    position: relative;
+}
+/* Set the generic after values for all class types */
+.mm_orderingPunctuation .ordering.horizontal ul.ordering li:not(.ui-sortable-helper):last-child:after,
+.mm_orderingPunctuation .ordering.horizontal ul.ordering li:not(.ui-sortable-helper):nth-last-child(2):after {
+    background: none;
+    position: absolute;
+    right: -0.85em;
+}
+/* Tidying up some bugs caused by the above code - notably multiple instances of the punctuation mark */
+.mm_orderingPunctuation .ordering.horizontal ul.ordering li.ui-sortable-helper ~ li:nth-last-child(2):after,
+.mm_orderingPunctuation .ordering.horizontal ul.ordering li:nth-last-child(2):after {
+    display: none;
+}
+.mm_orderingPunctuation .ordering.horizontal ul.ordering li.draggablePlaceHolder ~ li:nth-last-child(2):after,
+.mm_orderingPunctuation .ordering.horizontal ul.ordering li.draggablePlaceHolder:nth-last-child(2):after {
+    display: inline-block;
+}
+
+/* Full stop */
+.mm_orderingPunctuation .mm_fullStop .ordering.horizontal ul.ordering li:not(.ui-sortable-helper):last-of-type:after,
+.mm_orderingPunctuation .mm_fullStop .ordering.horizontal ul.ordering li:not(.ui-sortable-helper):nth-last-child(2):after {
+    content: " .";
+}
+
+/* Question mark */
+.mm_orderingPunctuation .mm_questionMark .ordering.horizontal ul.ordering li:not(.ui-sortable-helper):last-of-type:after,
+.mm_orderingPunctuation .mm_questionMark .ordering.horizontal ul.ordering li:not(.ui-sortable-helper):nth-last-child(2):after {
+    content: " ?";
+}
+
+/* Ellipsis */
+.mm_orderingPunctuation .mm_ellipsis .ordering.horizontal ul.ordering li:not(.ui-sortable-helper):last-of-type:after,
+.mm_orderingPunctuation .mm_ellipsis .ordering.horizontal ul.ordering li:not(.ui-sortable-helper):nth-last-child(2):after {
+    content: " …";
+    right: -1.5em;
+}
+
+/* Marks for ellipsis */
+.mm_orderingPunctuation .mm_ellipsis .ordering.perList.horizontal .mark {
+    right: -3.35em;
+}

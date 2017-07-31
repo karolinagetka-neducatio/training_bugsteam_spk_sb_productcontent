@@ -1,0 +1,72 @@
+/* Image */
+
+/* add a round border around image */
+[class*='mm_imageBorderCircle'] img {
+    border: 3px solid #D5DE6D;
+    border-radius: 50%;
+}
+
+.mm_imageBorderCircleBlue img {
+    border-color: #2CC2EE;
+}
+
+.mm_imageRounded img {
+    border-radius: 20px;
+}
+
+/* Image size */
+.mm_image90 .imageContainer, .mm_image90 img, .mm_imageRight90 img { width: 90%;}
+.mm_image80 .imageContainer, .mm_image80 img, .mm_imageRight80 img { width: 80%;}
+.mm_image70 .imageContainer, .mm_image70 img, .mm_imageRight70 img { width: 70%;}
+.mm_image60 .imageContainer, .mm_image60 img, .mm_imageRight60 img { width: 60%;}
+.mm_image50 .imageContainer, .mm_image50 img, .mm_imageRight50 img { width: 50%;}
+.mm_image40 .imageContainer, .mm_image40 img, .mm_imageRight40 img { width: 40%;}
+.mm_image30 .imageContainer, .mm_image30 img, .mm_imageRight30 img { width: 30%;}
+.mm_image25 .imageContainer, .mm_image25 img, .mm_imageRight25 img { width: 25%;}
+.mm_image20 .imageContainer, .mm_image20 img, .mm_imageRight20 img { width: 20%;}
+.mm_image15 .imageContainer, .mm_image15 img, .mm_imageRight15 img { width: 15%;}
+.mm_image10 .imageContainer, .mm_image10 img, .mm_imageRight10 img { width: 10%;}
+.mm_image400px .imageContainer, .mm_image400px img, .mm_imageRight400px img { width: 400px;}
+.mm_image350px .imageContainer, .mm_image350px img, .mm_imageRight350px img { width: 350px;}
+.mm_image300px .imageContainer, .mm_image300px img, .mm_imageRight300px img { width: 300px;}
+.mm_image250px .imageContainer, .mm_image250px img, .mm_imageRight250px img { width: 250px;}
+.mm_image200px .imageContainer, .mm_image200px img, .mm_imageRight200px img { width: 200px;}
+.mm_image180px .imageContainer, .mm_image180px img, .mm_imageRight180px img { width: 180px;}
+.mm_image150px .imageContainer, .mm_image150px img, .mm_imageRight150px img { width: 150px;}
+.mm_image100px .imageContainer, .mm_image100px img, .mm_imageRight100px img { width: 100px;}
+
+.mm_imageInline img {
+    display: inline;
+}
+
+/* See alignment section in _module_useful.css for image left / right styles */
+
+/* Prevent image selecting */
+
+.activity img {
+    pointer-events: none;
+}
+
+/* SAFARI/iOS fix */
+.mm_storyTool img,
+.activity .rcfVideo .videoPlayer img {
+	pointer-events: all !important;
+}
+
+/* Matching */
+.mm_matchingItemBorder .matchingContainer .matchItem {
+    border-radius: 1em;
+}
+
+.mm_matchingItemBorder .matchingContainer .matchItem img {
+    border-radius: 0;
+}
+.mm_matchingTargetBorder .matchingContainer .matchTarget img {
+    border-radius: 0;
+}
+
+/* Flashcard images */
+
+.flashcard .interactiveImage img {
+    padding-bottom: 0;
+}

@@ -1,0 +1,35 @@
+﻿1
+00:00:06.000 --> 00:00:08.308
+Look at my bike. 
+
+2
+00:00:08.682 --> 00:00:11.094
+It’s new. It’s big.
+
+3
+00:00:11.451 --> 00:00:14.708
+My bike is new and big.
+
+4
+00:00:17.294 --> 00:00:19.941
+Look at my teddy bear.
+
+5
+00:00:20.098 --> 00:00:22.753
+It’s old. It’s small.
+
+6
+00:00:22.878 --> 00:00:26.341
+My teddy bear is old and small.
+
+7
+00:00:28.727 --> 00:00:31.443
+Look at my skateboard.
+
+8
+00:00:31.486 --> 00:00:34.247
+It’s big. It’s long.
+
+9
+00:00:34.247 --> 00:00:37.826
+My skateboard is big and long. 

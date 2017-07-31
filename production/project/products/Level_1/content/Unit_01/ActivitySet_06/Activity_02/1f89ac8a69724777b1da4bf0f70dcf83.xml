@@ -1,0 +1,33 @@
+<activity class="mm_unit1 mm_activity11" id="1f89ac8a69724777b1da4bf0f70dcf83" pseudoID="BT_L1_U1_GAME_11">
+    <metadata>
+        <title>Lesson 7 – activity</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Listen and choose the word you hear.</p>
+    </rubric>
+    <main>
+        <movingTargets id="movingTargets_1" speed="100">
+            <targets>
+                <target audio="read.mp3" id="target_1" image="read_mt.png"/>
+                <target audio="write.mp3" id="target_2" image="write_mt.png"/>
+                <target audio="draw.mp3" id="target_3" image="draw_mt.png"/>
+                <target audio="colour.mp3" id="target_4" image="colour_mt.png"/>
+            </targets>
+            <assets>
+                <scenery>
+                  <sceneBackground moving="n" image="mt_gen_sceneBackground.png"/>
+                  <targetBackground moving="n" image="mt_targetBackground_1.png"/>
+                  <crosshairs image="mt_crosshair_1.png"/>
+                  <transparentTarget image="mt_transparentTarget.png"/>
+                  <clueButton image="mt_clueButton_1.png"/>
+                </scenery>
+                <audio>
+                    <success src="correct.mp3"/>
+                    <fail src="incorrect.mp3"/>
+                    <gameover src="gameover.mp3"/>
+                </audio>
+            </assets>
+        </movingTargets>
+    </main>
+</activity>

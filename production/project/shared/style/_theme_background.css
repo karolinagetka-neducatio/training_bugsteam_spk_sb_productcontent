@@ -1,0 +1,84 @@
+/************************** THEME **************************/
+
+.mm_activityFirst {
+	background-color: transparent;
+}
+
+.mm_activityFirst .rubricContainer,
+.mm_gridlines .rubricContainer {
+	position: relative;
+
+}
+.mm_activityFirst .rubricContainer {
+	padding-left: 8%;
+}
+
+/** Unit colours **/
+.mm_story {
+    min-height: 650px;
+}
+
+[class*="mm_unit"].mm_story:before {
+	background-repeat: no-repeat, no-repeat, repeat-y;
+	background-position: top, bottom, center;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+
+.mm_unit1.mm_story:before,
+.mm_unit6.mm_story:before {
+    background-image:   url(../images/background/storyPageBgTop1.png),
+    					url(../images/background/storyPageBgBottom1.png),
+						url(../images/background/storyPageBgMiddle1.png);
+}
+.mm_unit2.mm_story:before,
+.mm_unit7.mm_story:before {
+	background-image:   url(../images/background/storyPageBgTop2.png),
+						url(../images/background/storyPageBgBottom2.png),
+						url(../images/background/storyPageBgMiddle2.png);
+}
+
+.mm_unit3.mm_story:before,
+.mm_unit8.mm_story:before {
+    background-image:   url(../images/background/storyPageBgTop3.png),
+    					url(../images/background/storyPageBgBottom3.png),
+						url(../images/background/storyPageBgMiddle3.png);
+}
+.mm_unit4.mm_story:before,
+.mm_unit9.mm_story:before {
+    background-image:   url(../images/background/storyPageBgTop4.png),
+    					url(../images/background/storyPageBgBottom4.png),
+						url(../images/background/storyPageBgMiddle4.png);
+}
+.mm_unit5.mm_story:before,
+.mm_unit10.mm_story:before {
+    background-image:   url(../images/background/storyPageBgTop5.png),
+    					url(../images/background/storyPageBgBottom5.png),
+						url(../images/background/storyPageBgMiddle5.png);
+}
+
+/* Pelmanism */
+
+.cardContainer .card .back {
+    background-image: url(../../products/Level_1/assets/images/Colin.png);
+}
+
+.mm_unit2 .cardContainer .card .back,
+.mm_unit7 .cardContainer .card .back {
+    background-image: url(../../images/_pm_cardBack_2.jpg);
+}
+
+.mm_unit3 .cardContainer .card .back,
+.mm_unit8 .cardContainer .card .back {
+    background-image: url(../images/_pm_cardBack_3.jpg);
+}
+
+.mm_unit4 .cardContainer .card .back,
+.mm_unit9 .cardContainer .card .back {
+    background-image: url(../images/_pm_cardBack_4.jpg);
+}
+
+.mm_unit5 .cardContainer .card .back,
+.mm_unit10 .cardContainer .card .back {
+    background-image: url(../images/_pm_cardBack_5.jpg);
+}

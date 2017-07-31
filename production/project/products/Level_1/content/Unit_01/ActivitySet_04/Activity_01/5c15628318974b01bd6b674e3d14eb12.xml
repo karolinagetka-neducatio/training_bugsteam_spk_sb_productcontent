@@ -1,0 +1,17 @@
+<activity class="mm_unit1 mm_activity5 mm_song" id="5c15628318974b01bd6b674e3d14eb12" pseudoID="BT_L1_U1_SONG_5">
+    <metadata>
+        <title>Are you ready? – song</title>
+        <category>Songs</category>
+    </metadata>
+    <rubric>
+        <audio size="large" srt="y" autoScroll="y">
+            <track src="BT1_CD1.18.mp3"/>
+        </audio>
+        <p>Listen and sing.</p>
+    </rubric>
+    <main>
+        <block class="mm_imageRounded">
+            <image src="p012_1.png" title=""/>
+        </block>
+    </main>
+</activity>

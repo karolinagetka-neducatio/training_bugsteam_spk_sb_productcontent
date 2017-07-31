@@ -1,0 +1,173 @@
+/*** USEFUL ***/
+
+@import url(_module_useful_image.css);
+@import url(_module_useful_numbering.css);
+@import url(_module_useful_punctuation.css);
+
+/*  Make the dragTarget roughly one character wide */
+.mm_dragTargetOneChar .dragTarget { min-width: 0.875em; }
+.mm_dragTargetTwoChar .dragTarget { min-width: 1.2em; }
+.mm_dragTargetThreeChar .dragTarget { min-width: 2em; }
+.mm_dragTargetFourChar .dragTarget { min-width: 2.5em; }
+
+/* No margin bottom */
+.mm_noMB {
+    margin-bottom: 0;
+}
+
+/* selectable letters */
+.mm_selectableLetters li p {
+    display: inline;
+}
+
+.mm_selectableLetters li p:not(:last-child) {
+    padding-right: 1em;
+}
+
+/* left/right alignment */
+.mm_right {
+    float: right;
+}
+
+.mm_left {
+    float: left;
+}
+
+.mm_textLeft h2,
+.mm_textLeft h3,
+.mm_textLeft p,
+.mm_textLeft > .block h2,
+.mm_textLeft > .block h3,
+.mm_textLeft > .block p,
+.mm_pLeft p,
+.mm_h3Left h3,
+.mm_contentLeft * {
+    text-align: left;
+}
+
+.mm_textRight h2,
+.mm_textRight h3,
+.mm_textRight p,
+.mm_textRight > .block h2,
+.mm_textRight > .block h3,
+.mm_textRight > .block p,
+.mm_pRight p,
+.mm_h3Right h3,
+.mm_contentRight * {
+    text-align: right;
+}
+
+.mm_textCenter h2,
+.mm_textCenter h3,
+.mm_textCenter p,
+.mm_textCenter > .block h2,
+.mm_textCenter > .block h3,
+.mm_textCenter > .block p,
+.mm_pCenter p,
+.mm_h3Center h3,
+.mm_contentCenter * {
+    text-align: center;
+}
+
+.mm_textLarge p:first-child {
+    font-size: 2em;
+}
+
+.mm_pNumbering > .block > p .droppable,
+.mm_pAlignLeft p .droppable {
+    text-align: center;
+}
+
+.mm_contentRight img,
+.mm_imageRight img {
+    float: right;
+    margin-left: 1em;
+}
+
+.mm_contentLeft img,
+.mm_imageLeft img {
+    float: left;
+    margin-right: 1em;
+}
+
+/* Set image left/right widths */
+[class*='mm_imageRight'] img,
+.mm_imageLeft img {
+    width: 33%;
+}
+
+/* reset image in image container */
+[class*='mm_image']:not(.mm_imageItems) .imageContainer img { 
+    width: 100%;
+}
+
+/* Center itemselect / ordering / positioning interactions within a block */
+.mm_contentCenter,
+.mm_imageCenter .mm_image,
+.mm_interactionCenter,
+.mm_interactionCenter [data-rcfinteraction] {
+    text-align: center;
+}
+
+.mm_interactionCenter > h3,
+.mm_interactionCenter > p {
+    text-align: left;
+}
+
+.mm_contentCenter img,
+.mm_imageCenter img,
+.mm_interactionCenter [class*='ItemSelect'],
+.mm_interactionCenter ul.ordering {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* BUILDING BLOCKS */
+
+.mm_padder {
+    padding: 0.875em;
+}
+
+.mm_grammarref {
+    padding: 0.825em;
+}
+
+/* Block shadow */
+.mm_blockShadow {
+    -webkit-box-shadow: 2px 2px 10px rgba(50, 50, 50, 0.2);
+    -moz-box-shadow:    2px 2px 10px rgba(50, 50, 50, 0.2);
+    box-shadow:         2px 2px 10px rgba(50, 50, 50, 0.2);
+    border: 1px solid #ededed;
+    padding: 0.825em;
+}
+
+/* Transparent white backgrounds */
+.mm_transparent6Mobile,
+.mm_transparent7Mobile,
+.mm_transparent8Mobile,
+.mm_transparent9Mobile {
+  padding: 0.875em;
+  background-color: rgba(255,255,255,0.8);
+  background-repeat: repeat;
+}
+
+.mm_transparent6Mobile {
+    background-color: rgba(255,255,255,0.6);
+}
+
+.mm_transparent7Mobile {
+    background-color: rgba(255,255,255,0.7);
+}
+
+.mm_transparent9Mobile {
+    background-color: rgba(255,255,255,0.9);
+}
+
+/* Increase line height */
+.mm_lineHeight2 p {
+    line-height: 1.9;
+}
+
+.mm_markableMobileBlock .radioItemSelect.horizontal {
+    display: block;
+}

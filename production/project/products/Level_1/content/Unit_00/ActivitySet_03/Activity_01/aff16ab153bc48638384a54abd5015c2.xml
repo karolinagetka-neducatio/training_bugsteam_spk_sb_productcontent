@@ -1,0 +1,17 @@
+<activity class="mm_unit0 mm_activity2 mm_song" id="aff16ab153bc48638384a54abd5015c2" pseudoID="BT_L1_U0_SONG_2">
+    <metadata>
+        <title>Bugs Team – song</title>
+        <category>Songs</category>
+    </metadata>
+    <rubric>
+        <audio size="large" srt="y" autoScroll="y">
+            <track src="BT1_CD1.10.mp3"/>
+        </audio>
+        <p>Listen and sing.</p>
+    </rubric>
+    <main>
+        <block>
+            <image src="p007_1.png" title=""/>
+        </block>
+    </main>
+</activity>

@@ -1,0 +1,17 @@
+<activity class="mm_unit1 mm_activity8 mm_song" id="b4ebdb617a834d12874b6a1509328fc7" pseudoID="BT_L1_U1_SONG_8">
+    <metadata>
+        <title>I write at school – chant</title>
+        <category>Songs</category>
+    </metadata>
+    <rubric>
+        <audio size="large" srt="y" autoScroll="y">
+            <track src="BT1_CD1.23.mp3"/>
+        </audio>
+        <p>Listen to the chant.</p>
+    </rubric>
+    <main>
+        <block>
+            <image src="p013_1.png" title=""/>
+        </block>
+    </main>
+</activity>

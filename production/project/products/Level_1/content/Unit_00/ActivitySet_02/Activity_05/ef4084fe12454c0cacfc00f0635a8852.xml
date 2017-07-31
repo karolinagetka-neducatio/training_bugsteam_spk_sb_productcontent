@@ -1,0 +1,39 @@
+<activity class="mm_unit0 mm_activity10" id="ef4084fe12454c0cacfc00f0635a8852" pseudoID="BT_L1_U0_GAME_10">
+    <metadata>
+        <title>Numbers – activity</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Listen and choose the word you hear.</p>
+    </rubric>
+    <main>
+        <movingTargets id="movingTargets_1" speed="100">
+            <targets>
+                <target audio="two.mp3" id="target_1" image="two_mt.png"/>
+                <target audio="eight.mp3" id="target_2" image="eight_mt.png"/>
+                <target audio="five.mp3" id="target_3" image="five_mt.png"/>
+                <target audio="seven.mp3" id="target_4" image="seven_mt.png"/>
+                <target audio="one.mp3" id="target_5" image="one_mt.png"/>
+                <target audio="ten.mp3" id="target_6" image="ten_mt.png"/>
+                <target audio="three.mp3" id="target_7" image="three_mt.png"/>
+                <target audio="six.mp3" id="target_8" image="six_mt.png"/>
+                <target audio="four.mp3" id="target_9" image="four_mt.png"/>
+                <target audio="nine.mp3" id="target_10" image="nine_mt.png"/>
+            </targets>
+            <assets>
+               <scenery>
+                  <sceneBackground moving="n" image="mt_gen_sceneBackground.png"/>
+                  <targetBackground moving="n" image="mt_targetBackground_0.png"/>
+                  <crosshairs image="mt_crosshair_0.png"/>
+                  <transparentTarget image="mt_transparentTarget.png"/>
+                  <clueButton image="mt_clueButton_0.png"/>
+                </scenery>
+                <audio>
+                    <success src="correct.mp3"/>
+                    <fail src="incorrect.mp3"/>
+                    <gameover src="gameover.mp3"/>
+                </audio>
+            </assets>
+        </movingTargets>
+    </main>
+</activity>

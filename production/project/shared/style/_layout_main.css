@@ -1,0 +1,85 @@
+.main {
+    min-height: 320px;
+    padding: 1em 0;
+    padding: 0.425em 0;
+    font-size: 1.2em;
+}
+
+.main > .block,
+.main > .blockSet,
+.main > .wordBox {
+}
+
+/* TYPOGRAPHY */
+
+.main h2 {
+    font-size: 1.5em;
+}
+
+.main h3 {
+    font-size: 1.15em;
+}
+
+.main h2,
+.main h3,
+.main p {
+    margin: 0;
+}
+
+.main h2 + p,
+.main h3 + p,
+.main p + p,
+.main ol + p,
+.main ul + p,
+.main h2 + ol,
+.main h3 + ol,
+.main p + ol,
+.main ol + ol,
+.main ul + ol,
+.main h2 + ul,
+.main h3 + ul,
+.main p + ul,
+.main ol + ul,
+.main ul + ul {
+    margin-top: 0.425em;
+}
+
+.main h2 + h2,
+.main p + h2,
+.main ol + h2,
+.main ul + h2 {
+    margin-top: 0.5em;
+}
+
+.main h2 + h3,
+.main p + h3,
+.main ol + h3,
+.main ul + h3 {
+    margin-top: 0.5em;
+}
+
+/* Lists */
+ul.horizontal li,
+ol.horizontal li {
+    margin-right: 1.5em;
+}
+
+ol.numbered > li + li,
+ol.alpha > li + li,
+.crosswordClueContainer li + li {
+    margin-top: 0.425em;
+}
+
+/* TABLE */
+.category h3,
+.activity th {
+    background-color: transparent;
+    color: #000;
+    font-size: 1.3em;
+}
+
+.category h3 img,
+.activity th img {
+    width: 3em;
+    vertical-align: middle;
+}

@@ -1,0 +1,17 @@
+<activity class="mm_unit1 mm_activity2 mm_song" id="68a6bc86b0164ec4bbc56f79a01c5ad7" pseudoID="BT_L1_U1_SONG_2">
+    <metadata>
+        <title>What’s this? – song</title>
+        <category>Songs</category>
+    </metadata>
+    <rubric>
+        <audio size="large" srt="y" autoScroll="y">
+            <track src="BT1_CD1.13.mp3"/>
+        </audio>
+        <p>Listen and sing.</p>
+    </rubric>
+    <main>
+        <block class="mm_imageRounded">
+            <image src="p010_4.png" title=""/>
+        </block>
+    </main>
+</activity>

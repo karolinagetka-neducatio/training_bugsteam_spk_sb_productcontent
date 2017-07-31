@@ -1,0 +1,11 @@
+.rubric {
+	border: none;
+	background: none;
+	padding: 0;
+	padding: 0.65em 0 0.25em;
+	font-size: 1.6em;
+	color: #000;
+}
+.rubric .sSpan {
+	font-style: italic;
+}

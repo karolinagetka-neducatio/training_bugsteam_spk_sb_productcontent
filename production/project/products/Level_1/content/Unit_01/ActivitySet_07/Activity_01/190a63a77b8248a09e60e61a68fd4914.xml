@@ -1,0 +1,11 @@
+<activity class="mm_unit1 mm_activity3 mm_video" id="190a63a77b8248a09e60e61a68fd4914" pseudoID="BT_L1_U1_VIDEO_3">
+    <metadata>
+        <title>Video – Slideshow</title>
+        <category>Videos</category>
+    </metadata>
+    <main>
+        <block>
+            <video src="Bugs_Team_slideshow_unit1.mp4"/>
+        </block>
+    </main>
+</activity>

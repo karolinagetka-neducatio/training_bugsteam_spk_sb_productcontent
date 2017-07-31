@@ -1,0 +1,39 @@
+.wordBox, 
+.mm_wordBox,
+.mm_wordBox,
+.rcfWordSearchGridChosenWords .wordSearchWords {
+    border:none;
+    border-bottom: 4px dotted #3cbde3;
+    background-color: transparent;
+    border-radius: 0.2em;
+    text-align: center;
+    padding: 0.425em;
+    padding-bottom: 0.875em;
+}
+
+/*.rcfWordSearchGridChosenWords .wordSearchWords {
+
+}*/
+
+.main .mm_wordBox ul,
+.main .mm_wordBox ol,
+.main .wordBox ul {
+    margin-bottom: 0;
+}
+
+.mm_wordBox .type_selectable .selectable {
+    /*cursor: pointer;*/
+}
+
+.mm_wordBox .type_selectable .selected {
+/*    background: none;
+    color: #000;
+    text-decoration: line-through;*/
+}
+
+/*.dragImageItem,
+.wordBox li.dragImageItem,
+.dragImageTarget,
+.category li.dragImageItem {
+
+}*/

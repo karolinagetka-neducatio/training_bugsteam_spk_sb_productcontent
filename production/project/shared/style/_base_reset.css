@@ -1,0 +1,63 @@
+/* RESET VIEWER */
+.panelsContainer .viewerButtonBar .buttons .tryAgainButton.inMarking {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    animation: none !important;
+}
+
+.checkboxItemSelect.horizontal, 
+.radioItemSelect.horizontal {
+    white-space: normal;
+    display: inline-block;
+}
+
+img {
+	display: inline;
+}
+
+.imageContainer, 
+.checkboxItemSelect.vertical .selectable, 
+.mobile .checkboxItemSelect.horizontal .selectable, 
+.mobile .radioItemSelect.horizontal .selectable, 
+.radioItemSelect.vertical .selectable {
+    /*display: inline-block;*/ /* this was in mac english - checkw with Camille */
+}
+
+/* RESET */
+
+.main span.mark.correct,
+.main span.mark.wrong,
+.panelsContainer .viewerButtonBar .buttons .tryAgainButton.inMarking {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+    animation: none !important;
+}
+
+.textControls {
+    margin-bottom: 0; 
+}
+
+img {
+    margin-bottom: 0;
+}
+
+/* RESET CORE */
+ol.numbered li:last-child {
+    margin-bottom: 0.875em;
+}
+
+ol.numbered > li:last-child {
+    margin-bottom: 0;
+}
+
+.activity,
+.activity * {
+    box-sizing: border-box;
+}
+
+.dragItem,
+.typeinGroup {
+    box-sizing: content-box;
+}

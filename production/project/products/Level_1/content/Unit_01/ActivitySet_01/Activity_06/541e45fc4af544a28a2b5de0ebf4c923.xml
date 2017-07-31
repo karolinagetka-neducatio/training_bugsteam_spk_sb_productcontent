@@ -1,0 +1,65 @@
+<activity class="mm_unit1 mm_activity4" id="541e45fc4af544a28a2b5de0ebf4c923" pseudoID="BT_L1_U0_GAME_4">
+    <metadata>
+        <title>Lesson 1 – memory game</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Find the pairs.</p>
+    </rubric>
+    <main>
+        <block>
+            <pelmanism id="pelmanism_1">
+                <cards>
+                    <pair class="pair_1">
+                        <card>
+                            <image src="rubber.png" title=""/>
+                        </card>
+                        <card audio="rubber.mp3">
+                            <image src="audio_pm_1.png" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_2">
+                        <card>
+                            <image src="ruler.png" title=""/>
+                        </card>
+                        <card audio="ruler.mp3">
+                            <image src="audio_pm_1.png" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_3">
+                        <card>
+                            <image src="notebook.png" title=""/>
+                        </card>
+                        <card audio="notebook.mp3">
+                            <image src="audio_pm_1.png" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_4">
+                        <card>
+                            <image src="crayon.png" title=""/>
+                        </card>
+                        <card audio="crayon.mp3">
+                            <image src="audio_pm_1.png" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_5">
+                        <card>
+                            <image src="pencil.png" title=""/>
+                        </card>
+                        <card audio="pencil.mp3">
+                            <image src="audio_pm_1.png" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_6">
+                        <card>
+                            <image src="pen.png" title=""/>
+                        </card>
+                        <card audio="pen.mp3">
+                            <image src="audio_pm_1.png" title=""/>
+                        </card>
+                    </pair>
+                </cards>
+            </pelmanism>
+        </block>
+    </main>
+</activity>

@@ -1,0 +1,63 @@
+﻿1
+00:00:10.373 --> 00:00:15.537
+Can I have a scooter, please? Here you are. Here you are.
+
+2
+00:00:15.537 --> 00:00:20.587
+Can I have a scooter, please? Here you are. Here you are.
+
+3
+00:00:20.587 --> 00:00:25.664
+Can I have a scooter, please? Here you are. Thank you!
+
+4
+00:00:25.664 --> 00:00:30.749
+Can I have a scooter, please? Here you are. Thank you!
+
+5
+00:00:33.108 --> 00:00:38.263
+Can I have a skateboard, please? Here you are. Here you are.
+
+6
+00:00:38.263 --> 00:00:43.331
+Can I have a skateboard, please? Here you are. Here you are.
+
+7
+00:00:43.331 --> 00:00:48.424
+Can I have a skateboard, please? Here you are. Thank you!
+
+8
+00:00:48.424 --> 00:00:53.623
+Can I have a skateboard, please? Here you are. Thank you!
+
+9
+00:00:55.922 --> 00:01:01.024
+Can I have a car, please? Here you are. Here you are.
+
+10
+00:01:01.024 --> 00:01:06.065
+Can I have a car, please? Here you are. Here you are.
+
+11
+00:01:06.065 --> 00:01:11.108
+Can I have a car, please? Here you are. Thank you!
+
+12
+00:01:11.108 --> 00:01:16.341
+Can I have a car, please? Here you are. Thank you!
+
+13
+00:01:18.718 --> 00:01:23.776
+Can I have a doll, please? Here you are. Here you are.
+
+14
+00:01:23.776 --> 00:01:28.796
+Can I have a doll, please? Here you are. Here you are.
+
+15
+00:01:28.796 --> 00:01:33.843
+Can I have a doll, please? Here you are. Thank you!
+
+16
+00:01:33.843 --> 00:01:39.120
+Can I have a doll, please? Here you are. Thank you!

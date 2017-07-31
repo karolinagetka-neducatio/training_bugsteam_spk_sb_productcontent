@@ -1,0 +1,1027 @@
+/*** MODULE: UNMARKED COMPONENENTS ***/
+
+/*** UNMARKED COMPONENENTS ***/
+
+/*** COLOURING ***/
+
+.colouringContainer {
+    background-color: #fff;
+    border-radius:20px;
+    max-width: 100%;
+    height: auto;
+    min-height: 510px;
+    margin-bottom: 1em !important;
+}
+
+/* set the custom cursors for the different colours */
+.colouringContainer.playing { cursor: url(../images/pointer/paint_cursor.png) 5 6, auto; }
+.colouringContainer.mm_black { cursor: url(../images/pointer/paint_cursor_black.png) 5 6, auto; }
+.colouringContainer.mm_blue { cursor: url(../images/pointer/paint_cursor_blue.png) 5 6, auto; }
+.colouringContainer.mm_brown { cursor: url(../images/pointer/paint_cursor_brown.png) 5 6, auto; }
+.colouringContainer.mm_gold { cursor: url(../images/pointer/paint_cursor_gold.png) 5 6, auto; }
+.colouringContainer.mm_gray { cursor: url(../images/pointer/paint_cursor_gray.png) 5 6, auto; }
+.colouringContainer.mm_green { cursor: url(../images/pointer/paint_cursor_green.png) 5 6, auto; }
+.colouringContainer.mm_orange { cursor: url(../images/pointer/paint_cursor_orange.png) 5 6, auto; }
+.colouringContainer.mm_pink { cursor: url(../images/pointer/paint_cursor_pink.png) 5 6, auto; }
+.colouringContainer.mm_purple { cursor: url(../images/pointer/paint_cursor_purple.png) 5 6, auto; }
+.colouringContainer.mm_red { cursor: url(../images/pointer/paint_cursor_red.png) 5 6, auto; }
+.colouringContainer.mm_silver { cursor: url(../images/pointer/paint_cursor_silver.png) 5 6, auto; }
+.colouringContainer.mm_yellow { cursor: url(../images/pointer/paint_cursor_yellow.png) 5 6, auto; }
+.colouringContainer.mm_white { cursor: url(../images/pointer/paint_cursor_white.png) 5 6, auto; }
+
+/* Listen and Color audio clueButton overwrite style */
+
+.colouringContainer .clueTools {
+    width: 100px;
+    right: 7px;
+    top: 16px;
+    position: absolute;
+}
+
+/* set the style of the colours container (holds the colour palette items) */
+.coloursContainer {
+    text-align: center;
+    padding:  0 10%;
+}
+
+.colourPaletteItem {
+    width: 80px;
+    margin-right: 15px;
+}
+
+/* Set up flexbox */
+.flexbox .coloursContainer,
+.flexbox .colourItemsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.no-flexbox .coloursContainer,
+.no-flexbox .colourItemsContainer {
+    text-align: center;
+}
+
+.no-flexbox .coloursContainer .colourPaletteItem,
+.no-flexbox .colourItemsContainer .colourItem,
+.no-flexbox .colouringContainer.complete .coloursContainer .colourPaletteItem,
+.no-flexbox .colouringContainer.complete .colourItemsContainer .colourItem {
+    display: inline-block;
+}
+
+.no-flexbox .playing.colouringContainer .colourPaletteItem,
+.no-flexbox .playing.colouringContainer .colourItem {
+    display: inline-block;
+}
+
+.no-flexbox .colouringContainer .colourPaletteItem,
+.no-flexbox .colouringContainer .colourItem {
+    display: none;
+}
+
+.coloursContainer,
+.flexbox .colourItemsContainer,
+.no-flexbox .colourItemsContainer {
+    height: auto;
+}
+
+.coloursContainer .colourPaletteItem,
+.colourItemsContainer .colourItem {
+    width: 30%;
+    position: relative;
+}
+
+.no-flexbox .coloursContainer .colourPaletteItem {
+    width: 17%;
+    position: relative;
+}
+
+.no-flexbox .colourItemsContainer .colourItem {
+    width: 24%;
+    position: relative;
+}
+
+/* Set space between colours and items */
+.coloursContainer + .colourItemsContainer {
+    margin-top: 1em;
+}
+
+/* start game */
+
+.playing .colourItemsContainer .colourItem {
+    -webkit-animation: startGame ease-in 0.75s;
+    -moz-animation: startGame ease-in 0.75s;
+    -ms-animation: startGame ease-in 0.75s;
+    -o-animation: startGame ease-in 0.75s;
+    animation: startGame ease-in 0.75s;
+    animation-fill-mode: both;
+}
+
+.playing .coloursContainer .colourPaletteItem {
+    -webkit-animation: startGame ease-in 0.75s;
+    -moz-animation: startGame ease-in 0.75s;
+    -ms-animation: startGame ease-in 0.75s;
+    -o-animation: startGame ease-in 0.75s;
+    animation: startGame ease-in 0.75s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: both;
+}
+
+.playing .coloursContainer .colourPaletteItem:nth-child(2) {
+    -webkit-animation-delay: 1.25s;
+    -moz-animation-delay: 1.25s;
+    animation-delay: 0.75s;
+}
+
+.playing .coloursContainer .colourPaletteItem:nth-child(3) {
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+    animation-delay: 1s;
+}
+
+.playing .colourItemsContainer .colourItem {
+    -webkit-animation-delay: 0.75s;
+    -moz-animation-delay: 0.75s;
+    animation-delay: 0.25s;
+}
+.playing .colourItemsContainer .colourItem:nth-child(2) {
+    -webkit-animation-delay: 1.25s;
+    -moz-animation-delay: 1.25s;
+    animation-delay: 0.75s;
+}
+.playing .colourItemsContainer .colourItem:nth-child(3) {
+    -webkit-animation-delay: 1.75s;
+    -moz-animation-delay: 1.75s;
+    animation-delay: 1.25s;
+}
+
+.colouringContainer .colourPaletteItem,
+.colouringContainer .colourItem {
+    display: none;
+}
+
+.colouringContainer .startGame {
+    position: relative;
+    background-image: url(../images/_listenColorStart.png);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 360px;
+    margin: 0 auto;
+    -webkit-animation: gameTitle  2s steps(3) 1;
+    -moz-animation: gameTitle  2s steps(3) 1;
+    -ms-animation: gameTitle  2s steps(3) 1;
+    -o-animation: gameTitle  2s steps(3) 1;
+    animation: gameTitle  2s steps(3) 1;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+/* Define background image in level.css */
+.colouringContainer.complete .startGame {
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 140px;
+    bottom: 0;
+}
+
+/* Define background image in level.css */
+.colouringContainer .startGame .startGameButton {
+    position: relative;
+    background-color: #4D4D4F;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0;
+    top: 103%;
+}
+
+.colouringContainer.complete .startGame .startGameButton {
+    top: 0;
+}
+
+.colouringContainer .startGame .startGameButton:active {
+    background-image: url(../images/media/audio_small.png);
+    background-position: -100px 0px;
+}
+
+/* Hide colouring 'start game' text */
+.colouringContainer .startGame .startGameButton,
+.colouringContainer .startGame .startGameButton:active {
+    color: transparent;
+    background-image: url(../images/media/audio_small.png);
+}
+
+.colouringContainer.playing {
+    background-image: none;
+    width: 100%;
+    height: 100%;
+}
+
+.colouringContainer.complete {
+    background-image: none;
+    width: 100%;
+}
+
+.colouringContainer.playing .colourPaletteItem,
+.colouringContainer.playing .colourItem,
+.colouringContainer.complete .colourPaletteItem,
+.colouringContainer.complete .colourItem {
+    display: block;
+}
+
+.colouringContainer.complete .coloursContainer,
+.colouringContainer.complete .colourItemsContainer {
+    -webkit-animation: gameOverMaskGame 1.75s;
+    -moz-animation: gameOverMaskGame 1.75s;
+    -o-animation: gameOverMaskGame 1.75s;
+    animation: gameOverMaskGame 1.75s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+/* game over */
+
+.colouringContainer.complete .gameOver {
+    top: 31px; /*was 48*/
+}
+
+.colouringContainer.complete .gameOver {
+    -webkit-animation: gameOverFadeIn 2.5s, pelmanismTada 1s;
+    -moz-animation: gameOverFadeIn 2.5s, pelmanismTada 1s;
+    -o-animation: gameOverFadeIn 2.5s, pelmanismTada 1s;
+    animation: gameOverFadeIn 2.5s, pelmanismTada 1s;
+    -webkit-animation-delay: 0s, 2.5s;
+    -moz-animation-delay: 0s, 2.5s;
+    animation-delay: 0s, 2.5s;
+}
+
+.colouringContainer.complete .startGame {
+    -webkit-animation: gameOverFadeIn 2.5s;
+    -moz-animation: gameOverFadeIn 2.5s;
+    -o-animation: gameOverFadeIn 2.5s;
+    animation: gameOverFadeIn 2.5s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+    }
+
+@keyframes gameOverFadeIn {
+    0% {opacity: 0}
+    90% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@keyframes gameOverMaskGame {
+    0% {opacity: 1}
+    50% {opacity: 1}
+    100% {opacity: 0.2}
+}
+
+.colouringContainer.complete .gameOver h1 {
+    height: 11em;
+    background-size: 540px;
+    background-position: center;
+    margin: 0;
+}
+
+.gameOver h1{
+    height: 8em;
+    top: 2em;
+    display: block!important;
+    background-size: 255px;
+    background-position: 15em 0em;
+}
+
+.colouringContainer .gameOver {
+    color: rgba(46, 13, 13, 0)!important;
+}
+
+/*animation*/
+.colouring .colourItem.correct {
+    background: none;
+    animation: pelmanismTada 1s 3;
+    -webkit-animation: pelmanismTada 1s 3;
+    -moz-animation: pelmanismTada 1s 3;
+    -o-animation: pelmanismTada 1s 3;
+}
+
+@keyframes startGame {
+    0% {transform: scale(0,0); opacity: 0;}
+    100% {transform: scale(1,1); opacity: 1;}
+}
+
+@-webkit-keyframes gameTitle {
+   100% {background-position: -600px;}
+}
+@-moz-keyframes gameTitle {
+   100% {background-position: -600px;}
+}
+@-o-keyframes gameTitle {
+   100% {background-position: -600px;}
+}
+@-ms-keyframes gameTitle {
+   100% {background-position: -600px;}
+}
+@keyframes gameTitle {
+   100% {background-position: -600px;}
+}
+
+/* FLASHCARD */
+
+/* Story triggerable image carousel layout */
+.mm_story .owl-item > .block {
+    text-align: center;
+}
+
+.mm_story .owl-item > .block p img {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.mm_story .owl-item .audioContainer {
+    margin:  0.5em auto 1em;
+    text-align: center;
+}
+
+.mm_story .owl-item .audioContainer.large .audioInterface {
+    margin: auto;
+    position: relative;
+}
+
+/* TRIGGER CONTENT VISIBILITY */
+
+/* FLASHCARD BUTTON */
+
+.flashcardBlock [class*='tr_showWord'] .mm_word {
+    color: #000; /* show current text */
+}
+
+.flashcardBlock [class*='tr_showWord'] .flashcard .cardDefinitions .cardDefinition {
+    display: block;
+}
+
+.flashcardBlock [class*='tr_showWord'] .flashcard .cardDefinitions .cardDefinition:first-child,
+.flashcardBlock [class*='tr_showWord'] .flashcard .cardDefinitions .cardDefinition:last-child .descriptorLabel,
+.flashcard .cardDefinitionsContainer {
+    display: none;
+}
+
+/* STORY IMAGE CAROUSEL WITH CLICKABLE IMAGE */
+/* Triggerable image visibility for story image carousel */
+.mm_flashcards .owl-carousel .owl-item img:first-child,
+.tr_showDialogue1 .mm_flashcards .owl-carousel .owl-item img:nth-child(2) {
+    opacity: 1;
+}
+
+.tr_showDialogue1 .mm_flashcards .owl-carousel .owl-item img:first-child,
+.mm_flashcards .owl-carousel .owl-item img:nth-child(2) {
+    opacity: 0;
+}
+
+.mm_flashcards .owl-carousel .owl-item img:first-child {
+    position: relative;
+    z-index: 2;
+}
+
+.mm_flashcards .owl-carousel .owl-item img:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    z-index: -1;
+}
+
+/* button */
+.flashcardBlock .mm_button {/* Button style - move to controls? */
+    background: none;
+    filter: none;
+    background-color: #4D4D4F;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 1.7em;
+    margin: auto;
+    padding: 0.45em 0.8em;
+    text-align: center;
+}
+
+.flashcardBlock .mm_button:hover {
+    background-color: #c9c9ce;
+}
+
+/* Set pointer cursor over image if using triggerable image */
+.mm_flashcards .block.mm_button img {
+    cursor: pointer;
+}
+
+/* Setup button 'hide text' state */
+.flashcardBlock .mm_button:before {
+    position: absolute;
+    visibility: visible;
+    content: "";
+    color: #fff;
+    left: 0;
+    right: 0;
+}
+
+.flashcardBlock [class*='tr_showWord'] {
+    color: transparent; /* hide current text */
+}
+
+.flashcardBlock [class*='tr_showWord']:before {
+    content: "Hide text";
+}
+
+/* Clue text */
+.flashcardBlock .mm_wordCue {
+    visibility: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+    position: absolute;
+    top: 0.375em;
+    left: 0;
+    z-index: -1;
+}
+
+.flashcardBlock .triggered + .mm_wordCue {
+    visibility: visible;
+}
+
+.flashcardBlock {
+    position: relative;
+    vertical-align: middle;
+    display: block;
+}
+
+.flashcardBlock .inlinePlayerContainer {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.flashcardBlock .inlinePlayer {
+     width: 60px;
+     height: 60px;
+ }
+
+.flashcardBlock .mm_button {
+     position: relative;
+     top: 0;
+     display: inline-block;
+     line-height: 1.75;
+     vertical-align: middle;
+     z-index: 2;
+}
+
+.flashcardBlock p {
+    /*display: inline-block;*/
+    line-height: 68px;
+    vertical-align: middle;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.flashcardMenuContainer {
+    display: none;
+}
+
+/* toggle menu */
+.mm_noMenu .flashcardMenuContainer .singleButton.flashcardMenuButton {
+    display: none;
+}
+
+.flashcardMenuContainer {
+    top: -1.75em;
+}
+
+.flashcard {
+    padding-top: 0;
+    max-width: 930px;
+    margin: 0 auto;
+}
+
+.interactiveImageContainer {
+    margin-top: 0;
+    padding-bottom: 2.775em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top: 1em;
+}
+
+.interactiveImageContainer.spotlight div .reveal {
+    z-index: 2;
+    top: 101%;
+    right: 50%;
+    transform: translateX(50%);
+}
+.interactiveImage.blur {
+    padding: 1em 0;
+}
+
+/* Capitalise reveal button */
+.interactiveImageContainer.spotlight div .reveal {
+    text-transform: capitalize;
+}
+
+.interactiveImageContainer.spotlight img:not(.hidden) ~ .spotlight {
+    display: none;
+}
+
+.interactiveImageContainer.spotlight {
+    background: #fff;
+    background-color: transparent;
+    padding-bottom: 2.5em;
+}
+
+.interactiveImageContainer.spotlight img  {
+    background-color: #fff;
+}
+
+.interactiveImageContainer.spotlight .spotlight {
+    border: 2px solid #ccc;
+}
+
+.flashcard .cardDefinitionsContainer {
+    border-bottom: none;
+    position: absolute;
+}
+
+.flashcard .cardDefinitionsContainer:after,
+.flashcard .cardDefinitions:after,
+.flashcard .definitionTools:after {
+    display: none;
+}
+
+.controlsContainer center {
+    white-space : nowrap;
+}
+
+.controlsContainer .singleButton {
+    position: relative;
+    display: table;
+}
+
+.controlsContainer .singleButton + .singleButton {
+    margin-top: 1em;
+}
+
+/* FLASHCARD */
+.flashcard .cardDefinitions {
+    padding-bottom: 0;
+}
+
+.flashcard .cardDefinitions .cardDefinition.show {
+    border: 1px solid #ccc;
+    display: table;
+    margin: auto;
+    padding: 0.25em 0.875em;
+    font-weight: 700;
+    border-radius: 1.5em;
+    background-color: #fff;
+}
+
+.flashcard .definitionLabel {
+    color: #000;
+    margin-left: -0.5em;
+    background-color: #fff;
+}
+
+.flashcard .cardDefinitions .cardDefinition.show {
+    padding: 0.17em 0.875em;
+}
+
+/* Remove audio label */
+.flashcard .cardDefinitions .cardDefinition:first-child.show {
+    display: none;
+}
+
+/* Remove Text 'Text in English' */
+.flashcard .cardDefinitions .cardDefinition:last-child.show span.descriptorLabel {
+    display: none;
+}
+
+
+/* CAROUSEL */
+
+.owl-carousel.owl-text-select-on .owl-item {
+    min-width: 500px;
+}
+
+/* MOVING TARGETS */
+.rcfMovingTargets canvas {
+    width: 100% !important;
+}
+
+/* game over */
+.rcfMovingTargets.complete .gameOver {
+    text-align:center;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.rcfMovingTargets {
+    border-radius:20px;
+    overflow: hidden;
+    max-width: 700px;
+    margin: auto;
+}
+
+.rcfMovingTargets.complete .gameOver h1 {
+    display:none !important;
+}
+
+/* PELMANISM */
+/* Card widths and margins */
+.pelmanismContainer .cardContainer {
+    margin: 3% 3% 0;
+}
+
+/* 3 pairs */
+.pelmanismContainer[data-numpairs="3"] .cardContainer {
+    margin: 3% 5% 0;
+}
+/* 4 pairs */
+.pelmanismContainer[data-numpairs="4"] .cardContainer {
+    margin: 3% 3% 0;
+}
+/* 5 pairs */
+.pelmanismContainer[data-numpairs="5"] .cardContainer {
+    margin: 3% 1.3% 0;
+}
+/* 6 pairs */
+.pelmanismContainer[data-numpairs="6"] .cardContainer {
+    margin: 2% 1.5% 0; /* sets cards on 3 rows */
+    width: 125px;
+    height: 156px;
+}
+/* 7 pairs */
+.pelmanismContainer[data-numpairs="7"] .cardContainer {
+    margin: 2% 2% 0; /* sets cards on 3 rows */
+    width: 147px;
+    height: 184px;
+}
+/* 8 pairs */
+.pelmanismContainer[data-numpairs="8"] .cardContainer {
+    margin: 2% 2% 0; /* sets cards on 3 rows */
+    width: 120px;
+    height: 150px;
+}
+
+.cardContainer .card .front {
+    padding: 0;
+}
+
+.cardContainer .card .front p {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    text-align: center;
+    line-height: 1.15em;
+    width: 100%;
+    padding: 1px 0;
+}
+
+.cardContainer .card .front img {
+    vertical-align: baseline;
+    background-color: #fff;
+}
+
+.cardContainer .card .front img[src*="audio_pm"] {
+    background-color: transparent;
+}
+
+.cardContainer .card[data-audiolink] .front:hover img {
+    content: url(../images/media/audio_pm_over.png);
+}
+
+.cardContainer .card .front .imageContainer {
+    height: 100%;
+}
+
+.pelmanismContainer .cardContainer .card .back {
+    background-size: 100% 100%;
+    -ms-backface-visibility: hidden;
+    -ms-transform: perspective(800px) rotateY(0deg);
+}
+
+.cardContainer .card .front {
+    -ms-backface-visibility: hidden;
+    -ms-transform: perspective(800px) rotateY(180deg);
+}
+
+.pelmanismContainer {
+    border: none;
+    padding: 0.875em;
+    border-radius: 20px;
+    background-color: #fff;
+    background-color: rgba(255,255,255, 0.7);
+}
+
+[class*="mm_unit"] .cardContainer .front .imageContainer .caption,
+[class*="mm_review"] .cardContainer .front .imageContainer .caption {
+    bottom: 0;
+    font-size: 1em;
+    line-height: 1.15em;
+    display: block;
+    text-align: center;
+}
+
+.cardContainer .front .imageContainer .caption .innerCaption {
+    padding: 1px 0;
+}
+
+.pelmanismContainer .card .inlinePlayerContainer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.pelmanismContainer .card .inlinePlayer {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+
+.pelmanismContainer .pelmanismAttempts {
+    position: relative;
+    display: inline-block;
+}
+
+.pelmanismContainer .pelmanismTimer {
+    position: relative;
+    display: inline;
+    float: right;
+}
+
+.pelmanismContainer .timer {
+    position: relative;
+    display: inline-block;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    box-shadow: 0 1px 6px 0 rgba(102,102,102,0.4);
+    z-index: 201;
+}
+
+.pelmanismContainer .pelmanismAttempts,
+.pelmanismContainer .timer {
+    color: #fff;
+    border-radius: 0.25em;
+    box-shadow: none;
+    padding: 0.25em 0.435em;
+}
+
+.pelmanismContainer.completed .pelmanismAttempts,
+.pelmanismContainer.completed .pelmanismTimer,
+.pelmanismContainer.completed .cards {
+    -webkit-animation: gameOverMaskGame 1.75s;
+    -moz-animation: gameOverMaskGame 1.75s;
+    -o-animation: gameOverMaskGame 1.75s;
+    animation: gameOverMaskGame 1.75s;
+    -webkit-animation-delay: 2.3s;
+    -moz-animation-delay: 2.3s;
+    animation-delay: 2.3s;
+    animation-fill-mode: forwards;
+}
+
+.pelmanismContainer.timed.gameOver.completed .gameOverStage {
+    z-index: 201;
+    border-radius: 20px;
+}
+
+.pelmanismContainer.gameOver.completed .gameOverStage {
+    display: block;
+    z-index: 201;
+    border-radius: 20px;
+    background-position: 50%;
+    background-size: contain;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: fadein 2.5s, completeJiggle 1s;
+    -moz-animation: fadein 2.5s, completeJiggle 1s;
+    -ms-animation: fadein 2.5s, completeJiggle 1s;
+    -o-animation: fadein 2.5s, completeJiggle 1s;
+    animation: fadein 2.5s, completeJiggle 1s;
+    -webkit-animation-delay: 2.5s, 3s;
+    -moz-animation-delay: 2.5s, 3s;
+    animation-delay: 2.5s, 3s;
+    animation-fill-mode: both;
+}
+
+.pelmanismContainer.timed.gameOver .gameOverStage {
+    z-index: 201;
+}
+
+/* SONG KARAOKE */
+.mm_song .main {
+    /*min-height: 568px;*/
+}
+
+.mm_song .main > .block {
+    border-radius: 20px;
+    padding: 1em;
+}
+
+.mm_song .block {
+    width: 100%;
+    margin-bottom: 0.875em;
+}
+
+.mm_song .block .mm_image,
+.mm_song .block .mm_audio {
+    border-radius: 16px;
+}
+
+.mm_song .mm_audio {
+    padding: 12px;
+    width: 100%;
+    background-color: #fff;
+    background-color: #D8DF58;
+    background-color: #87C6E6;
+}
+
+.mm_song .mm_image {
+    text-align: center;
+    background-color: #fff;
+}
+
+.mm_song .mm_image {
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+/* Player layout edits */
+
+.audio.audioContainer.large {
+  margin-bottom: 0;
+}
+
+.mm_song .audioContainer {
+    margin-top: 0.5em;
+    display: inline-block;
+    margin-right: 0.425em;
+}
+
+.mm_song .audioContainer + .audioContainer {
+    margin-right: 0;
+}
+
+.mm_song .audioContainer:first-child .audioInterface:before,
+.mm_song .audioContainer:last-child .audioInterface:before {
+    font-size: .9em;
+    padding-left: 25px;
+    position: relative;
+    font-weight: 700;
+    top: -1.75em;
+    left: 0;
+    color: #4D4D4F;
+}
+
+.mm_song a.audioScriptButton {
+    background: url(../images/media/script_large.png);
+}
+
+.mm_song .audio.large .audioScript,
+.mm_song .audioScript {
+    height: 250px;
+    width: 285px;
+    z-index: 90;
+    display: none;
+    overflow: auto;
+}
+
+.mm_song .script {
+    padding: 0.5em 1em;
+}
+
+/* IE10 + IE11 FLASHCARD BLUR FALL BACK - ie10 and 11 does not support filters */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .activity .interactiveImage.blur:before {
+        content: "";
+        background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MSUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+        background-repeat: repeat;
+        background-size: 200px 200px;
+        background-position: 0% -18px;
+        position: absolute;
+        top: 0;bottom: 0;right: 0;left: 0;
+        z-index: 2;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .interactiveImageContainer.blur1 .interactiveImage.blur:before {
+        background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MSUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+        background-repeat: repeat;
+        background-size: 75px 75px;
+        background-position: 0px -7px;
+    }
+
+    .interactiveImageContainer.blur2 .interactiveImage.blur:before {
+        background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MSUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+        background-repeat: repeat;
+        background-size: 10px 10px;
+    }
+
+    .interactiveImageContainer.blur3 .interactiveImage.blur:before {
+        background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPHN0b3Agb2Zmc2V0PSI1MSUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L3JhZGlhbEdyYWRpZW50PgogIDxyZWN0IHg9Ii01MCIgeT0iLTUwIiB3aWR0aD0iMTAxIiBoZWlnaHQ9IjEwMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+        background-repeat: repeat;
+        background-size: 0px 0px;
+    }
+}
+
+/* VIDEO */
+
+.mm_video .main {
+    text-align: center;
+}
+
+.mm_video .main .block {
+    position: relative;
+    background-color: #00ACDA;
+    border-radius: 20px;
+    padding: 1em;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.75em;
+    margin-top: 120px;
+}
+
+.mm_video .main .block:before {
+    position: absolute;
+    content: " ";
+    top: -99px;
+    right: 30px;
+    background-image: url(../images/media/Lucy_Video.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 110px;
+    -moz-background-size: 110px;
+    background-size: 110px;
+    width: 110px;
+    height: 110px;
+}
+
+.mm_video .main .block .rcfVideo {
+    margin: 0 auto;
+}
+
+.mm_video .videoContainer {
+    width: 240px;
+    height: 191px; /*$videoHeight + $videoUIHeight;*/
+}
+
+.mm_video .jp-type-single {
+    width: 240px;
+    height: 136px;
+}
+
+.videoPlayerInterface {
+    height: 55px;
+}
+
+.videoPlayerInterface.jp-interface {
+    /* padding-right: 2px; */ /* fix weird right spacing issue between player and interface */
+}
+
+.videoCurrentTime,
+.videoDuration {
+    font-size: 15px;
+}
+
+[class*="mm_review"].mm_video .main > .block {
+    background-color: #00ACDA;
+}

@@ -1,0 +1,417 @@
+/* STATES */
+/* default */
+.interactiveImageContainer.spotlight .reveal,
+.main .singleButton,
+.rcfCarousel .owl-nav [class*='owl-'],
+.rcfCarousel .navLeftButton,
+.rcfCarousel .navRightButton,
+.owl-theme .owl-dots .owl-dot span,
+.inlinePlayer a {
+    background: none;
+    filter: none;
+    background-color: #4D4D4F;
+    border: 2px solid transparent;
+    color: #FFF;
+}
+
+/* hover */
+.interactiveImageContainer.spotlight .reveal:hover,
+.main .singleButton:hover,
+.rcfCarousel .owl-nav [class*='owl-']:hover,
+.rcfCarousel .navLeftButton:hover,
+.rcfCarousel .navRightButton:hover,
+.owl-theme .owl-dots .owl-dot span:hover,
+.inlinePlayerContainer .inlinePlayer a:hover {
+    background-color: #C9C9CE;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.interactiveImageContainer.spotlight .reveal:hover {
+    -webkit-animation: none;
+}
+
+/* hit */
+.interactiveImageContainer.spotlight .reveal:active,
+.main .singleButton:active,
+.rcfCarousel .singleButton:active,
+.rcfCarousel .singleButton:active,
+.rcfCarousel.owl-theme .owl-dots .owl-dot.active span,
+.inlinePlayerContainer .inlinePlayer a:active {
+    border-color: #898989;
+    background-color: #FFF;
+    color: #2B2B2C;
+}
+
+/* BASIC TEXT BUTTON */
+.interactiveImageContainer.spotlight .reveal,
+.main .singleButton {
+    border-radius: 1.7em;
+    margin-right: 0;
+    padding: 0.45em 0.8em;
+    line-height: 1;
+}
+
+/* ROUNDED ICON BUTTON */
+.orderingControls .singleButton,
+.rcfCarousel .owl-nav [class*='owl-'],
+.rcfCarousel .navLeftButton,
+.rcfCarousel .navRightButton,
+.inlinePlayer {
+    padding: 0;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border-color: transparent;
+    box-sizing: border-box;
+}
+
+.orderingControls .singleButton span,
+.inlinePlayerContainer .inlinePlayer a {
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-position: 0 0;
+    box-sizing: initial; /* added by jg to fix display bug. maybe move to reset? */
+}
+
+/* POP-UP */
+.locating_popup .singleButton + .singleButton {
+    margin-left: 1em;
+}
+
+/* MASK */
+.rcfMask {
+    background-color: #4D4D4F;
+}
+
+/* ARROW CONTROLS: Ordering / Carrousel */
+.example .complexOrdering.mobile-horizontal .orderingControls, 
+.example .ordering.mobile-horizontal .orderingControls {
+    display: none;
+}
+
+.rcfCarousel .owl-nav [class*='owl-'],
+.rcfCarousel .owl-nav [class*='owl-']:hover,
+.rcfCarousel .navLeftButton,
+.rcfCarousel .navRightButton,
+.rcfCarousel .navLeftButton:hover,
+.rcfCarousel .navRightButton:hover,
+.rcfCarousel .navLeftButton:active,
+.rcfCarousel .navRightButton:active,
+.ordering.mobile .orderingControls .singleButton span {
+    background-image: url(../images/arrows_controls.png);
+}
+
+/* left */
+.rcfCarousel .owl-nav .owl-prev,
+.rcfCarousel .owl-nav .owl-prev:hover,
+.rcfCarousel .navLeftButton,
+.rcfCarousel .navLeftButton:hover,
+.ordering.mobile-horizontal .orderingUpControl span {
+    background-position: 0 0;
+}
+
+.ordering.mobile-horizontal .orderingUpControl span:active {
+    background-position: 0 -34px;
+}
+
+/* right */
+.rcfCarousel .owl-nav .owl-next,
+.rcfCarousel .owl-nav .owl-next:hover,
+.rcfCarousel .navRightButton,
+.rcfCarousel .navRightButton:hover,
+.ordering.mobile-horizontal .orderingDownControl span {
+    background-position: -34px 0;
+}
+
+.ordering.mobile-horizontal .orderingDownControl span:active {
+    background-position: -34px -34px;
+}
+
+/* top */
+.ordering.mobile-vertical .orderingUpControl span {
+    background-position: -68px 0;
+}
+
+.ordering.mobile-vertical .orderingUpControl span:active {
+    background-position: -68px -34px;
+}
+
+/* bottom */
+.ordering.mobile-vertical .orderingDownControl span {
+    background-position: -102px 0;
+}
+
+.ordering.mobile-vertical .orderingDownControl span:active {
+    background-position: -102px -34px;
+}
+
+/* SPLIT BLOCK */
+.splitScreenBlock > .splitControls > .singleButton {
+    background-color: transparent;
+    background-image: url(../images/splitblock_controls_DSB.png);
+    background-repeat: no-repeat;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+}
+
+/* horizontal split */
+@media only screen and (orientation: landscape) {
+    .splitScreenBlock > div {
+        vertical-align: top; /* to move to core */
+    }
+
+    .splitScreenBlock > .splitControls > .singleButton {
+        width: 22px;
+    }
+
+    /* right arrow */
+    .splitControls .firstPanel {
+        background-position: 0 0;
+        margin-left: 18px;
+    }
+
+    .splitControls .firstPanel:hover {
+        background-position: -22px 0;
+    }
+
+    .splitControls .firstPanel:active {
+        background-position: -44px 0;
+    }
+
+    /* left arrow */
+    .splitControls .secondPanel {
+        background-position: 0 -40px;
+    }
+
+    .splitControls .secondPanel:hover {
+        background-position: -22px -40px;
+    }
+
+    .splitControls .secondPanel:active {
+        background-position: -44px -40px;
+    }
+}
+
+/* vertical split */
+@media only screen and (orientation: portrait) {
+    .splitScreenBlock > .splitControls > .singleButton {
+        height: 22px;
+    }
+
+    /* bottom arrow */
+    .splitControls .firstPanel {
+        background-position: -106px 0;
+        margin-top: 18px;
+    }
+
+    .splitControls .firstPanel:hover {
+        background-position: -106px -22px;
+    }
+
+    .splitControls .firstPanel:active {
+        background-position: -106px -44px;
+    }
+
+    /* top arrow */
+    .splitControls .secondPanel {
+        background-position: -66px 0;
+        margin-bottom: 18px;
+    }
+
+    .splitControls .secondPanel:hover {
+        background-position: -66px -22px;
+    }
+
+    .splitControls .secondPanel:active {
+        background-position: -66px -44px;
+    }
+}
+
+/* CAROUSEL */
+.rcfCarousel.simple.owl-carousel {
+    border: none;
+    text-align: center;
+}
+
+.rcfCarousel .owl-nav [class*='owl-']:before,
+.rcfCarousel .navRightButton:before,
+.rcfCarousel .navLeftButton:before {
+    content: "";
+}
+
+.rcfCarousel .owl-nav {
+    margin-top: 0;
+}
+
+.rcfCarousel .owl-dots {
+    line-height: 1;   
+    margin: 10px 0;
+}
+
+.rcfCarousel .owl-dots .owl-dot span {
+    border-width: 1px;
+    border-color: #FFF;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.rcfCarousel.owl-theme .owl-dots .owl-dot.active span {
+    box-shadow: none;
+}
+
+/* AUDIO */
+/* SMALL PLAYER */
+.inlinePlayer {
+    display: inline-block;
+    background: none;
+    filter: none;
+}
+
+.inlinePlayer a.audioPlayButton {
+    background-color: #4D4D4F; /* reset core */
+    background-image: url(../images/media/audio_small.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.inlinePlayer a.audioPlayButton:active {
+    background-image: url(../images/media/audio_small.png);
+    background-position: -34px 0;
+}
+
+.inlinePlayer a.audioPauseButton {
+    background-color: #4D4D4F; /* reset core */
+    background-image: url(../images/media/audio_small.png);
+    background-position: 0 -34px;
+}
+
+.inlinePlayer a.audioPauseButton:active {
+    background-image: url(../images/media/audio_small.png);
+    background-position: -34px -34px;
+}
+
+/* LARGE PLAYER*/
+/* icons */
+a.audioPlayButton, a.videoPlayButton {
+    background: url(../images/media/play.png);
+}
+
+a.audioStopButton, a.videoStopButton {
+    background: url(../images/media/stop.png);
+}
+
+a.audioScriptButton {
+    background: url(../images/media/script.png);
+}
+
+a.audioPauseButton, a.videoPauseButton {
+    background: url(../images/media/pause.png);
+}
+
+a.audioMuteButton, a.videoMuteButton {
+    background: url(../images/media/mute.png);
+}
+
+a.audioUnmuteButton, a.videoUnmuteButton {
+    background: url(../images/media/unmute.png);
+}
+
+a.videoFullScreen {
+    background: url(../images/media/fullscreen.png);
+}
+
+a.videoRestoreScreen {
+    background: url(../images/media/fullscreen_exit.png);
+}
+
+/* SKIN */
+.audio {
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.audio.large .audioInterface,
+.videoPlayerInterface {
+    filter: none;
+    background: none;
+    background-color: #4D4D4F;
+    border: none;
+    color: #FFF;
+}
+
+.audioSeekBar, .videoSeekBar {
+    background-color: #FFF;
+    background-color: #F1F1F1;
+}
+
+.audioPlayBar, .videoPlayBar {
+    background-color: #949495;
+}
+
+.audioContainer.large .audioInterface {
+    width: 230px;
+    height: 45px;
+}
+
+.audioProgress {
+    height: 10px;
+    top: 15px;
+}
+
+.audioCurrentTime, .audioDuration {
+    top: 29px;
+}
+
+.audio.large .audioScript {
+    width: 230px;
+}
+
+.audioMuteButtonContainer {
+    display: none;
+}
+
+a.audioPlayButton, 
+a.audioStopButton, 
+a.audioScriptButton, 
+a.audioPauseButton,
+a.audioMuteButton {
+    top: 5px;
+}
+
+/* VIDEO */
+div.jp-type-single {
+    border-radius: 8px;
+}
+
+.videoPlayerInterface {
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border: 1px solid #B9B9BA;
+    width: 478px;
+    height: 55px;
+}
+
+.videoPlayer video {
+    background-color: #000;
+}
+
+/* RCF-CORE OVERRIDES */
+@media only screen and (-webkit-min-device-pixel-ratio:2), only screen and (min-device-pixel-ratio:2) {
+    .orderingControls a span {
+        background-size: auto;
+    }
+}
+
+/* FLashcard fix to hide characters in .owl-next and .owl-prev buttons */
+.rcfCarousel .owl-nav [class*='owl-'] b {
+    display: none;
+}

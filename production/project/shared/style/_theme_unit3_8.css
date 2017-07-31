@@ -1,0 +1,224 @@
+/*** PARTIAL MODULE: THEME UNIT 3, 8 ***/
+
+/*
+colors
+Unit: #d0684d
+Tint: #f3997b
+Dot: #c5624a
+*/
+
+.mm_unit3:not(.mm_story):not(.mm_activityFirst).activity:before,
+.mm_unit8:not(.mm_story):not(.mm_activityFirst).activity:before {
+    background-image: url(../images/background/3_bg_curveSimple.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.mm_unit3.mm_activityFirst:before,
+.mm_unit8.mm_activityFirst:before {
+    background-image: url(../images/background/3_bg_firstActivityTop.png),
+                      url(../images/background/3_bg_firstActivityBottom.png);
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+    background-size: 100%;
+}
+
+.mm_unit3.mm_gridlines:before,
+.mm_unit8.mm_gridlines:before {
+    background-image: url(../images/background/3_bg_curveSimple.png),
+                      url(../images/background/bg_gridlines.png) !important;
+    background-repeat: no-repeat, repeat !important;
+    background-size: 100%, auto !important;
+}
+
+/* MARKED */
+
+.mm_unit3 .mm_audioDroppable li.dragItem,
+.mm_unit3 .matchingContainer .matchItemContainer .matchItem,
+.mm_unit3 .wordBox li.dragItem.selected,
+.mm_unit3 .category li.dragItem.selected,
+.mm_unit3 li.dragItem.ui-draggable-dragging.dragOverDrop,
+.mm_unit3 .droppable .dragTarget.populated.selected,
+.mm_unit3.mm_audioDroppable li.dragItem,
+.mm_unit3.matchingContainer .matchItemContainer .matchItem,
+.mm_unit3 .droppable .dropTarget,
+.mm_unit3 .droppable .dragTarget,
+.mm_unit3 .complexDroppable .dragTarget,
+.mm_unit3 .category,
+.mm_unit8 .mm_audioDroppable li.dragItem,
+.mm_unit8 .matchingContainer .matchItemContainer .matchItem,
+.mm_unit8 .wordBox li.dragItem.selected,
+.mm_unit8 .category li.dragItem.selected,
+.mm_unit8 li.dragItem.ui-draggable-dragging.dragOverDrop,
+.mm_unit8 .droppable .dragTarget.populated.selected,
+.mm_unit8.mm_audioDroppable li.dragItem,
+.mm_unit8.matchingContainer .matchItemContainer .matchItem,
+.mm_unit8 .droppable .dropTarget,
+.mm_unit8 .droppable .dragTarget,
+.mm_unit8 .complexDroppable .dragTarget,
+.mm_unit8 .category {
+    border-color: #f3997b;
+}
+
+.mm_unit3 .matchingContainer .matchItem.selected,
+.mm_unit3 .matchingContainer .matchItemContainer .matchItem.selected,
+.mm_unit8 .matchingContainer .matchItem.selected,
+.mm_unit8 .matchingContainer .matchItemContainer .matchItem.selected {
+    border-color: #d0684d;
+    border-style: solid;
+}
+
+.mm_unit3 input.text:focus,
+.mm_unit3 textarea.rcfTextArea:focus,
+.mm_unit3 .typeinGroup input.typeinGroup:focus,
+.mm_unit3 .verticalCrosswordContainer table input:focus,
+.mm_unit3 .droppable .populated,
+.mm_unit3 li.dragItem.ui-draggable-dragging.dragOverDrop,
+.mm_unit3 .dragTarget.populated,
+.mm_unit3 .droppable .dragTarget.populated,
+.mm_unit3 .wordBox li.dragItem.selected,
+.mm_unit3 .category li.dragItem,
+.mm_unit3 ul.ordering li.ui-sortable-helper,
+.mm_unit3 .categorise input[type="radio"]:checked,
+.mm_unit3 .categorise input[type="checkbox"]:checked,
+.mm_unit3.mm_imageSelect .radioItemSelect.horizontal .selected,
+.mm_unit3.mm_imageSelect .checkboxItemSelect.horizontal .selected,
+.mm_unit3.mm_imageSelect .radioItemSelect.vertical .selected,
+.mm_unit3.mm_imageSelect .checkboxItemSelect.vertical .selected,
+.mm_unit3.mm_imageSelect .radioItemSelect.horizontal .selected:first-child,
+.mm_unit3.mm_imageSelect .checkboxItemSelect.horizontal .selected:first-child,
+.mm_unit3.mm_radioSelect .radioItemSelect.horizontal .selected,
+.mm_unit3.mm_radioSelect .checkboxItemSelect.horizontal .selected,
+.mm_unit3.mm_radioSelect .radioItemSelect.vertical .selected,
+.mm_unit3.mm_radioSelect .checkboxItemSelect.vertical .selected,
+.mm_unit3.mm_radioSelect .radioItemSelect.horizontal .selected:first-child,
+.mm_unit3.mm_radioSelect .checkboxItemSelect.horizontal .selected:first-child,
+.mm_unit3 .mm_wsContainer,
+.mm_unit8 input.text:focus,
+.mm_unit8 textarea.rcfTextArea:focus,
+.mm_unit8 .typeinGroup input.typeinGroup:focus,
+.mm_unit8 .verticalCrosswordContainer table input:focus,
+.mm_unit8 .droppable .populated,
+.mm_unit8 li.dragItem.ui-draggable-dragging.dragOverDrop,
+.mm_unit8 .dragTarget.populated,
+.mm_unit8 .droppable .dragTarget.populated,
+.mm_unit8 .wordBox li.dragItem.selected,
+.mm_unit8 .category li.dragItem,
+.mm_unit8 ul.ordering li.ui-sortable-helper,
+.mm_unit8 .categorise input[type="radio"]:checked,
+.mm_unit8 .categorise input[type="checkbox"]:checked,
+.mm_unit8.mm_imageSelect .radioItemSelect.horizontal .selected,
+.mm_unit8.mm_imageSelect .checkboxItemSelect.horizontal .selected,
+.mm_unit8.mm_imageSelect .radioItemSelect.vertical .selected,
+.mm_unit8.mm_imageSelect .checkboxItemSelect.vertical .selected,
+.mm_unit8.mm_imageSelect .radioItemSelect.horizontal .selected:first-child,
+.mm_unit8.mm_imageSelect .checkboxItemSelect.horizontal .selected:first-child,
+.mm_unit8.mm_radioSelect .radioItemSelect.horizontal .selected,
+.mm_unit8.mm_radioSelect .checkboxItemSelect.horizontal .selected,
+.mm_unit8.mm_radioSelect .radioItemSelect.vertical .selected,
+.mm_unit8.mm_radioSelect .checkboxItemSelect.vertical .selected,
+.mm_unit8.mm_radioSelect .radioItemSelect.horizontal .selected:first-child,
+.mm_unit8.mm_radioSelect .checkboxItemSelect.horizontal .selected:first-child,
+.mm_unit8 .mm_wsContainer {
+    border-color: #c5624a;
+}
+
+/* Matching */
+.mm_unit3 .mm_wordItems .matchingContainer .matchItem.selected,
+.mm_unit8 .mm_wordItems .matchingContainer .matchItem.selected {
+    color: #c5624a;
+}
+
+/*.mm_unit3 .matchingContainer svg.showCorrectAnswer path,
+.mm_unit3 .matchingContainer svg.userAnswer path,
+.mm_unit8 .matchingContainer svg.showCorrectAnswer path,
+.mm_unit8 .matchingContainer svg.userAnswer path {
+    stroke: #c5624a;
+}*/
+
+/*** UNMARKED ***/
+
+/*Background*/
+
+.mm_unit3 .pelmanismContainer .pelmanismAttempts,
+.mm_unit8 .pelmanismContainer .pelmanismAttempts,
+.mm_unit3 .pelmanismContainer .timer,
+.mm_unit8 .pelmanismContainer .timer,
+.mm_unit3 .hangmanGame .triesRemaining,
+.mm_unit8 .hangmanGame .triesRemaining,
+.mm_unit3 .rcfMovingTargets,
+.mm_unit8 .rcfMovingTargets,
+.mm_unit3.mm_song .main > .block,
+.mm_unit8.mm_song .main > .block,
+.mm_unit3.mm_video .main > .block,
+.mm_unit8.mm_video .main > .block  {
+    background-color: #c5624a;
+}
+
+.mm_unit3.mm_song .mm_audio,
+.mm_unit8.mm_song .mm_audio {
+    background-color: #f3997b;
+}
+
+.mm_unit3 .rcfMovingTargets.complete .gameOver,
+.mm_unit8 .rcfMovingTargets.complete .gameOver {
+    background-color: rgba(255,255,255, 0.6);
+}
+
+/*Border*/
+
+.mm_unit3 .colouringContainer,
+.mm_unit8 .colouringContainer,
+.mm_unit8 .pelmanismContainer,
+.mm_unit3 .pelmanismContainer,
+.mm_unit3 .hangmanContainer,
+.mm_unit8 .hangmanContainer,
+.mm_unit3 .rcfMovingTargets,
+.mm_unit8 .rcfMovingTargets,
+.mm_unit3.mm_song .main > .block,
+.mm_unit8.mm_song .main > .block {
+    border: 5px solid #c5624a;
+}
+
+.mm_unit3 .wordBox,
+.mm_unit3 .mm_wordBox,
+.mm_unit3 .mm_wordBox,
+.mm_unit3 .rcfWordSearchGridChosenWords .wordSearchWords,
+.mm_unit8 .wordBox,
+.mm_unit8 .mm_wordBox,
+.mm_unit8 .mm_wordBox,
+.mm_unit8 .rcfWordSearchGridChosenWords .wordSearchWords {
+    border-bottom: 4px dotted #c5624a;
+}
+
+.mm_unit3 .hangmanInteractionContainer,
+.mm_unit8 .hangmanInteractionContainer {
+    border-top: 3px dotted #f3997b;
+}
+
+.mm_unit3 .hangmanContainer .wordContainer .letterContainer,
+.mm_unit8 .hangmanContainer .wordContainer .letterContainer {
+    border: 2px dotted #f3997b;
+}
+
+/* Pelmanism */
+
+.mm_unit3 .cardContainer .front .imageContainer .caption,
+.mm_unit3 .cardContainer .card .front p,
+.mm_unit8 .cardContainer .front .imageContainer .caption,
+.mm_unit8 .cardContainer .card .front p {
+    background-color: #c5624a;
+    background-color: rgba(197, 98, 74, 0.93);
+    color: #fff;
+}
+
+.mm_unit3 .audioContainer ::-webkit-scrollbar-thumb,
+.mm_unit8 .audioContainer ::-webkit-scrollbar-thumb {
+    background-color: #c5624a;
+    -webkit-box-shadow: inset 0px 0px 10px 3px #f3997b;
+    -moz-box-shadow: inset 0px 0px 10px 3px #f3997b;
+    -ms-box-shadow: inset 0px 0px 10px 3px #f3997b;
+    box-shadow: inset 0px 0px 10px 3px #f3997b;
+}

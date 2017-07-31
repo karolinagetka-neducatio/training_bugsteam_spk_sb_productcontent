@@ -1,0 +1,81 @@
+<activity class="mm_unit0 mm_activity9" id="15b82f1fecf84ce981a4143298a3c0d2" pseudoID="BT_L1_U0_GAME_9">
+    <metadata>
+        <title>Numbers – memory game</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Find the pairs.</p>
+    </rubric>
+    <main>
+        <block>
+            <pelmanism id="pelmanism_1">
+                <cards>
+                    <pair class="pair_1">
+                        <card audio="nine.mp3">
+                            <image src="audio_pm_0.png" title=""/>
+                        </card>
+                        <card>
+                            <image src="nine.png" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_2">
+                        <card audio="eight.mp3">
+                            <image src="audio_pm_0.png" title=""/>
+                        </card>
+                        <card>
+                            <image src="eight.png" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_3">
+                        <card audio="two.mp3">
+                            <image src="audio_pm_0.png" title=""/>
+                        </card>
+                        <card>
+                            <image src="two.png" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_4">
+                        <card audio="seven.mp3">
+                            <image src="audio_pm_0.png" title=""/>
+                        </card>
+                        <card>
+                            <image src="seven.png" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_5">
+                        <card audio="five.mp3">
+                            <image src="audio_pm_0.png" title=""/>
+                        </card>
+                        <card>
+                            <image src="five.png" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_6">
+                        <card audio="ten.mp3">
+                            <image src="audio_pm_0.png" title=""/>
+                        </card>
+                        <card>
+                            <image src="ten.png" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_7">
+                        <card audio="three.mp3">
+                            <image src="audio_pm_0.png" title=""/>
+                        </card>
+                        <card>
+                            <image src="three.png" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_8">
+                        <card audio="four.mp3">
+                            <image src="audio_pm_0.png" title=""/>
+                        </card>
+                        <card>
+                            <image src="four.png" title=""/>
+                        </card>
+                    </pair>
+                </cards>
+            </pelmanism>
+        </block>
+    </main>
+</activity>

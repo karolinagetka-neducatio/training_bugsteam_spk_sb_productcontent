@@ -1,0 +1,78 @@
+/* MARKS */
+.radioItemSelect .mark,
+.checkboxItemSelect .mark  {
+    top: -0.4em;
+    right: -0.4em;
+}
+
+.locating .mark,
+.interactiveText .mark {
+    left: auto;
+    top: -6px;
+    right: -9px;
+}
+
+.complexDroppable .mark {
+    top: -0.6em;
+    right: -0.3em;
+}
+
+.category .mark {
+    top: -0.6em;
+    right: -0.9em;
+}
+
+.mm_blockSet.horizontal .matchTargetContainer .markContainer {
+    float: right;
+}
+
+/* MARKS */
+.radioItemSelect .mark,
+.checkboxItemSelect .mark {
+    bottom: auto;
+    top: -0.5em;
+    right: -0.5em;
+}
+
+.complexDroppable .mark {
+    top: -0.5em;
+    right: -0.5em;
+}
+
+li.dragItem .mark {
+    top: -0.5em;
+    right: -19px;
+}
+
+.mm_categoriseImages li.dragItem .mark {
+    right: -13px;
+}
+
+.interactiveText .mark {
+    bottom: auto;
+    top: -0.7em;
+    right: -0.7em;
+}
+
+.matchTargetContainer .markContainer .mark {
+    right: auto;
+    top: -0.3em;
+    left: 97%;
+}
+
+.ordering.perList.horizontal .mark, 
+.complexOrdering.perList.horizontal .mark {
+    top: -0.5em;
+    right: -0.5em;
+}
+
+.complexOrdering.perList.vertical .mark, 
+.ordering.perList.vertical .mark {
+    right: -0.425em;
+    bottom: -0.425em;
+    top: auto;
+}
+
+.ordering.perItem.vertical .mark {
+    right: -1.5em;
+}

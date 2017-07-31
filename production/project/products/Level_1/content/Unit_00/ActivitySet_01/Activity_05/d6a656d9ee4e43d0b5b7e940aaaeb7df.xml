@@ -1,0 +1,81 @@
+<activity class="mm_unit0 mm_activity4" id="d6a656d9ee4e43d0b5b7e940aaaeb7df" pseudoID="BT_L1_U0_GAME_4">
+    <metadata>
+        <title>Colours – memory game</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Find the pairs.</p>
+    </rubric>
+    <main>
+        <block>
+            <pelmanism id="pelmanism_1">
+                <cards>
+                    <pair class="pair_1">
+                        <card audio="white.mp3">
+                            <image src="audio_pm_0.png" title=""/>
+                        </card>
+                        <card>
+                            <image src="plama_biala.png" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_2">
+                        <card audio="purple.mp3">
+                            <image src="audio_pm_0.png" title=""/>
+                        </card>
+                        <card>
+                            <image src="plama_fioletowa.png" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_3">
+                        <card audio="red.mp3">
+                            <image src="audio_pm_0.png" title=""/>
+                        </card>
+                        <card>
+                            <image src="plama_czerwona.png" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_4">
+                        <card audio="green.mp3">
+                            <image src="audio_pm_0.png" title=""/>
+                        </card>
+                        <card>
+                            <image src="plama_zielona.png" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_5">
+                        <card audio="blue.mp3">
+                            <image src="audio_pm_0.png" title=""/>
+                        </card>
+                        <card>
+                            <image src="plama_niebieska.png" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_6">
+                        <card audio="yellow.mp3">
+                            <image src="audio_pm_0.png" title=""/>
+                        </card>
+                        <card>
+                            <image src="plama_zolta.png" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_7">
+                        <card audio="pink.mp3">
+                            <image src="audio_pm_0.png" title=""/>
+                        </card>
+                        <card>
+                            <image src="plama_rozowa.png" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_8">
+                        <card audio="orange.mp3">
+                            <image src="audio_pm_0.png" title=""/>
+                        </card>
+                        <card>
+                            <image src="plama_pomaranczowa.png" title=""/>
+                        </card>
+                    </pair>
+                </cards>
+            </pelmanism>
+        </block>
+    </main>
+</activity>

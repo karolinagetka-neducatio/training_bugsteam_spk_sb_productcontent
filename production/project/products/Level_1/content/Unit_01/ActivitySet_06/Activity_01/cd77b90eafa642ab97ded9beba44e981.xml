@@ -1,0 +1,17 @@
+<activity class="mm_unit1 mm_activity9 mm_song" id="cd77b90eafa642ab97ded9beba44e981" pseudoID="BT_L1_U1_SONG_9">
+    <metadata>
+        <title>One, two, three, four – rhyme</title>
+        <category>Songs</category>
+    </metadata>
+    <rubric>
+        <audio size="large" srt="y" autoScroll="y">
+            <track src="BT1_CD1.24.mp3"/>
+        </audio>
+        <p>Listen to the rhyme.</p>
+    </rubric>
+    <main>
+        <block class="mm_imageRounded">
+            <image src="37_1.png" title=""/>
+        </block>
+    </main>
+</activity>

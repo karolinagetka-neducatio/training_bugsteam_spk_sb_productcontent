@@ -1,0 +1,444 @@
+/*** MODULE: UNMARKED GAMES - colouring, moving targets ***/
+
+/*** Hangman ***/
+.hangmanContainer {
+    position: relative;
+    border-radius:20px;
+    overflow: hidden;
+}
+
+.hangmanInteractionContainer {
+    padding: 10px 5px;
+}
+
+.hangmanGame .triesRemaining {
+    border: none;
+    border-top-right-radius: 0.3em;
+    border-bottom-left-radius: 0.25em;
+    color: #fff;
+    box-shadow: none;
+}
+
+.hangmanGame .triesRemaining .tries {
+    color: #fff;
+}
+
+/*** Hangman controls ***/
+.hangmanInteractionContainer {
+    background-color: #fff;
+}
+
+.hangmanContainer .wordContainer .letterContainer {
+    position: relative;
+    display: inline-block;
+    overflow: none;
+    border-radius: 5px;
+    padding: 8px 5px;
+    margin: 3px;
+    width: 30px;
+    box-shadow: none;
+    background: #FFF;
+}
+
+.hangmanContainer .wordContainer,
+.hangmanContainer .letterChooser {
+    margin-top: 0.575em;
+}
+
+.hangmanContainer .wordContainer .letterContainer .letter,
+.hangmanContainer .letterChooser .letter {
+    text-transform: lowercase;
+}
+
+.hangmanContainer .letterChooser .letter.clicked {
+    background: #C9C9CE;
+    color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-text-shadow: none;
+    text-shadow: none;
+}
+
+.mm_imageClue .wordClue {
+    /*position: relative;*/ /* ««« REMOVE ATTRIBUTE AT RCF 2.1.16 */
+    /*display: block;*//* ««« REMOVE ATTRIBUTE AT RCF 2.1.16 */
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.mm_imageClue .wordClue img {
+    max-width: 380px;
+}
+
+/*** Hangman animation ***/
+.hangmanContainer .hangmanGame {
+    position:relative;
+    overflow:hidden;
+ }
+
+.hangmanContainer .hangmanGame .stage {
+    position: absolute;
+    display:block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+}
+
+.hangmanContainer .hangmanGame .stage.gameOverStage {
+    display: none;
+}
+
+.hangmanContainer.gameOver.youWin .stage.gameOverStage,
+.hangmanContainer.gameOver .stage.gameOverStage {
+    display: block;
+    width: 100%;
+    -webkit-animation: fadein 1s linear, tada 1s linear;
+    -moz-animation: fadein 1s linear, tada 1s linear;
+    -o-animation: fadein 1s linear, tada 1s linear;
+    animation: fadein 1s linear, tada 1s linear;
+    z-index: 3;
+}
+
+.mm_unit1 .hangmanContainer.gameOver.youWin .stage.gameOverStage,
+.mm_unit6 .hangmanContainer.gameOver.youWin .stage.gameOverStage {
+    background: url(../images/1_complete_1.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 430px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 20px;
+}
+
+.mm_unit1 .hangmanContainer.gameOver .stage.gameOverStage,
+.mm_unit6 .hangmanContainer.gameOver .stage.gameOverStage {
+    background: url(../images/1_hm_gameover_1.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 430px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 20px;
+}
+
+.mm_unit2 .hangmanContainer.gameOver.youWin .stage.gameOverStage,
+.mm_unit7 .hangmanContainer.gameOver.youWin .stage.gameOverStage {
+    background: url(../images/1_complete_2.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 430px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 20px;
+}
+
+.mm_unit2 .hangmanContainer.gameOver .stage.gameOverStage,
+.mm_unit7 .hangmanContainer.gameOver .stage.gameOverStage {
+    background: url(../images/1_hm_gameover_2.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 430px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 20px;
+}
+
+.mm_unit3 .hangmanContainer.gameOver.youWin .stage.gameOverStage,
+.mm_unit8 .hangmanContainer.gameOver.youWin .stage.gameOverStage {
+    background: url(../images/1_complete_3.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 430px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 20px;
+}
+
+.mm_unit3 .hangmanContainer.gameOver .stage.gameOverStage,
+.mm_unit8 .hangmanContainer.gameOver .stage.gameOverStage {
+    background: url(../images/1_hm_gameover_3.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 430px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 20px;
+}
+
+.mm_unit4 .hangmanContainer.gameOver.youWin .stage.gameOverStage,
+.mm_unit9 .hangmanContainer.gameOver.youWin .stage.gameOverStage {
+    background: url(../images/1_complete_4.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 430px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 20px;
+}
+
+.mm_unit4 .hangmanContainer.gameOver .stage.gameOverStage,
+.mm_unit9 .hangmanContainer.gameOver .stage.gameOverStage {
+    background: url(../images/1_hm_gameover_4.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 430px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 20px;
+}
+
+.mm_unit5 .hangmanContainer.gameOver.youWin .stage.gameOverStage,
+.mm_unit10 .hangmanContainer.gameOver.youWin .stage.gameOverStage {
+    background: url(../images/1_complete_5.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 430px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 20px;
+}
+
+.mm_unit5 .hangmanContainer.gameOver .stage.gameOverStage,
+.mm_unit10 .hangmanContainer.gameOver .stage.gameOverStage {
+    background: url(../images/1_hm_gameover_5.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: 430px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 20px;
+}
+
+.hangmanContainer .hangmanGame .stage1 {
+    background: url(../images/hg_doodleBunny.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 15%;
+    left: 3%;
+    -webkit-animation-name: bound;
+    animation-name: bound;
+    -webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.hangmanContainer .hangmanGame .stage1.shown {
+    left: -90px;
+    -webkit-animation: bounceAway 1s linear infinite;
+    -moz-animation: bounceAway 1s linear infinite;
+    -o-animation: bounceAway 1s linear infinite;
+    animation: bounceAway 1s linear infinite;
+}
+
+.hangmanContainer .hangmanGame .stage2 {
+    background: url(../images/hg_doodleBunny.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 40%;
+    -webkit-animation: pivot 4s ease-in-out infinite;
+    -moz-animation: pivot 4s ease-in-out infinite;
+    -ms-animation: pivot 4s ease-in-out infinite;
+    animation: pivot 4s ease-in-out infinite;
+    -webkit-transform: rotate(-6deg);
+    -moz-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+    z-index: 2;
+}
+
+.hangmanContainer .hangmanGame .stage2.shown {
+    left: 280px;
+    -webkit-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -moz-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -o-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.hangmanContainer .hangmanGame .stage3 {
+    background: url(../images/hg_doodleBunny.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 54%;
+    left: 78%;
+    -webkit-animation-name: bound;
+    animation-name: bound;
+    -webkit-animation-duration: 1.4s;
+    animation-duration: 1.4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    z-index: 2;
+}
+
+.hangmanContainer .hangmanGame .stage3.shown {
+    left: 954px;
+    -webkit-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -moz-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -o-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.hangmanContainer .hangmanGame .stage4 {
+    background: url(../images/hg_doodleBunny.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 44%;
+    left: 12%;
+    -webkit-animation: bounceHarmonic 1s linear infinite;
+    -moz-animation: bounceHarmonic 1s linear infinite;
+    -o-animation: bounceHarmonic 1s linear infinite;
+    animation: bounceHarmonic 1s linear infinite;
+    z-index: 2;
+}
+
+.hangmanContainer .hangmanGame .stage4.shown {
+    left: 500px;
+    -webkit-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -moz-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -o-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.hangmanContainer .hangmanGame .stage5 {
+    background: url(../images/hg_doodleBunny.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 25%;
+    left: 58%;
+    -webkit-animation: bounceHarmonic 0.6s linear infinite;
+    -moz-animation: bounceHarmonic 0.6s linear infinite;
+    -o-animation: bounceHarmonic 0.6s linear infinite;
+    animation: bounceHarmonic 0.6s linear infinite;
+    z-index: 2;
+}
+
+.hangmanContainer .hangmanGame .stage5.shown {
+    left: 300px;
+    -webkit-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -moz-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -o-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.hangmanContainer .hangmanGame .stage6 {
+    background: url(../images/hg_doodleBunny.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 10%;
+    left: 47%;
+    -webkit-animation-name: bound;
+    animation-name: bound;
+    -webkit-animation-duration: 1.1s;
+    animation-duration: 1.1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    z-index: 1;
+}
+
+.hangmanContainer .hangmanGame .stage6.shown {
+    left: 200px;
+    -webkit-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -moz-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -o-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.hangmanContainer .hangmanGame .stage7 {
+    background: url(../images/hg_doodleBunny.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 5%;
+    left: 32%;
+    -webkit-animation: bounceHarmonic 0.8s linear infinite;
+    -moz-animation: bounceHarmonic 0.8s linear infinite;
+    -o-animation: bounceHarmonic 0.8s linear infinite;
+    animation: bounceHarmonic 0.8s linear infinite;
+}
+
+.hangmanContainer .hangmanGame .stage7.shown {
+    left: -100px;
+    -webkit-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -moz-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -o-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.hangmanContainer .hangmanGame .stage8 {
+    background: url(../images/hg_doodleBunny.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 14%;
+    left: 71%;
+    -webkit-animation: pivot 3s ease-in-out infinite;
+    -moz-animation: pivot 3s ease-in-out infinite;
+    -ms-animation: pivot 3s ease-in-out infinite;
+    animation: pivot 3s ease-in-out infinite;
+    -webkit-transform: rotate(-6deg);
+    -moz-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    transform: rotate(-6deg);
+}
+
+.hangmanContainer .hangmanGame .stage8.shown {
+    left: 954px;
+    -webkit-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -moz-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -o-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.hangmanContainer .hangmanGame .stage9 {
+    background: url(../images/hg_doodleBunny.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 30%;
+    left: 22%;
+    -webkit-animation-name: bound;
+    animation-name: bound;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.hangmanContainer .hangmanGame .stage9.shown {
+    left: -100px;
+    -webkit-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -moz-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -o-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.hangmanContainer .hangmanGame .stage10 {
+    background: url(../images/hg_doodleBunny.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 18%;
+    left: 86%;
+    -webkit-animation: bounceHarmonic 1.1s linear infinite;
+    -moz-animation: bounceHarmonic 1.1s linear infinite;
+    -o-animation: bounceHarmonic 1.1s linear infinite;
+    animation: bounceHarmonic 1.1s linear infinite;
+}
+
+.hangmanContainer .hangmanGame .stage10.shown {
+    left: 500px;
+    -webkit-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -moz-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -o-animation: bounceAway 1s linear infinite, fadeOut 1s;
+    animation: bounceAway 1s linear infinite, fadeOut 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+[class*="mm_unit"] .hangmanContainer .wordContainer .letterContainer.space {
+    border: none;
+}

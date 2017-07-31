@@ -1,0 +1,371 @@
+/*** PARTIAL MODULE: THEME UNIT 1, 6 ***/
+
+/*
+colors
+Unit: #8a8bc1
+Tint: #989acd
+Dot: #8484b9
+*/
+
+.mm_unit1.activity:before {
+	background-image: url(../images/background/1_bg_curve.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+	background-size: 100%;
+}
+
+
+/*** MARKED ***/
+
+.mm_unit1 .mm_audioDroppable li.dragItem,
+.mm_unit1 .matchingContainer .matchItemContainer .matchItem,
+.mm_unit1 .wordBox li.dragItem.selected,
+.mm_unit1 .category li.dragItem.selected,
+.mm_unit1 li.dragItem.ui-draggable-dragging.dragOverDrop,
+.mm_unit1 .droppable .dragTarget.populated.selected,
+.mm_unit1.mm_audioDroppable li.dragItem,
+.mm_unit1.matchingContainer .matchItemContainer .matchItem,
+.mm_unit1 .droppable .dropTarget,
+.mm_unit1 .droppable .dragTarget,
+.mm_unit1 .complexDroppable .dragTarget,
+.mm_unit1 .category {
+    border-color: #009dd2;
+}
+
+.mm_unit1 .matchingContainer .matchTargetContainer .matchTarget {
+    border-color: #85c8e8;
+    border-style: dotted;
+}
+
+.mm_unit1 .matchingContainer .matchItem.selected,
+.mm_unit1 .matchingContainer .matchItemContainer .matchItem.selected {
+    border-color: #009dd2;
+    border-style: solid;
+}
+
+.mm_unit1 input.text:focus,
+.mm_unit1 textarea.rcfTextArea:focus,
+.mm_unit1 .typeinGroup input.typeinGroup:focus,
+.mm_unit1 .verticalCrosswordContainer table input:focus,
+.mm_unit1 .droppable .populated,
+.mm_unit1 li.dragItem.ui-draggable-dragging.dragOverDrop,
+.mm_unit1 .dragTarget.populated,
+.mm_unit1 .droppable .dragTarget.populated,
+.mm_unit1 .wordBox li.dragItem.selected,
+.mm_unit1 .category li.dragItem,
+.mm_unit1 ul.ordering li.ui-sortable-helper,
+.mm_unit1 .categorise input[type="radio"]:checked,
+.mm_unit1 .categorise input[type="checkbox"]:checked,
+.mm_unit1.mm_imageSelect .radioItemSelect.horizontal .selected,
+.mm_unit1.mm_imageSelect .checkboxItemSelect.horizontal .selected,
+.mm_unit1.mm_imageSelect .radioItemSelect.vertical .selected,
+.mm_unit1.mm_imageSelect .checkboxItemSelect.vertical .selected,
+.mm_unit1.mm_imageSelect .radioItemSelect.horizontal .selected:first-child,
+.mm_unit1.mm_imageSelect .checkboxItemSelect.horizontal .selected:first-child,
+.mm_unit1.mm_radioSelect .radioItemSelect.horizontal .selected,
+.mm_unit1.mm_radioSelect .checkboxItemSelect.horizontal .selected,
+.mm_unit1.mm_radioSelect .radioItemSelect.vertical .selected,
+.mm_unit1.mm_radioSelect .checkboxItemSelect.vertical .selected,
+.mm_unit1.mm_radioSelect .radioItemSelect.horizontal .selected:first-child,
+.mm_unit1.mm_radioSelect .checkboxItemSelect.horizontal .selected:first-child,
+.mm_unit1 .mm_wsContainer,
+.mm_unit6 input.text:focus,
+.mm_unit6 textarea.rcfTextArea:focus,
+.mm_unit6 .typeinGroup input.typeinGroup:focus,
+.mm_unit6 .verticalCrosswordContainer table input:focus,
+.mm_unit6 .droppable .populated,
+.mm_unit6 li.dragItem.ui-draggable-dragging.dragOverDrop,
+.mm_unit6 .dragTarget.populated,
+.mm_unit6 .droppable .dragTarget.populated,
+.mm_unit6 .wordBox li.dragItem.selected,
+.mm_unit6 .category li.dragItem,
+.mm_unit6 ul.ordering li.ui-sortable-helper,
+.mm_unit6 .categorise input[type="radio"]:checked,
+.mm_unit6 .categorise input[type="checkbox"]:checked,
+.mm_unit6.mm_imageSelect .radioItemSelect.horizontal .selected,
+.mm_unit6.mm_imageSelect .checkboxItemSelect.horizontal .selected,
+.mm_unit6.mm_imageSelect .radioItemSelect.vertical .selected,
+.mm_unit6.mm_imageSelect .checkboxItemSelect.vertical .selected,
+.mm_unit6.mm_imageSelect .radioItemSelect.horizontal .selected:first-child,
+.mm_unit6.mm_imageSelect .checkboxItemSelect.horizontal .selected:first-child,
+.mm_unit6.mm_radioSelect .radioItemSelect.horizontal .selected,
+.mm_unit6.mm_radioSelect .checkboxItemSelect.horizontal .selected,
+.mm_unit6.mm_radioSelect .radioItemSelect.vertical .selected,
+.mm_unit6.mm_radioSelect .checkboxItemSelect.vertical .selected,
+.mm_unit6.mm_radioSelect .radioItemSelect.horizontal .selected:first-child,
+.mm_unit6.mm_radioSelect .checkboxItemSelect.horizontal .selected:first-child,
+.mm_unit6 .mm_wsContainer {
+    border-color: #8484b9;
+}
+
+/* Matching */
+.mm_unit1 .mm_wordItems .matchingContainer .matchItem.selected,
+.mm_unit6 .mm_wordItems .matchingContainer .matchItem.selected {
+    color: #8484b9;
+}
+
+/*.mm_unit1 .matchingContainer svg.showCorrectAnswer path,
+.mm_unit1 .matchingContainer svg.userAnswer path,
+.mm_unit6 .matchingContainer svg.showCorrectAnswer path,
+.mm_unit6 .matchingContainer svg.userAnswer path {
+    stroke: #8484b9;
+}*/
+
+/*** UNMARKED ***/
+
+/*Background*/
+
+
+.mm_unit1.mm_video .main > .block {
+    background-color: #a6d5ee;
+}
+
+.mm_unit1.mm_video.activity:before {
+    background-image: url(../images/background/1_bg_curve.png),
+ url(../images/background/1_bg_curve_bottom.png);
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+    background-size: 100%;
+}
+
+.mm_unit1.mm_song .mm_audio,
+.mm_unit6.mm_song .mm_audio {
+    background-color: #989acd;
+}
+
+.mm_unit1 .rcfMovingTargets.complete .gameOver,
+.mm_unit6 .rcfMovingTargets.complete .gameOver {
+    background-color: rgba(255,255,255, 0.6);
+    /*background-color: rgba(152,154,205, 0.6);*/
+    /*background-color: #989acd;*/
+}
+
+/*Border*/
+
+/*.mm_unit1 .pelmanismContainer,
+.mm_unit6 .pelmanismContainer,
+.mm_unit1 .colouringContainer,
+.mm_unit6 .colouringContainer,
+.mm_unit1 .hangmanContainer,
+.mm_unit6 .hangmanContainer,
+.mm_unit1 .rcfMovingTargets,
+.mm_unit6 .rcfMovingTargets,
+.mm_unit1.mm_song .main > .block,
+.mm_unit6.mm_song .main > .block {
+    border: 5px solid #8484b9;
+}*/
+
+.mm_unit1 .wordBox,
+.mm_unit1 .mm_wordBox,
+.mm_unit1 .mm_wordBox,
+.mm_unit1 .rcfWordSearchGridChosenWords .wordSearchWords,
+.mm_unit6 .wordBox,
+.mm_unit6 .mm_wordBox,
+.mm_unit6 .mm_wordBox,
+.mm_unit6 .rcfWordSearchGridChosenWords .wordSearchWords {
+    border-bottom: 4px dotted #8484b9;
+}
+
+.mm_unit1 .hangmanInteractionContainer,
+.mm_unit6 .hangmanInteractionContainer {
+    border-top: 3px dotted #989acd;
+}
+
+.mm_unit1 .hangmanContainer .wordContainer .letterContainer,
+.mm_unit6 .hangmanContainer .wordContainer .letterContainer {
+    border: 2px dotted #989acd;
+}
+
+.mm_unit1 .cardContainer .front .imageContainer .caption,
+.mm_unit1 .cardContainer .card .front p,
+.mm_unit6 .cardContainer .front .imageContainer .caption,
+.mm_unit6 .cardContainer .card .front p {
+    background-color: #8484b9;
+    background-color: rgba(132, 132, 185, 0.93);
+    color: #FFF;
+}
+
+.mm_unit1 .rcfMovingTargets {
+    border: 3px solid #009dd2;
+}
+
+/* Audio player */
+.mm_unit1 .audioContainer ::-webkit-scrollbar-thumb {
+    background-color: #009dd2;
+    -webkit-box-shadow: inset 0px 0px 10px 2px #009dd2;
+    -moz-box-shadow: inset 0px 0px 10px 2px #009dd2;
+    -ms-box-shadow: inset 0px 0px 10px 2px #009dd2;
+    box-shadow: inset 0px 0px 10px 2px #009dd2;
+}
+
+.mm_unit1 .audio.large .audioInterface, .mm_unit1 .videoPlayerInterface {
+    background-color: #009dd2;
+}
+
+/*** Controls ***/
+
+.mm_unit1 .owl-theme .owl-dots .owl-dot span,
+.mm_unit1 .interactiveImageContainer.spotlight .reveal,
+.mm_unit1 .rcfCarousel .owl-nav [class*='owl-'],
+.mm_unit1 .inlinePlayer a.audioPlayButton,
+.mm_unit1 .inlinePlayer a.audioPauseButton {
+    background-color: #009dd2;
+}
+
+.mm_unit1 .interactiveImageContainer.spotlight .reveal:active,
+.mm_unit1 .main .singleButton:active,
+.mm_unit1 .rcfCarousel .singleButton:active,
+.mm_unit1 .rcfCarousel .singleButton:active,
+.mm_unit1 .rcfCarousel.owl-theme .owl-dots .owl-dot.active span,
+.mm_unit1 .inlinePlayerContainer .inlinePlayer a:active {
+    border-color: #009dd2;
+}
+
+.mm_unit1 .interactiveImageContainer.spotlight .reveal,
+.mm_unit1 .main .singleButton,
+.mm_unit1 .rcfCarousel .owl-nav [class*='owl-'],
+.mm_unit1 .rcfCarousel .navLeftButton,
+.mm_unit1 .rcfCarousel .navRightButton,
+.mm_unit1 .owl-theme .owl-dots .owl-dot span,
+.mm_unit1 .inlinePlayer a,
+.mm_unit1 .pelmanismContainer .pelmanismAttempts {
+	background-color: #009dd2;
+}
+
+/* hover */
+.mm_unit1 .interactiveImageContainer.spotlight .reveal:hover,
+.mm_unit1 .main .singleButton:hover,
+.mm_unit1 .rcfCarousel .owl-nav [class*='owl-']:hover,
+.mm_unit1 .rcfCarousel .navLeftButton:hover,
+.mm_unit1 .rcfCarousel .navRightButton:hover,
+.mm_unit1 .owl-theme .owl-dots .owl-dot span:hover,
+.mm_unit1 .inlinePlayerContainer .inlinePlayer a:hover {
+    background-color: #a6d5ee;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.mm_unit1 .cardContainer .card[data-audiolink] .front:hover img {
+    content: url(../images/media/audio_pm_over_1.png);
+}
+
+/* Backgrounds */
+
+.mm_unit1.mm_song .main > .block {
+	background-color: #85c8e8;
+}
+.mm_unit1.mm_song .mm_audio {
+	background-color: #a3647e;
+}
+
+/* Pelmanism */
+.mm_unit1 .cardContainer .card .front img {
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+.mm_unit1 .cardContainer .card .back {
+		background-color: #d7ebf8;
+}
+.cardContainer .card .front {
+    background-color: #fff;
+}
+.mm_unit1 .cardContainer .flipped.matched.userAnswer.card .front, .mm_unit1 .cardContainer .flipped.matched.userAnswer.card .back {
+    border: 1px solid #009dd2;
+}
+
+
+/* Pelmanism Complete */
+
+.mm_unit1 .pelmanismContainer.completed {
+	animation: pelmanismComplete1 1s 4 alternate;
+	-webkit-animation: pelmanismComplete1 1s 4 alternate;
+	-moz-animation: pelmanismComplete1 1s 4 alternate;
+	-o-animation: pelmanismComplete1 1s 4 alternate;
+}
+
+.isIE.no-csstransforms3d .pelmanismContainer.completed {
+	border: 10px solid #FF0000;
+}
+
+@-webkit-keyframes pelmanismComplete1 {
+	0% {
+		-webkit-transform: scale(1);
+		box-shadow: 3px 3px 19px #FFF;
+	}
+	50% {
+		-webkit-transform: scale(0.98);
+	}
+	100% {
+		-webkit-transform: scale(1.02);
+		box-shadow: 2px 2px 19px #009dd2;
+	}
+}
+
+@-o-keyframes pelmanismComplete1 {
+	0% {
+		box-shadow: 3px 3px 19px #FFF;
+	}
+	100% {
+		box-shadow: 2px 2px 19px #009dd2;
+	}
+}
+
+@keyframes pelmanismComplete1 {
+	0% {
+		box-shadow: 3px 3px 19px #aaa;
+	}
+	100% {
+		box-shadow: 2px 2px 19px #009dd2;
+	}
+}
+
+/* Moving Targets complete */
+
+.mm_unit1 .rcfMovingTargets.complete {
+	animation: movingTargetsComplete1 1s 4 alternate;
+	-webkit-animation: movingTargetsComplete1 1s 4 alternate;
+	-moz-animation: movingTargetsComplete1 1s 4 alternate;
+	-o-animation: movingTargetsComplete1 1s 4 alternate;
+}
+
+@-webkit-keyframes movingTargetsComplete1 {
+	0% {
+		-webkit-transform: scale(1);
+		box-shadow: 3px 3px 19px #FFF;
+	}
+	50% {
+		-webkit-transform: scale(0.98);
+	}
+	100% {
+		-webkit-transform: scale(1.02);
+		box-shadow: 2px 2px 19px #009dd2;
+	}
+}
+
+@-o-keyframes movingTargetsComplete1 {
+	0% {
+		box-shadow: 3px 3px 19px #FFF;
+	}
+	100% {
+		box-shadow: 2px 2px 19px #009dd2;
+	}
+}
+
+@keyframes movingTargetsComplete1 {
+	0% {
+		box-shadow: 3px 3px 19px #aaa;
+	}
+	100% {
+		box-shadow: 2px 2px 19px #009dd2;
+	}
+}

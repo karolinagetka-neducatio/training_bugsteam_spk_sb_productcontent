@@ -1,0 +1,31 @@
+﻿1
+00:00:03.215 --> 00:00:05.583
+One, two, three, four.
+
+2
+00:00:05.583 --> 00:00:08.065
+Please come in and close the door.
+
+3
+00:00:08.065 --> 00:00:10.425
+Five, six, seven, eight.
+
+4
+00:00:10.425 --> 00:00:12.993
+Hurry now, you’re very late! 
+
+5
+00:00:15.205 --> 00:00:17.652
+One, two, three, four.
+
+6
+00:00:17.652 --> 00:00:20.047
+Please come in and close the door.
+
+7
+00:00:20.047 --> 00:00:22.441
+Five, six, seven, eight.
+
+8
+00:00:22.441 --> 00:00:25.140
+Hurry now, you’re very late!

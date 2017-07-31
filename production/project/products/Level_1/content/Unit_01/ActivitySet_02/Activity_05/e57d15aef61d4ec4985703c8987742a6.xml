@@ -1,0 +1,37 @@
+<activity class="mm_unit1 mm_activity6" id="e57d15aef61d4ec4985703c8987742a6" pseudoID="BT_L1_U1_GAME_6">
+    <metadata>
+        <title>Lesson 2 – activity 2</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Listen and choose the word you hear.</p>
+    </rubric>
+    <main>
+        <movingTargets id="movingTargets_1" speed="100">
+            <targets>
+                <target audio="rubber.mp3" id="target_1" image="rubber_mt.png"/>
+                <target audio="ruler.mp3" id="target_2" image="ruler_mt.png"/>
+                <target audio="notebook.mp3" id="target_3" image="notebook_mt.png"/>
+                <target audio="crayon.mp3" id="target_4" image="crayon_mt.png"/>
+                <target audio="pencil.mp3" id="target_5" image="pencil_mt.png"/>
+                <target audio="pen.mp3" id="target_6" image="pen_mt.png"/>
+                <target audio="schoolbag.mp3" id="target_7" image="schoolbag_mt.png"/>
+                <target audio="book.mp3" id="target_8" image="book_mt.png"/>
+            </targets>
+            <assets>
+                <scenery>
+                  <sceneBackground moving="n" image="mt_gen_sceneBackground.png"/>
+                  <targetBackground moving="n" image="mt_targetBackground_1.png"/>
+                  <crosshairs image="mt_crosshair_1.png"/>
+                  <transparentTarget image="mt_transparentTarget.png"/>
+                  <clueButton image="mt_clueButton_1.png"/>
+                </scenery>
+                <audio>
+                    <success src="correct.mp3"/>
+                    <fail src="incorrect.mp3"/>
+                    <gameover src="gameover.mp3"/>
+                </audio>
+            </assets>
+        </movingTargets>
+    </main>
+</activity>

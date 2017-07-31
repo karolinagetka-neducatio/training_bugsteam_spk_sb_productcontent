@@ -1,0 +1,59 @@
+﻿1
+00:00:08.672 --> 00:00:10.762
+What’s this? 
+
+2
+00:00:11.293 --> 00:00:12.704
+It’s a car.
+
+3
+00:00:12.704 --> 00:00:14.724
+What’s this?
+
+4
+00:00:15.333 --> 00:00:18.512
+It’s a car and a bike!
+
+5
+00:00:18.598 --> 00:00:20.915
+What’s this?
+
+6
+00:00:21.315 --> 00:00:26.618
+It’s a car, a bike and a robot!
+
+7
+00:00:26.618 --> 00:00:28.908
+What’s this?
+
+8
+00:00:29.320 --> 00:00:36.588
+It’s a car, a bike, a robot and a doll!
+
+9
+00:00:36.664 --> 00:00:38.861
+What’s this?
+
+10
+00:00:39.357 --> 00:00:48.648
+It’s a car, a bike, a robot, a doll and a scooter!
+
+11
+00:00:48.648 --> 00:00:50.860
+What’s this?
+
+12
+00:00:51.305 --> 00:01:02.667
+It’s a car, a bike, a robot, a doll, a scooter and a skateboard!
+
+13
+00:01:02.667 --> 00:01:04.809
+What’s this?
+
+14
+00:01:05.288 --> 00:01:18.994
+It’s a car, a bike, a robot, a doll, a scooter, a skateboard and a teddy bear!
+
+15
+00:01:19.725 --> 00:01:25.990
+Wow! Hurray! I want a toy today!

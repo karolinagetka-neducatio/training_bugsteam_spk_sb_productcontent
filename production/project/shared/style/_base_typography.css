@@ -1,0 +1,120 @@
+/* ASSIGN FONTS TO CONTENT */
+/* (setup font faces, styles and weights here) */
+.activity,
+.activity input,
+.activity textarea,
+.activity select {
+    font-family: 'Muli', helvetica, arial, sans-serif;
+    line-height: 2em;
+    line-height: 1.75;
+    font-size: 1em;
+}
+
+.activityHead h2,
+.main h3,
+.mm_number,
+.mm_caption,
+.mm_number,
+.main b,
+.main strong{
+    font-weight: 700;
+}
+
+.rubric,
+.mm_rubric,
+.main ol > li,
+.mm_blockCaption > .block:before,
+.mm_radioListNumber .radioList .li:before,
+.mm_autoNumbering .matchItems > .matchItemContainer > .matchItem:before,
+.mm_matchItemNumbers .matchItems .matchItem:before,
+.mm_matchItemLetters .matchItems .matchItem:before,
+.mm_matchTargetNumbers .matchTargets .matchTarget:before,
+.mm_matchTargetLetters .matchTargets .matchTarget:before,
+.mm_captionNumbering li:before,
+.mm_captionNumbering .block:before,
+.mm_speaker,
+.main p .mm_speaker,
+.main li p .mm_speaker {
+    font-weight: 700;
+}
+
+.rubric b,
+.mm_rubric b {
+    font-weight: 900;
+}
+
+.dragTarget,
+.dragItem,
+.mm_dialogue .mm_speaker,
+.ordering li,
+.wordSnake li,
+.category li {
+/*    letter-spacing: 1px; 
+    font-weight: 500;*/
+}
+
+.mm_dialogue .mm_speaker {
+    letter-spacing: 1px; 
+    font-weight: 700;
+}
+
+.main,
+.main ol > li > p,
+.main ol > li > div,
+.main ol > li > span,
+.radioItemContainer,
+.checkboxList .checkboxItemContainer,
+.radioList .radioItemContainer {
+    /*font-weight: 300;*/
+    /*font-weight: normal;*/
+}
+
+.rubric i,
+.mm_rubric i {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.activity i,
+.activity em {
+    font-style: italic;
+}
+
+.mm_example {
+    font-style: normal;
+}
+
+.mm_serif,
+.mm_pSerif p,
+.mm_dialogue p .mm_speaker {
+}
+
+.mm_serif b,
+.mm_pSerif p b {
+    font-weight: 400;
+}
+.mm_serifItalic i {
+    font-style: italic;
+}
+
+.mm_serif b i,
+.mm_pSerif p b i,
+.hint,
+.mm_hint {
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* Interactions */
+/*input.text,*/
+.rcfCrossword .crossword span,
+.rcfCrossword .crossword input {
+    /*font-weight: 300;*/
+}
+
+/* Examples */
+.rcfCrossword td input.example {
+}
+
+.mm_email .mm_header h3 {
+}

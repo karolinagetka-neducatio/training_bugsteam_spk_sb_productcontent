@@ -1,0 +1,18 @@
+.mm_unit0 .cardContainer .card .front img {
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+.cardContainer .card .front {
+    background-color: #fff;
+}
+.flipped.matched.userAnswer {
+    border-color: #802f51;
+}
+.cardContainer .flipped.matched.userAnswer.card .front, .cardContainer .flipped.matched.userAnswer.card .back {
+    border: 1px solid #802f51;
+}

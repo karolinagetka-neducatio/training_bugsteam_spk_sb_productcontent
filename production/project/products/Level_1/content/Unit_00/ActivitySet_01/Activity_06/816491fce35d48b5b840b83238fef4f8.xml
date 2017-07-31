@@ -1,0 +1,37 @@
+<activity class="mm_unit0 mm_activity5" id="816491fce35d48b5b840b83238fef4f8" pseudoID="BT_L1_U0_GAME_5">
+    <metadata>
+        <title>Colours – activity</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Listen and choose the word you hear.</p>
+    </rubric>
+    <main>
+        <movingTargets id="movingTargets_1" speed="100">
+            <targets>
+                <target audio="white.mp3" id="target_1" image="plama_biala_mt.png"/>
+                <target audio="purple.mp3" id="target_2" image="plama_fioletowa_mt.png"/>
+                <target audio="red.mp3" id="target_3" image="plama_czerwona_mt.png"/>
+                <target audio="green.mp3" id="target_4" image="plama_zielona_mt.png"/>
+                <target audio="blue.mp3" id="target_5" image="plama_niebieska_mt.png"/>
+                <target audio="yellow.mp3" id="target_6" image="plama_zolta_mt.png"/>
+                <target audio="pink.mp3" id="target_7" image="plama_rozowa_mt.png"/>
+                <target audio="orange.mp3" id="target_8" image="plama_pomaranczowa_mt.png"/>
+            </targets>
+            <assets>
+               <scenery>
+                  <sceneBackground moving="n" image="mt_gen_sceneBackground.png"/>
+                  <targetBackground moving="n" image="mt_targetBackground_0.png"/>
+                  <crosshairs image="mt_crosshair_0.png"/>
+                  <transparentTarget image="mt_transparentTarget.png"/>
+                  <clueButton image="mt_clueButton_0.png"/>
+                </scenery>
+                <audio>
+                    <success src="correct.mp3"/>
+                    <fail src="incorrect.mp3"/>
+                    <gameover src="gameover.mp3"/>
+                </audio>
+            </assets>
+        </movingTargets>
+    </main>
+</activity>

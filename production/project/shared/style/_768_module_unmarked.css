@@ -1,0 +1,80 @@
+/*** MODULE 768: UNMARKED COMPONENENTS ***/
+
+/*** UNMARKED COMPONENENTS ***/
+
+/*** CONTENT STYLING ***/
+.rubric .audio.large {
+  margin-top: 0.5em;
+}
+
+/* CAROUSEL */
+
+.owl-carousel.owl-text-select-on .owl-item {
+    min-width: 680px;
+}
+
+/* Spotlight */
+.interactiveImageContainer.spotlight .spotlight {
+    border-width: 3px;
+}
+
+/* SONG KARAOKE */
+.mm_song .mm_audio {
+    float: right;
+    display: inline;
+    width: 311px;
+}
+.mm_song .mm_image {
+    width: calc(100% - 324px);
+}
+.mm_song .mm_image img {
+    width: 100%;
+}
+
+.mm_song .main > .block {
+    border-radius: 20px;
+    padding: 1em;
+    width: 65%;
+}
+
+.audio.audioContainer.large {
+  margin-bottom: 1em;
+}
+
+/* VIDEO */
+
+.videoContainer,
+.jp-type-single {
+    width: 478px;
+    height: 269px;
+}
+
+.rcfVideo.videoContainer {
+    width: 478px;
+    height: 327px; /*$videoHeight + $videoUIHeight;*/
+}
+
+.mm_video .jp-type-single {
+    width: 478px;
+    height: 269px;
+}
+
+.jp-type-single:before {
+    height: 327px;
+}
+
+.videoPlayerInterface.jp-interface {
+    padding-right: 0px; /* fix weird right spacing issue between player and interface */
+    width: 100%;
+}
+
+.mm_video .main .block:before {
+    top: -117px;
+    background-image: url(../images/media/Lucy_Video.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 130px;
+    -moz-background-size: 130px;
+    background-size: 130px;
+    width: 130px;
+    height: 130px;
+}

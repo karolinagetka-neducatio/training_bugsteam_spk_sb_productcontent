@@ -1,0 +1,21 @@
+/************************** LAYOUT **************************/
+
+/*Divide the page into sections
+Define layout for activity container, activity, rubric, main, wordbox.*/
+
+/* PROTOTYPE / RCF VIEWER ONLY */
+
+/* ACTIVITY */
+@import url(_layout_activityDSB.css);
+
+/* RUBRIC */
+@import url(_layout_header.css);
+
+/* MAIN */
+@import url(_layout_main.css);
+
+/* MARKS */
+@import url(_layout_marks.css);
+
+/* WORDBOX */
+@import url(_layout_wordbox.css);

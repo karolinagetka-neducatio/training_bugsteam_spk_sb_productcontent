@@ -1,0 +1,50 @@
+<activity class="mm_unit1 mm_activity10" id="81dd4676e16644328d5f560db366d996" pseudoID="BT_L1_U1_GAME_10">
+    <metadata>
+        <title>Lesson 5 – activity</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <audio size="large" srt="y" autoScroll="y">
+            <track src="BT1_CD1.23.mp3"/>
+        </audio>
+        <p>Listen to the chant and match the pictures.</p>
+    </rubric>
+    <main>
+        <block class="mm_addNumbering">
+            <matching id="matching_1">
+                <pair>
+                    <matchItem id="matchItem_1" rank="1">
+                        <image src="p13_IA_2_1.jpg" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_1" rank="2">
+                        <image src="p13_IA_2_b.jpg" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_2" rank="2">
+                        <image src="p13_IA_2_2.jpg" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_2" rank="1">
+                        <image src="p13_IA_2_a.jpg" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_3" rank="3">
+                        <image src="p13_IA_2_3.jpg" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_3" rank="3">
+                        <image src="p13_IA_2_c.jpg" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_4" rank="4">
+                        <image src="p13_IA_2_4.jpg" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_4" rank="4">
+                        <image src="p13_IA_2_d.jpg" title=""/>
+                    </matchTarget>
+                </pair>
+            </matching>
+        </block>
+    </main>
+</activity>

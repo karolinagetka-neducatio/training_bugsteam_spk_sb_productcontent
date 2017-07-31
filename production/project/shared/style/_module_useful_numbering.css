@@ -1,0 +1,173 @@
+/* Manual numbering */
+.mm_number {
+    position: relative;
+}
+
+.mm_number:after {
+    position: relative;
+    content: ". ";
+}
+
+/* Auto numbering */
+
+.mm_pNumbering,
+.mm_itemSelectNumbering,
+.mm_markableNumbering  {
+    counter-reset: num;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.mm_markableNumbering > .block p > .markable,
+.mm_markableNumbering [class*='ItemSelect'] > .markable,
+.mm_itemSelectNumbering > .block [class*='ItemSelect'],
+.mm_pNumbering > .block > p {
+    position: relative;
+}
+
+.mm_markableNumbering > .block p .markable:before,
+.mm_markableNumbering [class*='ItemSelect'] > .markable:before,
+.mm_itemSelectNumbering > .block [class*='ItemSelect']:before,
+.mm_pNumbering > .block > p:before {
+    content: counter(num) ".";
+    counter-increment: num;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* paragraph style */
+.mm_markableNumbering > .block p > .markable,
+.mm_itemSelectNumbering > .block p > [class*='ItemSelect'],
+.mm_pNumbering > .block > p {
+    padding-left: 22px;
+    text-align: left;
+}
+
+/* block style */
+.mm_markableNumbering [class*='ItemSelect'] > .markable:before,
+.mm_itemSelectNumbering > .block > [class*='ItemSelect']:before {
+    content: counter(num);
+    left: -1em;
+    font-size: 1.2em;
+}
+
+/* Numbers for matching and itemSelects */
+.mm_itemNumbers .matchItem,
+.mm_itemNumbers .matchTarget,
+.mm_itemNumbers [class*='ItemSelect'] .selectable {
+    padding-left: 2.25em;
+    position: relative;
+    counter-increment: num;
+}
+
+.mm_itemNumbers li [class*='ItemSelect'] .selectable,
+.mm_itemNumbers p [class*='ItemSelect'] .selectable {
+    padding-left: 1.425em;
+    position: relative;
+}
+
+.mm_itemNumbers .mm_number {
+    position: absolute;
+    left: 0.875em;
+}
+
+.mm_itemNumbers li .mm_number,
+.mm_itemNumbers p .mm_number {
+    left: 0.425em;
+}
+
+.mm_itemNumbers .matchItem:before,
+.mm_itemNumbers .matchTarget:before, {
+    content: counter(num) ".";
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: -10px;
+    color: #000;
+    z-index: 2;
+}
+
+.mm_matchItemNumbers .matchItems,
+.mm_matchItemLetters .matchItems,
+.mm_matchTargetNumbers .matchTargets,
+.mm_matchTargetLetters .matchTargets {
+    list-style-type: none;
+    counter-reset: dialogue_counter;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.mm_matchItemNumbers .matchItems .matchItem,
+.mm_matchItemLetters .matchItems .matchItem,
+.mm_matchTargetNumbers .matchTargets .matchTarget,
+.mm_matchTargetLetters .matchTargets .matchTarget {
+    display: block;
+    position: relative;
+    counter-increment: dialogue_counter;
+    margin-left: 1.5em;
+}
+
+.mm_matchItemNumbers .matchItems .matchItem:before,
+.mm_matchItemLetters .matchItems .matchItem:before,
+.mm_matchTargetNumbers .matchTargets .matchTarget:before,
+.mm_matchTargetLetters .matchTargets .matchTarget:before {
+    position: absolute;
+    content: counter(dialogue_counter) ".";
+    padding-right: 0.5em;
+    left: -1.5em;
+    top: 0.425em;
+}
+
+.mm_matchItemLetters .matchItems .matchItem:before,
+.mm_matchTargetLetters .matchTargets .matchTarget:before {
+    content: counter(dialogue_counter, lower-alpha) ".";
+}
+
+/* Matching Numbering */
+
+.mm_addNumbering .matchItems {
+    counter-reset: matchItem;
+}
+.mm_addNumbering .matchItem, .mm_addNumbering .matchTarget {
+    position: relative;
+}
+.mm_addNumbering .matchItem:before {
+    content: counter(matchItem);
+    counter-increment: matchItem;
+    color: #fff;
+    font-weight: 700;
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    font-size: 1em;
+    background-color: #6c6d6f;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.1em;
+    padding: 0.1em;
+}
+.mm_addNumbering .matchTargets {
+    counter-reset: matchTarget;
+}
+.mm_addNumbering .matchTarget:before {
+    content: counter(matchTarget, lower-alpha);
+    counter-increment: matchTarget;
+    color: #6c6d6f;
+    font-weight: 700;
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    font-size: 1em;
+    background-color: #fff;
+    border: 2px solid #6c6d6f;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.1em;
+    padding: 0.1em;
+}

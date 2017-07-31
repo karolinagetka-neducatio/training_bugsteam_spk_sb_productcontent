@@ -1,0 +1,940 @@
+/*Define the base style (colour, spacing) for marked RCF components (typein, droppable, radioÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦).*/
+
+/* Shared interaction styles */
+
+/* MARKED */
+
+/* Droppable */
+.dragTarget.dragOverDrop {
+    border-color: #333;
+}
+td .dragTarget {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+/* LOZENGES */
+
+/* Line height */
+.wordBox li.dragItem,
+.dragTarget,
+[class*='ItemSelect'] .selectable {
+    line-height: 1.5; /* prevent line-height from being inherited from parent (e.g., when in a paragraph) */
+}
+
+/** BORDER RADIUS **/
+
+.wordBox li.dragItem,
+.dragTarget,
+.category li.dragItem,
+ul.ordering li,
+.mm_imageSelect .radioItemSelect.horizontal .selectable:first-child,
+.mm_imageSelect .checkboxItemSelect.horizontal .selectable:first-child,
+.mm_imageSelect .radioItemSelect.horizontal .selectable:last-child,
+.mm_imageSelect .checkboxItemSelect.horizontal .selectable:last-child,
+.mm_imageSelect .radioItemSelect.vertical .selectable:first-child,
+.mm_imageSelect .checkboxItemSelect.vertical .selectable:first-child,
+.mm_imageSelect .radioItemSelect.vertical .selectable:last-child,
+.mm_imageSelect .checkboxItemSelect.vertical .selectable:last-child,
+.mm_radioSelect .radioItemSelect.horizontal .selectable:first-child,
+.mm_radioSelect .checkboxItemSelect.horizontal .selectable:first-child,
+.mm_radioSelect .radioItemSelect.horizontal .selectable:last-child,
+.mm_radioSelect .checkboxItemSelect.horizontal .selectable:last-child,
+.mm_radioSelect .radioItemSelect.vertical .selectable:first-child,
+.mm_radioSelect .checkboxItemSelect.vertical .selectable:first-child,
+.mm_radioSelect .radioItemSelect.vertical .selectable:last-child,
+.mm_radioSelect .checkboxItemSelect.vertical .selectable:last-child,
+[class*='ItemSelect'] .selectable {
+    border-radius: 0.5em;
+}
+
+/* marked component images */
+.dragItem img,
+.wordBox li.dragItem img,
+ul.ordering li img,
+.dragTarget.populated img,
+.category li.dragItem img,
+[class*='ItemSelect'] img,
+.mm_imageItems .imageContainer {
+    border-radius: 0.5em;
+    border-radius: 0.3em;
+}
+
+.matchingContainer .matchItem,
+.matchingContainer .matchTarget,
+.matchItems .matchItem.selected /* included to overwrite rcf-core */ {
+    border-radius: 20px;
+}
+
+.matchingContainer .matchItem img,
+.matchingContainer .matchTarget img {
+    border-radius: 20px;
+}
+
+.mm_audioItems .matchItem {
+    display: inline-block;
+    padding: 1em;
+}
+
+.mm_wordItems .matchingContainer .matchItemContainer .matchItem,
+.mm_wordTargets .matchingContainer .matchTarget {
+    font-size: 1.575em;
+    vertical-align: middle;
+}
+
+.mm_wordItems .matchingContainer .matchItemContainer .matchItem {
+    border:none;
+}
+
+.mm_wordItems .matchingContainer .matchItem.selected {
+    border: none !important;
+    color: #66acb4;
+}
+
+/** SETUP MARGINS BETWEEN ITEMSELECTS / ORDERING / POSITIONING **/
+.radioItemSelect.horizontal .selectable + .selectable,
+.checkboxItemSelect.horizontal .selectable + .selectable,
+.horizontal ul.ordering li + li {
+    margin-left: 0.425em;
+}
+
+.radioItemSelect.vertical .selectable + .selectable,
+.checkboxItemSelect.vertical .selectable + .selectable,
+.matchingContainer.vertical .matchItemContainer + .matchItemContainer,
+.matchingContainer.vertical .matchTargetContainer + .matchTargetContainer,
+.vertical > ul.ordering li + li {
+    margin-top: 0.425em;
+}
+
+/** BORDER **/
+
+input.text,
+.mlTextInput,
+.typeinGroup input.typeinGroup,
+.wordBox li.dragItem,
+.dragTarget,
+.category li.dragItem,
+ul.ordering li,
+.matchingContainer .matchItem,
+.matchingContainer .matchTarget,
+.categorise input[type="radio"],
+.categorise input[type="checkbox"],
+.verticalCrosswordContainer table input,
+.radioItemSelect.vertical .selectable
+.checkboxItemSelect.vertical .selectable
+.mobile .radioItemSelect.horizontal .selectable,
+.mobile .checkboxItemSelect.horizontal .selectable,
+.mm_imageSelect .radioItemSelect.horizontal .selectable,
+.mm_imageSelect .checkboxItemSelect.horizontal .selectable,
+.mm_imageSelect .radioItemSelect.vertical .selectable,
+.mm_imageSelect .checkboxItemSelect.vertical .selectable,
+.mm_imageSelect .radioItemSelect.horizontal .selectable:first-child,
+.mm_imageSelect .checkboxItemSelect.horizontal .selectable:first-child,
+[class*='ItemSelect'] .selectable {
+}
+
+.mm_itemCarousel .radioItemSelect.horizontal .selectable,
+.mm_itemCarousel .checkboxItemSelect.horizontal .selectable,
+.mm_itemCarousel .radioItemSelect.vertical .selectable,
+.mm_itemCarousel .checkboxItemSelect.vertical .selectable {
+   border: 1px solid black;
+}
+
+.radioItemSelect.vertical .selectable,
+.checkboxItemSelect.vertical .selectable,
+.mobile .radioItemSelect.horizontal .selectable,
+.mobile .checkboxItemSelect.horizontal .selectable,
+.mm_imageSelect .radioItemSelect.horizontal .selectable,
+.mm_imageSelect .checkboxItemSelect.horizontal .selectable,
+.mm_imageSelect .radioItemSelect.vertical .selectable,
+.mm_imageSelect .checkboxItemSelect.vertical .selectable,
+.mm_imageSelect .radioItemSelect.horizontal .selectable:first-child,
+.mm_imageSelect .checkboxItemSelect.horizontal .selectable:first-child,
+.mm_radioSelect .radioItemSelect.horizontal .selectable,
+.mm_radioSelect .checkboxItemSelect.horizontal .selectable,
+.mm_radioSelect .radioItemSelect.vertical .selectable,
+.mm_radioSelect .checkboxItemSelect.vertical .selectable,
+.mm_radioSelect .radioItemSelect.horizontal .selectable:first-child,
+.mm_radioSelect .checkboxItemSelect.horizontal .selectable:first-child,
+.dragTarget,
+.wordBox li.dragItem,
+.category li.dragItem,
+ul.ordering li {
+    border-color: #fdc95a;
+}
+
+.matchingContainer .matchItem,
+.matchingContainer .matchTarget {
+   border-color: transparent;
+}
+
+.wordBox li.dragItem,
+.dragTarget,
+.category li.dragItem,
+ul.ordering li,
+.matchingContainer .matchItem,
+.matchingContainer .matchTarget,
+.radioItemSelect.vertical .selectable,
+.checkboxItemSelect.vertical .selectable,
+.mobile .radioItemSelect.horizontal .selectable,
+.mobile .checkboxItemSelect.horizontal .selectable,
+.mm_imageSelect .radioItemSelect.horizontal .selectable,
+.mm_imageSelect .checkboxItemSelect.horizontal .selectable,
+.mm_imageSelect .radioItemSelect.vertical .selectable,
+.mm_imageSelect .checkboxItemSelect.vertical .selectable,
+.mm_imageSelect .radioItemSelect.horizontal .selectable:first-child,
+.mm_imageSelect .checkboxItemSelect.horizontal .selectable:first-child,
+.mm_radioSelect .radioItemSelect.horizontal .selectable,
+.mm_radioSelect .checkboxItemSelect.horizontal .selectable,
+.mm_radioSelect .radioItemSelect.vertical .selectable,
+.mm_radioSelect .checkboxItemSelect.vertical .selectable,
+.mm_radioSelect .radioItemSelect.horizontal .selectable:first-child,
+.mm_radioSelect .checkboxItemSelect.horizontal .selectable:first-child,
+[class*='ItemSelect'] .selectable {
+    border-width: 2px;
+}
+
+.mm_radioSelect .radioItemSelect.horizontal .selectable,
+.mm_radioSelect .checkboxItemSelect.horizontal .selectable,
+.mm_radioSelect .radioItemSelect.vertical .selectable,
+.mm_radioSelect .checkboxItemSelect.vertical .selectable,
+.mm_radioSelect .radioItemSelect.horizontal .selectable:first-child,
+.mm_radioSelect .checkboxItemSelect.horizontal .selectable:first-child {
+    min-width: 2em;
+    padding: 0.2em;
+    font-size: 1.8em;
+    line-height: 1em;
+}
+
+.mm_radioSelect .radioItemSelect.horizontal .selected,
+.mm_radioSelect .checkboxItemSelect.horizontal .selected,
+.mm_radioSelect .radioItemSelect.vertical .selected,
+.mm_radioSelect .checkboxItemSelect.vertical .selected,
+.mm_radioSelect .radioItemSelect.horizontal .selected:first-child,
+.mm_radioSelect .checkboxItemSelect.horizontal .selected:first-child {
+    border-color: #00ACDA;
+    border-style: solid;
+    background-color: #fff;
+    color: #000;
+}
+
+.radioItemSelect .selectable.selected,
+.checkboxItemSelect .selectable.selected {
+    background-color: #fff;
+    color: #000;
+}
+
+/** TYPEIN AND TEXT INPUT **/
+input.text,
+.mlTextInput,
+textarea.rcfTextArea,
+.typeinGroup input.typeinGroup {
+    border-radius: 0.05em;
+    background-color: rgb(250,250,250);
+    box-shadow: inset 1px 1px 0 #ccc;
+    border-color: #888;
+}
+
+input.text {
+    height: 1.8em;
+}
+
+/** LOZENGE PADDING  **/
+
+/* Lozenge padding - larger for matchings and freestanding items */
+.flexwrap div > . orderingContainer ul.ordering .orderingItem,
+.flexwrap div > . orderingContainer ul.ordering .draggablePlaceHolder,
+[class*='ItemSelect'] .selectable,
+ul.ordering li,
+.matchingContainer .matchItem,
+.matchingContainer .matchTarget {
+    display: none !important;
+}
+
+/* droppable / selectable items */
+
+.dragTarget {
+    background-color: #fff;
+    margin: 0;
+}
+
+/** BOX-SHADOW **/
+
+.wordBox li.dragItem,
+.category li.dragItem,
+ul.ordering li,
+li.dragItem.ui-draggable-dragging,
+ul.ordering li.ui-sortable-helper,
+.dragTarget.populated,
+[class*='ItemSelect'] .selectable {
+    box-shadow: 0px 3px 2px #808285;
+}
+
+ul.ordering li.fixed,
+ul.ordering li.draggablePlaceHolder,
+ul.ordering.example li {
+    box-shadow: none;
+}
+
+/* imageDroppable drag target styling */
+.mm_droppableNumbering .dragImageTarget,
+.mm_droppableNumbering .complexDroppable .dragTarget {
+    background-color: transparent;
+    position: relative;
+    z-index: 10;
+}
+
+.mm_droppableNumbering .dragImageTarget:before,
+.mm_droppableNumbering .complexDroppable .dragTarget:before {
+    background-color: #fff;
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    line-height: 120px;
+    font-size: 3em;
+    font-weight: 900;
+    color: rgba(0,0,0,0.15);
+    border-radius: 0.2em;
+    z-index: -1;
+}
+
+.mm_droppableNumbering {
+    counter-reset: num;
+}
+
+.mm_droppableNumbering .dragImageTarget,
+.mm_droppableNumbering .complexDroppable .dragTarget {
+    position: relative;
+}
+
+.mm_droppableNumbering .dragImageTarget:before,
+.mm_droppableNumbering .complexDroppable .dragTarget:before {
+    content: counter(num);
+    counter-increment: num;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+input.text:focus,
+textarea.rcfTextArea:focus,
+.typeinGroup input.typeinGroup:focus,
+.verticalCrosswordContainer table input:focus,
+.wordSnake[selecting='y'] .letter:not(.rangeMade):not(.example):not(.ui-selecting),
+.wordSnakeContainer .wordSnake li.ui-selecting {
+    box-shadow: 1px 1px 2px #ccc, -1px -1px 2px #ccc;
+}
+
+.wordSnake[selecting='y'] .letter.ui-selecting {
+    box-shadow: none;
+}
+
+/* Matchings, itemSelects, ordering with images */
+
+/* Item selected */
+.wordBox li.dragItem,
+.wordBox li.dragItem.selected,
+.category li.dragItem,
+.dragItem.selected,
+.dragTarget.selected,
+.dragTarget.dragOverDrop,
+.matchingContainer .matchItem.selected,
+.categorise input[type="radio"]:checked,
+.categorise input[type="checkbox"]:checked {
+    background-color: #FFF;
+    color: #000;
+}
+
+/* LOZENGES WITH IMAGES */
+
+/* ItemSelect with images */
+.mm_imageItems [class*='ItemSelect'] .selectable,
+.mm_imageItems .selectable,
+.mm_imageItems .orderingItem {
+    max-width: 160px;
+    padding: 0;
+}
+
+/* gold rounded border styling for image items */
+
+/* image item layout - setup */
+.mm_itemContainer {
+    padding: 10px 28px !important;
+    background-color: #fff;
+}
+
+[class*='ItemSelect'].horizontal .selectable,
+[class*='ItemSelect'].horizontal .selectable + .selectable {
+    margin-right: 1.5em;
+    margin-left: 0;
+}
+.mm_imageItems [class*='ItemSelect'].horizontal .selectable:last-child,
+.mm_imageItems25 [class*='ItemSelect'].horizontal .selectable:last-child,
+.mm_imageItems20 [class*='ItemSelect'].horizontal .selectable:last-child,
+[class*='ItemSelect'].horizontal .selectable:last-child {
+    margin: 0;
+}
+
+[class*='mm_imageItems'] [class*='ItemSelect'].horizontal .selectable,
+[class*='mm_imageItems'] .horizontal ul.ordering li + li,
+[class*='mm_imageItems'] .selectable,
+[class*='mm_imageItems'] .orderingItem {
+    max-width: calc(33% - 1em);
+}
+
+.mm_imageItems25 [class*='ItemSelect'].horizontal .selectable,
+.mm_imageItems25 .horizontal ul.ordering li + li,
+.mm_imageItems25 .selectable,
+.mm_imageItems25 .orderingItem {
+    max-width: calc(25% - 1.3em);
+}
+
+.mm_imageItems20 [class*='ItemSelect'].horizontal .selectable,
+.mm_imageItems20 .horizontal ul.ordering li + li,
+.mm_imageItems20 .selectable,
+.mm_imageItems20 .orderingItem {
+    max-width: calc(20% - 1.2em);
+}
+
+/* Image item modifiers */
+/* Add vertical padding to image items - useful if there is a single row of items in activity */
+.mm_imageItemsSingle ul.ordering {
+    padding: 4em 0;
+}
+
+/* item select with bigger buttons */
+.mm_itemSelectBig {
+    text-align: center;
+}
+
+/** RADIO + CHECKBOX **/
+
+/* radio / checkbox list */
+.radio .radioItemContainer,
+.radioList.horizontal input,
+.radioList.vertical input {
+    vertical-align: middle;
+    top: auto;
+    line-height: 1;
+}
+.radioList.vertical  .radioItemContainer {
+    margin-bottom: 0.875em;
+}
+
+.checkboxList.horizontal .li + .li,
+.radioList.horizontal .li + .li {
+    padding-left: 0.875em;
+}
+
+.checkboxList.horizontal input,
+.radioList.horizontal input {
+    margin: 0 0.35em 0 0;
+}
+
+/* radio / checkbox itemselect */
+
+.mobile .radioItemSelect.horizontal .selectable,
+.mobile .checkboxItemSelect.horizontal .selectable {
+    display: inline-block; /* fixes margins and widths on mobile displays */
+}
+
+[class*='mm_flexCol'] [class*='ItemSelect'].horizontal {}
+
+/* ITEM SELECT WITH SLASH AS SEPARATOR */
+.mm_itemSelectSeparator [class*='ItemSelect'].horizontal .selectable + .selectable:before {
+    content: "/";
+    position: absolute;
+    top: 0;
+    left: -0.75em;
+    color: #000;
+}
+
+.mm_itemSelectSeparator [class*='ItemSelect'].horizontal .selectable + .selectable {
+    margin-left: 1em;
+}
+
+.mm_itemCarousel .mm_itemContainer {
+    padding-bottom: 0.425em;
+}
+
+.mm_itemCarousel .mm_itemContainer p:first-child {
+    font-weight: 700;
+    text-align: left;
+}
+
+.mm_imageItems [class*='ItemSelect'].horizontal .selectable {
+    background-color: #fff;
+}
+
+.mm_itemCarousel .radioItemSelect {
+    text-align: center;
+    width: 100%;
+}
+
+.mm_itemCarousel .radioItemSelect .selectable {
+    padding: 0;
+}
+
+.mm_itemCarousel .mm_audio .inlinePlayerContainer,
+.mm_itemCarousel .mm_audio .inlinePlayer {
+    display: block;
+    margin: 0 auto 0.425em;
+}
+
+.mm_itemCarousel .mm_itemContainer.mm_audio  p:first-child {
+    text-align: center;
+    min-height: calc(96px + 2.25em);
+}
+
+.mm_itemCarousel .mm_itemContainer.mm_noAudio  p:first-child {
+    text-align: center;
+    margin-top: calc(96px + 0.425em);
+}
+
+.mm_radioSelect .radioItemSelect.horizontal,
+.mm_radioSelect p .checkboxItemSelect.horizontal {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.mm_radioSelect .mm_itemContainer img {
+    margin: 0 auto;
+}
+
+.mm_radioSelect .rcfCarousel.owl-carousel .owl-item img {
+    width: 450px;
+}
+
+.mm_radioSelect .owl-stage-outer.owl-height {
+    min-height: 500px;
+}
+
+/** Droppable **/
+
+.dragImageItem,
+.wordBox li.dragImageItem,
+.dragImageTarget,
+.category li.dragImageItem,
+.category li.dragItem,
+.wordBox li.dragItem {
+    padding: 0;
+    width: 130px;
+    height: 130px;
+    box-sizing: content-box;
+}
+
+.category li.dragItem,
+.wordBox li.dragItem {
+    position: relative;
+    vertical-align: top;
+}
+
+.category li.dragItem:not(.dragImageItem) .markable.dragItem,
+.wordBox li.dragItem:not(.dragImageItem) .markable.dragItem {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dragImageItem img,
+.wordBox li.dragImageItem img,
+.dragImageTarget img {
+    width: 130px;
+	height: 130px;
+	box-sizing: content-box;
+}
+
+.dragImageItem,
+.dragImageItem .dragItem,
+.complexDroppable .dragTarget, {
+    border-radius: 1em;
+}
+
+.droppable .dropTarget,
+.droppable .dragTarget,
+.complexDroppable .dragTarget {
+    vertical-align: top;
+}
+
+.mm_imageDroppablesAudio .dragImageItem,
+.mm_imageDroppablesAudio .wordBox li.dragImageItem,
+.mm_imageDroppablesAudio .dragImageTarget,
+.mm_imageDroppablesAudio .category li.dragImageItem,
+.mm_imageDroppables .dragImageItem,
+.mm_imageDroppables .wordBox li.dragImageItem,
+.mm_imageDroppables .dragImageTarget,
+.mm_imageDroppables .complexDroppable .dragTarget,
+.mm_imageDroppables .category li.dragImageItem {
+    padding: 0;
+}
+
+.mm_imageDroppablesAudio .dragImageItem,
+.mm_imageDroppablesAudio .wordBox li.dragImageItem,
+.mm_imageDroppablesAudio .dragImageTarget,
+.mm_imageDroppablesAudio .category li.dragImageItem,
+.mm_imageDroppablesAudio .dragImageItem img,
+.mm_imageDroppablesAudio .wordBox li.dragImageItem img,
+.mm_imageDroppablesAudio .dragImageTarget img,
+.mm_imageDroppables .dragImageItem,
+.mm_imageDroppables .wordBox li.dragImageItem,
+.mm_imageDroppables .dragImageTarget,
+.mm_imageDroppables .complexDroppable .dragTarget,
+.mm_imageDroppables .category li.dragImageItem,
+.mm_imageDroppables .dragImageItem img,
+.mm_imageDroppables .wordBox li.dragImageItem img,
+.mm_imageDroppables .dragImageTarget img {
+    width: 120px;
+    height: 120px;
+    box-sizing: border-box;
+}
+
+.mm_imageDroppablesAudio .dragImageItem img,
+.mm_imageDroppablesAudio .wordBox li.dragImageItem img,
+.mm_imageDroppablesAudio .dragImageTarget img,
+.mm_imageDroppables .dragImageItem img,
+.mm_imageDroppables .complexDroppable .dragTarget img,
+.mm_imageDroppables .wordBox li.dragImageItem img,
+.mm_imageDroppables .dragImageTarget img {
+    width: 116px;
+    height: 116px;
+}
+
+.flexwrap .mm_imageDroppablesAudio .blockSet,
+.flexwrap .mm_imageDroppables .blockSet,
+.flexwrap .mm_audioDroppable .blockSet {
+    justify-content: center;
+}
+
+.no-flexbox .mm_imageDroppablesAudio .main .block,
+.no-flexbox .mm_imageDroppables .main .block,
+.no-flexbox .mm_audioDroppable .main .block {
+    float: none;
+}
+
+.mm_imageDroppablesAudio .wordBox,
+.mm_imageDroppables .wordBox,
+.mm_audioDroppable .wordBox {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0.425em;
+}
+
+.mm_imageDroppablesAudio .wordBox li.dragItem,
+.mm_imageDroppables .wordBox li.dragItem,
+.mm_audioDroppable .wordBox li.dragItem,
+.mm_imageDroppablesAudio .blockSet > .block,
+.mm_imageDroppables .blockSet > .block,
+.mm_audioDroppable .blockSet > .block {
+    margin: 0 0.425em 0.875em;
+}
+
+.mm_imageDroppablesAudio .blockSet > .block,
+.mm_imageDroppables .blockSet > .block,
+.mm_audioDroppable .blockSet > .block {
+    width: 120px;
+    height: 120px;
+}
+
+.mm_audioDroppable .blockSet > .block {
+    min-height: calc(240px + 1em);
+}
+
+.mm_imageDroppablesAudio .blockSet > .block {
+    min-height: calc(96px + 120px + 1em);
+}
+
+/** Droppable - Audio **/
+.mm_imageBorderRound ul.ordering li,
+.mm_imageBorderRound img {
+    border-radius: 1em;
+    border: 4px solid #fdc95a;
+    padding: 0;
+}
+
+.mm_imageBorderRound ul.ordering li img {
+    border-radius: 0.8em;
+}
+
+.mm_audioDroppable .wordBox li.dragItem,
+.mm_audioDroppable .droppable .dragTarget {
+    height: 120px;
+    width: 120px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mm_audioDroppable li.dragItem {
+    box-shadow: none;
+}
+
+.mm_audioDroppable .wordBox li.dragItem,
+.mm_audioDroppable .droppable .dragTarget {
+    height: 120px;
+    width: 120px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mm_audioDroppable li.dragItem {
+    box-shadow: none;
+}
+
+.mm_audioDroppable .inlinePlayerContainer {
+    position: relative;
+    display: block;
+    padding: 9px;
+    padding: 0;
+    margin: 0;
+}
+
+.mm_audioDroppable .inlinePlayer,
+.mm_audioDroppable a.audioPlayButton,
+.mm_audioDroppable a.audioPauseButton {
+    position: relative;
+}
+
+.mm_audioDroppable .blockSet  p + p {
+    margin-top: 1em;
+}
+
+.mm_audioDroppable .wordBox li.dragItem {
+    width: 119px;
+}
+
+/** Complex Droppable **/
+
+/** CATEGORISE **/
+
+.category {
+    border-radius: 0 2em 0 2em;
+}
+
+.categories1 .category {
+    /*width: 40%;*/
+    /*width: 90%;*/ /*single drop area take full width*/
+}
+.categories2 .category {
+    /*width: 48%;*/
+}
+.categories3 .category {
+    /*width: 33.33%;*/
+}
+.categories4 .category {
+    /*width: 25%;*/
+}
+.categories5 .category {
+    /*width: 20%;*/
+}
+.categories6 .category {
+    /*width: 16.66%;*/
+}
+
+.category .dropTarget {
+    background-color: transparent;
+    min-height: 165px;
+}
+
+.categorise > table th,
+.categorise > table td {
+    background-color: transparent;
+}
+
+.droppable .dropTarget,
+.droppable .dragTarget,
+.complexDroppable .dragTarget,
+.category {
+    border: 2px dotted #B1E5F4;
+}
+
+input.text:focus,
+textarea.rcfTextArea:focus,
+.typeinGroup input.typeinGroup:focus,
+.verticalCrosswordContainer table input:focus,
+.droppable .populated,
+li.dragItem.ui-draggable-dragging.dragOverDrop,
+.dragTarget.populated,
+.droppable .dragTarget.populated,
+.wordBox li.dragItem.selected,
+.category li.dragItem,
+ul.ordering li.ui-sortable-helper,
+.categorise input[type="radio"]:checked,
+.categorise input[type="checkbox"]:checked,
+.mm_imageSelect .radioItemSelect.horizontal .selected,
+.mm_imageSelect .checkboxItemSelect.horizontal .selected,
+.mm_imageSelect .radioItemSelect.vertical .selected,
+.mm_imageSelect .checkboxItemSelect.vertical .selected,
+.mm_imageSelect .radioItemSelect.horizontal .selected:first-child,
+.mm_imageSelect .checkboxItemSelect.horizontal .selected:first-child {
+    border-style: solid;
+}
+
+.category {
+    border: 2px dotted #B1E5F4;
+}
+
+/** ORDERING **/
+
+ol > li .orderingContainer .ordering {
+    margin-top: -2px;
+}
+
+/** MATCHING **/
+.matchingContainer .matchItemContainer,
+.matchingContainer .matchTargetContainer {
+    background: none;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    margin-top: 0;
+    text-align: center;
+}
+
+.matchItem,
+.matchTarget {
+    padding: 0.425em;
+    display: block;
+    text-align: left;
+}
+
+.matchingContainer.horizontal .matchTargets {
+    margin-top: 180px;
+}
+
+/* Vertical matching */
+
+.mm_audioDroppable li.dragItem,
+.matchingContainer .matchItemContainer .matchItem {
+    border-color: #b2e6f4;
+    border-style: dotted;
+}
+
+.matchingContainer .matchTargetContainer .matchTarget {
+    border-color: #b2e6f4;
+    border-style: dotted;
+}
+
+.matchingContainer ._jsPlumb_endpoint circle {
+    fill: #000;
+    r: 6px !important;
+}
+
+.matchItemContainer, .matchTargetContainer {
+    max-width:150px;
+}
+
+.matchingContainer svg.showExampleAnswer path,
+.mm_sbLanguage .matchingContainer svg.showExampleAnswer path {
+    stroke: #aaa;
+}
+
+.example circle,
+.mm_sbLanguage .example circle {
+    fill: #aaa;
+}
+
+.matchingContainer svg:nth-of-type(1) path,
+.matchingContainer svg:nth-of-type(6) path {
+    stroke: #8484b9;
+}
+
+.matchingContainer svg:nth-of-type(2) path,
+.matchingContainer svg:nth-of-type(7) path {
+    stroke: #66acb4;
+}
+
+.matchingContainer svg:nth-of-type(3) path,
+.matchingContainer svg:nth-of-type(8) path {
+    stroke: #c5624a;
+}
+
+.matchingContainer svg:nth-of-type(4) path,
+.matchingContainer svg:nth-of-type(9) path {
+    stroke: #d69c23;
+}
+
+.matchingContainer svg:nth-of-type(5) path,
+.matchingContainer svg:nth-of-type(10) path {
+    stroke: #9ab84b;
+}
+
+/* WORDSNAKE */
+.mm_wsContainer {
+    border-style: solid;
+    border-width: 5px;
+    border-radius:20px;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 700;
+}
+
+.mm_snake1 {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wordSnakeContainer .wordSnake {
+    margin:  2.875em auto;
+}
+
+.wordSnakeContainer .wordSnake li.letter {
+    min-width: 24px;
+    border: none;
+    float: none;
+    display: inline-block;
+    font-size: 160%;
+}
+
+.wordSnakeContainer .wordSnake li.ui-selecting,
+.wordSnake[selecting='y'] .letter:not(.rangeMade):not(.example):not(.ui-selecting){
+    box-shadow: none;
+}
+
+.wordSnakeContainer .wordSnake {
+    padding-left: 0;
+}
+
+.wordSnakeContainer .wordSnake li.letter {
+    padding: 0.225em;
+    border-radius: 0.25em;
+}
+
+.wordSnakeContainer .wordSnake li.highlight0 {
+    background-color: #8a8bc1;
+    border-color: #8a8bc1;
+}
+
+.wordSnakeContainer .wordSnake li.highlight1 {
+    background-color: #6bb5be;
+    border-color: #6bb5be;
+}
+
+.wordSnakeContainer .wordSnake li.highlight2 {
+    background-color: #d0684d;
+    border-color: #d0684d;
+}
+
+.wordSnakeContainer .wordSnake li.highlight3 {
+    background-color: #e3a51a;
+    border-color: #e3a51a;
+}
+
+.wordSnakeContainer .wordSnake li.highlight4 {
+    background-color: #a1c04a;
+    border-color: #a1c04a;
+}
+
+/* Highlight / active colour */
+
+.wordSnake .ui-selecting {
+    background-color: #f2e864;
+}
+
+.wordSnakeContainer .wordSnake li.ui-selecting {
+    border-color: #f2e864;
+}

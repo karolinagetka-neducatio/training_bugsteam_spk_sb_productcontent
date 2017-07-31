@@ -1,0 +1,130 @@
+/*** USEFUL ***/
+
+/* left / right alignment */
+
+.mm_right768 {
+    float: right;
+}
+.mm_left768 {
+    float: left;
+}
+
+.mm_textLeft768 h2,
+.mm_textLeft768 h3,
+.mm_textLeft768 p,
+.mm_textLeft768 > .block h2,
+.mm_textLeft768 > .block h3,
+.mm_textLeft768 > .block p,
+.mm_pLeft768 p,
+.mm_h3Left768 h3,
+.mm_contentLeft768 * {
+    text-align: left;
+}
+
+.mm_textRight768 h2,
+.mm_textRight768 h3,
+.mm_textRight768 p,
+.mm_textRight768 > .block h2,
+.mm_textRight768 > .block h3,
+.mm_textRight768 > .block p,
+.mm_pRight768 p,
+.mm_h3Right768 h3,
+.mm_contentRight768 * {
+    text-align: right;
+}
+
+.mm_textCenter768 h2,
+.mm_textCenter768 h3,
+.mm_textCenter768 p,
+.mm_textCenter768 > .block h2,
+.mm_textCenter768 > .block h3,
+.mm_textCenter768 > .block p,
+.mm_pCenter768 p,
+.mm_h3Center768 h3,
+.mm_contentCenter768 * {
+    text-align: center;
+}
+
+.mm_imageRight768 img,
+.mm_contentRight768 img {
+    float: right;
+    margin-left: 1em;
+}
+
+.mm_imageLeft768 img,
+.mm_contentLeft768 img {
+    float: left;
+    margin-right: 1em;
+}
+
+/* Center itemselect / ordering / positioning interactions within a block */
+.mm_contentCenter768,
+.mm_imageCenter768 .mm_image,
+.mm_interactionCenter768 {
+    text-align: center;
+}
+
+.mm_interactionCenter768 > h3,
+.mm_interactionCenter768 > p {
+    text-align: left;
+}
+
+.mm_contentCenter768 img,
+.mm_imageCenter768 img,
+.mm_interactionCenter768 [class*='ItemSelect'],
+.mm_interactionCenter768 ul.ordering {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Make horizontal itemSelect vertical for desktop */
+.mm_hItemSelectVertical768 .radioItemSelect.horizontal,
+.mm_hItemSelectVertical768 .checkboxItemSelect.horizontal {
+    display: inline-block; 
+}
+
+.mm_hItemSelectVertical768 .radioItemSelect.horizontal .selectable,
+.mm_hItemSelectVertical768 .checkboxItemSelect.horizontal .selectable {
+    display: block; 
+    margin-right: 0;
+}
+
+.mm_hItemSelectVertical768 .radioItemSelect.horizontal .selectable:not(:last-child),
+.mm_hItemSelectVertical768 .checkboxItemSelect.horizontal .selectable:not(:last-child) {
+    margin-bottom: 0.3em;
+}
+
+/* Image widths */
+.mm_image10768 img {
+    width:10%;
+}
+.mm_image15768 img {
+    width:15%;
+}
+.mm_image20768 img {
+    width:20%;
+}
+.mm_image25768 img {
+    width:25%;
+}
+.mm_image30768 img {
+    width:30%;
+}
+.mm_image30768 img {
+    width:30%;
+}
+.mm_image40768 img {
+    width:40%;
+}
+.mm_image50768 img {
+    width:50%;
+}
+.mm_image60768 img {
+    width:60%;
+}
+.mm_image70768 img {
+    width:70%;
+}
+.mm_image80768 > img {
+    width: 80%;
+}

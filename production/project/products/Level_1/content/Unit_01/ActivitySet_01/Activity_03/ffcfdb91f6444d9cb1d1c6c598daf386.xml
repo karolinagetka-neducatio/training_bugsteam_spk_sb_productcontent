@@ -1,0 +1,92 @@
+<activity class="mm_unit1 mm_activity3" id="ffcfdb91f6444d9cb1d1c6c598daf386" pseudoID="BT_L1_U1_GAME_3">
+    <metadata>
+        <title>Lesson 1 – timed flashcards</title>
+        <category>Games</category>
+    </metadata>
+    <main>
+        <flashcard id="flashcard_1" showNext="y">
+            <descriptors>
+                <item id="1"/>
+            </descriptors>
+            <cards>
+                <card id="c1">
+                    <interactiveImage src="pen.png" type="timed"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="pen.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">pen</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c2">
+                    <interactiveImage src="pencil.png" type="timed"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="pencil.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">pencil</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c3">
+                    <interactiveImage src="crayon.png" type="timed"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="crayon.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">crayon</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c4">
+                    <interactiveImage src="notebook.png" type="timed"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="notebook.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">notebook</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c5">
+                    <interactiveImage src="ruler.png" type="timed"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="ruler.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">ruler</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c6">
+                    <interactiveImage src="rubber.png" type="timed"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="rubber.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">rubber</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c7">
+                    <interactiveImage src="schoolbag.png" type="timed"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="schoolbag.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">school bag</sSpan>
+                        </p>
+                    </block>
+                </card>
+            </cards>
+        </flashcard>
+    </main>
+</activity>

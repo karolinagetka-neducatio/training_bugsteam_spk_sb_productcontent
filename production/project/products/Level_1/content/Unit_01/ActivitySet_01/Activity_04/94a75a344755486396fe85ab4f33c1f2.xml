@@ -1,0 +1,11 @@
+<activity class="mm_unit1 mm_activity1 mm_video" id="94a75a344755486396fe85ab4f33c1f2" pseudoID="BT_L1_U1_VIDEO_1">
+    <metadata>
+        <title>Video – Colin’s cards</title>
+        <category>Videos</category>
+    </metadata>
+    <main>
+        <block>
+            <video src="Colins_cards_Unit1.mp4"/>
+        </block>
+    </main>
+</activity>

@@ -1,0 +1,36 @@
+/************************** LAYOUT **************************/
+
+.activityContainer {
+	max-width: 1024px;
+	min-width: 600px;
+	margin: 0 auto;
+	box-sizing: border-box; 
+}
+
+.activity {
+	position: relative;
+	/*background: #FFF;*/
+	padding: 1.25em 1.75em;
+	padding-bottom: 2.5em;
+	border: none;
+	/*border: 1px solid #000;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;*/
+    overflow: hidden;
+}
+
+/*@media screen and (min-width: 1024px) {
+    .activity {
+	    border-top-left-radius: 20px;
+	    border-top-right-radius: 20px;
+	}
+}*/
+
+.mm_story {
+	padding: 2.5em 1.75em;
+}
+
+.mm_story .rcfCarousel.simple.owl-carousel {
+    padding: 0 2em;
+    margin: 1em 1em 2.5em;
+}

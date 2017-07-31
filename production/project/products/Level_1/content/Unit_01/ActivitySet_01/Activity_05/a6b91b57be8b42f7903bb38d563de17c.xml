@@ -1,0 +1,17 @@
+<activity class="mm_unit1 mm_activity1 mm_song" id="a6b91b57be8b42f7903bb38d563de17c" pseudoID="BT_L1_U1_SONG_1">
+    <metadata>
+        <title>Colin’s chant</title>
+        <category>Songs</category>
+    </metadata>
+    <rubric>
+        <audio size="large" srt="y" autoScroll="y">
+            <track src="BT1_CD1.12.mp3"/>
+        </audio>
+        <p>Listen to <sSpan>Colin’s chant.</sSpan></p>
+    </rubric>
+    <main>
+        <block>
+            <image src="p020_1.png" title=""/>
+        </block>
+    </main>
+</activity>

@@ -1,0 +1,35 @@
+/*.mark {
+    right: -1.0em;
+    bottom: auto;
+    top: -0.8em;
+}
+.radioItemSelect .mark,
+.checkboxItemSelect .mark {
+    bottom: auto;
+    top: -0.5em;
+    right: -0.5em;
+}
+.interactiveText .mark {
+    bottom: auto;
+    top: -0.7em;
+    right: -0.7em;
+}
+.matchTargetContainer .markContainer .mark {
+    top: -0.5em;
+    right: -0.3em;
+}
+.mm_blockSet .matchTargetContainer .markContainer .mark {
+    right: -2.6em;
+}
+
+.ordering.perList.horizontal .mark,
+.complexOrdering.perList.horizontal .mark {
+    right: -0.25em;
+    right: 0;
+}
+
+.wordSnake .mark {
+    right: -1.0em;
+    bottom: auto;
+    top: -1.8em;
+}*/

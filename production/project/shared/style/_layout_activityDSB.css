@@ -1,0 +1,52 @@
+/* SPK iframe background color */
+
+.panelsContainer {
+    background-color: #DDD;
+}
+
+/* SPK iframe background color */
+html body {
+    background: #76C8D6;
+    background-repeat: no-repeat;
+
+}
+
+/* settings */
+.activity {
+    position: relative;
+    min-height: 500px;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .activity {
+        position: relative;
+        height: calc(100vh - 63px);
+    }
+}
+
+/* DoodleTown specific styles */
+.activityContainer {
+    background-color: #fff;
+}
+
+.activity {
+	background: none;
+	padding: 0.825em;
+    padding-bottom: 3.25em;
+	clear: none;
+    position: relative;
+    border: none;
+    /*border: 1px solid #000;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;*/
+    overflow: hidden;
+}
+
+.activity:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}

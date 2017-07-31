@@ -1,0 +1,15 @@
+﻿1
+00:00:08.724 --> 00:00:16.465
+Hello, Colin, the caterpillar! Hello, hello, hello! 
+
+2
+00:00:16.465 --> 00:00:24.527
+Hello, Lucy, the ladybird! Hello, hello, hello!
+
+3
+00:00:24.728 --> 00:00:32.486
+Hello, Bella, the bee! Hello, hello, hello!
+
+4
+00:00:32.626 --> 00:00:35.596
+Yoo-hoo! Yippee! Hurray!

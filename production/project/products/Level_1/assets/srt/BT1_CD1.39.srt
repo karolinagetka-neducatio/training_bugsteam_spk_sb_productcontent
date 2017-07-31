@@ -1,0 +1,31 @@
+﻿1
+00:00:07.122 --> 00:00:13.731
+Jump. Turn around. Close your eyes. One, two, three. Surprise, surprise!
+
+2
+00:00:13.731 --> 00:00:20.706
+Oh no, it’s a ball. Can I have a robot, please?
+
+3
+00:00:27.123 --> 00:00:33.828
+Jump. Turn around. Close your eyes. One, two, three. Surprise, surprise!
+
+4
+00:00:33.828 --> 00:00:40.717
+Oh no, it’s a car. Can I have a robot, please?
+
+5
+00:00:47.046 --> 00:00:53.777
+Jump. Turn around. Close your eyes. One, two, three. Surprise, surprise!
+
+6
+00:00:53.777 --> 00:01:00.673
+Oh no it’s a bike. Can I have a robot, please?
+
+7
+00:01:07.064 --> 00:01:13.787
+Jump. Turn around. Close your eyes. One, two, three. Surprise, surprise!
+
+8
+00:01:13.787 --> 00:01:19.952
+Oh phew, it’s a robot. Hurray! Hurray! Hurray!

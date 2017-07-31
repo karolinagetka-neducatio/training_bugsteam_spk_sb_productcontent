@@ -1,0 +1,31 @@
+﻿1
+00:00:06.420 --> 00:00:12.464
+It’s a pen and I write at school, write at school, write at school.
+
+2
+00:00:12.464 --> 00:00:18.167
+It’s a pen and I write at school every day.
+
+3
+00:00:21.423 --> 00:00:27.379
+It’s a book and I read at school, read at school, read at school.
+
+4
+00:00:27.379 --> 00:00:33.109
+It’s a book and I read at school every day.
+
+5
+00:00:36.366 --> 00:00:42.287
+It’s a pencil and I draw at school, draw at school, draw at school.
+
+6
+00:00:42.417 --> 00:00:47.912
+It’s a pencil and I draw at school every day.
+
+7
+00:00:51.412 --> 00:00:57.464
+It’s a crayon and I colour at school, colour at school, colour at school.
+
+8
+00:00:57.464 --> 00:01:02.888
+It’s a crayon and I colour at school every day.

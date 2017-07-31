@@ -1,0 +1,305 @@
+/* CONTENT STYLING */
+
+/* STYLE HELPERS */
+
+/* Used for activities with no numbering, rubric or scoring controls */
+
+.activity.mm_minimalAct {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.mm_minimalAct .main {
+    padding: 0;
+}
+
+/* BLOCKSET STYLING */
+
+.mm_minimalBB .block {
+    border: none;
+    padding: 0;
+    text-align: center;
+}
+
+/* TABLE */
+/* TABLE FLOAT */
+
+.mm_tableFloat table:first-child {
+    margin-bottom: 0;
+}
+
+.mm_tableFloat table tr:last-child td {
+    border-bottom: 0;
+}
+
+.mm_tableFloat .leftCell {
+    width: 50%;
+}
+
+.mm_tableFloat table {
+    width: 100%;
+}
+
+.mm_hideSecondTH table.lastChild th {
+    display: none;
+}
+
+.mm_invert2ndColors table.lastChild tr.odd td {
+    background-color: #ECEEEF;
+}
+
+.mm_invert2ndColors table.lastChild tr.even td {
+    background-color: #E0E3E5;
+}
+
+/* TABLE JUST FLOATING, NOT DOING ANYTHING ELSE */
+
+.mm_tableFloatSimple table {
+    float: left;
+    margin-right: 0.825em;
+    width: auto;
+}
+
+.mm_tableFloatSimple table.lastChild,
+.mm_tableFloatSimple table.mm_lastTable {
+    margin-right: 0;
+}
+
+.mm_tableFullWidth table {
+    width: 100%;
+}
+
+.mm_equal3Col td {
+    width: 33%;
+}
+
+.mm_center td {
+    text-align: center;
+}
+
+/* RESET NUMBERING */
+
+/* recreate artifical numbering, to realign it or to change the counter */
+
+.mm_resetNumbering > ol {
+    counter-reset: li;
+    margin: 0;
+    padding: 0;
+}
+
+.mm_resetNumbering > ol > li {
+    position: relative;
+    padding: 0.3em 0 0.6em 1.5em;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.mm_resetNumbering > ol > li:last-child {
+    padding-bottom: 0;
+}
+
+.mm_resetNumbering > ol > li:before {
+    content: counter(li) ". ";
+    counter-increment: li;
+    position: absolute;
+    left: 0;
+    top: 0.55em;
+}
+
+.mm_resetNumbering > .alpha > li:before {
+    content: counter(li, upper-alpha) ". ";
+}
+
+.mm_resetNumbering > ol > li.unnumbered:before {
+    content: "";
+}
+
+/* MATCHING IMAGES */
+
+.mm_matchItemImage .matchItem img {
+    display: inline;
+    width: 150px;
+    vertical-align: middle;
+}
+
+[class*='mm_matchTargetImage'] .matchTarget {
+    box-shadow: none;
+    border: none;
+}
+
+[class*='mm_matchTargetImage'] .matchTarget img {
+    width: 130px;
+}
+
+.mm_matchTargetImage .matchTargetContainer:nth-child(even) {
+    margin-left: 4em;
+}
+
+/* narrow matching */
+
+.mm_matchingSmall .matchingContainer {
+    max-width: 550px;
+}
+
+.mm_matchingSmall .matchItems,
+.mm_matchingSmall .matchTargets {
+    max-width: inherit;
+}
+
+/* single words matching */
+
+.mm_matchingSingleWords .matchingContainer {
+    margin-left: 3em;
+    max-width: 550px;
+}
+
+.mm_matchingSingleWords .matchTarget:nth-child(2) {
+    margin-bottom: 0;
+    margin-top: 2em;
+}
+
+.mm_matchingSingleWords .matchItem:nth-child(1) {
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.mm_matchingSingleWords .matchingContainer .matchItem,
+.mm_matchingSingleWords .matchingContainer .matchTarget {
+    padding: 0 0.875em;
+    text-align: center;
+}
+
+/* SPEECH BUBBLES */
+
+.mm_speechBubbble {
+    position: relative;
+    padding: 10px;
+    background-color: #EEE;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.mm_speechBubbble:before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 60px;
+    border: 0;
+    border-right-width: 30px;
+    border-bottom-width: 20px;
+    border-style: solid;
+    border-color: transparent #EEE;
+    display: block;
+    width: 0;
+}
+
+.mm_speechBubbble:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 80px;
+    border: 0;
+    border-right-width: 10px;
+    border-bottom-width: 20px;
+    border-style: solid;
+    border-color: transparent #fff;
+    display: block;
+    width: 0;
+}
+
+.mm_tipLeft:before {
+    left: auto;
+    right: 60px;
+    border-right-width: 0;
+    border-left-width: 30px;
+}
+
+.mm_tipLeft:after {
+    left: auto;
+    right: 80px;
+    border-right-width: 0;
+    border-left-width: 10px;
+}
+
+/* Caption corner simple */
+
+.main .mm_captionSimple .caption.corner {
+    background: none;
+}
+
+.mm_captionSimple .caption.corner {
+    color: #000;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.mm_captionSimple .innerCaption {
+    padding: 0;
+}
+
+/* auto number blocks */
+
+.mm_blockCaption {
+    counter-reset: counter;
+}
+
+.mm_blockCaption > .block {
+    position: relative;
+    padding: 0.5em 0.8em;
+}
+
+.mm_blockCaption > .block:before {
+    content: counter(counter);
+    counter-increment: counter;
+    position: absolute;
+    left: 0.7em;
+    top: 0.1em;
+    color: #000;
+    font-size: 1.1em;
+}
+
+.mm_shadow,
+.mm_imageShadow img,
+.mm_infoBlock,
+.mm_emailWriter {
+    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.75);
+}
+
+.mm_emailWriter,
+.mm_rounded,
+.mm_imageRounded img {
+    border-radius: 0.5em;
+}
+
+.mm_border,
+.mm_imageBorder img {
+    border: 1px solid #ccc;
+}
+
+/* Story Tool checkbox */
+
+.mm_storyTool .radioItemSelect.horizontal .selectable:first-child, 
+.mm_storyTool .checkboxItemSelect.horizontal .selectable:first-child,
+.mm_storyTool .radioItemSelect.horizontal .selectable:last-child, 
+.mm_storyTool .checkboxItemSelect.horizontal .selectable:last-child,
+.mm_storyTool .radioItemSelect.vertical .selectable:first-child, 
+.mm_storyTool .checkboxItemSelect.vertical .selectable:first-child,
+.mm_storyTool .radioItemSelect.vertical .selectable:last-child, 
+.mm_storyTool .checkboxItemSelect.vertical .selectable:last-child {
+    border: none;
+    box-shadow: none;
+    max-width: 600px;
+    padding: 0;
+    background-color: transparent;
+}
+
+.mm_storyTool .radioItemSelect .selected, 
+.mm_storyTool .checkboxItemSelect .selected {
+}
+
+/* CAROUSEL */
+div.owl-stage-outer.owl-height {
+    min-height: 400px;
+}

@@ -1,0 +1,103 @@
+<activity class="mm_unit0 mm_activity2" id="06146115ee744dbda3b489d4df4135f0" pseudoID="BT_L1_U0_GAME_2">
+    <metadata>
+        <title>Colours – spotlight flashcards</title>
+        <category>Games</category>
+    </metadata>
+    <main>
+        <flashcard id="flashcard_1" showNext="y">
+            <descriptors>
+                <item id="1"/>
+            </descriptors>
+            <cards>
+                <card id="c1">
+                    <interactiveImage src="plama_czerwona.png" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="red.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">red</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c2">
+                    <interactiveImage src="plama_niebieska.png" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="blue.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">blue</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c3">
+                    <interactiveImage src="plama_zolta.png" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="yellow.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">yellow</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c4">
+                    <interactiveImage src="plama_zielona.png" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="green.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">green</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c5">
+                    <interactiveImage src="plama_pomaranczowa.png" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="orange.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">orange</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c6">
+                    <interactiveImage src="plama_rozowa.png" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="pink.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">pink</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c7">
+                    <interactiveImage src="plama_fioletowa.png" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="purple.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">purple</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c8">
+                    <interactiveImage src="plama_biala.png" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="white.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">white</sSpan>
+                        </p>
+                    </block>
+                </card>
+            </cards>
+        </flashcard>
+    </main>
+</activity>
