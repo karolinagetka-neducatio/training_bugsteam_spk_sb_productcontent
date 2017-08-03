@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit3 mm_activity2" id="0c1dd0702ea3424981b809a82e8606c7" pseudoID="BT_L1_U3_SONG_2">
+    <metadata>
+        <title>I’ve got a head – song</title>
+        <category>Songs</category>
+    </metadata>
+    <rubric>
+        <p>Listen and sing.</p>
+    </rubric>
+    <main>
+        <block class="mm_audio">
+            <audio size="large" srt="y">
+                <track src="BT1_CD1.59.mp3"/>
+            </audio>
+        </block>
+    </main>
+</activity>

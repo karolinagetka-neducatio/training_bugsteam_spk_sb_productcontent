@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit5 mm_activity8" id="ab12a105fa5640ddb91c9f1df494f3b5" pseudoID="BT_L1_U5_GAME_8">
+    <metadata>
+        <title>Lesson 5 – spotlight flashcards</title>
+        <category>Games</category>
+    </metadata>
+    <main>
+        <flashcard id="flashcard_1" showNext="y">
+            <descriptors>
+                <item id="1"/>
+            </descriptors>
+            <cards>
+                <card id="c1">
+                    <interactiveImage src="ThinkstockPhotos-185689360.psd" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="fruit.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">fruit</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c2">
+                    <interactiveImage src="ThinkstockPhotos-84522819.psd" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="vegetables.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">vegetables</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c3">
+                    <interactiveImage src="ThinkstockPhotos-162404337.psd" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="meat.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">meat</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c4">
+                    <interactiveImage src="ThinkstockPhotos-154057117.psd" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="milkproducts.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">milk products</sSpan>
+                        </p>
+                    </block>
+                </card>
+            </cards>
+        </flashcard>
+    </main>
+</activity>

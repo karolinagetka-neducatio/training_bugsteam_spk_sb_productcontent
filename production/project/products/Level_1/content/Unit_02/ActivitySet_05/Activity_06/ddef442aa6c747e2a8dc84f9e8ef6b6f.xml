@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit2 mm_activity10" id="ddef442aa6c747e2a8dc84f9e8ef6b6f" pseudoID="BT_L1_U2_GAME_10">
+    <metadata>
+        <title>Lesson 5 – activity</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Listen and choose the word you hear.</p>
+    </rubric>
+    <main>
+        <movingTargets id="movingTargets_1">
+            <targets>
+                <target audio="big.mp3" id="target_1" image="ThinkstockPhotos-510464945.psd"/>
+                <target audio="old.mp3" id="target_2" image=" ThinkstockPhotos-92121082.psd"/>
+                <target audio="new.mp3" id="target_3" image=" ThinkstockPhotos-186578902.psd"/>
+                <target audio="small.mp3" id="target_4" image=" ThinkstockPhotos-510464945.psd"/>
+                <target audio="short.mp3" id="target_5" image=" ThinkstockPhotos-469099478.psd"/>
+                <target audio="long.mp3" id="target_6" image=" ThinkstockPhotos-473950392.psd"/>
+            </targets>
+            <assets>
+                <scenery>
+                    <sceneBackground image="imagefile.psd"/>
+                    <targetBackground image="imagefile.psd"/>
+                    <foreground image="imagefile.psd"/>
+                    <crosshairs image="imagefile.psd"/>
+                    <transparentTarget image="imagefile.psd"/>
+                    <clueButton image="imagefile.psd"/>
+                </scenery>
+                <audio>
+                    <success src="correct.mp3"/>
+                    <fail src="incorrect.mp3"/>
+                    <gameover src="gameover.mp3"/>
+                </audio>
+            </assets>
+        </movingTargets>
+    </main>
+</activity>

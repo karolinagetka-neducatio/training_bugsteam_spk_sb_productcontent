@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit8 mm_activity11" id="1699537c47f345238a33e9cdb726f152" pseudoID="BT_L1_U8_GAME_11">
+    <metadata>
+        <title>Easter – blur flashcards</title>
+        <category>Games</category>
+    </metadata>
+    <main>
+        <flashcard id="flashcard_1" showNext="y">
+            <descriptors>
+                <item id="1"/>
+            </descriptors>
+            <cards>
+                <card id="c1">
+                    <interactiveImage src="rabbit.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="rabbit.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">rabbit</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c2">
+                    <interactiveImage src="chick.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="chick.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">chick</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c3">
+                    <interactiveImage src="easteregg.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="easteregg.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">Easter egg</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c4">
+                    <interactiveImage src="flowers.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="flowers.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">flowers</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c5">
+                    <interactiveImage src="basket.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="basket.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">basket</sSpan>
+                        </p>
+                    </block>
+                </card>
+            </cards>
+        </flashcard>
+    </main>
+</activity>

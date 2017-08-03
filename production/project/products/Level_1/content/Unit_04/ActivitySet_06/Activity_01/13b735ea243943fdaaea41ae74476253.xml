@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit4 mm_activity9" id="13b735ea243943fdaaea41ae74476253" pseudoID="BT_L1_U4_SONG_9">
+    <metadata>
+        <title>The elephant – rhyme</title>
+        <category>Songs</category>
+    </metadata>
+    <rubric>
+        <p>Listen to the rhyme.</p>
+    </rubric>
+    <main>
+        <block class="mm_audio">
+            <audio size="large" srt="y">
+                <track src="BT1_CD2.32.mp3"/>
+            </audio>
+        </block>
+    </main>
+</activity>

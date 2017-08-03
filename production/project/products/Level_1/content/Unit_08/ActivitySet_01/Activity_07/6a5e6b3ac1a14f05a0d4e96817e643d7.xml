@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit8 mm_activity5" id="6a5e6b3ac1a14f05a0d4e96817e643d7" pseudoID="BT_L1_U8_GAME_5">
+    <metadata>
+        <title>Halloween – activity</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Find 5 Halloween words in the snake.</p>
+    </rubric>
+    <main>
+        <block>
+            <wordSnake id="wordSnake_1">
+                <words>
+                    <word id="wordSnake_word_1">GHOST</word>
+                    <word id="wordSnake_word_2">BAT</word>
+                    <word id="wordSnake_word_3">WITCH</word>
+                    <word id="wordSnake_word_4">CAT</word>
+                    <word id="wordSnake_word_5">PUMPKIN</word>
+                </words>
+            </wordSnake>
+        </block>
+    </main>
+</activity>

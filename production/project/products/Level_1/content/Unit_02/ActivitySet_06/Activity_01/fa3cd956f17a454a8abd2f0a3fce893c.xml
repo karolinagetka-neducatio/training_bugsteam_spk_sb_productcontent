@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit2 mm_activity9" id="fa3cd956f17a454a8abd2f0a3fce893c" pseudoID="BT_L1_U2_SONG_9">
+    <metadata>
+        <title>Queenie, Queenie – rhyme</title>
+        <category>Songs</category>
+    </metadata>
+    <rubric>
+        <p>Listen to the rhyme.</p>
+    </rubric>
+    <main>
+        <block class="mm_audio">
+            <audio size="large" srt="y">
+                <track src="BT1_CD1.45.mp3"/>
+            </audio>
+        </block>
+    </main>
+</activity>

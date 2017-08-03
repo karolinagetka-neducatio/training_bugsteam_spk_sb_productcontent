@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit3 mm_activity6" id="96806970fcb046f6b35bd366cf2538c5" pseudoID="BT_L1_U3_GAME_6">
+    <metadata>
+        <title>Lesson 2 – activity 2</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Listen and match.</p>
+    </rubric>
+    <main>
+        <block>
+            <matching id="matching_1">
+                <pair>
+                    <matchItem id="matchItem_1" rank="1">
+                        <audio size="small">
+                            <track src="mouth.mp3"/>
+                        </audio>
+                    </matchItem>
+                    <matchTarget id="matchTarget_1">
+                        <image src="ThinkstockPhotos-176581654.psd" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_2" rank="2">
+                        <audio size="small">
+                            <track src="nose.mp3"/>
+                        </audio>
+                    </matchItem>
+                    <matchTarget id="matchTarget_2">
+                        <image src="ThinkstockPhotos-176581654.psd" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_3" rank="3">
+                        <audio size="small">
+                            <track src="eyes.mp3"/>
+                        </audio>
+                    </matchItem>
+                    <matchTarget id="matchTarget_3">
+                        <image src="ThinkstockPhotos-176581654.psd" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_4" rank="4">
+                        <audio size="small">
+                            <track src="head.mp3"/>
+                        </audio>
+                    </matchItem>
+                    <matchTarget id="matchTarget_4">
+                        <image src="ThinkstockPhotos-176581654.psd" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_5" rank="5">
+                        <audio size="small">
+                            <track src="ears.mp3"/>
+                        </audio>
+                    </matchItem>
+                    <matchTarget id="matchTarget_5">
+                        <image src="ThinkstockPhotos-176581654.psd" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_6" rank="6">
+                        <audio size="small">
+                            <track src="nose.mp3"/>
+                        </audio>
+                    </matchItem>
+                    <matchTarget id="matchTarget_6">
+                        <image src="ThinkstockPhotos-176581654.psd" title=""/>
+                    </matchTarget>
+                </pair>
+            </matching>
+        </block>
+    </main>
+</activity>

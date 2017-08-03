@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit2 mm_activity5" id="ac25f30826c84932ab052b212ee91a94" pseudoID="BT_L1_U2_SONG_5">
+    <metadata>
+        <title>The magic elf – song</title>
+        <category>Songs</category>
+    </metadata>
+    <rubric>
+        <p>Listen and sing.</p>
+    </rubric>
+    <main>
+        <block class="mm_audio">
+            <audio size="large" srt="y">
+                <track src="BT1_CD1.39.mp3"/>
+            </audio>
+        </block>
+    </main>
+</activity>

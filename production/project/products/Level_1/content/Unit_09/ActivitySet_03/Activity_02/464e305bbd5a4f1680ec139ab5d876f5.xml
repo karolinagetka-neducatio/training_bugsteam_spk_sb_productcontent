@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit9 mm_activity6" id="464e305bbd5a4f1680ec139ab5d876f5" pseudoID="BT_L1_U9_GAME_6">
+    <metadata>
+        <title>Extra words – memory</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Find the pairs.</p>
+    </rubric>
+    <main>
+        <block>
+            <pelmanism id="pelmanism_1">
+                <cards>
+                    <pair class="pair_1">
+                        <card>knees <audio size="small">
+                                <track src="knees.mp3"/>
+                            </audio>
+                        </card>
+                        <card>
+                            <image src="ThinkstockPhotos-466820310.psd" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_2">
+                        <card>fingers <audio size="small">
+                                <track src="fingers.mp3"/>
+                            </audio>
+                        </card>
+                        <card>
+                            <image src="ThinkstockPhotos-187187812.psd" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_3">
+                        <card>elbows <audio size="small">
+                                <track src="elbows.mp3"/>
+                            </audio>
+                        </card>
+                        <card>
+                            <image src="ThinkstockPhotos-187491342.psd" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_4">
+                        <card>toes <audio size="small">
+                                <track src="toes.mp3"/>
+                            </audio>
+                        </card>
+                        <card>
+                            <image src="ThinkstockPhotos-87726527.psd" title=""/>
+                        </card>
+                    </pair>
+                </cards>
+            </pelmanism>
+        </block>
+    </main>
+</activity>

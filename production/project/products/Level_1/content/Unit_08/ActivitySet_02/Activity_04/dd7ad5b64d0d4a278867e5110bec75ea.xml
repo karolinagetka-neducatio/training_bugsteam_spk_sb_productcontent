@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit8 mm_activity3" id="dd7ad5b64d0d4a278867e5110bec75ea" pseudoID="BT_L1_U8_SONG_3">
+    <metadata>
+        <title>Jingle bells – song</title>
+        <category>Songs</category>
+    </metadata>
+    <rubric>
+        <p>Listen and sing.</p>
+    </rubric>
+    <main>
+        <block class="mm_audio">
+            <audio size="large" srt="y">
+                <track src="BT1_CD3.43.mp3"/>
+            </audio>
+        </block>
+    </main>
+</activity>

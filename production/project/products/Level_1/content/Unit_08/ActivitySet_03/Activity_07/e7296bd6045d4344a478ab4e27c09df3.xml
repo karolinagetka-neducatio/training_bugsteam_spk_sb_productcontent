@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit8 mm_activity15" id="e7296bd6045d4344a478ab4e27c09df3" pseudoID="BT_L1_U8_GAME_15">
+    <metadata>
+        <title>Easter – activity</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Match the pictures with the words from the box.</p>
+    </rubric>
+    <main>
+        <block>
+            <list display="v" type="numbered">
+                <li>
+                    <p>
+                        <image src="easteregg.psd" title=""/>
+                        <droppable id="droppable_1">Easter egg</droppable>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <image src="flowers.psd" title=""/>
+                        <droppable id="droppable_2">flowers</droppable>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <image src="rabbit.psd" title=""/>
+                        <droppable id="droppable_3">rabbit</droppable>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <image src="chick.psd" title=""/>
+                        <droppable id="droppable_4">chick</droppable>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <image src="basket.psd" title=""/>
+                        <droppable id="droppable_5">basket</droppable>
+                    </p>
+                </li>
+            </list>
+        </block>
+    </main>
+</activity>

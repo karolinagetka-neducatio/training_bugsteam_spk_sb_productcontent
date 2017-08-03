@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit5 mm_activity6" id="2ff159b36da34c5597593b98b2e5e9d0" pseudoID="BT_L1_U5_GAME_6">
+    <metadata>
+        <title>Lesson 2 – activity 2</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Find 8 names of food in the wordsearch.</p>
+    </rubric>
+    <main>
+        <block>
+            <wordSearch id="wordsearch_1">
+                <words>
+                    <word id="wordesearch_word_1">CARROT</word>
+                    <word id="wordesearch_word_2">TOMATO</word>
+                    <word id="wordesearch_word_3">HAM</word>
+                    <word id="wordesearch_word_4">CHEESE</word>
+                    <word id="wordesearch_word_5">BANANA</word>
+                    <word id="wordesearch_word_6">CHICKEN</word>
+                    <word id="wordesearch_word_7">APPLE</word>
+                    <word id="wordesearch_word_8">YOGHURT</word>
+                </words>
+            </wordSearch>
+        </block>
+    </main>
+</activity>

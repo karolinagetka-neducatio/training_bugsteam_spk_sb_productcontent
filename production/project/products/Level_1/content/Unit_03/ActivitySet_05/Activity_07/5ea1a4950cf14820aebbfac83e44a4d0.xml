@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit3 mm_activity13" id="5ea1a4950cf14820aebbfac83e44a4d0" pseudoID="BT_L1_U3_GAME_13">
+    <metadata>
+        <title>Lesson 5 – activity 2</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <audio size="large" srt="y">
+            <track src="BT1_CD2.08.mp3"/>
+        </audio>
+        <p>Listen to the chant. Match the pictures.</p>
+    </rubric>
+    <main>
+        <block>
+            <matching id="matching_1">
+                <pair>
+                    <matchItem id="matchItem_1" rank="1">
+                        <image src="ears.psd" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_1">
+                        <image src="headphones.psd" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_2" rank="2">
+                        <image src="eyes.psd" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_2">
+                        <image src="field.psd" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_3" rank="3">
+                        <image src="nose.psd" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_3">
+                        <image src="perfume.psd" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_4" rank="4">
+                        <image src="hands.psd" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_4">
+                        <image src="sand.psd" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_5" rank="5">
+                        <image src="mouth.psd" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_5">
+                        <image src="cake.psd" title=""/>
+                    </matchTarget>
+                </pair>
+            </matching>
+        </block>
+    </main>
+</activity>

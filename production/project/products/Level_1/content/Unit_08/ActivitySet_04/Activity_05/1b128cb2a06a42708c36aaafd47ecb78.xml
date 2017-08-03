@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit8 mm_activity8" id="1b128cb2a06a42708c36aaafd47ecb78" pseudoID="BT_L1_U8_SONG_8">
+    <metadata>
+        <title>I love you – song (karaoke)</title>
+        <category>Songs</category>
+    </metadata>
+    <rubric>
+        <p>Listen and sing.</p>
+    </rubric>
+    <main>
+        <block class="mm_audio">
+            <audio size="large" srt="y">
+                <track src="BT1_CD3.50.mp3"/>
+            </audio>
+        </block>
+    </main>
+</activity>

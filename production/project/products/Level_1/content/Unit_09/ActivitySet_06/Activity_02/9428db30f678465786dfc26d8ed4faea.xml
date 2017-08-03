@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit9 mm_activity12" id="9428db30f678465786dfc26d8ed4faea" pseudoID="BT_L1_U9_GAME_12">
+    <metadata>
+        <title>Extra words – memory</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Find the pairs.</p>
+    </rubric>
+    <main>
+        <block>
+            <pelmanism id="pelmanism_1">
+                <cards>
+                    <pair class="pair_1">
+                        <card>uncle <audio size="small">
+                                <track src="uncle.mp3"/>
+                            </audio>
+                        </card>
+                        <card>
+                            <image src="ThinkstockPhotos-481429447.psd" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_2">
+                        <card>cousin <audio size="small">
+                                <track src="cousin.mp3"/>
+                            </audio>
+                        </card>
+                        <card>
+                            <image src="ThinkstockPhotos-485468651.psd" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_3">
+                        <card>aunt <audio size="small">
+                                <track src="aunt.mp3"/>
+                            </audio>
+                        </card>
+                        <card>
+                            <image src="ThinkstockPhotos-520539813.psd" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_4">
+                        <card>classmate <audio size="small">
+                                <track src="classmate.mp3"/>
+                            </audio>
+                        </card>
+                        <card>
+                            <image src="ThinkstockPhotos-547131134.psd" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_5">
+                        <card>best friend <audio size="small">
+                                <track src="bestfriend.mp3"/>
+                            </audio>
+                        </card>
+                        <card>
+                            <image src="ThinkstockPhotos-86490182.psd" title=""/>
+                        </card>
+                    </pair>
+                </cards>
+            </pelmanism>
+        </block>
+    </main>
+</activity>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit6 mm_activity8" id="b2ee1088014744a181b5bd063806583a" pseudoID="BT_L1_U6_SONG_8">
+    <metadata>
+        <title>Family character – chant</title>
+        <category>Songs</category>
+    </metadata>
+    <rubric>
+        <p>Listen to the chant.</p>
+    </rubric>
+    <main>
+        <block class="mm_audio">
+            <audio size="large" srt="y">
+                <track src="BT1_CD3.24.mp3"/>
+            </audio>
+        </block>
+    </main>
+</activity>

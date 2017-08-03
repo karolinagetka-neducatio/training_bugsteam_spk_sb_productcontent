@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit5 mm_activity5" id="d7dbed696b374a848a1050598d721c54" pseudoID="BT_L1_U5_SONG_5">
+    <metadata>
+        <title>The picnic – song</title>
+        <category>Songs</category>
+    </metadata>
+    <rubric>
+        <p>Listen and sing.</p>
+    </rubric>
+    <main>
+        <block class="mm_audio">
+            <audio size="large" srt="y">
+                <track src="BT1_CD2.52.mp3"/>
+            </audio>
+        </block>
+    </main>
+</activity>

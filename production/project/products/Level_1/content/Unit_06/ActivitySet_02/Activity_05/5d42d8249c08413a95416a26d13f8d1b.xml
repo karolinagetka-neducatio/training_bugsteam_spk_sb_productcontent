@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit6 mm_activity6" id="5d42d8249c08413a95416a26d13f8d1b" pseudoID="BT_L1_U6_GAME_6">
+    <metadata>
+        <title>Lesson 2 – activity 2</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Find 8 names of family members in the wordsearch.</p>
+    </rubric>
+    <main>
+        <block>
+            <wordSearch id="wordsearch_1">
+                <words>
+                    <word id="wordesearch_word_1">FAMILY</word>
+                    <word id="wordesearch_word_2">SISTER</word>
+                    <word id="wordesearch_word_3">BABY</word>
+                    <word id="wordesearch_word_4">DADDY</word>
+                    <word id="wordesearch_word_5">MUMMY</word>
+                    <word id="wordesearch_word_6">GRANDPA</word>
+                    <word id="wordesearch_word_7">GRANDMA</word>
+                    <word id="wordesearch_word_8">BROTHER</word>
+                </words>
+            </wordSearch>
+        </block>
+    </main>
+</activity>

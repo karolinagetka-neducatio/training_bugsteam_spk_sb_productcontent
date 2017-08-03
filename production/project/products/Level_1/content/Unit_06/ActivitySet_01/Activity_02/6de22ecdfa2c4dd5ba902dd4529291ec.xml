@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit6 mm_activity2" id="6de22ecdfa2c4dd5ba902dd4529291ec" pseudoID="BT_L1_U6_GAME_2">
+    <metadata>
+        <title>Lesson 1 – spotlight flashcards</title>
+        <category>Games</category>
+    </metadata>
+    <main>
+        <flashcard id="flashcard_1" showNext="y">
+            <descriptors>
+                <item id="1"/>
+            </descriptors>
+            <cards>
+                <card id="c1">
+                    <interactiveImage src="ThinkstockPhotos-486488173.psd" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="mummy.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">mummy</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c2">
+                    <interactiveImage src="ThinkstockPhotos-486488173.psd" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="daddy.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">daddy</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c3">
+                    <interactiveImage src="ThinkstockPhotos-486488173.psd" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="sister.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">sister</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c4">
+                    <interactiveImage src="ThinkstockPhotos-486488175.psd" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="brother.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">brother</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c5">
+                    <interactiveImage src="ThinkstockPhotos-486488173.psd" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="grandma.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">grandma</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c6">
+                    <interactiveImage src="ThinkstockPhotos-486488173.psd" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="grandpa.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">grandpa</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c7">
+                    <interactiveImage src="ThinkstockPhotos-486488175.psd" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="family.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">family</sSpan>
+                        </p>
+                    </block>
+                </card>
+            </cards>
+        </flashcard>
+    </main>
+</activity>

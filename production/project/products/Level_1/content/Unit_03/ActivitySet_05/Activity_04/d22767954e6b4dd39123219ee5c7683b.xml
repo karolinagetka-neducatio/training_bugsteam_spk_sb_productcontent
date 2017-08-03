@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit3 mm_activity8" id="d22767954e6b4dd39123219ee5c7683b" pseudoID="BT_L1_U3_SONG_8">
+    <metadata>
+        <title>I’ve got five senses – chant</title>
+        <category>Songs</category>
+    </metadata>
+    <rubric>
+        <p>Listen to the chant.</p>
+    </rubric>
+    <main>
+        <block class="mm_audio">
+            <audio size="large" srt="y">
+                <track src="BT1_CD2.08.mp3"/>
+            </audio>
+        </block>
+    </main>
+</activity>

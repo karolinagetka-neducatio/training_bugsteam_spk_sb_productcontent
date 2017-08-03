@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit6 mm_activity4" id="c1c15c6696174b028c41d972dd4d657f" pseudoID="BT_L1_U6_GAME_4">
+    <metadata>
+        <title>Lesson 1 – memory game</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Find the pairs.</p>
+    </rubric>
+    <main>
+        <block>
+            <pelmanism id="pelmanism_1">
+                <cards>
+                    <pair class="pair_1">
+                        <card>sister <audio size="small">
+                                <track src="sister.mp3"/>
+                            </audio>
+                        </card>
+                        <card>
+                            <image src="ThinkstockPhotos-486488173.psd" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_2">
+                        <card>grandpa <audio size="small">
+                                <track src="grandpa.mp3"/>
+                            </audio>
+                        </card>
+                        <card>
+                            <image src="ThinkstockPhotos-486488173.psd" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_3">
+                        <card>daddy <audio size="small">
+                                <track src="daddy.mp3"/>
+                            </audio>
+                        </card>
+                        <card>
+                            <image src="ThinkstockPhotos-486488173.psd" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_4">
+                        <card>brother <audio size="small">
+                                <track src="brother.mp3"/>
+                            </audio>
+                        </card>
+                        <card>
+                            <image src="ThinkstockPhotos-486488175.psd" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_5">
+                        <card>mummy <audio size="small">
+                                <track src="mummy.mp3"/>
+                            </audio>
+                        </card>
+                        <card>
+                            <image src="ThinkstockPhotos-486488173.psd" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_6">
+                        <card>grandma <audio size="small">
+                                <track src="grandma.mp3"/>
+                            </audio>
+                        </card>
+                        <card>
+                            <image src="ThinkstockPhotos-486488173.psd" title=""/>
+                        </card>
+                    </pair>
+                </cards>
+            </pelmanism>
+        </block>
+    </main>
+</activity>

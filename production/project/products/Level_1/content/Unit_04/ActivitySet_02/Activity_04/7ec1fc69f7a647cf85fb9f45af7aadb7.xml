@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit4 mm_activity5" id="7ec1fc69f7a647cf85fb9f45af7aadb7" pseudoID="BT_L1_U4_GAME_5">
+    <metadata>
+        <title>Lesson 2 – activity 1</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <audio size="large" srt="y">
+            <track src="BT1_CD2.20.mp3"/>
+        </audio>
+        <p>Listen to the song and match the animals.</p>
+    </rubric>
+    <main>
+        <block>
+            <matching id="matching_1">
+                <pair>
+                    <matchItem id="matchItem_1" rank="1">
+                        <image src="hippo.psd" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_1">
+                        <image src="giraffe.psd" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_2" rank="2">
+                        <image src="elephant.psd" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_2">
+                        <image src="zebra.psd" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_3" rank="3">
+                        <image src="parrot.psd" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_3">
+                        <image src="monkey.psd" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_4" rank="4">
+                        <image src="lion.psd" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_4">
+                        <image src="mouse.psd" title=""/>
+                    </matchTarget>
+                </pair>
+            </matching>
+        </block>
+    </main>
+</activity>

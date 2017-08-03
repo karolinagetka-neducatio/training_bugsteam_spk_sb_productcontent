@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit5 mm_activity10" id="f5da4d82555248b5ad888f51e0acea18" pseudoID="BT_L1_U5_GAME_10">
+    <metadata>
+        <title>Lesson 5 – activity</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Listen and match.</p>
+    </rubric>
+    <main>
+        <block>
+            <matching id="matching_1">
+                <pair>
+                    <matchItem id="matchItem_1" rank="1">
+                        <audio size="small">
+                            <track src="meat.mp3"/>
+                        </audio>
+                    </matchItem>
+                    <matchTarget id="matchTarget_1">
+                        <image src="ThinkstockPhotos-162404337.psd" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_2" rank="2">
+                        <audio size="small">
+                            <track src="milkproducts.mp3"/>
+                        </audio>
+                    </matchItem>
+                    <matchTarget id="matchTarget_2">
+                        <image src="ThinkstockPhotos-154057117.psd" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_3" rank="3">
+                        <audio size="small">
+                            <track src="fruit.mp3"/>
+                        </audio>
+                    </matchItem>
+                    <matchTarget id="matchTarget_3">
+                        <image src="ThinkstockPhotos-185689360.psd" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_4" rank="4">
+                        <audio size="small">
+                            <track src="vegetables.mp3"/>
+                        </audio>
+                    </matchItem>
+                    <matchTarget id="matchTarget_4">
+                        <image src="ThinkstockPhotos-185689360.psd" title=""/>
+                    </matchTarget>
+                </pair>
+            </matching>
+        </block>
+    </main>
+</activity>

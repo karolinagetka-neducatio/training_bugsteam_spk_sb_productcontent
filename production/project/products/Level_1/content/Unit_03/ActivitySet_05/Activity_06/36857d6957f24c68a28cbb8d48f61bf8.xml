@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit3 mm_activity12" id="36857d6957f24c68a28cbb8d48f61bf8" pseudoID="BT_L1_U3_GAME_12">
+    <metadata>
+        <title>Lesson 5 – activity 1</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Listen and choose the word you hear.</p>
+    </rubric>
+    <main>
+        <movingTargets id="movingTargets_1">
+            <targets>
+                <target audio="see.mp3" id="target_1" image="ThinkstockPhotos-140303178.psd"/>
+                <target audio="touch.mp3" id="target_2" image="ThinkstockPhotos-106578783.psd"/>
+                <target audio="taste.mp3" id="target_3" image="ThinkstockPhotos-56569748.psd"/>
+                <target audio="smell.mp3" id="target_4" image="ThinkstockPhotos-93855294.psd"/>
+                <target audio="hear.mp3" id="target_5" image=" ThinkstockPhotos-510180005.psd"/>
+            </targets>
+            <assets>
+                <scenery>
+                    <sceneBackground image="imagefile.psd"/>
+                    <targetBackground image="imagefile.psd"/>
+                    <foreground image="imagefile.psd"/>
+                    <crosshairs image="imagefile.psd"/>
+                    <transparentTarget image="imagefile.psd"/>
+                    <clueButton image="imagefile.psd"/>
+                </scenery>
+                <audio>
+                    <success src="correct.mp3"/>
+                    <fail src="incorrect.mp3"/>
+                    <gameover src="gameover.mp3"/>
+                </audio>
+            </assets>
+        </movingTargets>
+    </main>
+</activity>

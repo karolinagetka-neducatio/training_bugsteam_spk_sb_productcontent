@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit4 mm_activity7" id="a5df8385bde649b89fa396954f0a9895" pseudoID="BT_L1_U4_SONG_7">
+    <metadata>
+        <title>The lion is coming! – song (karaoke)</title>
+        <category>Songs</category>
+    </metadata>
+    <rubric>
+        <p>Listen and sing.</p>
+    </rubric>
+    <main>
+        <block class="mm_audio">
+            <audio size="large" srt="y">
+                <track src="BT1_CD2.27.mp3"/>
+            </audio>
+        </block>
+    </main>
+</activity>

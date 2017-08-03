@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit8 mm_activity18" id="c49cd3d245c843f5a2b86e767803a140" pseudoID="BT_L1_U8_GAME_18">
+    <metadata>
+        <title>Mother’s &amp; Father’s Day – timed flashcards</title>
+        <category>Games</category>
+    </metadata>
+    <main>
+        <flashcard id="flashcard_1" showNext="y">
+            <descriptors>
+                <item id="1"/>
+            </descriptors>
+            <cards>
+                <card id="c1">
+                    <interactiveImage src="mummy.psd" type="timed"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="mummy.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">mummy</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c2">
+                    <interactiveImage src="daddy.psd" type="timed"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="daddy.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">daddy</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c3">
+                    <interactiveImage src="card.psd" type="timed"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="card.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">card</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c4">
+                    <interactiveImage src="drawing.psd" type="timed"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="drawing.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">drawing</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c5">
+                    <interactiveImage src="model.psd" type="timed"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="mode.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">model</sSpan>
+                        </p>
+                    </block>
+                </card>
+            </cards>
+        </flashcard>
+    </main>
+</activity>

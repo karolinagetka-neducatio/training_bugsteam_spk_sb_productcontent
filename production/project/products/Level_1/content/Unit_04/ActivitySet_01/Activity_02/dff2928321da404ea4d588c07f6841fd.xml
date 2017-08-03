@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit4 mm_activity2" id="dff2928321da404ea4d588c07f6841fd" pseudoID="BT_L1_U4_GAME_2">
+    <metadata>
+        <title>Lesson 1 – spotlight flashcards</title>
+        <category>Games</category>
+    </metadata>
+    <main>
+        <flashcard id="flashcard_1" showNext="y">
+            <descriptors>
+                <item id="1"/>
+            </descriptors>
+            <cards>
+                <card id="c1">
+                    <interactiveImage src="ThinkstockPhotos-174432616.psd" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="giraffe.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">giraffe</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c2">
+                    <interactiveImage src="ThinkstockPhotos-152943337.psd" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="zebra.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">zebra</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c3">
+                    <interactiveImage src="ThinkstockPhotos-166228761.psd" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="elephant.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">elephant</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c4">
+                    <interactiveImage src="ThinkstockPhotos-166438418.psd" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="parrot.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">parrot</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c5">
+                    <interactiveImage src="ThinkstockPhotos-455700809.psd" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="lion.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">lion</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c6">
+                    <interactiveImage src="ThinkstockPhotos-101071742.psd" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="hippo.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">hippo</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c7">
+                    <interactiveImage src="ThinkstockPhotos-118320412.psd" type="spotlight"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="monkey.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">monkey</sSpan>
+                        </p>
+                    </block>
+                </card>
+            </cards>
+        </flashcard>
+    </main>
+</activity>

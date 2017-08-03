@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit2 mm_activity9" id="dc331b78c22a4872aed2ddf16a085564" pseudoID="BT_L1_U2_GAME_9">
+    <metadata>
+        <title>Lesson 5 – memory game</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Find the pairs.</p>
+    </rubric>
+    <main>
+        <block>
+            <pelmanism id="pelmanism_1">
+                <cards>
+                    <pair class="pair_1">
+                        <card>
+                            <image src="ThinkstockPhotos-510464945.psd" title=""/>
+                        </card>
+                        <card>
+                            <audio size="small">
+                                <track src="big.mp3"/>
+                            </audio>
+                        </card>
+                    </pair>
+                    <pair class="pair_2">
+                        <card>
+                            <image src="ThinkstockPhotos-469099478.psd" title=""/>
+                        </card>
+                        <card>
+                            <audio size="small">
+                                <track src="short.mp3"/>
+                            </audio>
+                        </card>
+                    </pair>
+                    <pair class="pair_3">
+                        <card>
+                            <image src="ThinkstockPhotos-186578902.psd" title=""/>
+                        </card>
+                        <card>
+                            <audio size="small">
+                                <track src="new.mp3"/>
+                            </audio>
+                        </card>
+                    </pair>
+                    <pair class="pair_4">
+                        <card>
+                            <image src="ThinkstockPhotos-92121082.psd" title=""/>
+                        </card>
+                        <card>
+                            <audio size="small">
+                                <track src="old.mp3"/>
+                            </audio>
+                        </card>
+                    </pair>
+                    <pair class="pair_5">
+                        <card>
+                            <image src="ThinkstockPhotos-473950392.psd" title=""/>
+                        </card>
+                        <card>
+                            <audio size="small">
+                                <track src="long.mp3"/>
+                            </audio>
+                        </card>
+                    </pair>
+                    <pair class="pair_6">
+                        <card>
+                            <image src="ThinkstockPhotos-510464945.psd" title=""/>
+                        </card>
+                        <card>
+                            <audio size="small">
+                                <track src="small.mp3"/>
+                            </audio>
+                        </card>
+                    </pair>
+                </cards>
+            </pelmanism>
+        </block>
+    </main>
+</activity>

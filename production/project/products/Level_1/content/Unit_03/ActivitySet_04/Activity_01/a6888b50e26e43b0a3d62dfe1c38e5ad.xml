@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit3 mm_activity7" id="a6888b50e26e43b0a3d62dfe1c38e5ad" pseudoID="BT_L1_U3_GAME_7">
+    <metadata>
+        <title>Lesson 4 – activity</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Match the pictures.</p>
+    </rubric>
+    <main>
+        <block>
+            <matching id="matching_1">
+                <pair>
+                    <matchItem id="matchItem_1" rank="1">
+                        <image src="snail1.psd" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_1">
+                        <image src="snail2.psd" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_2" rank="2">
+                        <image src="beetle1.psd" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_2">
+                        <image src="beetle2.psd" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_3" rank="3">
+                        <image src="spider1.psd" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_3">
+                        <image src="spider2.psd" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_4" rank="4">
+                        <image src="grasshopper1.psd" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_4">
+                        <image src="grasshopper2.psd" title=""/>
+                    </matchTarget>
+                </pair>
+                <pair>
+                    <matchItem id="matchItem_5" rank="5">
+                        <image src="butterfly1.psd" title=""/>
+                    </matchItem>
+                    <matchTarget id="matchTarget_5">
+                        <image src="butterfly2.psd" title=""/>
+                    </matchTarget>
+                </pair>
+            </matching>
+        </block>
+    </main>
+</activity>

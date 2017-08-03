@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit9 mm_activity5" id="30b4eb493fe34e959960a4c080affad6" pseudoID="BT_L1_U9_GAME_5">
+    <metadata>
+        <title>Extra words – blur flashcards</title>
+        <category>Games</category>
+    </metadata>
+    <main>
+        <flashcard id="flashcard_1" showNext="y">
+            <descriptors>
+                <item id="1"/>
+            </descriptors>
+            <cards>
+                <card id="c1">
+                    <interactiveImage src="ThinkstockPhotos-187187812.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="fingers.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">fingers</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c2">
+                    <interactiveImage src="ThinkstockPhotos-87726527.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="toes.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">toes</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c3">
+                    <interactiveImage src="ThinkstockPhotos-466820310.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="knees.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">knees</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c4">
+                    <interactiveImage src="ThinkstockPhotos-187491342.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="elbows.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">elbows</sSpan>
+                        </p>
+                    </block>
+                </card>
+            </cards>
+        </flashcard>
+    </main>
+</activity>

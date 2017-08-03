@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit2 mm_activity3" id="05888507d8064528820c1f0d2e6a2a15" pseudoID="BT_L1_U2_VIDEO_3">
+    <metadata>
+        <title>Video – Slideshow</title>
+        <category>Videos</category>
+    </metadata>
+    <main>
+        <block>
+            <video src="Bugs_Team_slideshow_unit2.mp4"/>
+        </block>
+    </main>
+</activity>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit6 mm_activity11" id="243fe4ffe6f046e8b7c439c5bd01b58b" pseudoID="BT_L1_U6_GAME_11">
+    <metadata>
+        <title>Lesson 5 – activity 2</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Match the pictures with the words from the box.</p>
+    </rubric>
+    <main>
+        <block>
+            <list display="v" type="numbered">
+                <li>
+                    <p>
+                        <image src="clever.psd" title=""/>
+                        <droppable id="droppable_1">clever</droppable>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <image src="friendly.psd" title=""/>
+                        <droppable id="droppable_2">friendly</droppable>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <image src="shy.psd" title=""/>
+                        <droppable id="droppable_3">shy</droppable>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <image src="noisy.psd" title=""/>
+                        <droppable id="droppable_4">noisy</droppable>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <image src="funny.psd" title=""/>
+                        <droppable id="droppable_5">funny</droppable>
+                    </p>
+                </li>
+            </list>
+        </block>
+    </main>
+</activity>

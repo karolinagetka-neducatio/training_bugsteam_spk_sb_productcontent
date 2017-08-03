@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit5 mm_activity1" id="7daac4150bd94c97876529e3d9d4ecff" pseudoID="BT_L1_U5_GAME_1">
+    <metadata>
+        <title>Lesson 1 – blur flashcards</title>
+        <category>Games</category>
+    </metadata>
+    <main>
+        <flashcard id="flashcard_1" showNext="y">
+            <descriptors>
+                <item id="1"/>
+            </descriptors>
+            <cards>
+                <card id="c1">
+                    <interactiveImage src="ThinkstockPhotos-532238947.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="ham.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">ham</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c2">
+                    <interactiveImage src="ThinkstockPhotos-474230604.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="cheese.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">cheese</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c3">
+                    <interactiveImage src="ThinkstockPhotos-466143631.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="tomato.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">tomato</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c4">
+                    <interactiveImage src="ThinkstockPhotos-159120788.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="chicken.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">chicken</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c5">
+                    <interactiveImage src="ThinkstockPhotos-166106089.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="carrot.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">carrot</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c6">
+                    <interactiveImage src="ThinkstockPhotos-179216234.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="yoghurt.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">yoghurt</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c7">
+                    <interactiveImage src="ThinkstockPhotos-527029937.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="banana.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">banana</sSpan>
+                        </p>
+                    </block>
+                </card>
+            </cards>
+        </flashcard>
+    </main>
+</activity>

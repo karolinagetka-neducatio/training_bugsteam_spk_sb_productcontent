@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit4 mm_activity7" id="be1ad496d4744e459601f92f33a002e4" pseudoID="BT_L1_U4_GAME_7">
+    <metadata>
+        <title>Lesson 2 – activity 3</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Find 6 names of animals in the snake.</p>
+    </rubric>
+    <main>
+        <block>
+            <wordSnake id="wordSnake_1">
+                <words>
+                    <word id="wordSnake_word_1">PARROT</word>
+                    <word id="wordSnake_word_2">HIPPO</word>
+                    <word id="wordSnake_word_3">ELEPHANT</word>
+                    <word id="wordSnake_word_4">LION</word>
+                    <word id="wordSnake_word_5">GIRAFFE</word>
+                    <word id="wordSnake_word_6">MOUSE</word>
+                </words>
+            </wordSnake>
+        </block>
+    </main>
+</activity>

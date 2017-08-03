@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit5 mm_activity3" id="b275dea2dc214f34914cb2f3c866966e" pseudoID="BT_L1_U5_SONG_3">
+    <metadata>
+        <title>I like chicken – song (guided)</title>
+        <category>Songs</category>
+    </metadata>
+    <rubric>
+        <p>Listen and sing.</p>
+    </rubric>
+    <main>
+        <block class="mm_audio">
+            <audio size="large" srt="y">
+                <track src="BT1_CD2.48.mp3"/>
+            </audio>
+        </block>
+    </main>
+</activity>

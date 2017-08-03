@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit6 mm_activity2" id="44cc2e9ee7494246928c1888250cb9b5" pseudoID="BT_L1_U6_SONG_2">
+    <metadata>
+        <title>This is my wonderful family – song</title>
+        <category>Songs</category>
+    </metadata>
+    <rubric>
+        <p>Listen and sing.</p>
+    </rubric>
+    <main>
+        <block class="mm_audio">
+            <audio size="large" srt="y">
+                <track src="BT1_CD3.14.mp3"/>
+            </audio>
+        </block>
+    </main>
+</activity>

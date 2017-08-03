@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit8 mm_activity9" id="d0fa39a226044ba494bb478a01deef7b" pseudoID="BT_L1_U8_GAME_9">
+    <metadata>
+        <title>Christmas – memory game</title>
+        <category>Games</category>
+    </metadata>
+    <rubric>
+        <p>Find the pairs.</p>
+    </rubric>
+    <main>
+        <block>
+            <pelmanism id="pelmanism_1">
+                <cards>
+                    <pair class="pair_1">
+                        <card>Christmas tree <audio size="small">
+                                <track src="christmastree.mp3"/>
+                            </audio>
+                        </card>
+                        <card>
+                            <image src="christmastree.psd" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_2">
+                        <card>present <audio size="small">
+                                <track src="present.mp3"/>
+                            </audio>
+                        </card>
+                        <card>
+                            <image src="present.psd" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_3">
+                        <card>sleigh <audio size="small">
+                                <track src="sleigh.mp3"/>
+                            </audio>
+                        </card>
+                        <card>
+                            <image src="sleigh.psd" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_4">
+                        <card>Father Christmas <audio size="small">
+                                <track src="fatherchristmas.mp3"/>
+                            </audio>
+                        </card>
+                        <card>
+                            <image src="fatherchristmas.psd" title=""/>
+                        </card>
+                    </pair>
+                    <pair class="pair_5">
+                        <card>bell <audio size="small">
+                                <track src="bell.mp3"/>
+                            </audio>
+                        </card>
+                        <card>
+                            <image src="bell.psd" title=""/>
+                        </card>
+                    </pair>
+                </cards>
+            </pelmanism>
+        </block>
+    </main>
+</activity>

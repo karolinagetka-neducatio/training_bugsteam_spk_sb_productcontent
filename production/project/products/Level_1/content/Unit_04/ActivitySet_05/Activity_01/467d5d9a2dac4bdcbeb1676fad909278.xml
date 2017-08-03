@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit4 mm_activity8" id="467d5d9a2dac4bdcbeb1676fad909278" pseudoID="BT_L1_U4_GAME_8">
+    <metadata>
+        <title>Lesson 5 – blur flashcards</title>
+        <category>Games</category>
+    </metadata>
+    <main>
+        <flashcard id="flashcard_1" showNext="y">
+            <descriptors>
+                <item id="1"/>
+            </descriptors>
+            <cards>
+                <card id="c1">
+                    <interactiveImage src="ThinkstockPhotos-122402094.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="walk.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">walk</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c2">
+                    <interactiveImage src="ThinkstockPhotos-519707477.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="run.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">run</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c3">
+                    <interactiveImage src="ThinkstockPhotos-498172925.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="fly.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">fly</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c4">
+                    <interactiveImage src="ThinkstockPhotos-471733353.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="swim.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">swim</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c5">
+                    <interactiveImage src="ThinkstockPhotos-483230252.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="jump.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">jump</sSpan>
+                        </p>
+                    </block>
+                </card>
+                <card id="c6">
+                    <interactiveImage src="ThinkstockPhotos-472089009.psd" type="blur"/>
+                    <block>
+                        <p>
+                            <audio size="small">
+                                <track src="climb.mp3"/>
+                            </audio>
+                            <sSpan class="mm_word">climb</sSpan>
+                        </p>
+                    </block>
+                </card>
+            </cards>
+        </flashcard>
+    </main>
+</activity>

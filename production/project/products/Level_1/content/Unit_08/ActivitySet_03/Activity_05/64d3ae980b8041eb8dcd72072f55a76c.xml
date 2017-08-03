@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit8 mm_activity6" id="64d3ae980b8041eb8dcd72072f55a76c" pseudoID="BT_L1_U8_SONG_6">
+    <metadata>
+        <title>Five little rabbits – song (karaoke)</title>
+        <category>Songs</category>
+    </metadata>
+    <rubric>
+        <p>Listen and sing.</p>
+    </rubric>
+    <main>
+        <block class="mm_audio">
+            <audio size="large" srt="y">
+                <track src="BT1_CD3.47.mp3"/>
+            </audio>
+        </block>
+    </main>
+</activity>
