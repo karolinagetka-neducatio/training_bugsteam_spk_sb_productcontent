@@ -7,7 +7,7 @@
         <p>Listen and choose the word you hear.</p>
     </rubric>
     <main>
-        <movingTargets id="movingTargets_1" speed="100">
+        <movingTargets id="movingTargets_1" speed="120">
             <targets>
                 <target audio="two.mp3" id="target_1" image="two_mt.png"/>
                 <target audio="eight.mp3" id="target_2" image="eight_mt.png"/>

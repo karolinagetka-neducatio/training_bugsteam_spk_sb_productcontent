@@ -516,11 +516,11 @@
 }
 
 .interactiveImageContainer {
-    margin-top: 0;
+    margin-top: 1em;
     padding-bottom: 2.775em;
     padding-bottom: 0;
     margin-bottom: 0;
-    padding-top: 1em;
+    /*padding-top: 1em;*/
 }
 
 .interactiveImageContainer.spotlight div .reveal {
