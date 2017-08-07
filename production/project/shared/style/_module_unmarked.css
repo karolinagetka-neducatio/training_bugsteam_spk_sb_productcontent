@@ -365,6 +365,8 @@
 
 .flashcardBlock [class*='tr_showWord'] .mm_word {
     color: #000; /* show current text */
+    font-size: 1.4em;
+    font-weight: 700;
 }
 
 .flashcardBlock [class*='tr_showWord'] .flashcard .cardDefinitions .cardDefinition {
@@ -489,11 +491,11 @@
 }
 
 .flashcardBlock p {
-    /*display: inline-block;*/
+    display: inline-block;
     line-height: 68px;
     vertical-align: middle;
     margin-top: 4px;
-    text-align: center;
+    padding: 0;
 }
 
 .flashcardMenuContainer {

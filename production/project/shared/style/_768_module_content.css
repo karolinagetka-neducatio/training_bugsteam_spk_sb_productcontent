@@ -73,7 +73,7 @@ as default is two-column layout */
 [class*='col768'][class*='Set'] > .block:nth-child(1n) {
     margin-right: 2%;
 }
-/* Flexbox */    
+/* Flexbox */
 /*.flexbox [class*='col768'][class*='Set'] > .block:nth-child(1n) {
     margin-right: 2%;
 }*/
@@ -169,7 +169,7 @@ as default is two-column layout */
     margin-left: 0;
     margin-right: 0;
 }
-.mm_flexJustifyStart.mm_768col3 > .block:nth-child(3n+2) {  
+.mm_flexJustifyStart.mm_768col3 > .block:nth-child(3n+2) {
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -205,16 +205,16 @@ as default is two-column layout */
 [class*='blockSet'] .mm_mainCol768 {
     width: 64%;
 }
-[class*='blockSet'] .mm_sideCol768 { 
+[class*='blockSet'] .mm_sideCol768 {
     width: 31.5%;
 }
 [class*='blockSet768'] .mm_mainCol768:first-child,
 [class*='blockSet768'] .mm_sideCol768:first-child { /* Create space between columns but adding padding to first-child */
-    padding-right: 2.5%; 
+    padding-right: 2.5%;
 }
 [class*='blockSet768'].mm_flexReverse768 .mm_mainCol768:first-child,
 [class*='blockSet768'].mm_flexReverse768 .mm_sideCol768:first-child { /* Create space between columns but adding padding to first-child */
-    padding-right: 0; 
+    padding-right: 0;
     padding-left: 2.5%
 }
 .mm_flexReverse768 {
@@ -244,4 +244,10 @@ as default is two-column layout */
     display: inline-block;
     min-width: 7em;
     margin: 0 0.5em;
+}
+
+/* MATCHING */
+
+.mm_matching70 {
+    padding-right: 30%;
 }

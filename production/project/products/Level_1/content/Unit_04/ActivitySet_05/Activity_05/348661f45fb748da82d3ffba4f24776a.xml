@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit4 mm_activity11" id="348661f45fb748da82d3ffba4f24776a" pseudoID="BT_L1_U4_GAME_11">
+<activity class="mm_unit4 mm_activity11 mm_radioSelect" id="348661f45fb748da82d3ffba4f24776a" pseudoID="BT_L1_U4_GAME_11">
     <metadata>
         <title>Lesson 5 – activity 1</title>
         <category>Games</category>
@@ -10,7 +10,7 @@
         <p>Listen to the chant and choose the correct pictures.</p>
     </rubric>
     <main>
-        <block>
+        <block class="">
             <list display="v" type="numbered">
                 <li>
                     <radio id="radio_1" display="h" displayType="itemSelect" name="" type="plain">

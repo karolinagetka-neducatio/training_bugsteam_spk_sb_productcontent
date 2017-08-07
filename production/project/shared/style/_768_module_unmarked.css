@@ -18,6 +18,10 @@
     border-width: 3px;
 }
 
+.flashcardBlock p {
+    padding: 0 10%;
+}
+
 /* SONG KARAOKE */
 .mm_song .mm_audio {
     float: right;

@@ -16,7 +16,8 @@
                             <audio size="small">
                                 <track src="read.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">read</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">read</sSpan>
                         </p>
                     </block>
                 </card>
@@ -27,7 +28,8 @@
                             <audio size="small">
                                 <track src="write.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">write</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">write</sSpan>
                         </p>
                     </block>
                 </card>
@@ -38,7 +40,8 @@
                             <audio size="small">
                                 <track src="draw.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">draw</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">draw</sSpan>
                         </p>
                     </block>
                 </card>
@@ -49,7 +52,8 @@
                             <audio size="small">
                                 <track src="colour.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">colour</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">colour</sSpan>
                         </p>
                     </block>
                 </card>

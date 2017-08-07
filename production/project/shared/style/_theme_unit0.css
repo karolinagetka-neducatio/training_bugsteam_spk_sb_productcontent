@@ -219,7 +219,7 @@ Dot: #8484b9
 .mm_unit0 .rcfCarousel .singleButton:active,
 .mm_unit0 .rcfCarousel .singleButton:active,
 .mm_unit0 .rcfCarousel.owl-theme .owl-dots .owl-dot.active span,
-.mm_unit0 .inlinePlayerContainer .inlinePlayer a:active {
+.mm_unit0 .inlinePlayerContainer .inlinePlayer a:active{
     border-color: #802f51;
 }
 
@@ -230,7 +230,8 @@ Dot: #8484b9
 .mm_unit0 .rcfCarousel .navRightButton,
 .mm_unit0 .owl-theme .owl-dots .owl-dot span,
 .mm_unit0 .inlinePlayer a,
-.mm_unit0 .pelmanismContainer .pelmanismAttempts {
+.mm_unit0 .pelmanismContainer .pelmanismAttempts,
+.mm_unit0 .flashcardBlock .mm_button {
 	background-color: #802f51;
 }
 
@@ -241,7 +242,8 @@ Dot: #8484b9
 .mm_unit0 .rcfCarousel .navLeftButton:hover,
 .mm_unit0 .rcfCarousel .navRightButton:hover,
 .mm_unit0 .owl-theme .owl-dots .owl-dot span:hover,
-.mm_unit0 .inlinePlayerContainer .inlinePlayer a:hover {
+.mm_unit0 .inlinePlayerContainer .inlinePlayer a:hover,
+.mm_unit0 .flashcardBlock .mm_button:hover {
     background-color: #a3647e;
     -webkit-transition: none;
     -moz-transition: none;

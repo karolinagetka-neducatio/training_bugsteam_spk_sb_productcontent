@@ -1,0 +1,360 @@
+/*** PARTIAL MODULE: THEME UNIT 3, 8 ***/
+
+/*
+colors
+Unit: #d0684d
+Tint: #f3997b
+Dot: #c5624a
+*/
+
+.mm_unit4.activity:before {
+	background-image: url(../images/background/4_bg_curve.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+	background-size: 100%;
+}
+.mm_unit4.mm_video.activity:before {
+    background-image: url(../images/background/4_bg_curve.png),
+ url(../images/background/4_bg_curve_bottom.png);
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+    background-size: 100%;
+}
+
+/* MARKED */
+
+.mm_unit4 .mm_audioDroppable li.dragItem,
+.mm_unit4 .matchingContainer .matchItemContainer .matchItem,
+.mm_unit4 .wordBox li.dragItem.selected,
+.mm_unit4 .category li.dragItem.selected,
+.mm_unit4 li.dragItem.ui-draggable-dragging.dragOverDrop,
+.mm_unit4 .droppable .dragTarget.populated.selected,
+.mm_unit4.mm_audioDroppable li.dragItem,
+.mm_unit4.matchingContainer .matchItemContainer .matchItem,
+.mm_unit4 .droppable .dropTarget,
+.mm_unit4 .droppable .dragTarget,
+.mm_unit4 .complexDroppable .dragTarget,
+.mm_unit4 .category {
+    border-color: #de543b;
+}
+
+.mm_unit4 .matchingContainer .matchItem.selected,
+.mm_unit4 .matchingContainer .matchItemContainer .matchItem.selected {
+    border-color: #de543b;
+    border-style: solid;
+}
+
+.mm_unit4 .matchingContainer .matchTargetContainer .matchTarget {
+    border-color: #e98b6f;
+    border-style: dotted;
+}
+
+.mm_unit4 .radioItemSelect.vertical .selectable,
+.mm_unit4 .checkboxItemSelect.vertical .selectable,
+.mm_unit4 .mobile .radioItemSelect.horizontal .selectable,
+.mm_unit4 .mobile .checkboxItemSelect.horizontal .selectable,
+.mm_unit4.mm_imageSelect .radioItemSelect.horizontal .selectable,
+.mm_unit4.mm_imageSelect .checkboxItemSelect.horizontal .selectable,
+.mm_unit4.mm_imageSelect .radioItemSelect.vertical .selectable,
+.mm_unit4.mm_imageSelect .checkboxItemSelect.vertical .selectable,
+.mm_unit4.mm_imageSelect .radioItemSelect.horizontal .selectable:first-child,
+.mm_unit4.mm_imageSelect .checkboxItemSelect.horizontal .selectable:first-child,
+.mm_unit4.mm_radioSelect .radioItemSelect.horizontal .selectable,
+.mm_unit4.mm_radioSelect .checkboxItemSelect.horizontal .selectable,
+.mm_unit4.mm_radioSelect .radioItemSelect.vertical .selectable,
+.mm_unit4.mm_radioSelect .checkboxItemSelect.vertical .selectable,
+.mm_unit4.mm_radioSelect .radioItemSelect.horizontal .selectable:first-child,
+.mm_unit4.mm_radioSelect .checkboxItemSelect.horizontal .selectable:first-child,
+.mm_unit4 .dragTarget,
+.mm_unit4 .wordBox li.dragItem,
+.mm_unit4 .category li.dragItem,
+.mm_unit4 ul.ordering li {
+    border-color: #f8d7c9;
+}
+
+.mm_unit4 input.text:focus,
+.mm_unit4 textarea.rcfTextArea:focus,
+.mm_unit4 .typeinGroup input.typeinGroup:focus,
+.mm_unit4 .verticalCrosswordContainer table input:focus,
+.mm_unit4 .droppable .populated,
+.mm_unit4 li.dragItem.ui-draggable-dragging.dragOverDrop,
+.mm_unit4 .dragTarget.populated,
+.mm_unit4 .droppable .dragTarget.populated,
+.mm_unit4 .wordBox li.dragItem.selected,
+.mm_unit4 .category li.dragItem,
+.mm_unit4 ul.ordering li.ui-sortable-helper,
+.mm_unit4 .categorise input[type="radio"]:checked,
+.mm_unit4 .categorise input[type="checkbox"]:checked,
+.mm_unit4.mm_imageSelect .radioItemSelect.horizontal .selected,
+.mm_unit4.mm_imageSelect .checkboxItemSelect.horizontal .selected,
+.mm_unit4.mm_imageSelect .radioItemSelect.vertical .selected,
+.mm_unit4.mm_imageSelect .checkboxItemSelect.vertical .selected,
+.mm_unit4.mm_imageSelect .radioItemSelect.horizontal .selected:first-child,
+.mm_unit4.mm_imageSelect .checkboxItemSelect.horizontal .selected:first-child,
+.mm_unit4.mm_radioSelect .radioItemSelect.horizontal .selected,
+.mm_unit4.mm_radioSelect .checkboxItemSelect.horizontal .selected,
+.mm_unit4.mm_radioSelect .radioItemSelect.vertical .selected,
+.mm_unit4.mm_radioSelect .checkboxItemSelect.vertical .selected,
+.mm_unit4.mm_radioSelect .radioItemSelect.horizontal .selected:first-child,
+.mm_unit4.mm_radioSelect .checkboxItemSelect.horizontal .selected:first-child,
+.mm_unit4 .mm_wsContainer {
+    border-color: #de543b;
+}
+
+/* Matching */
+.mm_unit4 .mm_wordItems .matchingContainer .matchItem.selected {
+    color: #c5624a;
+}
+
+/*.mm_unit4 .matchingContainer svg.showCorrectAnswer path,
+.mm_unit4 .matchingContainer svg.userAnswer path,
+.mm_unit8 .matchingContainer svg.showCorrectAnswer path,
+.mm_unit8 .matchingContainer svg.userAnswer path {
+    stroke: #c5624a;
+}*/
+
+/*** UNMARKED ***/
+
+/*Background*/
+
+/*.mm_unit4 .pelmanismContainer .pelmanismAttempts,
+.mm_unit4 .pelmanismContainer .timer,
+.mm_unit4 .hangmanGame .triesRemaining,
+.mm_unit4 .rcfMovingTargets,
+.mm_unit4.mm_song .main > .block,
+.mm_unit4.mm_video .main > .block {
+    background-color: #c5624a;
+}*/
+
+
+
+/*Border*/
+
+/*.mm_unit4 .colouringContainer,
+.mm_unit4 .pelmanismContainer,
+.mm_unit4 .hangmanContainer,
+.mm_unit4 .rcfMovingTargets,
+.mm_unit4.mm_song .main > .block {
+    border: 5px solid #c5624a;
+}
+
+.mm_unit4 .wordBox,
+.mm_unit4 .mm_wordBox,
+.mm_unit4 .mm_wordBox,
+.mm_unit4 .rcfWordSearchGridChosenWords .wordSearchWords {
+    border-bottom: 4px dotted #c5624a;
+}
+
+.mm_unit4 .hangmanInteractionContainer {
+    border-top: 3px dotted #f3997b;
+}
+
+.mm_unit4 .hangmanContainer .wordContainer .letterContainer {
+    border: 2px dotted #f3997b;
+}*/
+
+.mm_unit4 .rcfMovingTargets {
+    border: 3px solid #de543b;
+}
+
+.mm_unit4 .wordBox {
+  border-bottom: 2px dotted #de543b;
+}
+
+/* Audio player */
+.mm_unit4 .audioContainer ::-webkit-scrollbar-thumb {
+    background-color: #de543b;
+    -webkit-box-shadow: inset 0px 0px 10px 2px #de543b;
+    -moz-box-shadow: inset 0px 0px 10px 2px #de543b;
+    -ms-box-shadow: inset 0px 0px 10px 2px #de543b;
+    box-shadow: inset 0px 0px 10px 2px #de543b;
+}
+
+.mm_unit4 .audio.large .audioInterface, .mm_unit4 .videoPlayerInterface {
+    background-color: #de543b;
+}
+
+/*** Controls ***/
+
+.mm_unit4 .owl-theme .owl-dots .owl-dot span,
+.mm_unit4 .interactiveImageContainer.spotlight .reveal,
+.mm_unit4 .rcfCarousel .owl-nav [class*='owl-'],
+.mm_unit4 .inlinePlayer a.audioPlayButton,
+.mm_unit4 .inlinePlayer a.audioPauseButton {
+    background-color: #de543b;
+}
+
+.mm_unit4 .interactiveImageContainer.spotlight .reveal:active,
+.mm_unit4 .main .singleButton:active,
+.mm_unit4 .rcfCarousel .singleButton:active,
+.mm_unit4 .rcfCarousel .singleButton:active,
+.mm_unit4 .rcfCarousel.owl-theme .owl-dots .owl-dot.active span,
+.mm_unit4 .inlinePlayerContainer .inlinePlayer a:active {
+    border-color: #de543b;
+}
+
+.mm_unit4 .interactiveImageContainer.spotlight .reveal,
+.mm_unit4 .main .singleButton,
+.mm_unit4 .rcfCarousel .owl-nav [class*='owl-'],
+.mm_unit4 .rcfCarousel .navLeftButton,
+.mm_unit4 .rcfCarousel .navRightButton,
+.mm_unit4 .owl-theme .owl-dots .owl-dot span,
+.mm_unit4 .inlinePlayer a,
+.mm_unit4 .pelmanismContainer .pelmanismAttempts,
+.mm_unit4 .flashcardBlock .mm_button {
+	background-color: #de543b;
+}
+
+/* hover */
+.mm_unit4 .interactiveImageContainer.spotlight .reveal:hover,
+.mm_unit4 .main .singleButton:hover,
+.mm_unit4 .rcfCarousel .owl-nav [class*='owl-']:hover,
+.mm_unit4 .rcfCarousel .navLeftButton:hover,
+.mm_unit4 .rcfCarousel .navRightButton:hover,
+.mm_unit4 .owl-theme .owl-dots .owl-dot span:hover,
+.mm_unit4 .inlinePlayerContainer .inlinePlayer a:hover,
+.mm_unit4 .flashcardBlock .mm_button:hover {
+    background-color: #e98b6f;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.mm_unit4 .cardContainer .card[data-audiolink] .front:hover img {
+    content: url(../images/media/audio_pm_over_1.png);
+}
+
+/* Backgrounds */
+
+.mm_unit4.mm_song .main > .block {
+	background-color: #f8d7c9;
+}
+.mm_unit4.mm_song .mm_audio {
+	background-color: #a3647e;
+}
+
+.mm_unit4.mm_video .main > .block {
+    background-color: #f8d7c9;
+}
+
+.mm_unit4 .rcfMovingTargets.complete .gameOver {
+    background-color: rgba(255,255,255, 0.6);
+}
+
+/* Pelmanism */
+.mm_unit4 .cardContainer .card .front img {
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+.mm_unit4 .cardContainer .card .back {
+		background-color: #f8d7c9;
+}
+.cardContainer .card .front {
+    background-color: #fff;
+}
+.mm_unit4 .cardContainer .flipped.matched.userAnswer.card .front, .mm_unit4 .cardContainer .flipped.matched.userAnswer.card .back {
+    border: 1px solid #de543b;
+}
+
+.mm_unit4 .cardContainer .front .imageContainer .caption,
+.mm_unit4 .cardContainer .card .front p {
+    background-color: #66acb4;
+    background-color: rgba(102, 172, 180, 0.93);
+    color: #FFF;
+}
+
+
+/* Pelmanism Complete */
+
+.mm_unit4 .pelmanismContainer.completed {
+	animation: pelmanismComplete4 1s 4 alternate;
+	-webkit-animation: pelmanismComplete4 1s 4 alternate;
+	-moz-animation: pelmanismComplete4 1s 4 alternate;
+	-o-animation: pelmanismComplete4 1s 4 alternate;
+}
+
+.isIE.no-csstransforms3d .pelmanismContainer.completed {
+	border: 10px solid #FF0000;
+}
+
+@-webkit-keyframes pelmanismComplete4 {
+	0% {
+		-webkit-transform: scale(1);
+		box-shadow: 3px 3px 19px #FFF;
+	}
+	50% {
+		-webkit-transform: scale(0.98);
+	}
+	100% {
+		-webkit-transform: scale(1.02);
+		box-shadow: 2px 2px 19px #de543b;
+	}
+}
+
+@-o-keyframes pelmanismComplete4 {
+	0% {
+		box-shadow: 3px 3px 19px #FFF;
+	}
+	100% {
+		box-shadow: 2px 2px 19px #de543b;
+	}
+}
+
+@keyframes pelmanismComplete4 {
+	0% {
+		box-shadow: 3px 3px 19px #aaa;
+	}
+	100% {
+		box-shadow: 2px 2px 19px #de543b;
+	}
+}
+
+/* Moving Targets complete */
+
+.mm_unit4 .rcfMovingTargets.complete {
+	animation: movingTargetsComplete4 1s 4 alternate;
+	-webkit-animation: movingTargetsComplete4 1s 4 alternate;
+	-moz-animation: movingTargetsComplete4 1s 4 alternate;
+	-o-animation: movingTargetsComplete4 1s 4 alternate;
+}
+
+@-webkit-keyframes movingTargetsComplete4 {
+	0% {
+		-webkit-transform: scale(1);
+		box-shadow: 3px 3px 19px #FFF;
+	}
+	50% {
+		-webkit-transform: scale(0.98);
+	}
+	100% {
+		-webkit-transform: scale(1.02);
+		box-shadow: 2px 2px 19px #de543b;
+	}
+}
+
+@-o-keyframes movingTargetsComplete4 {
+	0% {
+		box-shadow: 3px 3px 19px #FFF;
+	}
+	100% {
+		box-shadow: 2px 2px 19px #de543b;
+	}
+}
+
+@keyframes movingTargetsComplete4 {
+	0% {
+		box-shadow: 3px 3px 19px #aaa;
+	}
+	100% {
+		box-shadow: 2px 2px 19px #de543b;
+	}
+}

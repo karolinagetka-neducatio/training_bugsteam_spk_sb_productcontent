@@ -71,39 +71,12 @@ Dot: #8484b9
 .mm_unit1.mm_radioSelect .checkboxItemSelect.vertical .selected,
 .mm_unit1.mm_radioSelect .radioItemSelect.horizontal .selected:first-child,
 .mm_unit1.mm_radioSelect .checkboxItemSelect.horizontal .selected:first-child,
-.mm_unit1 .mm_wsContainer,
-.mm_unit6 input.text:focus,
-.mm_unit6 textarea.rcfTextArea:focus,
-.mm_unit6 .typeinGroup input.typeinGroup:focus,
-.mm_unit6 .verticalCrosswordContainer table input:focus,
-.mm_unit6 .droppable .populated,
-.mm_unit6 li.dragItem.ui-draggable-dragging.dragOverDrop,
-.mm_unit6 .dragTarget.populated,
-.mm_unit6 .droppable .dragTarget.populated,
-.mm_unit6 .wordBox li.dragItem.selected,
-.mm_unit6 .category li.dragItem,
-.mm_unit6 ul.ordering li.ui-sortable-helper,
-.mm_unit6 .categorise input[type="radio"]:checked,
-.mm_unit6 .categorise input[type="checkbox"]:checked,
-.mm_unit6.mm_imageSelect .radioItemSelect.horizontal .selected,
-.mm_unit6.mm_imageSelect .checkboxItemSelect.horizontal .selected,
-.mm_unit6.mm_imageSelect .radioItemSelect.vertical .selected,
-.mm_unit6.mm_imageSelect .checkboxItemSelect.vertical .selected,
-.mm_unit6.mm_imageSelect .radioItemSelect.horizontal .selected:first-child,
-.mm_unit6.mm_imageSelect .checkboxItemSelect.horizontal .selected:first-child,
-.mm_unit6.mm_radioSelect .radioItemSelect.horizontal .selected,
-.mm_unit6.mm_radioSelect .checkboxItemSelect.horizontal .selected,
-.mm_unit6.mm_radioSelect .radioItemSelect.vertical .selected,
-.mm_unit6.mm_radioSelect .checkboxItemSelect.vertical .selected,
-.mm_unit6.mm_radioSelect .radioItemSelect.horizontal .selected:first-child,
-.mm_unit6.mm_radioSelect .checkboxItemSelect.horizontal .selected:first-child,
-.mm_unit6 .mm_wsContainer {
+.mm_unit1 .mm_wsContainer {
     border-color: #8484b9;
 }
 
 /* Matching */
-.mm_unit1 .mm_wordItems .matchingContainer .matchItem.selected,
-.mm_unit6 .mm_wordItems .matchingContainer .matchItem.selected {
+.mm_unit1 .mm_wordItems .matchingContainer .matchItem.selected {
     color: #8484b9;
 }
 
@@ -131,13 +104,11 @@ Dot: #8484b9
     background-size: 100%;
 }
 
-.mm_unit1.mm_song .mm_audio,
-.mm_unit6.mm_song .mm_audio {
+.mm_unit1.mm_song .mm_audio {
     background-color: #989acd;
 }
 
-.mm_unit1 .rcfMovingTargets.complete .gameOver,
-.mm_unit6 .rcfMovingTargets.complete .gameOver {
+.mm_unit1 .rcfMovingTargets.complete .gameOver {
     background-color: rgba(255,255,255, 0.6);
     /*background-color: rgba(152,154,205, 0.6);*/
     /*background-color: #989acd;*/
@@ -161,28 +132,20 @@ Dot: #8484b9
 .mm_unit1 .wordBox,
 .mm_unit1 .mm_wordBox,
 .mm_unit1 .mm_wordBox,
-.mm_unit1 .rcfWordSearchGridChosenWords .wordSearchWords,
-.mm_unit6 .wordBox,
-.mm_unit6 .mm_wordBox,
-.mm_unit6 .mm_wordBox,
-.mm_unit6 .rcfWordSearchGridChosenWords .wordSearchWords {
+.mm_unit1 .rcfWordSearchGridChosenWords .wordSearchWords {
     border-bottom: 4px dotted #8484b9;
 }
 
-.mm_unit1 .hangmanInteractionContainer,
-.mm_unit6 .hangmanInteractionContainer {
+.mm_unit1 .hangmanInteractionContainer {
     border-top: 3px dotted #989acd;
 }
 
-.mm_unit1 .hangmanContainer .wordContainer .letterContainer,
-.mm_unit6 .hangmanContainer .wordContainer .letterContainer {
+.mm_unit1 .hangmanContainer .wordContainer .letterContainer {
     border: 2px dotted #989acd;
 }
 
 .mm_unit1 .cardContainer .front .imageContainer .caption,
-.mm_unit1 .cardContainer .card .front p,
-.mm_unit6 .cardContainer .front .imageContainer .caption,
-.mm_unit6 .cardContainer .card .front p {
+.mm_unit1 .cardContainer .card .front p {
     background-color: #8484b9;
     background-color: rgba(132, 132, 185, 0.93);
     color: #FFF;
@@ -231,7 +194,8 @@ Dot: #8484b9
 .mm_unit1 .rcfCarousel .navRightButton,
 .mm_unit1 .owl-theme .owl-dots .owl-dot span,
 .mm_unit1 .inlinePlayer a,
-.mm_unit1 .pelmanismContainer .pelmanismAttempts {
+.mm_unit1 .pelmanismContainer .pelmanismAttempts,
+.mm_unit1 .flashcardBlock .mm_button {
 	background-color: #009dd2;
 }
 
@@ -242,7 +206,8 @@ Dot: #8484b9
 .mm_unit1 .rcfCarousel .navLeftButton:hover,
 .mm_unit1 .rcfCarousel .navRightButton:hover,
 .mm_unit1 .owl-theme .owl-dots .owl-dot span:hover,
-.mm_unit1 .inlinePlayerContainer .inlinePlayer a:hover {
+.mm_unit1 .inlinePlayerContainer .inlinePlayer a:hover,
+.mm_unit1 .flashcardBlock .mm_button:hover {
     background-color: #a6d5ee;
     -webkit-transition: none;
     -moz-transition: none;

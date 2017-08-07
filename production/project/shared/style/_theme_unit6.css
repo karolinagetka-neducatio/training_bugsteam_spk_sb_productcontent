@@ -1,0 +1,360 @@
+/*** PARTIAL MODULE: THEME UNIT 3, 8 ***/
+
+/*
+colors
+Unit: #d0684d
+Tint: #f3997b
+Dot: #c5624a
+*/
+
+.mm_unit6.activity:before {
+	background-image: url(../images/background/6_bg_curve.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+	background-size: 100%;
+}
+.mm_unit6.mm_video.activity:before {
+    background-image: url(../images/background/6_bg_curve.png),
+ url(../images/background/6_bg_curve_bottom.png);
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+    background-size: 100%;
+}
+
+/* MARKED */
+
+.mm_unit6 .mm_audioDroppable li.dragItem,
+.mm_unit6 .matchingContainer .matchItemContainer .matchItem,
+.mm_unit6 .wordBox li.dragItem.selected,
+.mm_unit6 .category li.dragItem.selected,
+.mm_unit6 li.dragItem.ui-draggable-dragging.dragOverDrop,
+.mm_unit6 .droppable .dragTarget.populated.selected,
+.mm_unit6.mm_audioDroppable li.dragItem,
+.mm_unit6.matchingContainer .matchItemContainer .matchItem,
+.mm_unit6 .droppable .dropTarget,
+.mm_unit6 .droppable .dragTarget,
+.mm_unit6 .complexDroppable .dragTarget,
+.mm_unit6 .category {
+    border-color: #84468b;
+}
+
+.mm_unit6 .matchingContainer .matchItem.selected,
+.mm_unit6 .matchingContainer .matchItemContainer .matchItem.selected {
+    border-color: #84468b;
+    border-style: solid;
+}
+
+.mm_unit6 .matchingContainer .matchTargetContainer .matchTarget {
+    border-color: #b191bd;
+    border-style: dotted;
+}
+
+.mm_unit6 .radioItemSelect.vertical .selectable,
+.mm_unit6 .checkboxItemSelect.vertical .selectable,
+.mm_unit6 .mobile .radioItemSelect.horizontal .selectable,
+.mm_unit6 .mobile .checkboxItemSelect.horizontal .selectable,
+.mm_unit6.mm_imageSelect .radioItemSelect.horizontal .selectable,
+.mm_unit6.mm_imageSelect .checkboxItemSelect.horizontal .selectable,
+.mm_unit6.mm_imageSelect .radioItemSelect.vertical .selectable,
+.mm_unit6.mm_imageSelect .checkboxItemSelect.vertical .selectable,
+.mm_unit6.mm_imageSelect .radioItemSelect.horizontal .selectable:first-child,
+.mm_unit6.mm_imageSelect .checkboxItemSelect.horizontal .selectable:first-child,
+.mm_unit6.mm_radioSelect .radioItemSelect.horizontal .selectable,
+.mm_unit6.mm_radioSelect .checkboxItemSelect.horizontal .selectable,
+.mm_unit6.mm_radioSelect .radioItemSelect.vertical .selectable,
+.mm_unit6.mm_radioSelect .checkboxItemSelect.vertical .selectable,
+.mm_unit6.mm_radioSelect .radioItemSelect.horizontal .selectable:first-child,
+.mm_unit6.mm_radioSelect .checkboxItemSelect.horizontal .selectable:first-child,
+.mm_unit6 .dragTarget,
+.mm_unit6 .wordBox li.dragItem,
+.mm_unit6 .category li.dragItem,
+.mm_unit6 ul.ordering li {
+    border-color: #e1d6e8;
+}
+
+.mm_unit6 input.text:focus,
+.mm_unit6 textarea.rcfTextArea:focus,
+.mm_unit6 .typeinGroup input.typeinGroup:focus,
+.mm_unit6 .verticalCrosswordContainer table input:focus,
+.mm_unit6 .droppable .populated,
+.mm_unit6 li.dragItem.ui-draggable-dragging.dragOverDrop,
+.mm_unit6 .dragTarget.populated,
+.mm_unit6 .droppable .dragTarget.populated,
+.mm_unit6 .wordBox li.dragItem.selected,
+.mm_unit6 .category li.dragItem,
+.mm_unit6 ul.ordering li.ui-sortable-helper,
+.mm_unit6 .categorise input[type="radio"]:checked,
+.mm_unit6 .categorise input[type="checkbox"]:checked,
+.mm_unit6.mm_imageSelect .radioItemSelect.horizontal .selected,
+.mm_unit6.mm_imageSelect .checkboxItemSelect.horizontal .selected,
+.mm_unit6.mm_imageSelect .radioItemSelect.vertical .selected,
+.mm_unit6.mm_imageSelect .checkboxItemSelect.vertical .selected,
+.mm_unit6.mm_imageSelect .radioItemSelect.horizontal .selected:first-child,
+.mm_unit6.mm_imageSelect .checkboxItemSelect.horizontal .selected:first-child,
+.mm_unit6.mm_radioSelect .radioItemSelect.horizontal .selected,
+.mm_unit6.mm_radioSelect .checkboxItemSelect.horizontal .selected,
+.mm_unit6.mm_radioSelect .radioItemSelect.vertical .selected,
+.mm_unit6.mm_radioSelect .checkboxItemSelect.vertical .selected,
+.mm_unit6.mm_radioSelect .radioItemSelect.horizontal .selected:first-child,
+.mm_unit6.mm_radioSelect .checkboxItemSelect.horizontal .selected:first-child,
+.mm_unit6 .mm_wsContainer {
+    border-color: #84468b;
+}
+
+/* Matching */
+.mm_unit6 .mm_wordItems .matchingContainer .matchItem.selected {
+    color: #c5624a;
+}
+
+/*.mm_unit6 .matchingContainer svg.showCorrectAnswer path,
+.mm_unit6 .matchingContainer svg.userAnswer path,
+.mm_unit8 .matchingContainer svg.showCorrectAnswer path,
+.mm_unit8 .matchingContainer svg.userAnswer path {
+    stroke: #c5624a;
+}*/
+
+/*** UNMARKED ***/
+
+/*Background*/
+
+/*.mm_unit6 .pelmanismContainer .pelmanismAttempts,
+.mm_unit6 .pelmanismContainer .timer,
+.mm_unit6 .hangmanGame .triesRemaining,
+.mm_unit6 .rcfMovingTargets,
+.mm_unit6.mm_song .main > .block,
+.mm_unit6.mm_video .main > .block {
+    background-color: #c5624a;
+}*/
+
+
+
+/*Border*/
+
+/*.mm_unit6 .colouringContainer,
+.mm_unit6 .pelmanismContainer,
+.mm_unit6 .hangmanContainer,
+.mm_unit6 .rcfMovingTargets,
+.mm_unit6.mm_song .main > .block {
+    border: 5px solid #c5624a;
+}
+
+.mm_unit6 .wordBox,
+.mm_unit6 .mm_wordBox,
+.mm_unit6 .mm_wordBox,
+.mm_unit6 .rcfWordSearchGridChosenWords .wordSearchWords {
+    border-bottom: 4px dotted #c5624a;
+}
+
+.mm_unit6 .hangmanInteractionContainer {
+    border-top: 3px dotted #f3997b;
+}
+
+.mm_unit6 .hangmanContainer .wordContainer .letterContainer {
+    border: 2px dotted #f3997b;
+}*/
+
+.mm_unit6 .rcfMovingTargets {
+    border: 3px solid #84468b;
+}
+
+.mm_unit6 .wordBox {
+  border-bottom: 2px dotted #84468b;
+}
+
+/* Audio player */
+.mm_unit6 .audioContainer ::-webkit-scrollbar-thumb {
+    background-color: #84468b;
+    -webkit-box-shadow: inset 0px 0px 10px 2px #84468b;
+    -moz-box-shadow: inset 0px 0px 10px 2px #84468b;
+    -ms-box-shadow: inset 0px 0px 10px 2px #84468b;
+    box-shadow: inset 0px 0px 10px 2px #84468b;
+}
+
+.mm_unit6 .audio.large .audioInterface, .mm_unit6 .videoPlayerInterface {
+    background-color: #84468b;
+}
+
+/*** Controls ***/
+
+.mm_unit6 .owl-theme .owl-dots .owl-dot span,
+.mm_unit6 .interactiveImageContainer.spotlight .reveal,
+.mm_unit6 .rcfCarousel .owl-nav [class*='owl-'],
+.mm_unit6 .inlinePlayer a.audioPlayButton,
+.mm_unit6 .inlinePlayer a.audioPauseButton {
+    background-color: #84468b;
+}
+
+.mm_unit6 .interactiveImageContainer.spotlight .reveal:active,
+.mm_unit6 .main .singleButton:active,
+.mm_unit6 .rcfCarousel .singleButton:active,
+.mm_unit6 .rcfCarousel .singleButton:active,
+.mm_unit6 .rcfCarousel.owl-theme .owl-dots .owl-dot.active span,
+.mm_unit6 .inlinePlayerContainer .inlinePlayer a:active {
+    border-color: #84468b;
+}
+
+.mm_unit6 .interactiveImageContainer.spotlight .reveal,
+.mm_unit6 .main .singleButton,
+.mm_unit6 .rcfCarousel .owl-nav [class*='owl-'],
+.mm_unit6 .rcfCarousel .navLeftButton,
+.mm_unit6 .rcfCarousel .navRightButton,
+.mm_unit6 .owl-theme .owl-dots .owl-dot span,
+.mm_unit6 .inlinePlayer a,
+.mm_unit6 .pelmanismContainer .pelmanismAttempts,
+.mm_unit6 .flashcardBlock .mm_button {
+	background-color: #84468b;
+}
+
+/* hover */
+.mm_unit6 .interactiveImageContainer.spotlight .reveal:hover,
+.mm_unit6 .main .singleButton:hover,
+.mm_unit6 .rcfCarousel .owl-nav [class*='owl-']:hover,
+.mm_unit6 .rcfCarousel .navLeftButton:hover,
+.mm_unit6 .rcfCarousel .navRightButton:hover,
+.mm_unit6 .owl-theme .owl-dots .owl-dot span:hover,
+.mm_unit6 .inlinePlayerContainer .inlinePlayer a:hover,
+.mm_unit6 .flashcardBlock .mm_button:hover {
+    background-color: #b191bd;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.mm_unit6 .cardContainer .card[data-audiolink] .front:hover img {
+    content: url(../images/media/audio_pm_over_1.png);
+}
+
+/* Backgrounds */
+
+.mm_unit6.mm_song .main > .block {
+	background-color: #e1d6e8;
+}
+.mm_unit6.mm_song .mm_audio {
+	background-color: #a3647e;
+}
+
+.mm_unit6.mm_video .main > .block {
+    background-color: #e1d6e8;
+}
+
+.mm_unit6 .rcfMovingTargets.complete .gameOver {
+    background-color: rgba(255,255,255, 0.6);
+}
+
+/* Pelmanism */
+.mm_unit6 .cardContainer .card .front img {
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+.mm_unit6 .cardContainer .card .back {
+		background-color: #e1d6e8;
+}
+.cardContainer .card .front {
+    background-color: #fff;
+}
+.mm_unit6 .cardContainer .flipped.matched.userAnswer.card .front, .mm_unit6 .cardContainer .flipped.matched.userAnswer.card .back {
+    border: 1px solid #84468b;
+}
+
+.mm_unit6 .cardContainer .front .imageContainer .caption,
+.mm_unit6 .cardContainer .card .front p {
+    background-color: #66acb4;
+    background-color: rgba(102, 172, 180, 0.93);
+    color: #FFF;
+}
+
+
+/* Pelmanism Complete */
+
+.mm_unit6 .pelmanismContainer.completed {
+	animation: pelmanismComplete6 1s 4 alternate;
+	-webkit-animation: pelmanismComplete6 1s 4 alternate;
+	-moz-animation: pelmanismComplete6 1s 4 alternate;
+	-o-animation: pelmanismComplete6 1s 4 alternate;
+}
+
+.isIE.no-csstransforms3d .pelmanismContainer.completed {
+	border: 10px solid #FF0000;
+}
+
+@-webkit-keyframes pelmanismComplete6 {
+	0% {
+		-webkit-transform: scale(1);
+		box-shadow: 3px 3px 19px #FFF;
+	}
+	50% {
+		-webkit-transform: scale(0.98);
+	}
+	100% {
+		-webkit-transform: scale(1.02);
+		box-shadow: 2px 2px 19px #84468b;
+	}
+}
+
+@-o-keyframes pelmanismComplete6 {
+	0% {
+		box-shadow: 3px 3px 19px #FFF;
+	}
+	100% {
+		box-shadow: 2px 2px 19px #84468b;
+	}
+}
+
+@keyframes pelmanismComplete6 {
+	0% {
+		box-shadow: 3px 3px 19px #aaa;
+	}
+	100% {
+		box-shadow: 2px 2px 19px #84468b;
+	}
+}
+
+/* Moving Targets complete */
+
+.mm_unit6 .rcfMovingTargets.complete {
+	animation: movingTargetsComplete6 1s 4 alternate;
+	-webkit-animation: movingTargetsComplete6 1s 4 alternate;
+	-moz-animation: movingTargetsComplete6 1s 4 alternate;
+	-o-animation: movingTargetsComplete6 1s 4 alternate;
+}
+
+@-webkit-keyframes movingTargetsComplete6 {
+	0% {
+		-webkit-transform: scale(1);
+		box-shadow: 3px 3px 19px #FFF;
+	}
+	50% {
+		-webkit-transform: scale(0.98);
+	}
+	100% {
+		-webkit-transform: scale(1.02);
+		box-shadow: 2px 2px 19px #84468b;
+	}
+}
+
+@-o-keyframes movingTargetsComplete6 {
+	0% {
+		box-shadow: 3px 3px 19px #FFF;
+	}
+	100% {
+		box-shadow: 2px 2px 19px #84468b;
+	}
+}
+
+@keyframes movingTargetsComplete6 {
+	0% {
+		box-shadow: 3px 3px 19px #aaa;
+	}
+	100% {
+		box-shadow: 2px 2px 19px #84468b;
+	}
+}

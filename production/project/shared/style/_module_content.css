@@ -146,6 +146,10 @@
     max-width: inherit;
 }
 
+.mm_matching70 {
+    padding-right: 0;
+}
+
 /* single words matching */
 
 .mm_matchingSingleWords .matchingContainer {
@@ -280,13 +284,13 @@
 
 /* Story Tool checkbox */
 
-.mm_storyTool .radioItemSelect.horizontal .selectable:first-child, 
+.mm_storyTool .radioItemSelect.horizontal .selectable:first-child,
 .mm_storyTool .checkboxItemSelect.horizontal .selectable:first-child,
-.mm_storyTool .radioItemSelect.horizontal .selectable:last-child, 
+.mm_storyTool .radioItemSelect.horizontal .selectable:last-child,
 .mm_storyTool .checkboxItemSelect.horizontal .selectable:last-child,
-.mm_storyTool .radioItemSelect.vertical .selectable:first-child, 
+.mm_storyTool .radioItemSelect.vertical .selectable:first-child,
 .mm_storyTool .checkboxItemSelect.vertical .selectable:first-child,
-.mm_storyTool .radioItemSelect.vertical .selectable:last-child, 
+.mm_storyTool .radioItemSelect.vertical .selectable:last-child,
 .mm_storyTool .checkboxItemSelect.vertical .selectable:last-child {
     border: none;
     box-shadow: none;
@@ -295,7 +299,7 @@
     background-color: transparent;
 }
 
-.mm_storyTool .radioItemSelect .selected, 
+.mm_storyTool .radioItemSelect .selected,
 .mm_storyTool .checkboxItemSelect .selected {
 }
 

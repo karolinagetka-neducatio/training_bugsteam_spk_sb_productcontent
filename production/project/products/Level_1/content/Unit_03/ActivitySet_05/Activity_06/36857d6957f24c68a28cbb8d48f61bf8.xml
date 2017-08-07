@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit3 mm_activity12" id="36857d6957f24c68a28cbb8d48f61bf8" pseudoID="BT_L1_U3_GAME_12">
+<activity class="mm_unit3 mm_activity12" id="36857d6957f24c68a28cbb8d48f61bf8" pseudoID="BT_L1_U3_GAME_12">
     <metadata>
         <title>Lesson 5 – activity 1</title>
         <category>Games</category>
@@ -17,12 +17,11 @@
             </targets>
             <assets>
                 <scenery>
-                    <sceneBackground image="imagefile.psd"/>
-                    <targetBackground image="imagefile.psd"/>
-                    <foreground image="imagefile.psd"/>
-                    <crosshairs image="imagefile.psd"/>
-                    <transparentTarget image="imagefile.psd"/>
-                    <clueButton image="imagefile.psd"/>
+                  <sceneBackground moving="n" image="mt_gen_sceneBackground.png"/>
+                  <targetBackground moving="n" image="mt_targetBackground_3.png"/>
+                  <crosshairs image="mt_crosshair_3.png"/>
+                  <transparentTarget image="mt_transparentTarget.png"/>
+                  <clueButton image="mt_clueButton_3.png"/>
                 </scenery>
                 <audio>
                     <success src="correct.mp3"/>

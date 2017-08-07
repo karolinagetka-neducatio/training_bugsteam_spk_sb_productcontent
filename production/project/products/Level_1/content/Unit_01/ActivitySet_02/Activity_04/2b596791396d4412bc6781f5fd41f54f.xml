@@ -10,7 +10,7 @@
         <p>Listen and match – who sings each verse?</p>
     </rubric>
     <main>
-        <block class="mm_addNumbering">
+        <block class="mm_addNumbering mm_matching70">
             <matching id="matching_1">
                 <pair>
                     <matchItem id="matchItem_1" rank="1">

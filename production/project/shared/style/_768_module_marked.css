@@ -4,7 +4,7 @@
 
 .dragTarget.populated,
 .droppable .dragTarget.populated {
-    border-width: 4px;
+    border-width: 2px;
 }
 
 /* Droppable - Image */

@@ -1,0 +1,360 @@
+/*** PARTIAL MODULE: THEME UNIT 3, 8 ***/
+
+/*
+colors
+Unit: #d0684d
+Tint: #f3997b
+Dot: #c5624a
+*/
+
+.mm_unit7.activity:before {
+	background-image: url(../images/background/7_bg_curve.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+	background-size: 100%;
+}
+.mm_unit7.mm_video.activity:before {
+    background-image: url(../images/background/7_bg_curve.png),
+ url(../images/background/7_bg_curve_bottom.png);
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+    background-size: 100%;
+}
+
+/* MARKED */
+
+.mm_unit7 .mm_audioDroppable li.dragItem,
+.mm_unit7 .matchingContainer .matchItemContainer .matchItem,
+.mm_unit7 .wordBox li.dragItem.selected,
+.mm_unit7 .category li.dragItem.selected,
+.mm_unit7 li.dragItem.ui-draggable-dragging.dragOverDrop,
+.mm_unit7 .droppable .dragTarget.populated.selected,
+.mm_unit7.mm_audioDroppable li.dragItem,
+.mm_unit7.matchingContainer .matchItemContainer .matchItem,
+.mm_unit7 .droppable .dropTarget,
+.mm_unit7 .droppable .dragTarget,
+.mm_unit7 .complexDroppable .dragTarget,
+.mm_unit7 .category {
+    border-color: #c77c3f;
+}
+
+.mm_unit7 .matchingContainer .matchItem.selected,
+.mm_unit7 .matchingContainer .matchItemContainer .matchItem.selected {
+    border-color: #c77c3f;
+    border-style: solid;
+}
+
+.mm_unit7 .matchingContainer .matchTargetContainer .matchTarget {
+    border-color: #d8a376;
+    border-style: dotted;
+}
+
+.mm_unit7 .radioItemSelect.vertical .selectable,
+.mm_unit7 .checkboxItemSelect.vertical .selectable,
+.mm_unit7 .mobile .radioItemSelect.horizontal .selectable,
+.mm_unit7 .mobile .checkboxItemSelect.horizontal .selectable,
+.mm_unit7.mm_imageSelect .radioItemSelect.horizontal .selectable,
+.mm_unit7.mm_imageSelect .checkboxItemSelect.horizontal .selectable,
+.mm_unit7.mm_imageSelect .radioItemSelect.vertical .selectable,
+.mm_unit7.mm_imageSelect .checkboxItemSelect.vertical .selectable,
+.mm_unit7.mm_imageSelect .radioItemSelect.horizontal .selectable:first-child,
+.mm_unit7.mm_imageSelect .checkboxItemSelect.horizontal .selectable:first-child,
+.mm_unit7.mm_radioSelect .radioItemSelect.horizontal .selectable,
+.mm_unit7.mm_radioSelect .checkboxItemSelect.horizontal .selectable,
+.mm_unit7.mm_radioSelect .radioItemSelect.vertical .selectable,
+.mm_unit7.mm_radioSelect .checkboxItemSelect.vertical .selectable,
+.mm_unit7.mm_radioSelect .radioItemSelect.horizontal .selectable:first-child,
+.mm_unit7.mm_radioSelect .checkboxItemSelect.horizontal .selectable:first-child,
+.mm_unit7 .dragTarget,
+.mm_unit7 .wordBox li.dragItem,
+.mm_unit7 .category li.dragItem,
+.mm_unit7 ul.ordering li {
+    border-color: #ecd2ba;
+}
+
+.mm_unit7 input.text:focus,
+.mm_unit7 textarea.rcfTextArea:focus,
+.mm_unit7 .typeinGroup input.typeinGroup:focus,
+.mm_unit7 .verticalCrosswordContainer table input:focus,
+.mm_unit7 .droppable .populated,
+.mm_unit7 li.dragItem.ui-draggable-dragging.dragOverDrop,
+.mm_unit7 .dragTarget.populated,
+.mm_unit7 .droppable .dragTarget.populated,
+.mm_unit7 .wordBox li.dragItem.selected,
+.mm_unit7 .category li.dragItem,
+.mm_unit7 ul.ordering li.ui-sortable-helper,
+.mm_unit7 .categorise input[type="radio"]:checked,
+.mm_unit7 .categorise input[type="checkbox"]:checked,
+.mm_unit7.mm_imageSelect .radioItemSelect.horizontal .selected,
+.mm_unit7.mm_imageSelect .checkboxItemSelect.horizontal .selected,
+.mm_unit7.mm_imageSelect .radioItemSelect.vertical .selected,
+.mm_unit7.mm_imageSelect .checkboxItemSelect.vertical .selected,
+.mm_unit7.mm_imageSelect .radioItemSelect.horizontal .selected:first-child,
+.mm_unit7.mm_imageSelect .checkboxItemSelect.horizontal .selected:first-child,
+.mm_unit7.mm_radioSelect .radioItemSelect.horizontal .selected,
+.mm_unit7.mm_radioSelect .checkboxItemSelect.horizontal .selected,
+.mm_unit7.mm_radioSelect .radioItemSelect.vertical .selected,
+.mm_unit7.mm_radioSelect .checkboxItemSelect.vertical .selected,
+.mm_unit7.mm_radioSelect .radioItemSelect.horizontal .selected:first-child,
+.mm_unit7.mm_radioSelect .checkboxItemSelect.horizontal .selected:first-child,
+.mm_unit7 .mm_wsContainer {
+    border-color: #c77c3f;
+}
+
+/* Matching */
+.mm_unit7 .mm_wordItems .matchingContainer .matchItem.selected {
+    color: #c5624a;
+}
+
+/*.mm_unit7 .matchingContainer svg.showCorrectAnswer path,
+.mm_unit7 .matchingContainer svg.userAnswer path,
+.mm_unit8 .matchingContainer svg.showCorrectAnswer path,
+.mm_unit8 .matchingContainer svg.userAnswer path {
+    stroke: #c5624a;
+}*/
+
+/*** UNMARKED ***/
+
+/*Background*/
+
+/*.mm_unit7 .pelmanismContainer .pelmanismAttempts,
+.mm_unit7 .pelmanismContainer .timer,
+.mm_unit7 .hangmanGame .triesRemaining,
+.mm_unit7 .rcfMovingTargets,
+.mm_unit7.mm_song .main > .block,
+.mm_unit7.mm_video .main > .block {
+    background-color: #c5624a;
+}*/
+
+
+
+/*Border*/
+
+/*.mm_unit7 .colouringContainer,
+.mm_unit7 .pelmanismContainer,
+.mm_unit7 .hangmanContainer,
+.mm_unit7 .rcfMovingTargets,
+.mm_unit7.mm_song .main > .block {
+    border: 5px solid #c5624a;
+}
+
+.mm_unit7 .wordBox,
+.mm_unit7 .mm_wordBox,
+.mm_unit7 .mm_wordBox,
+.mm_unit7 .rcfWordSearchGridChosenWords .wordSearchWords {
+    border-bottom: 4px dotted #c5624a;
+}
+
+.mm_unit7 .hangmanInteractionContainer {
+    border-top: 3px dotted #f3997b;
+}
+
+.mm_unit7 .hangmanContainer .wordContainer .letterContainer {
+    border: 2px dotted #f3997b;
+}*/
+
+.mm_unit7 .rcfMovingTargets {
+    border: 3px solid #c77c3f;
+}
+
+.mm_unit7 .wordBox {
+  border-bottom: 2px dotted #c77c3f;
+}
+
+/* Audio player */
+.mm_unit7 .audioContainer ::-webkit-scrollbar-thumb {
+    background-color: #c77c3f;
+    -webkit-box-shadow: inset 0px 0px 10px 2px #c77c3f;
+    -moz-box-shadow: inset 0px 0px 10px 2px #c77c3f;
+    -ms-box-shadow: inset 0px 0px 10px 2px #c77c3f;
+    box-shadow: inset 0px 0px 10px 2px #c77c3f;
+}
+
+.mm_unit7 .audio.large .audioInterface, .mm_unit7 .videoPlayerInterface {
+    background-color: #c77c3f;
+}
+
+/*** Controls ***/
+
+.mm_unit7 .owl-theme .owl-dots .owl-dot span,
+.mm_unit7 .interactiveImageContainer.spotlight .reveal,
+.mm_unit7 .rcfCarousel .owl-nav [class*='owl-'],
+.mm_unit7 .inlinePlayer a.audioPlayButton,
+.mm_unit7 .inlinePlayer a.audioPauseButton {
+    background-color: #c77c3f;
+}
+
+.mm_unit7 .interactiveImageContainer.spotlight .reveal:active,
+.mm_unit7 .main .singleButton:active,
+.mm_unit7 .rcfCarousel .singleButton:active,
+.mm_unit7 .rcfCarousel .singleButton:active,
+.mm_unit7 .rcfCarousel.owl-theme .owl-dots .owl-dot.active span,
+.mm_unit7 .inlinePlayerContainer .inlinePlayer a:active {
+    border-color: #c77c3f;
+}
+
+.mm_unit7 .interactiveImageContainer.spotlight .reveal,
+.mm_unit7 .main .singleButton,
+.mm_unit7 .rcfCarousel .owl-nav [class*='owl-'],
+.mm_unit7 .rcfCarousel .navLeftButton,
+.mm_unit7 .rcfCarousel .navRightButton,
+.mm_unit7 .owl-theme .owl-dots .owl-dot span,
+.mm_unit7 .inlinePlayer a,
+.mm_unit7 .pelmanismContainer .pelmanismAttempts,
+.mm_unit7 .flashcardBlock .mm_button {
+	background-color: #c77c3f;
+}
+
+/* hover */
+.mm_unit7 .interactiveImageContainer.spotlight .reveal:hover,
+.mm_unit7 .main .singleButton:hover,
+.mm_unit7 .rcfCarousel .owl-nav [class*='owl-']:hover,
+.mm_unit7 .rcfCarousel .navLeftButton:hover,
+.mm_unit7 .rcfCarousel .navRightButton:hover,
+.mm_unit7 .owl-theme .owl-dots .owl-dot span:hover,
+.mm_unit7 .inlinePlayerContainer .inlinePlayer a:hover,
+.mm_unit7 .flashcardBlock .mm_button:hover {
+    background-color: #d8a376;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.mm_unit7 .cardContainer .card[data-audiolink] .front:hover img {
+    content: url(../images/media/audio_pm_over_1.png);
+}
+
+/* Backgrounds */
+
+.mm_unit7.mm_song .main > .block {
+	background-color: #ecd2ba;
+}
+.mm_unit7.mm_song .mm_audio {
+	background-color: #a3647e;
+}
+
+.mm_unit7.mm_video .main > .block {
+    background-color: #ecd2ba;
+}
+
+.mm_unit7 .rcfMovingTargets.complete .gameOver {
+    background-color: rgba(255,255,255, 0.6);
+}
+
+/* Pelmanism */
+.mm_unit7 .cardContainer .card .front img {
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+.mm_unit7 .cardContainer .card .back {
+		background-color: #ecd2ba;
+}
+.cardContainer .card .front {
+    background-color: #fff;
+}
+.mm_unit7 .cardContainer .flipped.matched.userAnswer.card .front, .mm_unit7 .cardContainer .flipped.matched.userAnswer.card .back {
+    border: 1px solid #c77c3f;
+}
+
+.mm_unit7 .cardContainer .front .imageContainer .caption,
+.mm_unit7 .cardContainer .card .front p {
+    background-color: #66acb4;
+    background-color: rgba(102, 172, 180, 0.93);
+    color: #FFF;
+}
+
+
+/* Pelmanism Complete */
+
+.mm_unit7 .pelmanismContainer.completed {
+	animation: pelmanismComplete7 1s 4 alternate;
+	-webkit-animation: pelmanismComplete7 1s 4 alternate;
+	-moz-animation: pelmanismComplete7 1s 4 alternate;
+	-o-animation: pelmanismComplete7 1s 4 alternate;
+}
+
+.isIE.no-csstransforms3d .pelmanismContainer.completed {
+	border: 10px solid #FF0000;
+}
+
+@-webkit-keyframes pelmanismComplete7 {
+	0% {
+		-webkit-transform: scale(1);
+		box-shadow: 3px 3px 19px #FFF;
+	}
+	50% {
+		-webkit-transform: scale(0.98);
+	}
+	100% {
+		-webkit-transform: scale(1.02);
+		box-shadow: 2px 2px 19px #c77c3f;
+	}
+}
+
+@-o-keyframes pelmanismComplete7 {
+	0% {
+		box-shadow: 3px 3px 19px #FFF;
+	}
+	100% {
+		box-shadow: 2px 2px 19px #c77c3f;
+	}
+}
+
+@keyframes pelmanismComplete7 {
+	0% {
+		box-shadow: 3px 3px 19px #aaa;
+	}
+	100% {
+		box-shadow: 2px 2px 19px #c77c3f;
+	}
+}
+
+/* Moving Targets complete */
+
+.mm_unit7 .rcfMovingTargets.complete {
+	animation: movingTargetsComplete7 1s 4 alternate;
+	-webkit-animation: movingTargetsComplete7 1s 4 alternate;
+	-moz-animation: movingTargetsComplete7 1s 4 alternate;
+	-o-animation: movingTargetsComplete7 1s 4 alternate;
+}
+
+@-webkit-keyframes movingTargetsComplete7 {
+	0% {
+		-webkit-transform: scale(1);
+		box-shadow: 3px 3px 19px #FFF;
+	}
+	50% {
+		-webkit-transform: scale(0.98);
+	}
+	100% {
+		-webkit-transform: scale(1.02);
+		box-shadow: 2px 2px 19px #c77c3f;
+	}
+}
+
+@-o-keyframes movingTargetsComplete7 {
+	0% {
+		box-shadow: 3px 3px 19px #FFF;
+	}
+	100% {
+		box-shadow: 2px 2px 19px #c77c3f;
+	}
+}
+
+@keyframes movingTargetsComplete7 {
+	0% {
+		box-shadow: 3px 3px 19px #aaa;
+	}
+	100% {
+		box-shadow: 2px 2px 19px #c77c3f;
+	}
+}

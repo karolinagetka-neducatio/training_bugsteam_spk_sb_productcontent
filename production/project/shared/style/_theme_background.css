@@ -62,23 +62,3 @@
 .cardContainer .card .back {
     background-image: url(../../products/Level_1/assets/images/Colin.png);
 }
-
-.mm_unit2 .cardContainer .card .back,
-.mm_unit7 .cardContainer .card .back {
-    background-image: url(../../images/_pm_cardBack_2.jpg);
-}
-
-.mm_unit3 .cardContainer .card .back,
-.mm_unit8 .cardContainer .card .back {
-    background-image: url(../images/_pm_cardBack_3.jpg);
-}
-
-.mm_unit4 .cardContainer .card .back,
-.mm_unit9 .cardContainer .card .back {
-    background-image: url(../images/_pm_cardBack_4.jpg);
-}
-
-.mm_unit5 .cardContainer .card .back,
-.mm_unit10 .cardContainer .card .back {
-    background-image: url(../images/_pm_cardBack_5.jpg);
-}

@@ -520,7 +520,7 @@ textarea.rcfTextArea:focus,
 .dragImageTarget,
 .category li.dragImageItem,
 .category li.dragItem,
-.wordBox li.dragItem {
+.mm_imageDroppables .wordBox li.dragItem {
     padding: 0;
     width: 130px;
     height: 130px;

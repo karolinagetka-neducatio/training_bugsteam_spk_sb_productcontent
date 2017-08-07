@@ -1,0 +1,364 @@
+/*** PARTIAL MODULE: THEME UNIT 3, 8 ***/
+
+/*
+colors
+Unit: #d0684d
+Tint: #f3997b
+Dot: #c5624a
+*/
+
+.mm_unit8.mm_christmas.activity:before {
+	background-image: url(../images/background/8_bg_curve_christmas.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -ms-background-size: 100%;
+	background-size: 100%;
+}
+.mm_unit8.mm_christmas.mm_video.activity:before {
+    background-image: url(../images/background/8_bg_curve_christmas.png),
+ url(../images/background/8_bg_curve_bottom_christmas.png);
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+    background-size: 100%;
+}
+
+/* MARKED */
+
+.mm_unit8.mm_christmas .mm_audioDroppable li.dragItem,
+.mm_unit8.mm_christmas .matchingContainer .matchItemContainer .matchItem,
+.mm_unit8.mm_christmas .wordBox li.dragItem.selected,
+.mm_unit8.mm_christmas .category li.dragItem.selected,
+.mm_unit8.mm_christmas li.dragItem.ui-draggable-dragging.dragOverDrop,
+.mm_unit8.mm_christmas .droppable .dragTarget.populated.selected,
+.mm_unit8.mm_christmas.mm_audioDroppable li.dragItem,
+.mm_unit8.mm_christmas.matchingContainer .matchItemContainer .matchItem,
+.mm_unit8.mm_christmas .droppable .dropTarget,
+.mm_unit8.mm_christmas .droppable .dragTarget,
+.mm_unit8.mm_christmas .complexDroppable .dragTarget,
+.mm_unit8.mm_christmas .category {
+    border-color: #007847;
+}
+
+.mm_unit8.mm_christmas .matchingContainer .matchItem.selected,
+.mm_unit8.mm_christmas .matchingContainer .matchItemContainer .matchItem.selected {
+    border-color: #007847;
+    border-style: solid;
+}
+
+.mm_unit8.mm_christmas .matchingContainer .matchTargetContainer .matchTarget {
+    border-color: #7dab8b;
+    border-style: dotted;
+}
+
+.mm_unit8.mm_christmas .radioItemSelect.vertical .selectable,
+.mm_unit8.mm_christmas .checkboxItemSelect.vertical .selectable,
+.mm_unit8.mm_christmas .mobile .radioItemSelect.horizontal .selectable,
+.mm_unit8.mm_christmas .mobile .checkboxItemSelect.horizontal .selectable,
+.mm_unit8.mm_christmas.mm_imageSelect .radioItemSelect.horizontal .selectable,
+.mm_unit8.mm_christmas.mm_imageSelect .checkboxItemSelect.horizontal .selectable,
+.mm_unit8.mm_christmas.mm_imageSelect .radioItemSelect.vertical .selectable,
+.mm_unit8.mm_christmas.mm_imageSelect .checkboxItemSelect.vertical .selectable,
+.mm_unit8.mm_christmas.mm_imageSelect .radioItemSelect.horizontal .selectable:first-child,
+.mm_unit8.mm_christmas.mm_imageSelect .checkboxItemSelect.horizontal .selectable:first-child,
+.mm_unit8.mm_christmas.mm_radioSelect .radioItemSelect.horizontal .selectable,
+.mm_unit8.mm_christmas.mm_radioSelect .checkboxItemSelect.horizontal .selectable,
+.mm_unit8.mm_christmas.mm_radioSelect .radioItemSelect.vertical .selectable,
+.mm_unit8.mm_christmas.mm_radioSelect .checkboxItemSelect.vertical .selectable,
+.mm_unit8.mm_christmas.mm_radioSelect .radioItemSelect.horizontal .selectable:first-child,
+.mm_unit8.mm_christmas.mm_radioSelect .checkboxItemSelect.horizontal .selectable:first-child,
+.mm_unit8.mm_christmas .dragTarget,
+.mm_unit8.mm_christmas .wordBox li.dragItem,
+.mm_unit8.mm_christmas .category li.dragItem,
+.mm_unit8.mm_christmas ul.ordering li {
+    border-color: #d5e3d9;
+}
+
+.mm_unit8.mm_christmas input.text:focus,
+.mm_unit8.mm_christmas textarea.rcfTextArea:focus,
+.mm_unit8.mm_christmas .typeinGroup input.typeinGroup:focus,
+.mm_unit8.mm_christmas .verticalCrosswordContainer table input:focus,
+.mm_unit8.mm_christmas .droppable .populated,
+.mm_unit8.mm_christmas li.dragItem.ui-draggable-dragging.dragOverDrop,
+.mm_unit8.mm_christmas .dragTarget.populated,
+.mm_unit8.mm_christmas .droppable .dragTarget.populated,
+.mm_unit8.mm_christmas .wordBox li.dragItem.selected,
+.mm_unit8.mm_christmas .category li.dragItem,
+.mm_unit8.mm_christmas ul.ordering li.ui-sortable-helper,
+.mm_unit8.mm_christmas .categorise input[type="radio"]:checked,
+.mm_unit8.mm_christmas .categorise input[type="checkbox"]:checked,
+.mm_unit8.mm_christmas.mm_imageSelect .radioItemSelect.horizontal .selected,
+.mm_unit8.mm_christmas.mm_imageSelect .checkboxItemSelect.horizontal .selected,
+.mm_unit8.mm_christmas.mm_imageSelect .radioItemSelect.vertical .selected,
+.mm_unit8.mm_christmas.mm_imageSelect .checkboxItemSelect.vertical .selected,
+.mm_unit8.mm_christmas.mm_imageSelect .radioItemSelect.horizontal .selected:first-child,
+.mm_unit8.mm_christmas.mm_imageSelect .checkboxItemSelect.horizontal .selected:first-child,
+.mm_unit8.mm_christmas.mm_radioSelect .radioItemSelect.horizontal .selected,
+.mm_unit8.mm_christmas.mm_radioSelect .checkboxItemSelect.horizontal .selected,
+.mm_unit8.mm_christmas.mm_radioSelect .radioItemSelect.vertical .selected,
+.mm_unit8.mm_christmas.mm_radioSelect .checkboxItemSelect.vertical .selected,
+.mm_unit8.mm_christmas.mm_radioSelect .radioItemSelect.horizontal .selected:first-child,
+.mm_unit8.mm_christmas.mm_radioSelect .checkboxItemSelect.horizontal .selected:first-child,
+.mm_unit8.mm_christmas .mm_wsContainer {
+    border-color: #007847;
+}
+
+/* Matching */
+.mm_unit8.mm_christmas .mm_wordItems .matchingContainer .matchItem.selected {
+    color: #c5624a;
+}
+
+/*.mm_unit8.mm_christmas .matchingContainer svg.showCorrectAnswer path,
+.mm_unit8.mm_christmas .matchingContainer svg.userAnswer path,
+.mm_unit8 .matchingContainer svg.showCorrectAnswer path,
+.mm_unit8 .matchingContainer svg.userAnswer path {
+    stroke: #c5624a;
+}*/
+
+/*** UNMARKED ***/
+
+/*Background*/
+
+/*.mm_unit8.mm_christmas .pelmanismContainer .pelmanismAttempts,
+.mm_unit8.mm_christmas .pelmanismContainer .timer,
+.mm_unit8.mm_christmas .hangmanGame .triesRemaining,
+.mm_unit8.mm_christmas .rcfMovingTargets,
+.mm_unit8.mm_christmas.mm_song .main > .block,
+.mm_unit8.mm_christmas.mm_video .main > .block {
+    background-color: #c5624a;
+}*/
+
+
+
+/*Border*/
+
+/*.mm_unit8.mm_christmas .colouringContainer,
+.mm_unit8.mm_christmas .pelmanismContainer,
+.mm_unit8.mm_christmas .hangmanContainer,
+.mm_unit8.mm_christmas .rcfMovingTargets,
+.mm_unit8.mm_christmas.mm_song .main > .block {
+    border: 5px solid #c5624a;
+}
+
+.mm_unit8.mm_christmas .wordBox,
+.mm_unit8.mm_christmas .mm_wordBox,
+.mm_unit8.mm_christmas .mm_wordBox,
+.mm_unit8.mm_christmas .rcfWordSearchGridChosenWords .wordSearchWords {
+    border-bottom: 4px dotted #c5624a;
+}
+
+.mm_unit8.mm_christmas .hangmanInteractionContainer {
+    border-top: 3px dotted #f3997b;
+}
+
+.mm_unit8.mm_christmas .hangmanContainer .wordContainer .letterContainer {
+    border: 2px dotted #f3997b;
+}*/
+
+.mm_unit8.mm_christmas .rcfMovingTargets {
+    border: 3px solid #007847;
+}
+
+.mm_unit8.mm_christmas .wordBox {
+  border-bottom: 2px dotted #007847;
+}
+
+/* Audio player */
+.mm_unit8.mm_christmas .audioContainer ::-webkit-scrollbar-thumb {
+    background-color: #007847;
+    -webkit-box-shadow: inset 0px 0px 10px 2px #007847;
+    -moz-box-shadow: inset 0px 0px 10px 2px #007847;
+    -ms-box-shadow: inset 0px 0px 10px 2px #007847;
+    box-shadow: inset 0px 0px 10px 2px #007847;
+}
+
+.mm_unit8.mm_christmas .audio.large .audioInterface, .mm_unit8.mm_christmas .videoPlayerInterface {
+    background-color: #007847;
+}
+
+/*** Controls ***/
+
+.mm_unit8.mm_christmas .owl-theme .owl-dots .owl-dot span,
+.mm_unit8.mm_christmas .interactiveImageContainer.spotlight .reveal,
+.mm_unit8.mm_christmas .rcfCarousel .owl-nav [class*='owl-'],
+.mm_unit8.mm_christmas .inlinePlayer a.audioPlayButton,
+.mm_unit8.mm_christmas .inlinePlayer a.audioPauseButton {
+    background-color: #007847;
+}
+
+.mm_unit8.mm_christmas .interactiveImageContainer.spotlight .reveal:active,
+.mm_unit8.mm_christmas .main .singleButton:active,
+.mm_unit8.mm_christmas .rcfCarousel .singleButton:active,
+.mm_unit8.mm_christmas .rcfCarousel .singleButton:active,
+.mm_unit8.mm_christmas .rcfCarousel.owl-theme .owl-dots .owl-dot.active span,
+.mm_unit8.mm_christmas .inlinePlayerContainer .inlinePlayer a:active {
+    border-color: #007847;
+}
+
+.mm_unit8.mm_christmas .interactiveImageContainer.spotlight .reveal,
+.mm_unit8.mm_christmas .main .singleButton,
+.mm_unit8.mm_christmas .rcfCarousel .owl-nav [class*='owl-'],
+.mm_unit8.mm_christmas .rcfCarousel .navLeftButton,
+.mm_unit8.mm_christmas .rcfCarousel .navRightButton,
+.mm_unit8.mm_christmas .owl-theme .owl-dots .owl-dot span,
+.mm_unit8.mm_christmas .inlinePlayer a,
+.mm_unit8.mm_christmas .pelmanismContainer .pelmanismAttempts,
+.mm_unit8.mm_christmas .flashcardBlock .mm_button {
+	background-color: #007847;
+}
+
+.mm_unit8.mm_christmas .rcfCarousel.owl-theme .owl-dots .owl-dot.active span {
+  background-color: #fff;
+}
+
+/* hover */
+.mm_unit8.mm_christmas .interactiveImageContainer.spotlight .reveal:hover,
+.mm_unit8.mm_christmas .main .singleButton:hover,
+.mm_unit8.mm_christmas .rcfCarousel .owl-nav [class*='owl-']:hover,
+.mm_unit8.mm_christmas .rcfCarousel .navLeftButton:hover,
+.mm_unit8.mm_christmas .rcfCarousel .navRightButton:hover,
+.mm_unit8.mm_christmas .owl-theme .owl-dots .owl-dot span:hover,
+.mm_unit8.mm_christmas .inlinePlayerContainer .inlinePlayer a:hover,
+.mm_unit8.mm_christmas .flashcardBlock .mm_button:hover {
+    background-color: #7dab8b;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.mm_unit8.mm_christmas .cardContainer .card[data-audiolink] .front:hover img {
+    content: url(../images/media/audio_pm_over_1.png);
+}
+
+/* Backgrounds */
+
+.mm_unit8.mm_christmas.mm_song .main > .block {
+	background-color: #d5e3d9;
+}
+.mm_unit8.mm_christmas.mm_song .mm_audio {
+	background-color: #a3647e;
+}
+
+.mm_unit8.mm_christmas.mm_video .main > .block {
+    background-color: #d5e3d9;
+}
+
+.mm_unit8.mm_christmas .rcfMovingTargets.complete .gameOver {
+    background-color: rgba(255,255,255, 0.6);
+}
+
+/* Pelmanism */
+.mm_unit8.mm_christmas .cardContainer .card .front img {
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+.mm_unit8.mm_christmas .cardContainer .card .back {
+		background-color: #d5e3d9;
+}
+.cardContainer .card .front {
+    background-color: #fff;
+}
+.mm_unit8.mm_christmas .cardContainer .flipped.matched.userAnswer.card .front, .mm_unit8.mm_christmas .cardContainer .flipped.matched.userAnswer.card .back {
+    border: 1px solid #007847;
+}
+
+.mm_unit8.mm_christmas .cardContainer .front .imageContainer .caption,
+.mm_unit8.mm_christmas .cardContainer .card .front p {
+    background-color: #66acb4;
+    background-color: rgba(102, 172, 180, 0.93);
+    color: #FFF;
+}
+
+
+/* Pelmanism Complete */
+
+.mm_unit8.mm_christmas .pelmanismContainer.completed {
+	animation: pelmanismComplete8c 1s 4 alternate;
+	-webkit-animation: pelmanismComplete8c 1s 4 alternate;
+	-moz-animation: pelmanismComplete8c 1s 4 alternate;
+	-o-animation: pelmanismComplete8c 1s 4 alternate;
+}
+
+.isIE.no-csstransforms3d .pelmanismContainer.completed {
+	border: 10px solid #FF0000;
+}
+
+@-webkit-keyframes pelmanismComplete8c {
+	0% {
+		-webkit-transform: scale(1);
+		box-shadow: 3px 3px 19px #FFF;
+	}
+	50% {
+		-webkit-transform: scale(0.98);
+	}
+	100% {
+		-webkit-transform: scale(1.02);
+		box-shadow: 2px 2px 19px #007847;
+	}
+}
+
+@-o-keyframes pelmanismComplete8c {
+	0% {
+		box-shadow: 3px 3px 19px #FFF;
+	}
+	100% {
+		box-shadow: 2px 2px 19px #007847;
+	}
+}
+
+@keyframes pelmanismComplete8c {
+	0% {
+		box-shadow: 3px 3px 19px #aaa;
+	}
+	100% {
+		box-shadow: 2px 2px 19px #007847;
+	}
+}
+
+/* Moving Targets complete */
+
+.mm_unit8.mm_christmas .rcfMovingTargets.complete {
+	animation: movingTargetsComplete8c 1s 4 alternate;
+	-webkit-animation: movingTargetsComplete8c 1s 4 alternate;
+	-moz-animation: movingTargetsComplete8c 1s 4 alternate;
+	-o-animation: movingTargetsComplete8c 1s 4 alternate;
+}
+
+@-webkit-keyframes movingTargetsComplete8c {
+	0% {
+		-webkit-transform: scale(1);
+		box-shadow: 3px 3px 19px #FFF;
+	}
+	50% {
+		-webkit-transform: scale(0.98);
+	}
+	100% {
+		-webkit-transform: scale(1.02);
+		box-shadow: 2px 2px 19px #007847;
+	}
+}
+
+@-o-keyframes movingTargetsComplete8c {
+	0% {
+		box-shadow: 3px 3px 19px #FFF;
+	}
+	100% {
+		box-shadow: 2px 2px 19px #007847;
+	}
+}
+
+@keyframes movingTargetsComplete8c {
+	0% {
+		box-shadow: 3px 3px 19px #aaa;
+	}
+	100% {
+		box-shadow: 2px 2px 19px #007847;
+	}
+}
