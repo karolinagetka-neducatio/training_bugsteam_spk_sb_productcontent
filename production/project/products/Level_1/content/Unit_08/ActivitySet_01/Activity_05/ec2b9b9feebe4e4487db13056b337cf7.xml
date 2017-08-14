@@ -1,16 +1,17 @@
-<activity class="mm_unit8 mm_activity2 mm_halloween" id="ec2b9b9feebe4e4487db13056b337cf7" pseudoID="BT_L1_U8_SONG_2">
+<activity class="mm_unit8 mm_activity2 mm_halloween mm_song" id="ec2b9b9feebe4e4487db13056b337cf7" pseudoID="BT_L1_U8_SONG_2">
     <metadata>
         <title>Halloween – chant (karaoke)</title>
         <category>Songs</category>
     </metadata>
     <rubric>
+        <audio size="large" srt="y" autoScroll="y">
+            <track src="BT1_CD3.41.mp3"/>
+        </audio>
         <p>Listen and sing the Halloween chant.</p>
     </rubric>
     <main>
-        <block class="mm_audio">
-            <audio size="large" srt="y">
-                <track src="BT1_CD3.41.mp3"/>
-            </audio>
+        <block class="mm_imageRounded">
+            <image src="p076_1.jpg" title=""/>
         </block>
     </main>
 </activity>

@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit2 mm_activity4" id="da9d3ad69a344c46b03d006164ec30b2" pseudoID="BT_L1_U2_SONG_4">
+<activity class="mm_unit2 mm_activity4 mm_song" id="da9d3ad69a344c46b03d006164ec30b2" pseudoID="BT_L1_U2_SONG_4">
     <metadata>
         <title>Can I have a scooter, please? – song (karaoke)</title>
         <category>Songs</category>
     </metadata>
     <rubric>
+        <audio size="large" srt="y" autoScroll="y">
+            <track src="BT1_CD1.36.mp3"/>
+        </audio>
         <p>Listen and sing.</p>
     </rubric>
     <main>
-        <block class="mm_audio">
-            <audio size="large" srt="y">
-                <track src="BT1_CD1.36.mp3"/>
-            </audio>
+        <block>
+            <image src="p019_1.png" title=""/>
         </block>
     </main>
 </activity>

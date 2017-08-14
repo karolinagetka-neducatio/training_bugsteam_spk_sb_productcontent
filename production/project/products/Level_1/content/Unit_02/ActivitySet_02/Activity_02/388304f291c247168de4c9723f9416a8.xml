@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit2 mm_activity3" id="388304f291c247168de4c9723f9416a8" pseudoID="BT_L1_U2_SONG_3">
+<activity class="mm_unit2 mm_activity3 mm_song" id="388304f291c247168de4c9723f9416a8" pseudoID="BT_L1_U2_SONG_3">
     <metadata>
         <title>Can I have a scooter, please? – song (guided)</title>
         <category>Songs</category>
     </metadata>
     <rubric>
+        <audio size="large" srt="y" autoScroll="y">
+            <track src="BT1_CD1.35.mp3"/>
+        </audio>
         <p>Listen and sing.</p>
     </rubric>
     <main>
-        <block class="mm_audio">
-            <audio size="large" srt="y">
-                <track src="BT1_CD1.35.mp3"/>
-            </audio>
+        <block>
+            <image src="p019_1.png" title=""/>
         </block>
     </main>
 </activity>

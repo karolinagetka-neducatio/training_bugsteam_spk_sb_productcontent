@@ -21,6 +21,9 @@ td .dragTarget {
 [class*='ItemSelect'] .selectable {
     line-height: 1.5; /* prevent line-height from being inherited from parent (e.g., when in a paragraph) */
 }
+ .dragTarget {
+   min-height: 32px;
+ }
 
 /** BORDER RADIUS **/
 
@@ -368,7 +371,7 @@ textarea.rcfTextArea:focus,
 
 [class*='ItemSelect'].horizontal .selectable,
 [class*='ItemSelect'].horizontal .selectable + .selectable {
-    margin-right: 1.5em;
+    margin-right: 0.2em;
     margin-left: 0;
 }
 .mm_imageItems [class*='ItemSelect'].horizontal .selectable:last-child,
@@ -827,6 +830,10 @@ ol > li .orderingContainer .ordering {
     max-width:150px;
 }
 
+.mm_matItemsWider .matchItemContainer, .mm_matItemsWider .matchTargetContainer {
+    max-width: 190px;
+}
+
 .matchingContainer svg.showExampleAnswer path,
 .mm_sbLanguage .matchingContainer svg.showExampleAnswer path {
     stroke: #aaa;
@@ -861,6 +868,21 @@ ol > li .orderingContainer .ordering {
 .matchingContainer svg:nth-of-type(10) path {
     stroke: #9ab84b;
 }
+/* horizontal matching */
+
+.matchingContainer.horizontal .matchItems, .matchingContainer.horizontal .matchTargets {
+  text-align: center;
+}
+
+.matchingContainer.horizontal .matchItems .matchItemContainer, .matchingContainer.horizontal .matchTargets .matchTargetContainer {
+  margin-right: 0.5em;
+}
+
+.matchingContainer.horizontal .matchTargets .matchTargetContainer .matchTarget {
+    padding: 0.225em;
+    display: block;
+    text-align: left;
+}
 
 /* WORDSNAKE */
 .mm_wsContainer {
@@ -883,7 +905,7 @@ ol > li .orderingContainer .ordering {
 }
 
 .wordSnakeContainer .wordSnake li.letter {
-    min-width: 24px;
+    min-width: 22px;
     border: none;
     float: none;
     display: inline-block;

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit9 mm_activity2" id="e22466e785a14c14b0e4a02005275022" pseudoID="BT_L1_U9_GAME_2">
+<activity class="mm_unit9 mm_activity2" id="e22466e785a14c14b0e4a02005275022" pseudoID="BT_L1_U9_GAME_2">
     <metadata>
         <title>Extra words – memory</title>
         <category>Games</category>
@@ -11,39 +11,39 @@
             <pelmanism id="pelmanism_1">
                 <cards>
                     <pair class="pair_1">
-                        <card>door <audio size="small">
-                                <track src="door.mp3"/>
-                            </audio>
+                        <card audio="door.mp3">
+                            <image src="audio_pm9.png" title=""/>
+                            <p>door</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-135367464.psd" title=""/>
+                            <image src="door.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_2">
-                        <card>desk <audio size="small">
-                                <track src="desk.mp3"/>
-                            </audio>
+                        <card audio="desk.mp3">
+                            <image src="audio_pm9.png" title=""/>
+                            <p>desk</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-488520283.psd" title=""/>
+                            <image src="desk.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_3">
-                        <card>window <audio size="small">
-                                <track src="window.mp3"/>
-                            </audio>
+                        <card audio="window.mp3">
+                            <image src="audio_pm9.png" title=""/>
+                            <p>window</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-86545393.psd" title=""/>
+                            <image src="window.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_4">
-                        <card>board <audio size="small">
-                                <track src="board.mp3"/>
-                            </audio>
+                        <card audio="board.mp3">
+                            <image src="audio_pm9.png" title=""/>
+                            <p>board</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-460329153.psd" title=""/>
+                            <image src="board.png" title=""/>
                         </card>
                     </pair>
                 </cards>

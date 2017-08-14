@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit3 mm_activity9" id="f184402a96bf409d8a567b3528500928" pseudoID="BT_L1_U3_SONG_9">
+<activity class="mm_unit3 mm_activity9 mm_song" id="f184402a96bf409d8a567b3528500928" pseudoID="BT_L1_U3_SONG_9">
     <metadata>
         <title>This is the way – song</title>
         <category>Songs</category>
     </metadata>
     <rubric>
+        <audio size="large" srt="y" autoScroll="y">
+            <track src="BT1_CD2.09.mp3"/>
+        </audio>
         <p>Listen to the song.</p>
     </rubric>
     <main>
-        <block class="mm_audio">
-            <audio size="large" srt="y">
-                <track src="BT1_CD2.09.mp3"/>
-            </audio>
+        <block class="mm_imageRounded">
+            <image src="p037_1.jpg" title=""/>
         </block>
     </main>
 </activity>

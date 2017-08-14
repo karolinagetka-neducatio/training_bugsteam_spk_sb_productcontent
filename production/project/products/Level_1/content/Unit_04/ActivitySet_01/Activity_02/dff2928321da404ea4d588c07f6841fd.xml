@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit4 mm_activity2" id="dff2928321da404ea4d588c07f6841fd" pseudoID="BT_L1_U4_GAME_2">
+<activity class="mm_unit4 mm_activity2" id="dff2928321da404ea4d588c07f6841fd" pseudoID="BT_L1_U4_GAME_2">
     <metadata>
         <title>Lesson 1 – spotlight flashcards</title>
         <category>Games</category>
@@ -10,79 +10,86 @@
             </descriptors>
             <cards>
                 <card id="c1">
-                    <interactiveImage src="ThinkstockPhotos-174432616.psd" type="spotlight"/>
+                    <interactiveImage src="giraffe.png" type="spotlight"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="giraffe.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">giraffe</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">giraffe</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c2">
-                    <interactiveImage src="ThinkstockPhotos-152943337.psd" type="spotlight"/>
+                    <interactiveImage src="zebra.png" type="spotlight"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="zebra.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">zebra</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">zebra</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c3">
-                    <interactiveImage src="ThinkstockPhotos-166228761.psd" type="spotlight"/>
+                    <interactiveImage src="elephant.png" type="spotlight"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="elephant.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">elephant</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">elephant</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c4">
-                    <interactiveImage src="ThinkstockPhotos-166438418.psd" type="spotlight"/>
+                    <interactiveImage src="parrot.png" type="spotlight"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="parrot.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">parrot</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">parrot</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c5">
-                    <interactiveImage src="ThinkstockPhotos-455700809.psd" type="spotlight"/>
+                    <interactiveImage src="lion.png" type="spotlight"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="lion.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">lion</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">lion</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c6">
-                    <interactiveImage src="ThinkstockPhotos-101071742.psd" type="spotlight"/>
+                    <interactiveImage src="hippo.png" type="spotlight"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="hippo.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">hippo</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">hippo</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c7">
-                    <interactiveImage src="ThinkstockPhotos-118320412.psd" type="spotlight"/>
+                    <interactiveImage src="monkey.png" type="spotlight"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="monkey.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">monkey</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">monkey</sSpan>
                         </p>
                     </block>
                 </card>

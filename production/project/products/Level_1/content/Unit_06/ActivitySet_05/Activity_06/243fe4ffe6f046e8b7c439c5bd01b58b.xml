@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit6 mm_activity11" id="243fe4ffe6f046e8b7c439c5bd01b58b" pseudoID="BT_L1_U6_GAME_11">
+<activity class="mm_unit6 mm_activity11" id="243fe4ffe6f046e8b7c439c5bd01b58b" pseudoID="BT_L1_U6_GAME_11">
     <metadata>
         <title>Lesson 5 – activity 2</title>
         <category>Games</category>
@@ -7,39 +7,57 @@
         <p>Match the pictures with the words from the box.</p>
     </rubric>
     <main>
-        <block>
-            <list display="v" type="numbered">
-                <li>
-                    <p>
-                        <image src="clever.psd" title=""/>
-                        <droppable id="droppable_1">clever</droppable>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <image src="friendly.psd" title=""/>
-                        <droppable id="droppable_2">friendly</droppable>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <image src="shy.psd" title=""/>
-                        <droppable id="droppable_3">shy</droppable>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <image src="noisy.psd" title=""/>
-                        <droppable id="droppable_4">noisy</droppable>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <image src="funny.psd" title=""/>
-                        <droppable id="droppable_5">funny</droppable>
-                    </p>
-                </li>
-            </list>
+        <block class="mm_imageRounded mm_customCaption mm_inlineBlocks">
+            <block>
+                <p>
+                    <image src="clever_2.png" title="">
+                        <caption type="corner">1</caption>
+                    </image>
+                </p>
+                <p>
+                    <droppable id="droppable_1">clever</droppable>
+                </p>
+            </block>
+            <block>
+                <p>
+                    <image src="friendly_2.png" title="">
+                        <caption type="corner">2</caption>
+                    </image>
+                </p>
+                <p>
+                    <droppable id="droppable_2">friendly</droppable>
+                </p>
+            </block>
+            <block>
+                <p>
+                    <image src="shy_2.png" title="">
+                        <caption type="corner">3</caption>
+                    </image>
+                </p>
+                <p>
+                    <droppable id="droppable_3">shy</droppable>
+                </p>
+            </block>
+            <block>
+                <p>
+                    <image src="noisy_2.png" title="">
+                        <caption type="corner">4</caption>
+                    </image>
+                </p>
+                <p>
+                    <droppable id="droppable_4">noisy</droppable>
+                </p>
+            </block>
+            <block>
+                <p>
+                    <image src="funny_2.png" title="">
+                        <caption type="corner">5</caption>
+                    </image>
+                </p>
+                <p>
+                    <droppable id="droppable_5">funny</droppable>
+                </p>
+            </block>
         </block>
     </main>
 </activity>

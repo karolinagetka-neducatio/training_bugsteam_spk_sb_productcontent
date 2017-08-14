@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit4 mm_activity7" id="be1ad496d4744e459601f92f33a002e4" pseudoID="BT_L1_U4_GAME_7">
+<activity class="mm_unit4 mm_activity7" id="be1ad496d4744e459601f92f33a002e4" pseudoID="BT_L1_U4_GAME_7">
     <metadata>
         <title>Lesson 2 – activity 3</title>
         <category>Games</category>
@@ -7,7 +7,7 @@
         <p>Find 6 names of animals in the snake.</p>
     </rubric>
     <main>
-        <block>
+        <block class="mm_customSnake">
             <wordSnake id="wordSnake_1">
                 <words>
                     <word id="wordSnake_word_1">PARROT</word>

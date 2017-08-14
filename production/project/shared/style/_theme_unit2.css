@@ -216,7 +216,7 @@ Dot: #66acb4
 }
 
 .mm_unit2 .cardContainer .card[data-audiolink] .front:hover img {
-    content: url(../images/media/audio_pm_over_1.png);
+    content: url(../images/media/audio_pm_over_2.png);
 }
 
 /* Backgrounds */
@@ -257,6 +257,10 @@ Dot: #66acb4
 
 
 /* Pelmanism Complete */
+
+.mm_unit2 .pelmanismContainer.gameOver.completed .gameOverStage {
+	background-image: url(../images/complete_2.png)!important;
+}
 
 .mm_unit2 .pelmanismContainer.completed {
 	animation: pelmanismComplete2 1s 4 alternate;
@@ -302,6 +306,10 @@ Dot: #66acb4
 }
 
 /* Moving Targets complete */
+
+.mm_unit2 .rcfMovingTargets.complete .gameOver {
+	background-image: url(../images/complete_2.png)!important;
+}
 
 .mm_unit2 .rcfMovingTargets.complete {
 	animation: movingTargetsComplete2 1s 4 alternate;

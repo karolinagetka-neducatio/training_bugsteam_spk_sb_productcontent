@@ -7,16 +7,16 @@
         <p>Listen and choose the word you hear.</p>
     </rubric>
     <main>
-        <movingTargets id="movingTargets_1">
+        <movingTargets id="movingTargets_1" speed="120">
             <targets>
-                <target audio="car.mp3" id="target_1" image="ThinkstockPhotos-487808935.psd"/>
-                <target audio="bike.mp3" id="target_2" image="ThinkstockPhotos-462901875.psd"/>
-                <target audio="robot.mp3" id="target_3" image="ThinkstockPhotos-471925132.psd"/>
-                <target audio="doll.mp3" id="target_4" image="ThinkstockPhotos-157668645.psd"/>
-                <target audio="scooter.mp3" id="target_5" image="ThinkstockPhotos-AA020772.psd"/>
-                <target audio="skateboard.mp3" id="target_6" image="ThinkstockPhotos-473950392.psd"/>
-                <target audio="teddybear.mp3" id="target_7" image="ThinkstockPhotos-485841252.psd"/>
-                <target audio="ball.mp3" id="target_8" image=" ThinkstockPhotos-466553747.psd"/>
+                <target audio="car.mp3" id="target_1" image="car_mt.png"/>
+                <target audio="bike.mp3" id="target_2" image="bike_mt.png"/>
+                <target audio="robot.mp3" id="target_3" image="robot_mt.png"/>
+                <target audio="doll.mp3" id="target_4" image="doll_mt.png"/>
+                <target audio="scooter.mp3" id="target_5" image="scooter_mt.png"/>
+                <target audio="skateboard.mp3" id="target_6" image="skateboard_mt.png"/>
+                <target audio="teddybear.mp3" id="target_7" image="teddybear_mt.png"/>
+                <target audio="ball.mp3" id="target_8" image="ball_mt.png"/>
             </targets>
             <assets>
                 <scenery>

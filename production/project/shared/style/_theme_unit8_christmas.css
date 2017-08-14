@@ -229,7 +229,7 @@ Dot: #c5624a
 }
 
 .mm_unit8.mm_christmas .cardContainer .card[data-audiolink] .front:hover img {
-    content: url(../images/media/audio_pm_over_1.png);
+    content: url(../images/media/audio_pm_over8c.png);
 }
 
 /* Backgrounds */
@@ -250,6 +250,11 @@ Dot: #c5624a
 }
 
 /* Pelmanism */
+
+.mm_unit8.mm_christmas .cardContainer .card .back {
+    background-image: url(../../products/Level_1/assets/images/present_plm.png);
+}
+
 .mm_unit8.mm_christmas .cardContainer .card .front img {
     display: inline-block;
     box-sizing: border-box;
@@ -271,13 +276,18 @@ Dot: #c5624a
 
 .mm_unit8.mm_christmas .cardContainer .front .imageContainer .caption,
 .mm_unit8.mm_christmas .cardContainer .card .front p {
-    background-color: #66acb4;
-    background-color: rgba(102, 172, 180, 0.93);
+    background-color: #007847;
     color: #FFF;
 }
 
 
 /* Pelmanism Complete */
+
+.mm_unit8.mm_christmas .pelmanismContainer.gameOver.completed .gameOverStage {
+    background-image: url(../images/complete_8c.png)!important;
+		background-size: auto;
+		background-position: center;
+}
 
 .mm_unit8.mm_christmas .pelmanismContainer.completed {
 	animation: pelmanismComplete8c 1s 4 alternate;

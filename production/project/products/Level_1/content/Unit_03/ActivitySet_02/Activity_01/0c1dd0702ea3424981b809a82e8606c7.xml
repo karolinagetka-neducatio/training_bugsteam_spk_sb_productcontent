@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit3 mm_activity2" id="0c1dd0702ea3424981b809a82e8606c7" pseudoID="BT_L1_U3_SONG_2">
+<activity class="mm_unit3 mm_activity2 mm_song" id="0c1dd0702ea3424981b809a82e8606c7" pseudoID="BT_L1_U3_SONG_2">
     <metadata>
         <title>I’ve got a head – song</title>
         <category>Songs</category>
     </metadata>
     <rubric>
+        <audio size="large" srt="y" autoScroll="y">
+            <track src="BT1_CD1.59.mp3"/>
+        </audio>
         <p>Listen and sing.</p>
     </rubric>
     <main>
-        <block class="mm_audio">
-            <audio size="large" srt="y">
-                <track src="BT1_CD1.59.mp3"/>
-            </audio>
+        <block class="">
+            <image src="p031_1.png" title=""/>
         </block>
     </main>
 </activity>

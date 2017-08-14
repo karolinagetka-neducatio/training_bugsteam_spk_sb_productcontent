@@ -1,0 +1,31 @@
+﻿1
+00:00:09.195 --> 00:00:17.206
+Hello beetle. Please help me! I am scared. Please hurry!
+
+2
+00:00:17.206 --> 00:00:25.347
+Oh no, sorry. I can't help you. The spider's hungry. I'm scared too!
+
+3
+00:00:29.179 --> 00:00:37.258
+Hello, grasshopper. Please help me! I am scared. Please hurry!
+
+4
+00:00:37.258 --> 00:00:45.339
+Oh no, sorry. I can't help you. The spider's hungry. I'm scared too!
+
+5
+00:00:49.233 --> 00:00:57.294
+Hello, snail. Please help me! I am scared. Please hurry!
+
+6
+00:00:57.294 --> 00:01:05.376
+Oh no, sorry. I can't help you. The spider's hungry. I'm scared too!
+
+7
+00:01:09.233 --> 00:01:17.200
+Hello, bugs. Please help me! I am scared. Please hurry!
+
+8
+00:01:17.200 --> 00:01:25.368
+We can help you! One, two, three Head, body, legs and wings. You're free!

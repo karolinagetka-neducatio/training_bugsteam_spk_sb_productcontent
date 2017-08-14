@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit3 mm_activity6" id="96806970fcb046f6b35bd366cf2538c5" pseudoID="BT_L1_U3_GAME_6">
+<activity class="mm_unit3 mm_activity6" id="96806970fcb046f6b35bd366cf2538c5" pseudoID="BT_L1_U3_GAME_6">
     <metadata>
         <title>Lesson 2 – activity 2</title>
         <category>Games</category>
@@ -16,7 +16,7 @@
                         </audio>
                     </matchItem>
                     <matchTarget id="matchTarget_1">
-                        <image src="ThinkstockPhotos-176581654.psd" title=""/>
+                        <image src="mouth.png" title=""/>
                     </matchTarget>
                 </pair>
                 <pair>
@@ -26,7 +26,7 @@
                         </audio>
                     </matchItem>
                     <matchTarget id="matchTarget_2">
-                        <image src="ThinkstockPhotos-176581654.psd" title=""/>
+                        <image src="nose.png" title=""/>
                     </matchTarget>
                 </pair>
                 <pair>
@@ -36,7 +36,7 @@
                         </audio>
                     </matchItem>
                     <matchTarget id="matchTarget_3">
-                        <image src="ThinkstockPhotos-176581654.psd" title=""/>
+                        <image src="eyes.png" title=""/>
                     </matchTarget>
                 </pair>
                 <pair>
@@ -46,7 +46,7 @@
                         </audio>
                     </matchItem>
                     <matchTarget id="matchTarget_4">
-                        <image src="ThinkstockPhotos-176581654.psd" title=""/>
+                        <image src="head.png" title=""/>
                     </matchTarget>
                 </pair>
                 <pair>
@@ -56,17 +56,7 @@
                         </audio>
                     </matchItem>
                     <matchTarget id="matchTarget_5">
-                        <image src="ThinkstockPhotos-176581654.psd" title=""/>
-                    </matchTarget>
-                </pair>
-                <pair>
-                    <matchItem id="matchItem_6" rank="6">
-                        <audio size="small">
-                            <track src="nose.mp3"/>
-                        </audio>
-                    </matchItem>
-                    <matchTarget id="matchTarget_6">
-                        <image src="ThinkstockPhotos-176581654.psd" title=""/>
+                        <image src="ears.png" title=""/>
                     </matchTarget>
                 </pair>
             </matching>

@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit2 mm_activity8" id="eb9b453210ed40d2b03e15ea885a9ac0" pseudoID="BT_L1_U2_SONG_8">
+<activity class="mm_unit2 mm_activity8 mm_song" id="eb9b453210ed40d2b03e15ea885a9ac0" pseudoID="BT_L1_U2_SONG_8">
     <metadata>
         <title>Look at my bike – chant</title>
         <category>Songs</category>
     </metadata>
     <rubric>
+        <audio size="large" srt="y">
+            <track src="BT1_CD1.44.mp3"/>
+        </audio>
         <p>Listen to the chant.</p>
     </rubric>
     <main>
-        <block class="mm_audio">
-            <audio size="large" srt="y">
-                <track src="BT1_CD1.44.mp3"/>
-            </audio>
+        <block class="mm_imageRounded">
+            <image src="p023_1.jpg" title=""/>
         </block>
     </main>
 </activity>

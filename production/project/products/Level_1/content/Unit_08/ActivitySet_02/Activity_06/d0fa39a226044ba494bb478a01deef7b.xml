@@ -11,48 +11,48 @@
             <pelmanism id="pelmanism_1">
                 <cards>
                     <pair class="pair_1">
-                        <card>Christmas tree <audio size="small">
-                                <track src="christmastree.mp3"/>
-                            </audio>
+                        <card audio="Christmas.mp3">
+                            <image src="audio_pm8c.png" title=""/>
+                            <p>Christmas tree</p> 
                         </card>
                         <card>
-                            <image src="christmastree.psd" title=""/>
+                            <image src="christmastree.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_2">
-                        <card>present <audio size="small">
-                                <track src="present.mp3"/>
-                            </audio>
+                        <card audio="present.mp3">
+                            <image src="audio_pm8c.png" title=""/>
+                            <p>present</p> 
                         </card>
                         <card>
-                            <image src="present.psd" title=""/>
+                            <image src="present.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_3">
-                        <card>sleigh <audio size="small">
-                                <track src="sleigh.mp3"/>
-                            </audio>
+                        <card audio="sleigh.mp3">
+                            <image src="audio_pm8c.png" title=""/>
+                            <p>sleigh</p> 
                         </card>
                         <card>
-                            <image src="sleigh.psd" title=""/>
+                            <image src="sleigh.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_4">
-                        <card>Father Christmas <audio size="small">
-                                <track src="fatherchristmas.mp3"/>
-                            </audio>
+                        <card audio="father_christmas.mp3">
+                            <image src="audio_pm8c.png" title=""/>
+                            <p>Father Christmas</p> 
                         </card>
                         <card>
-                            <image src="fatherchristmas.psd" title=""/>
+                            <image src="fatherchristmas.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_5">
-                        <card>bell <audio size="small">
-                                <track src="bell.mp3"/>
-                            </audio>
+                        <card audio="bell.mp3">
+                            <image src="audio_pm8c.png" title=""/>
+                            <p>bell</p> 
                         </card>
                         <card>
-                            <image src="bell.psd" title=""/>
+                            <image src="bell.png" title=""/>
                         </card>
                     </pair>
                 </cards>

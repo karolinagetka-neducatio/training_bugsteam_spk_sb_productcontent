@@ -1,0 +1,128 @@
+1
+00:00:08.823 --> 00:00:13.017
+Hello beetle. Please help me!
+
+2
+00:00:13.017 --> 00:00:16.970
+Hello beetle. Please help me!
+
+3
+00:00:16.970 --> 00:00:20.715
+I am scared. Please hurry!
+
+4
+00:00:20.715 --> 00:00:24.946
+I am scared. Please hurry!
+
+5
+00:00:24.946 --> 00:00:28.969
+Oh no, sorry. I can't help you.
+
+6
+00:00:28.969 --> 00:00:32.792
+Oh no, sorry. I can't help you.
+
+7
+00:00:32.792 --> 00:00:36.754
+The spider's hungry. I'm scared too!
+
+8
+00:00:36.754 --> 00:00:41.003
+The spider's hungry. I'm scared too!
+
+9
+00:00:44.808 --> 00:00:48.970
+Hello, grasshopper. Please help me!
+
+10
+00:00:48.970 --> 00:00:52.906
+Hello, grasshopper. Please help me!
+
+11
+00:00:52.906 --> 00:00:56.668
+I am scared. Please hurry!
+
+12
+00:00:56.668 --> 00:01:00.865
+I am scared. Please hurry!
+
+13
+00:01:00.865 --> 00:01:04.931
+Oh no, sorry. I can't help you.
+
+14
+00:01:04.931 --> 00:01:08.702
+Oh no, sorry. I can't help you.
+
+15
+00:01:08.702 --> 00:01:12.794
+The spider's hungry. I'm scared too!
+
+16
+00:01:12.794 --> 00:01:17.000
+The spider's hungry. I'm scared too!
+
+17
+00:01:20.883 --> 00:01:24.906
+Hello, snail. Please help me!
+
+18
+00:01:24.906 --> 00:01:28.990
+Hello, snail. Please help me!
+
+19
+00:01:28.990 --> 00:01:32.752
+I am scared. Please hurry!
+
+20
+00:01:32.752 --> 00:01:36.940
+I am scared. Please hurry!
+
+21
+00:01:36.940 --> 00:01:40.937
+Oh no, sorry. I can't help you.
+
+22
+00:01:40.937 --> 00:01:44.716
+Oh no, sorry. I can't help you.
+
+23
+00:01:44.716 --> 00:01:48.765
+The spider's hungry. I'm scared too!
+
+24
+00:01:48.765 --> 00:01:53.023
+The spider's hungry. I'm scared too!
+
+25
+00:01:56.941 --> 00:02:00.920
+Hello, bugs. Please help me!
+
+26
+00:02:00.920 --> 00:02:04.987
+Hello, bugs. Please help me!
+
+27
+00:02:04.987 --> 00:02:08.835
+I am scared. Please hurry!
+
+28
+00:02:08.835 --> 00:02:12.762
+I am scared. Please hurry!
+
+29
+00:02:12.762 --> 00:02:16.907
+We can help you! One, two, three
+
+30
+00:02:16.907 --> 00:02:20.904
+We can help you! One, two, three
+
+31
+00:02:20.904 --> 00:02:24.970
+Head, body, legs and wings. You're free!
+
+32
+00:02:24.970 --> 00:02:29.011
+Head, body, legs and wings. You're free! 
+

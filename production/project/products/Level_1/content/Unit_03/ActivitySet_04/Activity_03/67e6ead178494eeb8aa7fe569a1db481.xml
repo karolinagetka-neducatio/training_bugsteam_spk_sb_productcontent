@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit3 mm_activity6" id="67e6ead178494eeb8aa7fe569a1db481" pseudoID="BT_L1_U3_SONG_6">
+<activity class="mm_unit3 mm_activity6 mm_song" id="67e6ead178494eeb8aa7fe569a1db481" pseudoID="BT_L1_U3_SONG_6">
     <metadata>
         <title>The butterfly’s – song (guided)</title>
         <category>Songs</category>
     </metadata>
     <rubric>
+        <audio size="large" srt="y" autoScroll="y">
+            <track src="BT1_CD2.04.mp3"/>
+        </audio>
         <p>Listen and sing.</p>
     </rubric>
     <main>
-        <block class="mm_audio">
-            <audio size="large" srt="y">
-                <track src="BT1_CD2.04.mp3"/>
-            </audio>
+        <block class="mm_imageRounded">
+            <image src="p034_1.png" title=""/>
         </block>
     </main>
 </activity>

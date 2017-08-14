@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit5 mm_activity4" id="536fe1b0ffed40be801a906e25b82efb" pseudoID="BT_L1_U5_GAME_4">
+<activity class="mm_unit5 mm_activity4" id="536fe1b0ffed40be801a906e25b82efb" pseudoID="BT_L1_U5_GAME_4">
     <metadata>
         <title>Lesson 1 – memory game</title>
         <category>Games</category>
@@ -11,57 +11,57 @@
             <pelmanism id="pelmanism_1">
                 <cards>
                     <pair class="pair_1">
-                        <card>carrot <audio size="small">
-                                <track src="carrot.mp3"/>
-                            </audio>
+                        <card audio="carrot.mp3">
+                            <image src="audio_pm5.png" title=""/>
+                            <p>carrot</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-166106089.psd" title=""/>
+                            <image src="carrot.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_2">
-                        <card>cheese <audio size="small">
-                                <track src="cheese.mp3"/>
-                            </audio>
+                        <card audio="cheese.mp3">
+                            <image src="audio_pm5.png" title=""/>
+                            <p>cheese</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-474230604.psd" title=""/>
+                            <image src="cheese.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_3">
-                        <card>tomato <audio size="small">
-                                <track src="tomato.mp3"/>
-                            </audio>
+                        <card audio="tomato.mp3">
+                            <image src="audio_pm5.png" title=""/>
+                            <p>tomato</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-466143631.psd" title=""/>
+                            <image src="tomato.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_4">
-                        <card>chicken <audio size="small">
-                                <track src="chicken.mp3"/>
-                            </audio>
+                        <card audio="chicken.mp3">
+                            <image src="audio_pm5.png" title=""/>
+                            <p>chicken</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-159120788.psd" title=""/>
+                            <image src="chicken.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_5">
-                        <card>ham <audio size="small">
-                                <track src="ham.mp3"/>
-                            </audio>
+                        <card audio="ham.mp3">
+                            <image src="audio_pm5.png" title=""/>
+                            <p>ham</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-532238947.psd" title=""/>
+                            <image src="ham.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_6">
-                        <card>yoghurt <audio size="small">
-                                <track src="yoghurt.mp3"/>
-                            </audio>
+                        <card audio="yoghurt.mp3">
+                            <image src="audio_pm5.png" title=""/>
+                            <p>yoghurt</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-179216234.psd" title=""/>
+                            <image src="yoghurt.png" title=""/>
                         </card>
                     </pair>
                 </cards>

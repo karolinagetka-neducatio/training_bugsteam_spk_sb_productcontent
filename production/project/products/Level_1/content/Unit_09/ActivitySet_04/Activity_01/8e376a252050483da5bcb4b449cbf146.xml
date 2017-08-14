@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit9 mm_activity7" id="8e376a252050483da5bcb4b449cbf146" pseudoID="BT_L1_U9_GAME_7">
+<activity class="mm_unit9 mm_activity7" id="8e376a252050483da5bcb4b449cbf146" pseudoID="BT_L1_U9_GAME_7">
     <metadata>
         <title>Extra words – blur flashcards</title>
         <category>Games</category>
@@ -10,57 +10,62 @@
             </descriptors>
             <cards>
                 <card id="c1">
-                    <interactiveImage src="ThinkstockPhotos-450702199.psd" type="blur"/>
+                    <interactiveImage src="snake.png" type="blur"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="snake.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">snake</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">snake</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c2">
-                    <interactiveImage src="ThinkstockPhotos-460782005.psd" type="blur"/>
+                    <interactiveImage src="tiger.png" type="blur"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="tiger.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">tiger</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">tiger</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c3">
-                    <interactiveImage src="ThinkstockPhotos-469594160.psd" type="blur"/>
+                    <interactiveImage src="rhino.png" type="blur"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="rhino.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">rhino</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">rhino</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c4">
-                    <interactiveImage src="ThinkstockPhotos-453574257.psd" type="blur"/>
+                    <interactiveImage src="gorilla.png" type="blur"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="gorilla.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">gorilla</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">gorilla</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c5">
-                    <interactiveImage src="ThinkstockPhotos-118618644.psd" type="blur"/>
+                    <interactiveImage src="ostrich.png" type="blur"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="ostrich.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">ostrich</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">ostrich</sSpan>
                         </p>
                     </block>
                 </card>

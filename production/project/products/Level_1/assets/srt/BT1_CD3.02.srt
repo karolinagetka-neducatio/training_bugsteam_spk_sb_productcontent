@@ -1,0 +1,31 @@
+﻿1
+00:00:08.672 --> 00:00:12.234
+Fruit is delicious and good for you. 
+
+2
+00:00:12.234 --> 00:00:16.727
+A banana is a fruit and an apple is too!
+
+3
+00:00:20.732 --> 00:00:24.285
+Vegetables are delicious and good for you. 
+
+4
+00:00:24.528 --> 00:00:28.151
+A carrot is a vegetable and a tomato is too!
+
+5
+00:00:32.374 --> 00:00:36.536
+Milk products are delicious and good for you. 
+
+6
+00:00:36.771 --> 00:00:40.507
+Cheese is a milk product and yoghurt is too!
+
+7
+00:00:44.678 --> 00:00:48.413
+Meat is delicious and good for you. 
+
+8
+00:00:48.814 --> 00:00:52.845
+Chicken is meat and ham is too!

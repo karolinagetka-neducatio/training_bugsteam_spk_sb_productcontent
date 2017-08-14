@@ -242,6 +242,24 @@
     padding: 0;
 }
 
+.mm_customCaption .caption.corner {
+    color: #fff;
+    font-weight: 700;
+    position: absolute;
+    left: -3px;
+    top: -3px;
+    font-size: 1em;
+    background-color: #6c6d6f;
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.1em;
+    padding: 0.1em;
+}
+.mm_customCaption .caption.corner .innerCaption {
+    padding: 0;
+}
 /* auto number blocks */
 
 .mm_blockCaption {

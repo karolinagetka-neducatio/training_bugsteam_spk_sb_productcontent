@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit6 mm_activity4" id="c1c15c6696174b028c41d972dd4d657f" pseudoID="BT_L1_U6_GAME_4">
+<activity class="mm_unit6 mm_activity4" id="c1c15c6696174b028c41d972dd4d657f" pseudoID="BT_L1_U6_GAME_4">
     <metadata>
         <title>Lesson 1 – memory game</title>
         <category>Games</category>
@@ -11,57 +11,57 @@
             <pelmanism id="pelmanism_1">
                 <cards>
                     <pair class="pair_1">
-                        <card>sister <audio size="small">
-                                <track src="sister.mp3"/>
-                            </audio>
+                        <card audio="sister.mp3">
+                            <image src="audio_pm6.png" title=""/>
+                            <p>sister</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-486488173.psd" title=""/>
+                            <image src="sister_plm.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_2">
-                        <card>grandpa <audio size="small">
-                                <track src="grandpa.mp3"/>
-                            </audio>
+                        <card audio="grandpa.mp3">
+                            <image src="audio_pm6.png" title=""/>
+                            <p>grandpa</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-486488173.psd" title=""/>
+                            <image src="grandpa_plm.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_3">
-                        <card>daddy <audio size="small">
-                                <track src="daddy.mp3"/>
-                            </audio>
+                        <card audio="daddy.mp3">
+                            <image src="audio_pm6.png" title=""/>
+                            <p>daddy</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-486488173.psd" title=""/>
+                            <image src="daddy_plm.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_4">
-                        <card>brother <audio size="small">
-                                <track src="brother.mp3"/>
-                            </audio>
+                        <card audio="brother.mp3">
+                            <image src="audio_pm6.png" title=""/>
+                            <p>brother</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-486488175.psd" title=""/>
+                            <image src="brother_plm.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_5">
-                        <card>mummy <audio size="small">
-                                <track src="mummy.mp3"/>
-                            </audio>
+                        <card audio="mummy.mp3">
+                            <image src="audio_pm6.png" title=""/>
+                            <p>mummy</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-486488173.psd" title=""/>
+                            <image src="mummy_plm.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_6">
-                        <card>grandma <audio size="small">
-                                <track src="grandma.mp3"/>
-                            </audio>
+                        <card audio="grandma.mp3">
+                            <image src="audio_pm6.png" title=""/>
+                            <p>grandma</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-486488173.psd" title=""/>
+                            <image src="grandma_plm.png" title=""/>
                         </card>
                     </pair>
                 </cards>

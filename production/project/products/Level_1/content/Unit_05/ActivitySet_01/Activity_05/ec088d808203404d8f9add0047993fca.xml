@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit5 mm_activity1" id="ec088d808203404d8f9add0047993fca" pseudoID="BT_L1_U5_SONG_1">
+<activity class="mm_unit5 mm_activity1 mm_song" id="ec088d808203404d8f9add0047993fca" pseudoID="BT_L1_U5_SONG_1">
     <metadata>
         <title>Colin’s chant</title>
         <category>Songs</category>
     </metadata>
     <rubric>
+        <audio size="large" srt="y">
+            <track src="BT1_CD2.46.mp3"/>
+        </audio>
         <p>Listen to Colin’s chant.</p>
     </rubric>
     <main>
-        <block class="mm_audio">
-            <audio size="large" srt="y">
-                <track src="BT1_CD2.46.mp3"/>
-            </audio>
+        <block class="mm_imageRounded">
+            <image src="p052_1.jpg" title=""/>
         </block>
     </main>
 </activity>

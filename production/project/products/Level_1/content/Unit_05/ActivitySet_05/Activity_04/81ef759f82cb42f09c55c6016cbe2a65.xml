@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit5 mm_activity8" id="81ef759f82cb42f09c55c6016cbe2a65" pseudoID="BT_L1_U5_SONG_8">
+<activity class="mm_unit5 mm_activity8 mm_song" id="81ef759f82cb42f09c55c6016cbe2a65" pseudoID="BT_L1_U5_SONG_8">
     <metadata>
         <title>Food group – chant</title>
         <category>Songs</category>
     </metadata>
     <rubric>
+        <audio size="large" srt="y" autoScroll="y">
+            <track src="BT1_CD3.02.mp3"/>
+        </audio>
         <p>Listen to the chant.</p>
     </rubric>
     <main>
-        <block class="mm_audio">
-            <audio size="large" srt="y">
-                <track src="BT1_CD3.02.mp3"/>
-            </audio>
+        <block class="mm_imageRounded">
+            <image src="p057_1.jpg" title=""/>
         </block>
     </main>
 </activity>

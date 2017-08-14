@@ -128,6 +128,21 @@
     height: calc(100% - 4px);
 }
 
+.mm_audioMatchItems .matchingContainer.horizontal .inlinePlayer {
+    width: 50px;
+    height: 50px;
+}
+.mm_audioMatchItems .matchingContainer.horizontal .inlinePlayer a.audioPlayButton {
+    background-image: url(../images/media/audio_small_match.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.mm_audioMatchItems .matchingContainer.horizontal .inlinePlayer a.audioPauseButton {
+    background-image: url(../images/media/audio_small_match_pause.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
 /* Remove right margin on inline player */
 .inlinePlayer {
     margin-right: 0;

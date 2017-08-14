@@ -1,0 +1,55 @@
+﻿1
+00:00:06.983 --> 00:00:10.614
+I've got a small head and long legs. 
+
+2
+00:00:12.138 --> 00:00:13.801
+I'm a giraffe.
+
+3
+00:00:16.892 --> 00:00:20.837
+I've got big ears and a long nose. 
+
+4
+00:00:22.369 --> 00:00:24.198
+I'm an elephant.
+
+5
+00:00:26.940 --> 00:00:30.841
+I've got a big body and a short tail. 
+
+6
+00:00:32.417 --> 00:00:34.446
+I'm a hippo.
+
+7
+00:00:37.163 --> 00:00:40.951
+I've got long arms and long legs. 
+
+8
+00:00:42.631 --> 00:00:44.460
+I'm a monkey.
+
+9
+00:00:47.534 --> 00:00:51.243
+I've got short legs and two wings. 
+
+10
+00:00:52.828 --> 00:00:54.622
+I'm a parrot.
+
+11
+00:00:57.408 --> 00:01:01.231
+I've got two ears and four legs. 
+
+12
+00:01:02.885 --> 00:01:04.670
+I'm a zebra. 
+
+13
+00:01:07.874 --> 00:01:11.592
+I've got a big body and big teeth. 
+
+14
+00:01:13.012 --> 00:01:14.945
+I'm a lion. 

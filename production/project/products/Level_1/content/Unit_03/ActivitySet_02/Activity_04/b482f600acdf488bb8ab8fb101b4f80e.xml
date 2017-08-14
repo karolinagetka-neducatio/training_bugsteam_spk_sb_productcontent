@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit3 mm_activity5" id="b482f600acdf488bb8ab8fb101b4f80e" pseudoID="BT_L1_U3_GAME_5">
+<activity class="mm_unit3 mm_activity5" id="b482f600acdf488bb8ab8fb101b4f80e" pseudoID="BT_L1_U3_GAME_5">
     <metadata>
         <title>Lesson 2 – activity 1</title>
         <category>Games</category>
     </metadata>
     <rubric>
-        <audio size="large" srt="y">
+        <audio size="large" srt="y" autoScroll="y">
             <track src="BT1_CD1.59.mp3"/>
         </audio>
         <p>Listen to the song and put the bugs in order.</p>
@@ -12,15 +12,15 @@
     <main>
         <block>
             <p>Verse 1 <droppable id="droppable_1">
-                    <image src="grasshopper.psd" title=""/>
+                    <image src="grasshopper.jpg" title=""/>
                 </droppable>
             </p>
             <p>Verse 2 <droppable id="droppable_2">
-                    <image src="spider.psd" title=""/>
+                    <image src="spider.jpg" title=""/>
                 </droppable>
             </p>
             <p>Verse 3 <droppable id="droppable_3">
-                    <image src="snail.psd" title=""/>
+                    <image src="snail.jpg" title=""/>
                 </droppable>
             </p>
         </block>

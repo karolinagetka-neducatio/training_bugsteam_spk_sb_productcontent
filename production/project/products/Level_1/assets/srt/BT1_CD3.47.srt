@@ -1,0 +1,59 @@
+﻿1
+00:00:09.171 --> 00:00:16.912
+Five little rabbits go out to play and hunt for eggs on Easter day.
+
+2
+00:00:16.912 --> 00:00:20.734
+One little rabbit finds a big red egg.
+
+3
+00:00:20.734 --> 00:00:24.557
+Eats it all and runs away.
+
+4
+00:00:28.580 --> 00:00:36.278
+Four little rabbits go out to play and hunt for eggs on Easter day.
+
+5
+00:00:36.278 --> 00:00:40.126
+One little rabbit finds a big yellow egg.
+
+6
+00:00:40.126 --> 00:00:44.114
+Eats it all and runs away.
+
+7
+00:00:47.919 --> 00:00:55.608
+Three little rabbits go out to play and hunt for eggs on Easter day.
+
+8
+00:00:55.608 --> 00:00:59.474
+One little rabbit finds a big blue egg.
+
+9
+00:00:59.474 --> 00:01:03.149
+Eats it all and runs away.
+
+10
+00:01:07.198 --> 00:01:14.931
+Two little rabbits go out to play and hunt for eggs on Easter day.
+
+11
+00:01:14.931 --> 00:01:18.830
+One little rabbit finds a big green egg.
+
+12
+00:01:18.830 --> 00:01:22.662
+Eats it all and runs away.
+
+13
+00:01:26.546 --> 00:01:34.382
+One little rabbit goes out to play and hunts for eggs on Easter day.
+
+14
+00:01:34.382 --> 00:01:38.214
+One little rabbit finds a big pink egg.
+
+15
+00:01:38.214 --> 00:01:42.159
+Eats it all and runs away.

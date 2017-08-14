@@ -7,13 +7,13 @@
         <p>Listen and choose the word you hear.</p>
     </rubric>
     <main>
-        <movingTargets id="movingTargets_1">
+        <movingTargets id="movingTargets_1" speed="120">
             <targets>
-                <target audio="noisy.mp3" id="target_1" image="ThinkstockPhotos-86490583.psd"/>
-                <target audio="friendly.mp3" id="target_2" image="ThinkstockPhotos-172587259.psd"/>
-                <target audio="shy.mp3" id="target_3" image="ThinkstockPhotos-494379275.psd"/>
-                <target audio="funny.mp3" id="target_4" image="ThinkstockPhotos-125556275.psd"/>
-                <target audio="clever.mp3" id="target_5" image="ThinkstockPhotos-115530971.psd"/>
+                <target audio="noisy.mp3" id="target_1" image="noisy_mt.png"/>
+                <target audio="friendly.mp3" id="target_2" image="friendly_mt.png"/>
+                <target audio="shy.mp3" id="target_3" image="shy_mt.png"/>
+                <target audio="funny.mp3" id="target_4" image="funny_mt.png"/>
+                <target audio="clever.mp3" id="target_5" image="clever_mt.png"/>
             </targets>
             <assets>
                 <scenery>

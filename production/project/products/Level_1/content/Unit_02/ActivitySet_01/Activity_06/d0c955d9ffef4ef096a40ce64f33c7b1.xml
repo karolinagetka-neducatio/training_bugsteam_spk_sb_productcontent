@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit2 mm_activity4" id="d0c955d9ffef4ef096a40ce64f33c7b1" pseudoID="BT_L1_U2_GAME_4">
+<activity class="mm_unit2 mm_activity4" id="d0c955d9ffef4ef096a40ce64f33c7b1" pseudoID="BT_L1_U2_GAME_4">
     <metadata>
         <title>Lesson 1 – memory game</title>
         <category>Games</category>
@@ -12,62 +12,50 @@
                 <cards>
                     <pair class="pair_1">
                         <card>
-                            <image src="ThinkstockPhotos-485841252.psd" title=""/>
+                            <image src="teddybear.png" title=""/>
                         </card>
-                        <card>
-                            <audio size="small">
-                                <track src="teddybear.mp3"/>
-                            </audio>
+                        <card audio="teddybear.mp3">
+                            <image src="audio_pm2.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_2">
                         <card>
-                            <image src="ThinkstockPhotos-157668645.psd" title=""/>
+                            <image src="doll.png" title=""/>
                         </card>
-                        <card>
-                            <audio size="small">
-                                <track src="doll.mp3"/>
-                            </audio>
+                        <card audio="doll.mp3">
+                            <image src="audio_pm2.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_3">
                         <card>
-                            <image src="ThinkstockPhotos-487808935.psd" title=""/>
+                            <image src="car.png" title=""/>
                         </card>
-                        <card>
-                            <audio size="small">
-                                <track src="car.mp3"/>
-                            </audio>
+                        <card audio="car.mp3">
+                            <image src="audio_pm2.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_4">
                         <card>
-                            <image src="ThinkstockPhotos-462901875.psd" title=""/>
+                            <image src="bike.png" title=""/>
                         </card>
-                        <card>
-                            <audio size="small">
-                                <track src="bike.mp3"/>
-                            </audio>
+                        <card audio="bike.mp3">
+                            <image src="audio_pm2.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_5">
                         <card>
-                            <image src="ThinkstockPhotos-AA020772.psd" title=""/>
+                            <image src="scooter.png" title=""/>
                         </card>
-                        <card>
-                            <audio size="small">
-                                <track src="scooter.mp3"/>
-                            </audio>
+                        <card audio="scooter.mp3">
+                            <image src="audio_pm2.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_6">
                         <card>
-                            <image src="ThinkstockPhotos-473950392.psd" title=""/>
+                            <image src="skateboard.png" title=""/>
                         </card>
-                        <card>
-                            <audio size="small">
-                                <track src="skateboard.mp3"/>
-                            </audio>
+                        <card audio="skateboard.mp3">
+                            <image src="audio_pm2.png" title=""/>
                         </card>
                     </pair>
                 </cards>

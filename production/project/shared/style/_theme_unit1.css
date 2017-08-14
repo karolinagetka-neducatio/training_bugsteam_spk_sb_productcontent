@@ -251,6 +251,11 @@ Dot: #8484b9
 
 /* Pelmanism Complete */
 
+
+.mm_unit1 .pelmanismContainer.gameOver.completed .gameOverStage {
+	background-image: url(../images/complete_1.png)!important;
+}
+
 .mm_unit1 .pelmanismContainer.completed {
 	animation: pelmanismComplete1 1s 4 alternate;
 	-webkit-animation: pelmanismComplete1 1s 4 alternate;
@@ -295,6 +300,10 @@ Dot: #8484b9
 }
 
 /* Moving Targets complete */
+
+.mm_unit1 .rcfMovingTargets.complete .gameOver {
+	background-image: url(../images/complete_1.png)!important;
+}
 
 .mm_unit1 .rcfMovingTargets.complete {
 	animation: movingTargetsComplete1 1s 4 alternate;

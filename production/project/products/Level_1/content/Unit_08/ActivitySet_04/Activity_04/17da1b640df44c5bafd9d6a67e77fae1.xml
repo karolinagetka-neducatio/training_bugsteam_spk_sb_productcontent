@@ -1,16 +1,17 @@
-<activity class="mm_unit8 mm_activity7 mm_mothersday" id="17da1b640df44c5bafd9d6a67e77fae1" pseudoID="BT_L1_U8_SONG_7">
+<activity class="mm_unit8 mm_activity7 mm_mothersday mm_song" id="17da1b640df44c5bafd9d6a67e77fae1" pseudoID="BT_L1_U8_SONG_7">
     <metadata>
         <title>I love you – song</title>
         <category>Songs</category>
     </metadata>
     <rubric>
+        <audio size="large" srt="y" autoScroll="y">
+            <track src="BT1_CD3.49.mp3"/>
+        </audio>
         <p>Listen and sing.</p>
     </rubric>
     <main>
-        <block class="mm_audio">
-            <audio size="large" srt="y">
-                <track src="BT1_CD3.49.mp3"/>
-            </audio>
+        <block class="mm_imageRounded">
+            <image src="p079_1.jpg" title=""/>
         </block>
     </main>
 </activity>

@@ -10,65 +10,67 @@
         <p>Listen to the chant and choose the correct pictures.</p>
     </rubric>
     <main>
-        <block class="">
+        <block class="mm_col2">
             <list display="v" type="numbered">
                 <li>
                     <radio id="radio_1" display="h" displayType="itemSelect" name="" type="plain">
                         <item id="item_1" correct="y">
-                            <image src="monkey1a.psd" title=""/>
+                            <image src="monkey1a.jpg" title=""/>
                         </item>
                         <item id="item_2">
-                            <image src="monkey1b.psd" title=""/>
+                            <image src="monkey1b.jpg" title=""/>
                         </item>
                     </radio>
                 </li>
                 <li>
                     <radio id="radio_2" display="h" displayType="itemSelect" name="" type="plain">
                         <item id="item_1">
-                            <image src="parrot2a.psd" title=""/>
+                            <image src="parrot2a.jpg" title=""/>
                         </item>
                         <item id="item_2" correct="y">
-                            <image src="parrot2b.psd" title=""/>
+                            <image src="parrot2b.jpg" title=""/>
                         </item>
                     </radio>
                 </li>
                 <li>
-                    <radio id="radio_3" display="h" displayType="itemSelect" name="" type="plain">
+                    <radio id="jpg" display="h" displayType="itemSelect" name="" type="plain">
                         <item id="item_1" correct="y">
-                            <image src="giraffe3a.psd" title=""/>
+                            <image src="giraffe3a.jpg" title=""/>
                         </item>
                         <item id="item_2">
-                            <image src="giraffe3b.psd" title=""/>
+                            <image src="giraffe3b.jpg" title=""/>
                         </item>
                     </radio>
                 </li>
+            </list>
+            <list display="v" type="numbered" start="4">
                 <li>
                     <radio id="radio_4" display="h" displayType="itemSelect" name="" type="plain">
                         <item id="item_1">
-                            <image src="zebra4a.psd" title=""/>
+                            <image src="zebra4a.jpg" title=""/>
                         </item>
                         <item id="item_2" correct="y">
-                            <image src="zebra4b.psd" title=""/>
+                            <image src="zebra4b.jpg" title=""/>
                         </item>
                     </radio>
                 </li>
                 <li>
                     <radio id="radio_5" display="h" displayType="itemSelect" name="" type="plain">
                         <item id="item_1" correct="y">
-                            <image src="hippo5a.psd" title=""/>
+                            <image src="hippo5a.jpg" title=""/>
                         </item>
                         <item id="item_2">
-                            <image src="hippo5b.psd" title=""/>
+                            <image src="hippo5b.jpg" title=""/>
                         </item>
                     </radio>
                 </li>
                 <li>
                     <radio id="radio_6" display="h" displayType="itemSelect" name="" type="plain">
                         <item id="item_1">
-                            <image src="elephant6a.psd" title=""/>
+                            <image src="elephant6a.jpg" title=""/>
                         </item>
                         <item id="item_2" correct="y">
-                            <image src="elephant6b.psd" title=""/>
+                            <image src="elephant6b.jpg" title=""/>
                         </item>
                     </radio>
                 </li>

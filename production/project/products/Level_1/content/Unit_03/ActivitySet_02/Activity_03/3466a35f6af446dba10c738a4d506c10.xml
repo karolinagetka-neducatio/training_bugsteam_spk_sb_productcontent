@@ -4,13 +4,14 @@
         <category>Songs</category>
     </metadata>
     <rubric>
+        <audio size="large" srt="y" autoScroll="y">
+            <track src="BT1_CD1.61.mp3"/>
+        </audio>
         <p>Listen and sing.</p>
     </rubric>
     <main>
-        <block class="mm_audio">
-            <audio size="large" srt="y">
-                <track src="BT1_CD1.61.mp3"/>
-            </audio>
+        <block class="">
+            <image src="p031_1.png" title=""/>
         </block>
     </main>
 </activity>

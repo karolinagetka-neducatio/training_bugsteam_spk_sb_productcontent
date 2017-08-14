@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit4 mm_activity6" id="4ef503a391654301b4b7224d5da7a533" pseudoID="BT_L1_U4_SONG_6">
+<activity class="mm_unit4 mm_activity6 mm_song" id="4ef503a391654301b4b7224d5da7a533" pseudoID="BT_L1_U4_SONG_6">
     <metadata>
         <title>The lion is coming! – song (guided)</title>
         <category>Songs</category>
     </metadata>
     <rubric>
+        <audio size="large" srt="y" autoScroll="y">
+            <track src="BT1_CD2.26.mp3"/>
+        </audio>
         <p>Listen and sing.</p>
     </rubric>
     <main>
-        <block class="mm_audio">
-            <audio size="large" srt="y">
-                <track src="BT1_CD2.26.mp3"/>
-            </audio>
+        <block class="mm_imageRounded">
+            <image src="p044_1.jpg" title=""/>
         </block>
     </main>
 </activity>

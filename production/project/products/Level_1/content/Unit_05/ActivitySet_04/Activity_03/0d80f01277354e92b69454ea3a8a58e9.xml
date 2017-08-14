@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit5 mm_activity7" id="0d80f01277354e92b69454ea3a8a58e9" pseudoID="BT_L1_U5_SONG_7">
+<activity class="mm_unit5 mm_activity7 mm_song" id="0d80f01277354e92b69454ea3a8a58e9" pseudoID="BT_L1_U5_SONG_7">
     <metadata>
         <title>The picnic – song (karaoke)</title>
         <category>Songs</category>
     </metadata>
     <rubric>
+        <audio size="large" srt="y" autoScroll="y">
+            <track src="BT1_CD2.53.mp3"/>
+        </audio>
         <p>Listen and sing.</p>
     </rubric>
     <main>
-        <block class="mm_audio">
-            <audio size="large" srt="y">
-                <track src="BT1_CD2.54.mp3"/>
-            </audio>
+        <block class="mm_imageRounded">
+            <image src="p056_1.jpg" title=""/>
         </block>
     </main>
 </activity>

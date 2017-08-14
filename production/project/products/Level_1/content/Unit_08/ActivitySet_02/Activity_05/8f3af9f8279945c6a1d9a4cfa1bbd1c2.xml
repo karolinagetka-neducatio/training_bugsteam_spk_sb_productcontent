@@ -1,16 +1,17 @@
-<activity class="mm_unit8 mm_activity4 mm_christmas" id="8f3af9f8279945c6a1d9a4cfa1bbd1c2" pseudoID="BT_L1_U8_SONG_4">
+<activity class="mm_unit8 mm_activity4 mm_christmas mm_song" id="8f3af9f8279945c6a1d9a4cfa1bbd1c2" pseudoID="BT_L1_U8_SONG_4">
     <metadata>
         <title>Jingle bells – song (karaoke)</title>
         <category>Songs</category>
     </metadata>
     <rubric>
+        <audio size="large" srt="y" autoScroll="y">
+            <track src="BT1_CD3.44.mp3"/>
+        </audio>
         <p>Listen and sing.</p>
     </rubric>
     <main>
-        <block class="mm_audio">
-            <audio size="large" srt="y">
-                <track src="BT1_CD3.44.mp3"/>
-            </audio>
+        <block class="mm_imageRounded">
+            <image src="p077_1.jpg" title=""/>
         </block>
     </main>
 </activity>

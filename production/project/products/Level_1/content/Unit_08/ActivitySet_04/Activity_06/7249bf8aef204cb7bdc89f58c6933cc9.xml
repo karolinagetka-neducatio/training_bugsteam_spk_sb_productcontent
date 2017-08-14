@@ -11,48 +11,48 @@
             <pelmanism id="pelmanism_1">
                 <cards>
                     <pair class="pair_1">
-                        <card>card <audio size="small">
-                                <track src="card.mp3"/>
-                            </audio>
+                        <card audio="card.mp3">
+                            <image src="audio_pm8m.png" title=""/>
+                            <p>card</p>
                         </card>
                         <card>
-                            <image src="card.psd" title=""/>
+                            <image src="card.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_2">
-                        <card>daddy <audio size="small">
-                                <track src="daddy.mp3"/>
-                            </audio>
+                        <card audio="daddy.mp3">
+                            <image src="audio_pm8m.png" title=""/>
+                            <p>daddy</p>
                         </card>
                         <card>
-                            <image src="daddy.psd" title=""/>
+                            <image src="daddy2.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_3">
-                        <card>model <audio size="small">
-                                <track src="model.mp3"/>
-                            </audio>
+                        <card audio="model.mp3">
+                            <image src="audio_pm8m.png" title=""/>
+                            <p>model</p>
                         </card>
                         <card>
-                            <image src="model.psd" title=""/>
+                            <image src="model.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_4">
-                        <card>mummy <audio size="small">
-                                <track src="mummy.mp3"/>
-                            </audio>
+                        <card audio="mummy.mp3">
+                            <image src="audio_pm8m.png" title=""/>
+                            <p>mummy</p>
                         </card>
                         <card>
-                            <image src="mummy.psd" title=""/>
+                            <image src="mummy2.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_5">
-                        <card>drawing <audio size="small">
-                                <track src="drawing.mp3"/>
-                            </audio>
+                        <card audio="drawing.mp3">
+                            <image src="audio_pm8m.png" title=""/>
+                            <p>drawing</p>
                         </card>
                         <card>
-                            <image src="drawing.psd" title=""/>
+                            <image src="drawing.png" title=""/>
                         </card>
                     </pair>
                 </cards>

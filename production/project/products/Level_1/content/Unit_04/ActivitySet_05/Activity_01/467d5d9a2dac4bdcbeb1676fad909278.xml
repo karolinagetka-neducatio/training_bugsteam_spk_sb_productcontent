@@ -10,68 +10,74 @@
             </descriptors>
             <cards>
                 <card id="c1">
-                    <interactiveImage src="ThinkstockPhotos-122402094.psd" type="blur"/>
+                    <interactiveImage src="walk.png" type="blur"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="walk.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">walk</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">walk</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c2">
-                    <interactiveImage src="ThinkstockPhotos-519707477.psd" type="blur"/>
+                    <interactiveImage src="run.png" type="blur"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="run.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">run</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">run</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c3">
-                    <interactiveImage src="ThinkstockPhotos-498172925.psd" type="blur"/>
+                    <interactiveImage src="fly.png" type="blur"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="fly.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">fly</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">fly</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c4">
-                    <interactiveImage src="ThinkstockPhotos-471733353.psd" type="blur"/>
+                    <interactiveImage src="swim.png" type="blur"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="swim.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">swim</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">swim</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c5">
-                    <interactiveImage src="ThinkstockPhotos-483230252.psd" type="blur"/>
+                    <interactiveImage src="jump.png" type="blur"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="jump.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">jump</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">jump</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c6">
-                    <interactiveImage src="ThinkstockPhotos-472089009.psd" type="blur"/>
+                    <interactiveImage src="climb.png" type="blur"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="climb.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">climb</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">climb</sSpan>
                         </p>
                     </block>
                 </card>

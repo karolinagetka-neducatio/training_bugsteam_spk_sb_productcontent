@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit4 mm_activity12" id="bfb2bb2767894ae791eb0bc8a45d0c80" pseudoID="BT_L1_U4_GAME_12">
+<activity class="mm_unit4 mm_activity12" id="bfb2bb2767894ae791eb0bc8a45d0c80" pseudoID="BT_L1_U4_GAME_12">
     <metadata>
         <title>Lesson 5 – activity 2</title>
         <category>Games</category>
@@ -7,7 +7,7 @@
         <p>Listen and match.</p>
     </rubric>
     <main>
-        <block>
+        <block class="mm_addNumbering">
             <matching id="matching_1">
                 <pair>
                     <matchItem id="matchItem_1" rank="1">
@@ -15,8 +15,8 @@
                             <track src="run.mp3"/>
                         </audio>
                     </matchItem>
-                    <matchTarget id="matchTarget_1">
-                        <image src="brun.psd" title=""/>
+                    <matchTarget id="matchTarget_1" rank="2">
+                        <image src="brun.jpg" title=""/>
                     </matchTarget>
                 </pair>
                 <pair>
@@ -25,8 +25,8 @@
                             <track src="climb.mp3"/>
                         </audio>
                     </matchItem>
-                    <matchTarget id="matchTarget_2">
-                        <image src="dclimb.psd" title=""/>
+                    <matchTarget id="matchTarget_2" rank="4">
+                        <image src="dclimb.jpg" title=""/>
                     </matchTarget>
                 </pair>
                 <pair>
@@ -35,8 +35,8 @@
                             <track src="walk.mp3"/>
                         </audio>
                     </matchItem>
-                    <matchTarget id="matchTarget_3">
-                        <image src="awalk.psd" title=""/>
+                    <matchTarget id="matchTarget_3" rank="1">
+                        <image src="awalk.jpg" title=""/>
                     </matchTarget>
                 </pair>
                 <pair>
@@ -45,8 +45,8 @@
                             <track src="swim.mp3"/>
                         </audio>
                     </matchItem>
-                    <matchTarget id="matchTarget_4">
-                        <image src="eswim.psd" title=""/>
+                    <matchTarget id="matchTarget_4" rank="5">
+                        <image src="eswim.jpg" title=""/>
                     </matchTarget>
                 </pair>
                 <pair>
@@ -55,8 +55,8 @@
                             <track src="jump.mp3"/>
                         </audio>
                     </matchItem>
-                    <matchTarget id="matchTarget_5">
-                        <image src="cjump.psd" title=""/>
+                    <matchTarget id="matchTarget_5" rank="3">
+                        <image src="cjump.jpg" title=""/>
                     </matchTarget>
                 </pair>
             </matching>

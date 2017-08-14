@@ -160,7 +160,7 @@ Dot: #c5624a
     border: 3px solid #84468b;
 }
 
-.mm_unit6 .wordBox {
+.mm_unit6 .wordBox, .mm_unit6 .rcfWordSearchGridChosenWords .wordSearchWords {
   border-bottom: 2px dotted #84468b;
 }
 
@@ -225,7 +225,7 @@ Dot: #c5624a
 }
 
 .mm_unit6 .cardContainer .card[data-audiolink] .front:hover img {
-    content: url(../images/media/audio_pm_over_1.png);
+    content: url(../images/media/audio_pm_over6.png);
 }
 
 /* Backgrounds */
@@ -242,10 +242,23 @@ Dot: #c5624a
 }
 
 .mm_unit6 .rcfMovingTargets.complete .gameOver {
-    background-color: rgba(255,255,255, 0.6);
+    background-color: rgba(255,255,255, 0.8);
+}
+
+.mm_unit6 .rcfWordSearchGrid .ws-highlight,
+.mm_unit6 .rcfWordSearchGrid .ws-selected,
+.mm_unit6 .mobile .rcfWordSearchGrid .ws-start,
+.mm_unit6 .wordSearchContainer[data-draggable='n'] .rcfWordSearchGrid .ws-start,
+.mm_unit6 .rcfWordSearchGrid .ws-glowing {
+	background-color: #e1d6e8;
 }
 
 /* Pelmanism */
+
+.mm_unit6 .cardContainer .card .back {
+    background-image: url(../../products/Level_1/assets/images/Gary.png);
+}
+
 .mm_unit6 .cardContainer .card .front img {
     display: inline-block;
     box-sizing: border-box;
@@ -272,8 +285,18 @@ Dot: #c5624a
     color: #FFF;
 }
 
+.mm_unit6 .cardContainer .front .imageContainer .caption,
+.mm_unit6 .cardContainer .card .front p {
+    background-color: #84468b;
+    color: #FFF;
+}
+
 
 /* Pelmanism Complete */
+
+.mm_unit6 .pelmanismContainer.gameOver.completed .gameOverStage {
+	background-image: url(../images/complete_6.png)!important;
+}
 
 .mm_unit6 .pelmanismContainer.completed {
 	animation: pelmanismComplete6 1s 4 alternate;
@@ -319,6 +342,10 @@ Dot: #c5624a
 }
 
 /* Moving Targets complete */
+
+.mm_unit6 .rcfMovingTargets.complete .gameOver {
+	background-image: url(../images/complete_6.png)!important;
+}
 
 .mm_unit6 .rcfMovingTargets.complete {
 	animation: movingTargetsComplete6 1s 4 alternate;

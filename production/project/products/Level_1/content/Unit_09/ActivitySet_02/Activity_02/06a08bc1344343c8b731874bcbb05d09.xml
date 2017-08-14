@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit9 mm_activity4" id="06a08bc1344343c8b731874bcbb05d09" pseudoID="BT_L1_U9_GAME_4">
+<activity class="mm_unit9 mm_activity4" id="06a08bc1344343c8b731874bcbb05d09" pseudoID="BT_L1_U9_GAME_4">
     <metadata>
         <title>Extra words – memory</title>
         <category>Games</category>
@@ -11,39 +11,39 @@
             <pelmanism id="pelmanism_1">
                 <cards>
                     <pair class="pair_1">
-                        <card>counter <audio size="small">
-                                <track src="counter.mp3"/>
-                            </audio>
+                        <card audio="counter.mp3">
+                            <image src="audio_pm9.png" title=""/>
+                            <p>counter</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-539653932.psd" title=""/>
+                            <image src="counter.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_2">
-                        <card>dice <audio size="small">
-                                <track src="dice.mp3"/>
-                            </audio>
+                        <card audio="dice.mp3">
+                            <image src="audio_pm9.png" title=""/>
+                            <p>dice</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-481408309.psd" title=""/>
+                            <image src="dice.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_3">
-                        <card>board game <audio size="small">
-                                <track src="boardgame.mp3"/>
-                            </audio>
+                        <card audio="boardgame.mp3">
+                            <image src="audio_pm9.png" title=""/>
+                            <p>board game</p>
                         </card>
                         <card>
-                            <image src="GettyImages-522294848.psd" title=""/>
+                            <image src="board_game.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_4">
-                        <card>card <audio size="small">
-                                <track src="card.mp3"/>
-                            </audio>
+                        <card audio="card.mp3">
+                            <image src="audio_pm9.png" title=""/>
+                            <p>card</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-505982099.psd" title=""/>
+                            <image src="cards.png" title=""/>
                         </card>
                     </pair>
                 </cards>

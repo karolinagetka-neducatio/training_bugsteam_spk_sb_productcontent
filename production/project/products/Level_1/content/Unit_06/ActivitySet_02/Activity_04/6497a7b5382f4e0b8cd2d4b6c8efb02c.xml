@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit6 mm_activity5" id="6497a7b5382f4e0b8cd2d4b6c8efb02c" pseudoID="BT_L1_U6_GAME_5">
+<activity class="mm_unit6 mm_activity5" id="6497a7b5382f4e0b8cd2d4b6c8efb02c" pseudoID="BT_L1_U6_GAME_5">
     <metadata>
         <title>Lesson 2 – activity 1</title>
         <category>Games</category>
@@ -7,8 +7,8 @@
         <p>Listen and match.</p>
     </rubric>
     <main>
-        <block>
-            <matching id="matching_1">
+        <block class="mm_audioMatchItems">
+            <matching id="matching_1" display="h">
                 <pair>
                     <matchItem id="matchItem_1" rank="1">
                         <audio size="small">
@@ -16,7 +16,7 @@
                         </audio>
                     </matchItem>
                     <matchTarget id="matchTarget_1">
-                        <image src="ThinkstockPhotos-486488175.psd" title=""/>
+                        <image src="brother_plm.png" title=""/>
                     </matchTarget>
                 </pair>
                 <pair>
@@ -26,7 +26,7 @@
                         </audio>
                     </matchItem>
                     <matchTarget id="matchTarget_2">
-                        <image src="ThinkstockPhotos-486488173.psd" title=""/>
+                        <image src="grandma_plm.png" title=""/>
                     </matchTarget>
                 </pair>
                 <pair>
@@ -36,7 +36,7 @@
                         </audio>
                     </matchItem>
                     <matchTarget id="matchTarget_3">
-                        <image src="ThinkstockPhotos-494375035.psd" title=""/>
+                        <image src="baby_plm.png" title=""/>
                     </matchTarget>
                 </pair>
                 <pair>
@@ -46,7 +46,7 @@
                         </audio>
                     </matchItem>
                     <matchTarget id="matchTarget_4">
-                        <image src="ThinkstockPhotos-486488173.psd" title=""/>
+                        <image src="grandpa_plm.png" title=""/>
                     </matchTarget>
                 </pair>
                 <pair>
@@ -56,7 +56,7 @@
                         </audio>
                     </matchItem>
                     <matchTarget id="matchTarget_5">
-                        <image src="ThinkstockPhotos-486488175.psd" title=""/>
+                        <image src="family_plm.png" title=""/>
                     </matchTarget>
                 </pair>
                 <pair>
@@ -66,7 +66,7 @@
                         </audio>
                     </matchItem>
                     <matchTarget id="matchTarget_6">
-                        <image src="ThinkstockPhotos-486488173.psd" title=""/>
+                        <image src="sister_plm.png" title=""/>
                     </matchTarget>
                 </pair>
                 <pair>
@@ -76,7 +76,7 @@
                         </audio>
                     </matchItem>
                     <matchTarget id="matchTarget_7">
-                        <image src="ThinkstockPhotos-486488173.psd" title=""/>
+                        <image src="daddy_plm.png" title=""/>
                     </matchTarget>
                 </pair>
             </matching>

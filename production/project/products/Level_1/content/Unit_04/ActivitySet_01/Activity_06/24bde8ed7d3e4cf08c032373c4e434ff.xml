@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit4 mm_activity4" id="24bde8ed7d3e4cf08c032373c4e434ff" pseudoID="BT_L1_U4_GAME_4">
+<activity class="mm_unit4 mm_activity4" id="24bde8ed7d3e4cf08c032373c4e434ff" pseudoID="BT_L1_U4_GAME_4">
     <metadata>
         <title>Lesson 1 – memory game</title>
         <category>Games</category>
@@ -11,57 +11,57 @@
             <pelmanism id="pelmanism_1">
                 <cards>
                     <pair class="pair_1">
-                        <card>parrot <audio size="small">
-                                <track src="parrot.mp3"/>
-                            </audio>
+                        <card audio="parrot.mp3">
+                            <image src="audio_pm4.png" title=""/>
+                            <p>parrot</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-166438418.psd" title=""/>
+                            <image src="parrot.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_2">
-                        <card>elephant <audio size="small">
-                                <track src="elephant.mp3"/>
-                            </audio>
+                        <card audio="elephant.mp3">
+                            <image src="audio_pm4.png" title=""/>
+                            <p>elephant</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-166228761.psd" title=""/>
+                            <image src="elephant.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_3">
-                        <card>giraffe <audio size="small">
-                                <track src="giraffe.mp3"/>
-                            </audio>
+                        <card audio="giraffe.mp3">
+                            <image src="audio_pm4.png" title=""/>
+                            <p>giraffe</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-174432616.psd" title=""/>
+                            <image src="giraffe.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_4">
-                        <card>hippo <audio size="small">
-                                <track src="hippo.mp3"/>
-                            </audio>
+                        <card audio="hippo.mp3">
+                            <image src="audio_pm4.png" title=""/>
+                            <p>hippo</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-101071742.psd" title=""/>
+                            <image src="hippo.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_5">
-                        <card>monkey <audio size="small">
-                                <track src="monkey.mp3"/>
-                            </audio>
+                        <card audio="monkey.mp3">
+                            <image src="audio_pm4.png" title=""/>
+                            <p>monkey</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-118320412.psd" title=""/>
+                            <image src="monkey.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_6">
-                        <card>lion <audio size="small">
-                                <track src="lion.mp3"/>
-                            </audio>
+                        <card audio="lion.mp3">
+                            <image src="audio_pm4.png" title=""/>
+                            <p>lion</p>
                         </card>
                         <card>
-                            <image src="ThinkstockPhotos-455700809.psd" title=""/>
+                            <image src="lion.png" title=""/>
                         </card>
                     </pair>
                 </cards>

@@ -7,39 +7,37 @@
         <p>Match the pictures with the words from the box.</p>
     </rubric>
     <main>
-        <block>
-            <list display="v" type="numbered">
-                <li>
-                    <p>
-                        <image src="easteregg.psd" title=""/>
-                        <droppable id="droppable_1">Easter egg</droppable>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <image src="flowers.psd" title=""/>
-                        <droppable id="droppable_2">flowers</droppable>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <image src="rabbit.psd" title=""/>
-                        <droppable id="droppable_3">rabbit</droppable>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <image src="chick.psd" title=""/>
-                        <droppable id="droppable_4">chick</droppable>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <image src="basket.psd" title=""/>
-                        <droppable id="droppable_5">basket</droppable>
-                    </p>
-                </li>
-            </list>
+        <block class="mm_inlineBlocks mm_customCaption">
+            <block>
+                <image src="egg.png" title="">
+                    <caption type="corner">1</caption>
+                </image>
+                <droppable id="droppable_1">Easter egg</droppable>
+            </block>
+            <block>
+                <image src="flowers.png" title="">
+                    <caption type="corner">2</caption>
+                </image>
+                <droppable id="droppable_2">flowers</droppable>
+            </block>
+            <block>
+                <image src="rabbit.png" title="">
+                    <caption type="corner">3</caption>
+                </image>
+                <droppable id="droppable_3">rabbit</droppable>
+            </block>
+            <block>
+                <image src="chick.png" title="">
+                    <caption type="corner">4</caption>
+                </image>
+                <droppable id="droppable_4">chick</droppable>
+            </block>
+            <block>
+                <image src="basket.png" title="">
+                    <caption type="corner">5</caption>
+                </image>
+                <droppable id="droppable_5">basket</droppable>
+            </block>
         </block>
     </main>
 </activity>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit5 mm_activity10" id="f5da4d82555248b5ad888f51e0acea18" pseudoID="BT_L1_U5_GAME_10">
+<activity class="mm_unit5 mm_activity10" id="f5da4d82555248b5ad888f51e0acea18" pseudoID="BT_L1_U5_GAME_10">
     <metadata>
         <title>Lesson 5 – activity</title>
         <category>Games</category>
@@ -16,7 +16,7 @@
                         </audio>
                     </matchItem>
                     <matchTarget id="matchTarget_1">
-                        <image src="ThinkstockPhotos-162404337.psd" title=""/>
+                        <image src="meat_mat.jpg" title=""/>
                     </matchTarget>
                 </pair>
                 <pair>
@@ -26,7 +26,7 @@
                         </audio>
                     </matchItem>
                     <matchTarget id="matchTarget_2">
-                        <image src="ThinkstockPhotos-154057117.psd" title=""/>
+                        <image src="milkproducts_mat.jpg" title=""/>
                     </matchTarget>
                 </pair>
                 <pair>
@@ -36,7 +36,7 @@
                         </audio>
                     </matchItem>
                     <matchTarget id="matchTarget_3">
-                        <image src="ThinkstockPhotos-185689360.psd" title=""/>
+                        <image src="fruit_mat.jpg" title=""/>
                     </matchTarget>
                 </pair>
                 <pair>
@@ -46,7 +46,7 @@
                         </audio>
                     </matchItem>
                     <matchTarget id="matchTarget_4">
-                        <image src="ThinkstockPhotos-185689360.psd" title=""/>
+                        <image src="vegetables_mat.jpg" title=""/>
                     </matchTarget>
                 </pair>
             </matching>

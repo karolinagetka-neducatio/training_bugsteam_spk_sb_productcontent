@@ -1,0 +1,63 @@
+﻿1
+00:00:10.126 --> 00:00:16.883
+Look! Here's the hippo, and the giraffe is coming too.
+
+2
+00:00:17.493 --> 00:00:23.231
+Look! Here's the hippo, and the giraffe is coming too.
+
+3
+00:00:24.476 --> 00:00:33.576
+Hello, hippo, hello, giraffe. We love you!
+
+4
+00:00:34.324 --> 00:00:42.832
+Hello, hippo, hello, giraffe. We love you!
+
+5
+00:00:46.219 --> 00:00:52.601
+Look! Here's the elephant, and the zebra's coming too.
+
+6
+00:00:53.481 --> 00:00:59.176
+Look! Here's the elephant, and the zebra's coming too.
+
+7
+00:01:00.577 --> 00:01:09.590
+Hello, elephant, hello, zebra. We love you!
+
+8
+00:01:10.164 --> 00:01:18.924
+Hello, elephant, hello, zebra. We love you!
+
+9
+00:01:22.294 --> 00:01:28.946
+Look! Here's the parrot, and the monkey's coming too.
+
+10
+00:01:29.512 --> 00:01:35.155
+Look! Here's the parrot, and the monkey's coming too.
+
+11
+00:01:36.531 --> 00:01:45.822
+Hello, parrot, hello, monkey. We love you!
+
+12
+00:01:46.187 --> 00:01:55.139
+Hello, parrot, hello, monkey. We love you!
+
+13
+00:01:58.308 --> 00:02:04.725
+Look! Here's the lion, and the mouse is coming too.
+
+14
+00:02:05.527 --> 00:02:11.239
+Look! Here's the lion, and the mouse is coming too.
+
+15
+00:02:12.562 --> 00:02:21.061
+Hello, lion, hello, mouse. We love you!
+
+16
+00:02:22.315 --> 00:02:31.344
+Hello, lion, hello, mouse. We love you!

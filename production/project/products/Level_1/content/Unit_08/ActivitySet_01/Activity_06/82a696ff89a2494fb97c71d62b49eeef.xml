@@ -11,48 +11,48 @@
             <pelmanism id="pelmanism_1">
                 <cards>
                     <pair class="pair_1">
-                        <card>ghost <audio size="small">
-                                <track src="ghost.mp3"/>
-                            </audio>
+                        <card audio="ghost.mp3">
+                            <image src="audio_pm8h.png" title=""/>
+                            <p>ghost</p>
                         </card>
                         <card>
-                            <image src="ghost.psd" title=""/>
+                            <image src="ghost.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_2">
-                        <card>bat <audio size="small">
-                                <track src="bat.mp3"/>
-                            </audio>
+                        <card audio="bat.mp3">
+                            <image src="audio_pm8h.png" title=""/>
+                            <p>bat</p>
                         </card>
                         <card>
-                            <image src="bat.psd" title=""/>
+                            <image src="bat.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_3">
-                        <card>witch <audio size="small">
-                                <track src="witch.mp3"/>
-                            </audio>
+                        <card audio="witch.mp3">
+                            <image src="audio_pm8h.png" title=""/>
+                            <p>witch</p>
                         </card>
                         <card>
-                            <image src="witch.psd" title=""/>
+                            <image src="witch.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_4">
-                        <card>pumpkin <audio size="small">
-                                <track src="pumpkin.mp3"/>
-                            </audio>
+                        <card audio="pumpkin.mp3">
+                            <image src="audio_pm8h.png" title=""/>
+                            <p>pumpkin</p>
                         </card>
                         <card>
-                            <image src="pumpkin.psd" title=""/>
+                            <image src="pumpkin.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_5">
-                        <card>cat <audio size="small">
-                                <track src="cat.mp3"/>
-                            </audio>
+                        <card audio="cat.mp3">
+                            <image src="audio_pm8h.png" title=""/>
+                            <p>cat</p>
                         </card>
                         <card>
-                            <image src="cat.psd" title=""/>
+                            <image src="cat.png" title=""/>
                         </card>
                     </pair>
                 </cards>

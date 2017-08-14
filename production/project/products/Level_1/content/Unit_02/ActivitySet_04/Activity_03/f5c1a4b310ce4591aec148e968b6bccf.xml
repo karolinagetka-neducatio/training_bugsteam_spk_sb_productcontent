@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit2 mm_activity7" id="f5c1a4b310ce4591aec148e968b6bccf" pseudoID="BT_L1_U2_SONG_7">
+<activity class="mm_unit2 mm_activity7 mm_song" id="f5c1a4b310ce4591aec148e968b6bccf" pseudoID="BT_L1_U2_SONG_7">
     <metadata>
         <title>The magic elf – song (karaoke)</title>
         <category>Songs</category>
     </metadata>
     <rubric>
+        <audio size="large" srt="y">
+            <track src="BT1_CD1.41.mp3"/>
+        </audio>
         <p>Listen and sing.</p>
     </rubric>
     <main>
-        <block class="mm_audio">
-            <audio size="large" srt="y">
-                <track src="BT1_CD1.41.mp3"/>
-            </audio>
+        <block>
+            <image src="p022_1.png" title=""/>
         </block>
     </main>
 </activity>

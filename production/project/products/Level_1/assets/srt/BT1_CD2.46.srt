@@ -1,0 +1,31 @@
+﻿1
+00:00:05.201 --> 00:00:09.346
+Look! Look! What can you see?
+
+2
+00:00:09.705 --> 00:00:13.850
+I can see a banana. It's good for me!
+
+3
+00:00:16.312 --> 00:00:20.630
+Look! Look! What can you see?
+
+4
+00:00:20.921 --> 00:00:25.112
+I can see a carrot. It's good for me!
+
+5
+00:00:27.631 --> 00:00:31.904
+Look! Look! What can you see?
+
+6
+00:00:32.206 --> 00:00:36.316
+I can see a tomato. It's good for me!
+
+7
+00:00:38.928 --> 00:00:43.073
+Look! Look! What can you see?
+
+8
+00:00:43.467 --> 00:00:47.577
+I can see yoghurt. It's good for me!

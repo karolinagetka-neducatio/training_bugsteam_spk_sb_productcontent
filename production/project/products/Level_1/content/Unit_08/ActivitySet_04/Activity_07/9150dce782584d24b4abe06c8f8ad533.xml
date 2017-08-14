@@ -7,7 +7,7 @@
         <p>Find 6 festival words in the snake.</p>
     </rubric>
     <main>
-        <block>
+        <block class="mm_customSnake">
             <wordSnake id="wordSnake_1">
                 <words>
                     <word id="wordSnake_word_1">DRAWING</word>

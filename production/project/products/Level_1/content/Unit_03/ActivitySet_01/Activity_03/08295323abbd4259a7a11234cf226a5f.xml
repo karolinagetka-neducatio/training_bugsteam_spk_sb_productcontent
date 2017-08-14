@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit3 mm_activity3" id="08295323abbd4259a7a11234cf226a5f" pseudoID="BT_L1_U3_GAME_3">
+<activity class="mm_unit3 mm_activity3" id="08295323abbd4259a7a11234cf226a5f" pseudoID="BT_L1_U3_GAME_3">
     <metadata>
         <title>Lesson 1 – timed flashcards</title>
         <category>Games</category>
@@ -10,79 +10,86 @@
             </descriptors>
             <cards>
                 <card id="c1">
-                    <interactiveImage src="ThinkstockPhotos-176581654.psd" type="timed"/>
+                    <interactiveImage src="head.png" type="timed"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="head.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">head</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">head</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c2">
-                    <interactiveImage src="ThinkstockPhotos-176581654.psd" type="timed"/>
+                    <interactiveImage src="body.png" type="timed"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="body.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">body</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">body</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c3">
-                    <interactiveImage src="ThinkstockPhotos-176581654.psd" type="timed"/>
+                    <interactiveImage src="arms.png" type="timed"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="arms.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">arms</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">arms</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c4">
-                    <interactiveImage src="ThinkstockPhotos-176581654.psd" type="timed"/>
+                    <interactiveImage src="legs.png" type="timed"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="legs.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">legs</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">legs</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c5">
-                    <interactiveImage src="ThinkstockPhotos-176581654.psd" type="timed"/>
+                    <interactiveImage src="ears.png" type="timed"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="ears.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">ears</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">ears</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c6">
-                    <interactiveImage src="ThinkstockPhotos-176581654.psd" type="timed"/>
+                    <interactiveImage src="nose.png" type="timed"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="nose.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">nose</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">nose</sSpan>
                         </p>
                     </block>
                 </card>
                 <card id="c7">
-                    <interactiveImage src="ThinkstockPhotos-176581654.psd" type="timed"/>
+                    <interactiveImage src="mouth.png" type="timed"/>
                     <block>
                         <p>
                             <audio size="small">
                                 <track src="mouth.mp3"/>
                             </audio>
-                            <sSpan class="mm_word">mouth</sSpan>
+                            <sSpan class="mm_button" triggerClass="tr_showWord" triggerLoop="y">Show text</sSpan>
+                            <sSpan class="mm_wordCue">mouth</sSpan>
                         </p>
                     </block>
                 </card>

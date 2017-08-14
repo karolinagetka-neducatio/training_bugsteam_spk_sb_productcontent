@@ -11,48 +11,48 @@
             <pelmanism id="pelmanism_1">
                 <cards>
                     <pair class="pair_1">
-                        <card>flowers <audio size="small">
-                                <track src="flowers.mp3"/>
-                            </audio>
+                        <card audio="flowers.mp3">
+                            <image src="audio_pm8e.png" title=""/>
+                            <p>flowers</p>
                         </card>
                         <card>
-                            <image src="flowers.psd" title=""/>
+                            <image src="flowers.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_2">
-                        <card>basket <audio size="small">
-                                <track src="basket.mp3"/>
-                            </audio>
+                        <card audio="basket.mp3">
+                            <image src="audio_pm8e.png" title=""/>
+                            <p>basket</p>
                         </card>
                         <card>
-                            <image src="basket.psd" title=""/>
+                            <image src="basket.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_3">
-                        <card>Easter egg <audio size="small">
-                                <track src="easteregg.mp3"/>
-                            </audio>
+                        <card audio="Easter_egg.mp3">
+                            <image src="audio_pm8e.png" title=""/>
+                            <p>Easter</p>
                         </card>
                         <card>
-                            <image src="easteregg.psd" title=""/>
+                            <image src="egg.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_4">
-                        <card>rabbit <audio size="small">
-                                <track src="rabbit.mp3"/>
-                            </audio>
+                        <card audio="rabbit.mp3">
+                            <image src="audio_pm8e.png" title=""/>
+                            <p>rabbit</p>
                         </card>
                         <card>
-                            <image src="rabbit.psd" title=""/>
+                            <image src="rabbit.png" title=""/>
                         </card>
                     </pair>
                     <pair class="pair_5">
-                        <card>chick <audio size="small">
-                                <track src="chick.mp3"/>
-                            </audio>
+                        <card audio="chick.mp3">
+                            <image src="audio_pm8e.png" title=""/>
+                            <p>chick</p>
                         </card>
                         <card>
-                            <image src="chick.psd" title=""/>
+                            <image src="chick.png" title=""/>
                         </card>
                     </pair>
                 </cards>

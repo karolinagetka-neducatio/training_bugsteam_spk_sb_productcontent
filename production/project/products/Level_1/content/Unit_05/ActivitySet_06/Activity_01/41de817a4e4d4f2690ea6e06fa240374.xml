@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit5 mm_activity9" id="41de817a4e4d4f2690ea6e06fa240374" pseudoID="BT_L1_U5_SONG_9">
+<activity class="mm_unit5 mm_activity9 mm_song" id="41de817a4e4d4f2690ea6e06fa240374" pseudoID="BT_L1_U5_SONG_9">
     <metadata>
         <title>Muffin man – song</title>
         <category>Songs</category>
     </metadata>
     <rubric>
+        <audio size="large" srt="y">
+            <track src="BT1_CD3.04.mp3"/>
+        </audio>
         <p>Listen to the song.</p>
     </rubric>
     <main>
-        <block class="mm_audio">
-            <audio size="large" srt="y">
-                <track src="BT1_CD3.04.mp3"/>
-            </audio>
+        <block>
+            <image src="p059_1.jpg" title=""/>
         </block>
     </main>
 </activity>

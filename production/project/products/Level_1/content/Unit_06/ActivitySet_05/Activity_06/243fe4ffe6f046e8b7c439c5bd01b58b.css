@@ -1,0 +1,7 @@
+.mm_inlineBlocks {
+    text-align: center;
+}
+.mm_inlineBlocks > .block {
+    display: inline-block;
+    width: 25%;
+}

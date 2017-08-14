@@ -1,47 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?><activity class="mm_unit4 mm_activity5" id="7ec1fc69f7a647cf85fb9f45af7aadb7" pseudoID="BT_L1_U4_GAME_5">
+<activity class="mm_unit4 mm_activity5" id="7ec1fc69f7a647cf85fb9f45af7aadb7" pseudoID="BT_L1_U4_GAME_5">
     <metadata>
         <title>Lesson 2 – activity 1</title>
         <category>Games</category>
     </metadata>
     <rubric>
-        <audio size="large" srt="y">
+        <audio size="large" srt="y" autoScroll="y">
             <track src="BT1_CD2.20.mp3"/>
         </audio>
         <p>Listen to the song and match the animals.</p>
     </rubric>
     <main>
-        <block>
+        <block class="mm_addNumbering mm_matching70">
             <matching id="matching_1">
                 <pair>
                     <matchItem id="matchItem_1" rank="1">
-                        <image src="hippo.psd" title=""/>
+                        <image src="hippo_mat.png" title=""/>
                     </matchItem>
-                    <matchTarget id="matchTarget_1">
-                        <image src="giraffe.psd" title=""/>
+                    <matchTarget id="matchTarget_1" rank="2">
+                        <image src="giraffe_mat.png" title=""/>
                     </matchTarget>
                 </pair>
                 <pair>
                     <matchItem id="matchItem_2" rank="2">
-                        <image src="elephant.psd" title=""/>
+                        <image src="elephant_mat.png" title=""/>
                     </matchItem>
-                    <matchTarget id="matchTarget_2">
-                        <image src="zebra.psd" title=""/>
+                    <matchTarget id="matchTarget_2" rank="4">
+                        <image src="zebra_mat.png" title=""/>
                     </matchTarget>
                 </pair>
                 <pair>
                     <matchItem id="matchItem_3" rank="3">
-                        <image src="parrot.psd" title=""/>
+                        <image src="parrot_mat.png" title=""/>
                     </matchItem>
-                    <matchTarget id="matchTarget_3">
-                        <image src="monkey.psd" title=""/>
+                    <matchTarget id="matchTarget_3" rank="1">
+                        <image src="monkey_mat.png" title=""/>
                     </matchTarget>
                 </pair>
                 <pair>
                     <matchItem id="matchItem_4" rank="4">
-                        <image src="lion.psd" title=""/>
+                        <image src="lion_mat.png" title=""/>
                     </matchItem>
-                    <matchTarget id="matchTarget_4">
-                        <image src="mouse.psd" title=""/>
+                    <matchTarget id="matchTarget_4" rank="3">
+                        <image src="mouse_mat.png" title=""/>
                     </matchTarget>
                 </pair>
             </matching>

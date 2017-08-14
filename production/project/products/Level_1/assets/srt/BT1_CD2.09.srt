@@ -1,0 +1,31 @@
+﻿1
+00:00:08.376 --> 00:00:15.638
+This is the way I wash my hands, wash my hands, wash my hands.
+
+2
+00:00:15.638 --> 00:00:23.013
+This is the way I wash my hands every day.
+
+3
+00:00:25.077 --> 00:00:32.513
+This is the way I wash my face, wash my face, wash my face.
+
+4
+00:00:32.513 --> 00:00:39.592
+This is the way I wash my face every day.
+
+5
+00:00:41.647 --> 00:00:48.997
+This is the way I brush my teeth, brush my teeth, brush my teeth.
+
+6
+00:00:48.997 --> 00:00:56.642
+This is the way I brush my teeth every day.
+
+7
+00:00:58.218 --> 00:01:05.645
+This is the way I brush my hair, brush my hair, brush my hair.
+
+8
+00:01:05.645 --> 00:01:13.099
+This is the way I brush my hair every day.
