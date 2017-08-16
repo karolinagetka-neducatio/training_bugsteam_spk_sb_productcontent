@@ -928,6 +928,7 @@
 
 .mm_song .script {
     padding: 0.5em 1em;
+    font-family: 'Muli';
 }
 
 /* IE10 + IE11 FLASHCARD BLUR FALL BACK - ie10 and 11 does not support filters */

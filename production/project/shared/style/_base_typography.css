@@ -20,8 +20,6 @@
     font-weight: 700;
 }
 
-.rubric,
-.mm_rubric,
 .main ol > li,
 .mm_blockCaption > .block:before,
 .mm_radioListNumber .radioList .li:before,
@@ -38,6 +36,10 @@
     font-weight: 700;
 }
 
+.rubric, .mm_rubric {
+  font-family: 'VAG Rounded EU', 'Muli', arial, sans-serif;
+}
+
 .rubric b,
 .mm_rubric b {
     font-weight: 900;
@@ -49,12 +51,12 @@
 .ordering li,
 .wordSnake li,
 .category li {
-/*    letter-spacing: 1px; 
+/*    letter-spacing: 1px;
     font-weight: 500;*/
 }
 
 .mm_dialogue .mm_speaker {
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
     font-weight: 700;
 }
 
